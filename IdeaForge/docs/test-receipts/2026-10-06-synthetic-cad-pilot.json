@@ -1,0 +1,337 @@
+{
+  "status": "passed",
+  "example_only": true,
+  "input_sha256": "a7c3a4fa77d9a7692a252a0a065a8428335cf0810fc3741075aef22e9080d0cc",
+  "dependencies": {
+    "cadquery": "2.6.1",
+    "mujoco": "3.3.7",
+    "scipy": "1.16.2",
+    "trimesh": "4.12.2"
+  },
+  "search_evaluations": 76,
+  "shortlist_count": 3,
+  "source_report_sha256": "c11132f95ffe1eabfce59d6f30ff980c9ef5f9f4384790581baeeaff05917984",
+  "candidates": [
+    {
+      "status": "passed",
+      "parameters": {
+        "length_1_m": 0.18562035731594176,
+        "length_2_m": 0.16684453651120876,
+        "width_m": 0.02251080384542953,
+        "thickness_m": 0.01,
+        "density_kg_m3": 1200.0,
+        "payload_kg": 0.1,
+        "payload_radius_m": 0.01,
+        "torque_limit_nm": 3.0,
+        "reach_min_m": 0.34,
+        "mass_max_kg": 0.5,
+        "uncertainty_fraction": 0.1
+      },
+      "cad_status": "passed",
+      "export_verification": [
+        {
+          "status": "passed",
+          "part_id": "link_1",
+          "meaning": "Export matches reviewed cuboid model only; manufacturing and physical safety unknown.",
+          "sha256": "5eaf750c74bfdb8e56f60bfd98fdd4c3b72412ef52f04a16b6f285adedf2f979",
+          "bytes": 684,
+          "triangles": 12,
+          "encoding": "binary",
+          "connected_bodies": 1,
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_volume": true,
+          "bounds_coordinates": [
+            [
+              0.0,
+              -11.255401611328125,
+              -5.0
+            ],
+            [
+              185.620361328125,
+              11.255401611328125,
+              5.0
+            ]
+          ],
+          "extents": [
+            185.620361328125,
+            22.51080322265625,
+            10.0
+          ],
+          "volume": 41784.63427975774,
+          "area": 12519.550146967173,
+          "unit": "mm",
+          "parameter_sha256": "f1151032fc544602ba2cbd7a9887c3db46452dbeaa6d2cf1d963bde5310f1080",
+          "export_settings": {
+            "angular_tolerance_rad": 0.1,
+            "linear_tolerance_mm": 0.01
+          },
+          "failures": [],
+          "tolerance_mm": 0.0001,
+          "relative_tolerance": 1e-05,
+          "manifest_sha256": "e1ad7a0c604e55ad2b0977983bae8bc9afe01899a0117507560a1350981304ca",
+          "exported_sha256": "5eaf750c74bfdb8e56f60bfd98fdd4c3b72412ef52f04a16b6f285adedf2f979"
+        },
+        {
+          "status": "passed",
+          "part_id": "link_2",
+          "meaning": "Export matches reviewed cuboid model only; manufacturing and physical safety unknown.",
+          "sha256": "f7bec65f050d2ffca30633ebe18b5841bbfc8f58e998f137f478ef8a9d13e1dd",
+          "bytes": 684,
+          "triangles": 12,
+          "encoding": "binary",
+          "connected_bodies": 1,
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_volume": true,
+          "bounds_coordinates": [
+            [
+              185.620361328125,
+              -11.255401611328125,
+              -5.0
+            ],
+            [
+              352.46490478515625,
+              11.255401611328125,
+              5.0
+            ]
+          ],
+          "extents": [
+            166.84454345703125,
+            22.51080322265625,
+            10.0
+          ],
+          "volume": 37558.0468653515,
+          "area": 11298.71630666405,
+          "unit": "mm",
+          "parameter_sha256": "f1151032fc544602ba2cbd7a9887c3db46452dbeaa6d2cf1d963bde5310f1080",
+          "export_settings": {
+            "angular_tolerance_rad": 0.1,
+            "linear_tolerance_mm": 0.01
+          },
+          "failures": [],
+          "tolerance_mm": 0.0001,
+          "relative_tolerance": 1e-05,
+          "manifest_sha256": "04ca25b1f059bf6dfaa28e866620f674c646d54445fd15baae1a421ebaf1823f",
+          "exported_sha256": "f7bec65f050d2ffca30633ebe18b5841bbfc8f58e998f137f478ef8a9d13e1dd"
+        }
+      ],
+      "dynamics_status": "passed"
+    },
+    {
+      "status": "passed",
+      "parameters": {
+        "length_1_m": 0.18622523438574964,
+        "length_2_m": 0.16584584663119953,
+        "width_m": 0.022833738863142432,
+        "thickness_m": 0.01,
+        "density_kg_m3": 1200.0,
+        "payload_kg": 0.1,
+        "payload_radius_m": 0.01,
+        "torque_limit_nm": 3.0,
+        "reach_min_m": 0.34,
+        "mass_max_kg": 0.5,
+        "uncertainty_fraction": 0.1
+      },
+      "cad_status": "passed",
+      "export_verification": [
+        {
+          "status": "passed",
+          "part_id": "link_1",
+          "meaning": "Export matches reviewed cuboid model only; manufacturing and physical safety unknown.",
+          "sha256": "cc92669f12b4650c5416133821f92fb3c2d55c4376bf271970bdc3d43a97db2b",
+          "bytes": 684,
+          "triangles": 12,
+          "encoding": "binary",
+          "connected_bodies": 1,
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_volume": true,
+          "bounds_coordinates": [
+            [
+              0.0,
+              -11.416869163513184,
+              -5.0
+            ],
+            [
+              186.22523498535156,
+              11.416869163513184,
+              5.0
+            ]
+          ],
+          "extents": [
+            186.22523498535156,
+            22.833738327026367,
+            10.0
+          ],
+          "volume": 42522.182855445135,
+          "area": 12685.616037336586,
+          "unit": "mm",
+          "parameter_sha256": "b967572722aff6e96968ed505cc3185d1fc9f611f6f91f0488e9cf5588897a31",
+          "export_settings": {
+            "angular_tolerance_rad": 0.1,
+            "linear_tolerance_mm": 0.01
+          },
+          "failures": [],
+          "tolerance_mm": 0.0001,
+          "relative_tolerance": 1e-05,
+          "manifest_sha256": "fe34e498c052cc35ca923e333ea1397f449e19f94c93510e87b7877d25e03dfd",
+          "exported_sha256": "cc92669f12b4650c5416133821f92fb3c2d55c4376bf271970bdc3d43a97db2b"
+        },
+        {
+          "status": "passed",
+          "part_id": "link_2",
+          "meaning": "Export matches reviewed cuboid model only; manufacturing and physical safety unknown.",
+          "sha256": "4a67375907b5a692919c6602110624e05fbdfa4d7c62a286a6d79b7cd40e9296",
+          "bytes": 684,
+          "triangles": 12,
+          "encoding": "binary",
+          "connected_bodies": 1,
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_volume": true,
+          "bounds_coordinates": [
+            [
+              186.22523498535156,
+              -11.416869163513184,
+              -5.0
+            ],
+            [
+              352.0710754394531,
+              11.416869163513184,
+              5.0
+            ]
+          ],
+          "extents": [
+            165.84584045410156,
+            22.833738327026367,
+            10.0
+          ],
+          "volume": 37868.80523554719,
+          "area": 11347.352622731996,
+          "unit": "mm",
+          "parameter_sha256": "b967572722aff6e96968ed505cc3185d1fc9f611f6f91f0488e9cf5588897a31",
+          "export_settings": {
+            "angular_tolerance_rad": 0.1,
+            "linear_tolerance_mm": 0.01
+          },
+          "failures": [],
+          "tolerance_mm": 0.0001,
+          "relative_tolerance": 1e-05,
+          "manifest_sha256": "fec2dad14f0494f5673cc4a189bb49b02bd8396db0ce66a41a7df2f16ceecdd8",
+          "exported_sha256": "4a67375907b5a692919c6602110624e05fbdfa4d7c62a286a6d79b7cd40e9296"
+        }
+      ],
+      "dynamics_status": "passed"
+    },
+    {
+      "status": "passed",
+      "parameters": {
+        "length_1_m": 0.18722138493304472,
+        "length_2_m": 0.17150173948560715,
+        "width_m": 0.022779112869291233,
+        "thickness_m": 0.01,
+        "density_kg_m3": 1200.0,
+        "payload_kg": 0.1,
+        "payload_radius_m": 0.01,
+        "torque_limit_nm": 3.0,
+        "reach_min_m": 0.34,
+        "mass_max_kg": 0.5,
+        "uncertainty_fraction": 0.1
+      },
+      "cad_status": "passed",
+      "export_verification": [
+        {
+          "status": "passed",
+          "part_id": "link_1",
+          "meaning": "Export matches reviewed cuboid model only; manufacturing and physical safety unknown.",
+          "sha256": "6b383723bf7bde6977f01c8462ae03bd87fae15c44e4e6cf0927b6dc6fa8bbcb",
+          "bytes": 684,
+          "triangles": 12,
+          "encoding": "binary",
+          "connected_bodies": 1,
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_volume": true,
+          "bounds_coordinates": [
+            [
+              0.0,
+              -11.389556884765625,
+              -5.0
+            ],
+            [
+              187.2213897705078,
+              11.389556884765625,
+              5.0
+            ]
+          ],
+          "extents": [
+            187.2213897705078,
+            22.77911376953125,
+            10.0
+          ],
+          "volume": 42647.373376721516,
+          "area": 12729.484746145085,
+          "unit": "mm",
+          "parameter_sha256": "9bb3bccec00564116fd1bdc43717ac535f5b7df64992c5249a31e4da2130de41",
+          "export_settings": {
+            "angular_tolerance_rad": 0.1,
+            "linear_tolerance_mm": 0.01
+          },
+          "failures": [],
+          "tolerance_mm": 0.0001,
+          "relative_tolerance": 1e-05,
+          "manifest_sha256": "dbbd3a0ac00a42b0c2eb4b46ba777e9067252721356e33bfbafc5540c76ccb41",
+          "exported_sha256": "6b383723bf7bde6977f01c8462ae03bd87fae15c44e4e6cf0927b6dc6fa8bbcb"
+        },
+        {
+          "status": "passed",
+          "part_id": "link_2",
+          "meaning": "Export matches reviewed cuboid model only; manufacturing and physical safety unknown.",
+          "sha256": "03a7ae2c9ee5b7a92cb9021e7a98590531ca53d3d0ebd6bc5e34d17541e9e853",
+          "bytes": 684,
+          "triangles": 12,
+          "encoding": "binary",
+          "connected_bodies": 1,
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_volume": true,
+          "bounds_coordinates": [
+            [
+              187.2213897705078,
+              -11.389556884765625,
+              -5.0
+            ],
+            [
+              358.7231140136719,
+              11.389556884765625,
+              5.0
+            ]
+          ],
+          "extents": [
+            171.50172424316406,
+            22.77911376953125,
+            10.0
+          ],
+          "volume": 39066.5728820581,
+          "area": 11698.931336665526,
+          "unit": "mm",
+          "parameter_sha256": "9bb3bccec00564116fd1bdc43717ac535f5b7df64992c5249a31e4da2130de41",
+          "export_settings": {
+            "angular_tolerance_rad": 0.1,
+            "linear_tolerance_mm": 0.01
+          },
+          "failures": [],
+          "tolerance_mm": 0.0001,
+          "relative_tolerance": 1e-05,
+          "manifest_sha256": "067ad9459a2a7beddd83583843d92467b4554972a680bf8b1c822a0460608590",
+          "exported_sha256": "03a7ae2c9ee5b7a92cb9021e7a98590531ca53d3d0ebd6bc5e34d17541e9e853"
+        }
+      ],
+      "dynamics_status": "passed"
+    }
+  ],
+  "meaning": "Synthetic reviewed two-link cuboids only; no manufacturing, real hardware or whole-robot validation.",
+  "cli_executed_from": "IdeaForge",
+  "shared_code_identical": true
+}

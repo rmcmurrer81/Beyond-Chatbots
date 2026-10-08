@@ -1,0 +1,45 @@
+{
+  "schema_version": "0.3",
+  "language_model": {
+    "provider": "ollama",
+    "model": "qwen3.5:9b",
+    "base_url": "http://127.0.0.1:11434",
+    "temperature": 0.25,
+    "timeout_seconds": 180
+  },
+  "speech_to_text": {
+    "provider": "faster-whisper",
+    "model": "small.en",
+    "language": "en",
+    "sample_rate": 16000,
+    "speech_threshold": 0.015,
+    "start_timeout_seconds": 20,
+    "silence_seconds": 1.15,
+    "max_utterance_seconds": 35
+  },
+  "voice": {
+    "provider": "windows-sapi",
+    "preferred_names": [
+      "Zira",
+      "Aria",
+      "Jenny",
+      "Samantha",
+      "female"
+    ],
+    "rate": 180,
+    "volume": 1
+  },
+  "hands_free": {
+    "enabled_by_default": false,
+    "require_wake_phrase": false,
+    "wake_phrase": "IdeaForge",
+    "cooldown_after_speech_seconds": 0.65
+  },
+  "vision_model": {
+    "provider": "ollama",
+    "model": "qwen3-vl:8b",
+    "base_url": "http://127.0.0.1:11434",
+    "temperature": 0.1,
+    "timeout_seconds": 180
+  }
+}

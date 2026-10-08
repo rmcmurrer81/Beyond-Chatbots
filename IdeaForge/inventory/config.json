@@ -1,0 +1,8 @@
+{
+  "schema_version": "0.2",
+  "local_inventory": "inventory/equipment.local.json",
+  "optional_imports": [
+    "../humanoidresearcher/inventory/owned_equipment.json",
+    "../HumanoidResearcher/inventory/owned_equipment.json"
+  ]
+}

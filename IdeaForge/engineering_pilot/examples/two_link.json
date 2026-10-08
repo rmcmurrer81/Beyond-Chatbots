@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "example_only": true,
+  "reviewed": true,
+  "measurements": {
+    "length_1_m": {
+      "value": 0.2,
+      "unit": "m",
+      "source": "Synthetic documented example; NOT measured Alpha5 or user hardware"
+    },
+    "length_2_m": {
+      "value": 0.18,
+      "unit": "m",
+      "source": "Synthetic documented example; NOT measured Alpha5 or user hardware"
+    },
+    "width_m": {
+      "value": 0.025,
+      "unit": "m",
+      "source": "Synthetic documented example; NOT measured Alpha5 or user hardware"
+    },
+    "thickness_m": {
+      "value": 0.01,
+      "unit": "m",
+      "source": "Synthetic documented example; NOT measured Alpha5 or user hardware"
+    },
+    "density_kg_m3": {
+      "value": 1200,
+      "unit": "kg/m3",
+      "source": "Synthetic documented example; NOT measured Alpha5 or user hardware"
+    },
+    "payload_kg": {
+      "value": 0.1,
+      "unit": "kg",
+      "source": "Synthetic documented example; NOT measured Alpha5 or user hardware"
+    },
+    "payload_radius_m": {
+      "value": 0.01,
+      "unit": "m",
+      "source": "Synthetic documented example; NOT measured Alpha5 or user hardware"
+    },
+    "torque_limit_nm": {
+      "value": 3.0,
+      "unit": "N*m",
+      "source": "Synthetic documented example; NOT measured Alpha5 or user hardware"
+    },
+    "reach_min_m": {
+      "value": 0.34,
+      "unit": "m",
+      "source": "Synthetic documented example; NOT measured Alpha5 or user hardware"
+    },
+    "mass_max_kg": {
+      "value": 0.5,
+      "unit": "kg",
+      "source": "Synthetic documented example; NOT measured Alpha5 or user hardware"
+    },
+    "uncertainty_fraction": {
+      "value": 0.1,
+      "unit": "1",
+      "source": "Synthetic documented example; NOT measured Alpha5 or user hardware"
+    }
+  }
+}

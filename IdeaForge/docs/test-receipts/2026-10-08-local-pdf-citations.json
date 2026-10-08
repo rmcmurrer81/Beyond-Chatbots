@@ -1,0 +1,84 @@
+{
+  "schema": "ideaforge.pdf-candidate-receipt.v1",
+  "date_utc": "2026-10-08",
+  "base_parent": "6ade05db3ec72417f2e84d04347e4277514ee5ac",
+  "base_tree": "cc34c3937b5cd50cd8ee8e7c4f66abe56d763e0d",
+  "authoring_method": "Authorized connector source blobs; desktop executor unavailable",
+  "resource_coordination": "Source/review work authorized; no jobs started. Substantial tests require a newly scoped command/time/memory window.",
+  "passed": [
+    "Read-only repository heads, ancestry and workflow inspection",
+    "Exact GitHub blob readback matched authored feature/test/docs contents",
+    "Independent full exact-blob source/test-design/documentation review; required source findings corrected"
+  ],
+  "failed": [],
+  "unrun": [
+    "Python compilation",
+    "dependency installation and resolved minimum",
+    "all storage/search tests",
+    "all real native backend tests and 20-question annotated-PDF acceptance",
+    "restart/replacement/isolation runtime",
+    "hard-deadline runtime",
+    "visual source-box QA",
+    "performance and peak memory measurements",
+    "ordinary-provider privacy regression runtime"
+  ],
+  "independent_source_review": "Completed. Separate reviewer read full final GitHub blobs. Retrieval deadlines, temporary cleanup, huge-integer guards, scoped metadata, page statuses and streaming orphan enumeration corrections approved at source/test-design level only.",
+  "dependency_license_notes": {
+    "pypdfium2": "5.14.0 optional; Apache-2.0 OR BSD-3-Clause",
+    "pdfium": "Bundled native library; BSD-style and separate third-party notices; no binary vendored",
+    "docling": "2.135.0 MIT candidate evaluated from official source only; not installed/implemented",
+    "fixtures": "Self-authored CC0-1.0 synthetic PDF generator/data"
+  },
+  "integration_limit": "Deterministic local CLI/API only; no PDF bytes/text in ordinary provider context; no OCR/table/CAD semantics",
+  "publication": "Source-author agent created unreferenced blobs only. Root publishes the final reviewed manifest to a fresh non-main [skip ci] branch and records remote commit/file hashes plus all-event commit-associated Actions separately. Source-author did not create a branch/ref/tree/commit/PR or trigger a workflow.",
+  "blocked": [
+    "Desktop executor unavailable; no compilation, installation or test process started",
+    "Substantial PDF tests require a newly scoped command/time/memory resource window"
+  ],
+  "test_run_counts": {
+    "passed": 0,
+    "failed": 0,
+    "skipped": 0,
+    "unrun_methods": 25,
+    "storage_search_methods": 22,
+    "optional_native_methods": 3,
+    "native_question_subcases": 20
+  },
+  "reviewed_feature_blobs": [
+    {
+      "path": "core/pdf_evidence.py",
+      "sha": "e6439e1c8d1991fc1955317d6a2fa304113fcbbe",
+      "bytes": 24248
+    },
+    {
+      "path": "core/pdf_worker.py",
+      "sha": "b28f9180f8de7bdb13e43813a054d62c35ef058e",
+      "bytes": 7743
+    },
+    {
+      "path": "tests/pdf_fixtures.py",
+      "sha": "d30be022f996acad2aa84b1d067a63e9a03e7c1c",
+      "bytes": 5710
+    },
+    {
+      "path": "tests/test_pdf_evidence.py",
+      "sha": "edf32248a178c59b76581630838ca1a51ca4d31a",
+      "bytes": 21199
+    },
+    {
+      "path": "requirements-pdf-evidence.txt",
+      "sha": "6075e054511a9f3221cf1b459d6f6ee4e9b5edc7",
+      "bytes": 198
+    },
+    {
+      "path": ".gitignore",
+      "sha": "1f3e071b9e4d81de709a6fc3645977435268c1b9",
+      "bytes": 308
+    },
+    {
+      "path": "docs/PDF_EVIDENCE.md",
+      "sha": "132cd85e29dd34b578379b89c915cf36fffb6de8",
+      "bytes": 11016
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Optional isolated pilot only. Python 3.11/3.12; install from official PyPI.
+cadquery==2.6.1
+mujoco==3.3.7
+scipy==1.16.2
+trimesh==4.12.2

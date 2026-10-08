@@ -1,0 +1,10 @@
+{
+  "schema_version":"0.3",
+  "watch_enabled_by_default":true,
+  "interval_minutes":60,
+  "minimum_discovery_score":0.68,
+  "max_discoveries_per_pass":5,
+  "auto_virtual_build":true,
+  "notify_on_useful_discovery":true,
+  "notes":"Recurring watches run only while IdeaForge is open. Interrupted queued/running work is resumed on next launch."
+}

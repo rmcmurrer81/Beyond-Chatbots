@@ -1,0 +1,18 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Parametric Enclosure",
+  "type":"object",
+  "required":["name","inner_x_mm","inner_y_mm","inner_z_mm","wall_mm"],
+  "properties":{
+    "name":{"type":"string"},
+    "inner_x_mm":{"type":"number","exclusiveMinimum":0},
+    "inner_y_mm":{"type":"number","exclusiveMinimum":0},
+    "inner_z_mm":{"type":"number","exclusiveMinimum":0},
+    "wall_mm":{"type":"number","exclusiveMinimum":0},
+    "lid_thickness_mm":{"type":"number","exclusiveMinimum":0},
+    "clearance_mm":{"type":"number","minimum":0},
+    "screw_diameter_mm":{"type":["number","null"]},
+    "screw_head_diameter_mm":{"type":["number","null"]},
+    "notes":{"type":"string"}
+  }
+}

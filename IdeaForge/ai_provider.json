@@ -1,0 +1,6 @@
+{
+  "protocol": "aster.provider.selection.v1",
+  "provider": "standalone",
+  "app_id": "ideaforge",
+  "revision": 1
+}

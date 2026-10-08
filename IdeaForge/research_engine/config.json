@@ -1,0 +1,15 @@
+{
+  "schema_version":"0.2",
+  "max_queries":6,
+  "web_results_per_query":8,
+  "image_results_per_query":6,
+  "openalex_results_per_query":8,
+  "arxiv_results_per_query":8,
+  "user_agent":"IdeaForge/0.2 invention researcher",
+  "sources":{
+    "web":true,
+    "images":true,
+    "openalex":true,
+    "arxiv":true
+  }
+}

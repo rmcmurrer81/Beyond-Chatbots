@@ -1,0 +1,14 @@
+{
+  "schema_version":"0.1",
+  "max_web_queries":5,
+  "web_results_per_query":7,
+  "max_local_chars":30000,
+  "max_web_bundle_chars":32000,
+  "principles":[
+    "Use project-specific evidence before generic guesses.",
+    "Prefer reversible, low-energy diagnostic checks first.",
+    "Separate observed facts, hypotheses, tests and confirmed causes.",
+    "Do not claim a fix worked until the user confirms the result.",
+    "For electrical, mechanical or human-worn prototypes, avoid escalating energy/load until earlier checks pass."
+  ]
+}

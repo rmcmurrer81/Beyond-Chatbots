@@ -1,0 +1,3 @@
+# Optional offline native PDF quotations only. Install prebuilt wheels; no source builds.
+# pypdfium2: Apache-2.0 OR BSD-3-Clause; bundled PDFium has separate third-party notices.
+pypdfium2==5.14.0

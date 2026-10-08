@@ -1,0 +1,68 @@
+{
+  "schema_version":"0.3",
+  "profiles":[
+    {
+      "id":"holodeck_like",
+      "match_terms":["holodeck","holodeck-like","real holodeck"],
+      "goal":"Room-scale immersive environment that can visually, spatially, audibly, and physically respond to users.",
+      "seed_topics":[
+        "volumetric displays",
+        "light-field displays",
+        "holographic display research",
+        "projection mapping",
+        "room-scale AR VR",
+        "inside-out and outside-in tracking",
+        "spatial audio and wave field synthesis",
+        "ultrasonic mid-air haptics",
+        "acoustic levitation and tactile displays",
+        "plasma voxel display research",
+        "optical trapping and light-matter interaction",
+        "shape-changing interfaces",
+        "robotic props and encounter haptics",
+        "omnidirectional locomotion",
+        "AI-driven virtual characters"
+      ],
+      "fictional_capability_aliases":[
+        {
+          "term":"hard light",
+          "status":"fictional/undemonstrated as portrayed",
+          "real_world_analogues":[
+            "mid-air ultrasonic haptics",
+            "acoustic levitation",
+            "robotic encounter haptics",
+            "shape-changing physical interfaces",
+            "optical trapping research",
+            "plasma/voxel visual displays"
+          ]
+        }
+      ]
+    },
+    {
+      "id":"transforming_vr_glasses",
+      "match_terms":["glasses that turn into a vr headset","transforming vr glasses","folding vr glasses"],
+      "seed_topics":[
+        "micro-OLED displays",
+        "pancake optics",
+        "waveguide optics",
+        "folding optical mechanisms",
+        "eye tracking",
+        "compact batteries",
+        "XR thermal management",
+        "lightweight wearable structures"
+      ]
+    },
+    {
+      "id":"advanced_vr_bodysuit",
+      "match_terms":["advanced vr bodysuit","vr bodysuit","haptic bodysuit"],
+      "seed_topics":[
+        "wearable haptics",
+        "electrotactile feedback",
+        "pneumatic haptics",
+        "soft robotics wearables",
+        "motion capture textiles",
+        "force-feedback exosuits",
+        "thermal feedback wearables"
+      ]
+    }
+  ]
+}

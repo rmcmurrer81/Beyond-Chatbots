@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "units": "mm",
+  "title": "EXAMPLE: three-part mechanism",
+  "unknowns": [
+    "Example only. No masses, actuators, tolerances or physical validation."
+  ],
+  "parts": [
+    {
+      "id": "base",
+      "shape": "box",
+      "size_mm": [
+        120,
+        80,
+        20
+      ],
+      "position_mm": [
+        0,
+        0,
+        10
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "provenance": {
+        "status": "example",
+        "source": "Built-in illustrative dimensions; not a project design."
+      }
+    },
+    {
+      "id": "bearing",
+      "shape": "cylinder",
+      "size_mm": [
+        40,
+        40,
+        25
+      ],
+      "position_mm": [
+        0,
+        0,
+        22.5
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "provenance": {
+        "status": "example",
+        "source": "Built-in illustrative dimensions; not a project design."
+      },
+      "parent": "base"
+    },
+    {
+      "id": "arm",
+      "shape": "box",
+      "size_mm": [
+        140,
+        20,
+        12
+      ],
+      "position_mm": [
+        0,
+        0,
+        18.5
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "provenance": {
+        "status": "example",
+        "source": "Built-in illustrative dimensions; not a project design."
+      },
+      "parent": "bearing",
+      "joint": {
+        "axis": "z",
+        "min_deg": -90,
+        "max_deg": 90,
+        "angle_deg": 0
+      }
+    }
+  ]
+}

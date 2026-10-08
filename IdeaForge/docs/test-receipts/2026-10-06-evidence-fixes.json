@@ -1,0 +1,69 @@
+{
+  "date_utc": "2026-10-06",
+  "repo": "rmcmurrer81/IdeaForge",
+  "published_review_base": "c547f4e2d5f59c9d4056a88b6552bb6672309ad2",
+  "scope": [
+    "Exact exported-STL verification against reviewed cuboid geometry",
+    "Source-balanced, deduplicated, evidence-bound discovery assessment"
+  ],
+  "environment": {
+    "os": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.12.14",
+    "existing_app_runtime": "desktop-venv",
+    "existing_optional_runtime": "engineering-pilot-venv",
+    "new_installations": false,
+    "numpy": "2.5.3",
+    "trimesh": "4.12.2",
+    "cadquery": "2.6.1",
+    "mujoco": "3.3.7",
+    "scipy": "1.16.2"
+  },
+  "aggregate": {
+    "command": "python -m unittest discover -s tests -v",
+    "tests": 151,
+    "passed": 150,
+    "skipped": 1,
+    "seconds": 3.28,
+    "skip_reason": "Pre-existing native Tk layout test requires DISPLAY"
+  },
+  "new_focused_tests": {
+    "export_verification": 18,
+    "discovery_selection": 19
+  },
+  "additional_checks": {
+    "compileall": "passed",
+    "json_parse": "passed",
+    "git_diff_check": "passed",
+    "shared_CAD_files_byte_identical": true
+  },
+  "independent_review": {
+    "result": "approved after corrections",
+    "aggregate_rerun": true,
+    "corrected_regressions": [
+      "Two versions of one source retained while only one enters each shortlist",
+      "Serialized report projections cannot overwrite a newer latest report",
+      "Persisted manifest bytes hash-bound through final inventory",
+      "Missing verifier dependency remains unknown, not mislabeled failed"
+    ]
+  },
+  "model_testing": "Only deterministic/adversarial injected responses; no live Ollama quality qualification",
+  "limits": [
+    "Linux cloud only; Windows runtime not tested",
+    "No new native GUI changes or GUI smoke test",
+    "No real printer, actuator, physical prototype or structural safety validation",
+    "Previously blocked unpublished workflow/bridge/notebook changes untouched and excluded"
+  ],
+  "source_sha256": {
+    "engineering_pilot/cad.py": "784a612b9878f1c81bf0b7a1850941483cc56c44a6a2f3e0a72d5714c4ab7f8f",
+    "engineering_pilot/mesh_verify.py": "ee72bc6176046b19dd480c3d8cc1a1f779db3b6135bb999b3e9d216b1c3f9fba",
+    "engineering_pilot/runner.py": "85e9ef314af6cfee2b020ae6fcbc9be264966cd5074b9a2787562c6e677c5c97",
+    "fabrication/validate_stl.py": "739ce071bc7b2fb8eb1eec504eb9b4399e2ba231212a3eacf161ae838be7692f",
+    "requirements-engineering-pilot.txt": "4de7045ba6ea20dbe4f88084ee01c2fce123ec335749bd70ff2a98c3cac8db4c",
+    "research_engine/discoveries.py": "40aefac0a3f31732786de508489e3431b14fe07113ca930d98fabdbee09255be",
+    "research_engine/discovery_selection.py": "11655871c14488a2001cb4833318c18fccbcf33febd78d4f8653f9359f211a1d",
+    "research_engine/research_project.py": "32aa8610e08d2ae354f6042b380a2d597a0276433b18146171e872cf0a1d98b8",
+    "tests/test_discovery_selection.py": "5cd4a243fd5f0cc56f0b45b8b3713227bd3d54c037b843317cbe15a13a827ea0",
+    "tests/test_export_verification.py": "13dc8973dba317629224b1644c1ba4558a5ab128ddbc1026584ddbdedafda0a9"
+  },
+  "public_copy_note": "The historical command's local PYTHONPATH value and executable path were redacted. Test results are retained unchanged; this is not a new run receipt."
+}

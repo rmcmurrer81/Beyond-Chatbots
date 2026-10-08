@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+voice_cache/
+temp_audio/
+projects/*/conversation.jsonl
+inventory/equipment.local.json
+chat_attachments/
+projects/
+
+# Rebuildable local chat retrieval index
+chat_evidence.sqlite3*
+
+# Private native PDF snapshots, extracted quotations and manifests
+**/research/pdf_evidence/

@@ -1,0 +1,14 @@
+{
+  "schema": "aster.shared-provider-package.v1",
+  "version": "1.0.0-preparation",
+  "files": {
+    "aster_provider/__init__.py": "60e04ac17bbc934a8aa1473b24f1a1734b2f31626ede0b0cd7a5290bcb398379",
+    "aster_provider/client.py": "284565d9c7d887f22362a484ac60bf57febec89b798afa3ce8de66009ca651eb",
+    "aster_provider/contract.py": "b2cb6ade78634d1c9329bce50dcec68602c473ad3fd57547629d6d512084b2ed",
+    "aster_provider/selection.py": "3dc4a8b9e9183b137045aebfddc7148c9f1525e45f878ee5f727dfbb042dcbf6",
+    "aster_provider/transport.py": "6824b3a40ae2183b2e0868d996e8ab69c31287523afaa583fdac5258ca5025d4"
+  },
+  "package_sha256": "e04c6e0eba7c9ade3570185d4115cef92571d5448b3d3f455eeacaaaca1052a5",
+  "protocol": "aster.app-provider.v1",
+  "note": "Byte-identical vendored stdlib preparation package; no live backend."
+}
