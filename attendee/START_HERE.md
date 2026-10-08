@@ -27,6 +27,6 @@ Use **Code → Download ZIP** on the [repository page](https://github.com/rmcmur
 
 At this guide's preparation, this repository contains presentation and attendee documents. NewBrain, Avatar Builder and Aster implementation copies are awaiting their separate reviewed release. The original NewBrain and KiraWorld repositories and private identity/state remain private. Do not treat planned paths, narrated examples or saved summaries as a runnable software package.
 
-The separately commissioned AI-history PDF will be linked here after its actual public file is verified. No PDF is attached to this guide yet.
+Read [AI history and NewBrain](AI-History-and-NewBrain.pdf), the ten-page visual companion to the talk. Its [SHA-256 checksum](AI-History-and-NewBrain.pdf.sha256) identifies the published PDF.
 
 [Attendee checksums](SHA256SUMS.txt) cover the six attendee Markdown pages. Root [presentation checksums](../SHA256SUMS.txt) cover their listed presentation-package files; neither list authenticates future source or recordings.
