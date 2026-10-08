@@ -9,6 +9,7 @@ For the complete folder, choose **Code → Download ZIP** above and extract it o
 
 | Material | Download or read |
 | --- | --- |
+| **Quick practice / very short Q&A (start here)** | [2-page printable PDF](presentation/Quick-Rehearsal-and-QA.pdf) · [Slide-by-slide cues](presentation/Quick-Rehearsal.md) · [12 one-sentence answers](presentation/Very-Short-QA.md) |
 | Editable 25-slide deck | [PowerPoint](presentation/Beyond-Chatbots-October10.pptx) |
 | Slides for viewing | [Slide PDF](presentation/Beyond-Chatbots-Slides.pdf) |
 | What I will say | [Speaker PDF](presentation/Speaker-Script.pdf) · [Editable text](presentation/Speaker-Script.txt) |
@@ -34,4 +35,4 @@ The work is experimental. The reported results do not establish reliable general
 
 Presentation: Robert McMurrer / Kira Labs. Contact: rmcmurrer@kiralabs.org. Downloading and viewing these presentation materials is intended. No new general software or artwork license is granted by this document. Retain the source and scope notices within the slides. Conceptual artwork is illustrative; it is not anatomical or experimental evidence.
 
-SHA256SUMS.txt lists the exact included files for download verification. The public summary is derived from saved originals and independent reviews retained privately by Kira Labs; it does not make every underlying private experiment independently reproducible from this repository.
+SHA256SUMS.txt lists checksums for the original presentation materials and the new short practice files for download verification. The public summary is derived from saved originals and independent reviews retained privately by Kira Labs; it does not make every underlying private experiment independently reproducible from this repository.
