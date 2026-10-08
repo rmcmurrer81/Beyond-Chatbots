@@ -36,7 +36,7 @@ Use these reminders while practicing. You do **not** need to memorize the longer
 
 **Slide 13 — Resource measurements (15:40–17:30):** "This tiny command model uses little memory for its task, but it has not been shown to outperform a full Qwen conversation model."
 
-**Slide 14 — October 8 update (17:30–18:50):** "All four migration-preservation reviews passed. One delayed restart ran, but zero restart results are independently accepted. The saved static body rig reopens correctly; real movement and reliable general memory are unfinished."
+**Slide 14 — October 8 update (17:30–18:50):** "Just this week, our first delayed NewBrain restart passed independent verification. All 10,720 history records were preserved, and all 64 comparison pairs matched. Three additional restart tests remain. The saved static body rig reopens correctly; real movement and reliable general memory are unfinished."
 
 ## Part 3 — Where the work is going (slides 15–21, 18:50–25:00)
 
@@ -57,7 +57,7 @@ Use these reminders while practicing. You do **not** need to memorize the longer
 ## Before October 10
 
 - Read [Latest-Speaking-Update.txt](Latest-Speaking-Update.txt) for any newer research status.
-- **Say:** 4/4 migration reviews accepted; 1 delayed restart completed; **0/4 independently accepted restart results** at the October 8 cutoff.
+- **Say:** 4/4 migration reviews accepted; **1/4 delayed restart results independently verified**, preserving 10,720 history records and matching 64 comparison pairs. Three restart tests remain.
 - **Do not claim:** a completed Maya, proven consciousness, general Qwen superiority, qualified natural body movement, or clinical benefits.
 - Test PowerPoint playback and the QR code on the presentation equipment.
 

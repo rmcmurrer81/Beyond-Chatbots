@@ -1,148 +1,93 @@
 %PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
-<< /Type /Catalog /Pages 2 0 R >>
+<<
+/F1 2 0 R /F2 3 0 R
+>>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
 endobj
 3 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
 endobj
 4 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+<<
+/Contents 9 0 R /MediaBox [ 0 0 595.28 841.89 ] /Parent 8 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 5 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+<<
+/Contents 10 0 R /MediaBox [ 0 0 595.28 841.89 ] /Parent 8 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
 endobj
 6 0 obj
-<< /Length 4437 >>
-stream
-BT /F2 15 Tf 49 754.0 Td (BEYOND CHATBOTS - OCTOBER 10, 2026) Tj ET
-BT /F1 9.5 Tf 49 730.0 Td (Slides 1-14 - presentation cues) Tj ET
-BT /F2 10.2 Tf 49 712.0 Td (PART 1 - SET UP THE QUESTION) Tj ET
-BT /F2 9.15 Tf 49 696.0 Td (Slide 1 - Beyond Chatbots \(0:00-0:45\)) Tj ET
-BT /F1 9 Tf 49 684.0 Td ("Good afternoon. I'm the founder of Kira Labs. Today I want to show how we can test whether an AI) Tj ET
-BT /F1 9 Tf 49 672.3 Td (remembers correctly, keeps identities separate, and reports what actually happened.") Tj ET
-BT /F2 9.15 Tf 49 656.6 Td (Slide 2 - Continuity \(0:45-2:00\)) Tj ET
-BT /F1 9 Tf 49 644.6 Td ("Imagine Kira sees a blue cup. Lisa never entered the room. Lisa may learn about the cup from Kira, but) Tj ET
-BT /F1 9 Tf 49 632.9 Td (must not remember personally seeing it.") Tj ET
-BT /F2 9.15 Tf 49 617.2 Td (Slide 3 - Model and retained state \(2:00-3:15\)) Tj ET
-BT /F1 9 Tf 49 605.2 Td ("A language model, temporary chat context, and saved memories are different things. We need to know what) Tj ET
-BT /F1 9 Tf 49 593.5 Td (survives a restart and who owns it.") Tj ET
-BT /F2 9.15 Tf 49 577.8 Td (Slide 4 - Kira World \(3:15-4:30\)) Tj ET
-BT /F1 9 Tf 49 565.8 Td ("Kira World is the planned home for distinct synthetic identities in digital spaces. They can share) Tj ET
-BT /F1 9 Tf 49 554.1 Td (software, but their personal histories should remain separate.") Tj ET
-BT /F2 9.15 Tf 49 538.4 Td (Slide 5 - Identity isolation \(4:30-5:45\)) Tj ET
-BT /F1 9 Tf 49 526.4 Td ("Someone may receive another person's report without acquiring that person's first-hand experience.") Tj ET
-BT /F2 9.15 Tf 49 510.7 Td (Slide 6 - Corrections \(5:45-7:00\)) Tj ET
-BT /F1 9 Tf 49 498.7 Td ("If we discover the cup was green, the current answer should change, and the correction should have a) Tj ET
-BT /F1 9 Tf 49 487.0 Td (source. Privacy and deletion rules still matter.") Tj ET
-BT /F2 9.15 Tf 49 471.3 Td (Slide 7 - Origins \(7:00-8:15\)) Tj ET
-BT /F1 9 Tf 49 459.3 Td ("An observation, report, guess, and dream are not the same kind of evidence. A trustworthy memory system) Tj ET
-BT /F1 9 Tf 49 447.6 Td (keeps them separate.") Tj ET
-BT /F2 10.2 Tf 49 431.9 Td (PART 2 - SHOW THE RESULTS) Tj ET
-BT /F2 9.15 Tf 49 415.9 Td (Slide 8 - Held and failed work \(8:15-9:30\)) Tj ET
-BT /F1 9 Tf 49 403.9 Td ("Saving a video request is not the same as finishing a video. Systems must distinguish requested, held,) Tj ET
-BT /F1 9 Tf 49 392.2 Td (running, finished, and uncertain work.") Tj ET
-BT /F2 9.15 Tf 49 376.5 Td (Slide 9 - Receipts \(9:30-10:45\)) Tj ET
-BT /F1 9 Tf 49 364.5 Td ("If a task finishes but confirmation is lost, blindly retrying can duplicate it. We need an operation ID) Tj ET
-BT /F1 9 Tf 49 352.8 Td (and a verifiable receipt.") Tj ET
-BT /F2 9.15 Tf 49 337.1 Td (Slide 10 - Test protocol \(10:45-12:00\)) Tj ET
-BT /F1 9 Tf 49 325.1 Td ("Don't judge an AI by one impressive example. Compare fair tasks, strong simple controls, and recorded) Tj ET
-BT /F1 9 Tf 49 313.4 Td (failures.") Tj ET
-BT /F2 9.15 Tf 49 297.7 Td (Slide 11 - Five-seed review retention \(12:00-14:00\)) Tj ET
-BT /F1 9 Tf 49 285.7 Td ("Our small command learner retained all old and new examples with review across five repeated trials.) Tj ET
-BT /F1 9 Tf 49 274.0 Td (That's a narrow finding, not proof of general conversation.") Tj ET
-BT /F2 9.15 Tf 49 258.3 Td (Slide 12 - Visual failure \(14:00-15:40\)) Tj ET
-BT /F1 9 Tf 49 246.3 Td ("This experiment failed: the learner memorized training images but scored zero on new color-and-shape) Tj ET
-BT /F1 9 Tf 49 234.6 Td (combinations. Failures tell us what needs work.") Tj ET
-BT /F2 9.15 Tf 49 218.9 Td (Slide 13 - Resource measurements \(15:40-17:30\)) Tj ET
-BT /F1 9 Tf 49 206.9 Td ("This tiny command model uses little memory for its task, but it has not been shown to outperform a full) Tj ET
-BT /F1 9 Tf 49 195.2 Td (Qwen conversation model.") Tj ET
-BT /F2 9.15 Tf 49 179.5 Td (Slide 14 - October 8 update \(17:30-18:50\)) Tj ET
-BT /F1 9 Tf 49 167.5 Td ("All four migration-preservation reviews passed. One delayed restart ran, but zero restart results are) Tj ET
-BT /F1 9 Tf 49 155.8 Td (independently accepted. The saved static body rig reopens correctly; real movement and reliable general) Tj ET
-BT /F1 9 Tf 49 144.1 Td (memory are unfinished.") Tj ET
-BT /F1 7.9 Tf 49 128.4 Td (Kira Labs | Check latest status for changes after October 8, 2026.) Tj ET
-BT /F1 8 Tf 552 29 Td (1) Tj ET
-endstream
+<<
+/PageMode /UseNone /Pages 8 0 R /Type /Catalog
+>>
 endobj
 7 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+<<
+/Author (\(anonymous\)) /CreationDate (D:20261008134540-04'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261008134540-04'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+>>
 endobj
 8 0 obj
-<< /Length 4498 >>
-stream
-BT /F2 15 Tf 49 754.0 Td (BEYOND CHATBOTS - OCTOBER 10, 2026) Tj ET
-BT /F1 9.5 Tf 49 730.0 Td (Slides 15-21 - presentation cues and one-sentence Q&A) Tj ET
-BT /F2 10.2 Tf 49 712.0 Td (PART 3 - WHERE THE WORK IS GOING) Tj ET
-BT /F2 9.15 Tf 49 696.0 Td (Slide 15 - Local boundaries \(18:50-20:05\)) Tj ET
-BT /F1 9 Tf 49 684.0 Td ("Local operation offers more control, but doesn't guarantee security. Sharing, backups, and exports also) Tj ET
-BT /F1 9 Tf 49 672.3 Td (need tests.") Tj ET
-BT /F2 9.15 Tf 49 656.6 Td (Slide 16 - Developmental experiments \(20:05-21:20\)) Tj ET
-BT /F1 9 Tf 49 644.6 Td ("We want to test learning in stages: sights, sounds, memory, and conversation. Reliable conversation) Tj ET
-BT /F1 9 Tf 49 632.9 Td (after restart remains a goal.") Tj ET
-BT /F2 9.15 Tf 49 617.2 Td (Slide 17 - Hardware \(21:20-22:05\)) Tj ET
-BT /F1 9 Tf 49 605.2 Td ("My development desktop has 32 GB of RAM and a 16 GB GPU. More capacity helps experimentation, but can't) Tj ET
-BT /F1 9 Tf 49 593.5 Td (solve learning by itself.") Tj ET
-BT /F2 9.15 Tf 49 577.8 Td (Slide 18 - Maya and Aster \(22:05-22:45\)) Tj ET
-BT /F1 9 Tf 49 565.8 Td ("Maya is a developing companion study; Aster is a planned assistant. They can share tested improvements) Tj ET
-BT /F1 9 Tf 49 554.1 Td (without sharing private histories.") Tj ET
-BT /F2 9.15 Tf 49 538.4 Td (Slide 19 - Aster future plans \(22:45-23:25\)) Tj ET
-BT /F1 9 Tf 49 526.4 Td ("The goal is desktop, laptop, and phone assistance with explicit permissions. Broader integration still) Tj ET
-BT /F1 9 Tf 49 514.7 Td (requires testing.") Tj ET
-BT /F2 9.15 Tf 49 499.0 Td (Slide 20 - Why I created synthetic people \(23:25-24:25\)) Tj ET
-BT /F1 9 Tf 49 487.0 Td ("I want people who live alone or feel isolated to have the possibility of a continuing companion who) Tj ET
-BT /F1 9 Tf 49 475.3 Td (remembers shared experiences. That is my vision, not a proven medical benefit.") Tj ET
-BT /F2 9.15 Tf 49 459.6 Td (Slide 21 - Closing \(24:25-25:00\)) Tj ET
-BT /F1 9 Tf 49 447.6 Td ("Thank you. My public Beyond-Chatbots repository contains the slides, notes, questions, and research) Tj ET
-BT /F1 9 Tf 49 435.9 Td (summaries. The original NewBrain and KiraWorld code and Maya's personal state remain private.") Tj ET
-BT /F2 12 Tf 49 416.2 Td (VERY SHORT AUDIENCE Q&A) Tj ET
-BT /F2 8.9 Tf 49 397.2 Td (1. What is Kira World?) Tj ET
-BT /F1 8.9 Tf 49 386.2 Td (A developing virtual-world platform for separate, persistent synthetic identities.) Tj ET
-BT /F2 8.9 Tf 49 372.2 Td (2. What is NewBrain?) Tj ET
-BT /F1 8.9 Tf 49 361.2 Td (Small experimental learning, memory, and circuit studies-not a full conversational mind.) Tj ET
-BT /F2 8.9 Tf 49 347.2 Td (3. Is NewBrain better than Qwen?) Tj ET
-BT /F1 8.9 Tf 49 336.2 Td (Not proven; the comparisons so far are too narrow.) Tj ET
-BT /F2 8.9 Tf 49 322.2 Td (4. What worked?) Tj ET
-BT /F1 8.9 Tf 49 311.2 Td (Review prevented forgetting on a small command task across five trials.) Tj ET
-BT /F2 8.9 Tf 49 297.2 Td (5. What failed?) Tj ET
-BT /F1 8.9 Tf 49 286.2 Td (The visual learner failed new combinations; Aster's overall memory reliability also failed.) Tj ET
-BT /F2 8.9 Tf 49 272.2 Td (6. Is Maya born?) Tj ET
-BT /F1 8.9 Tf 49 261.2 Td (Not yet; her required learning, memory, interaction, and body tests are unfinished.) Tj ET
-BT /F2 8.9 Tf 49 247.2 Td (7. Can Maya move or blink?) Tj ET
-BT /F1 8.9 Tf 49 236.2 Td (Her saved static rig reopens, but natural movement is not yet accepted.) Tj ET
-BT /F2 8.9 Tf 49 222.2 Td (8. Did memory survive a restart?) Tj ET
-BT /F1 8.9 Tf 49 211.2 Td (Four migration checks passed; one delayed restart ran, but zero restart results were independently accepted.) Tj ET
-BT /F2 8.9 Tf 49 197.2 Td (9. Is Maya conscious?) Tj ET
-BT /F1 8.9 Tf 49 186.2 Td (There is no evidence establishing subjective experience.) Tj ET
-BT /F2 8.9 Tf 49 172.2 Td (10. Does NewBrain use less RAM than Qwen?) Tj ET
-BT /F1 8.9 Tf 49 161.2 Td (No fair full-model RAM advantage has been demonstrated.) Tj ET
-BT /F2 8.9 Tf 49 147.2 Td (11. Is the software public?) Tj ET
-BT /F1 8.9 Tf 49 136.2 Td (Presentation files are public; original research repositories and Maya's personal state are private.) Tj ET
-BT /F2 8.9 Tf 49 122.2 Td (12. How can people help?) Tj ET
-BT /F1 8.9 Tf 49 111.2 Td (Testing, technical review, research hardware, or compute partnerships.) Tj ET
-BT /F1 7.9 Tf 49 97.2 Td (Kira Labs | Check latest status for changes after October 8, 2026.) Tj ET
-BT /F1 8 Tf 552 29 Td (2) Tj ET
-endstream
+<<
+/Count 2 /Kids [ 4 0 R 5 0 R ] /Type /Pages
+>>
 endobj
 9 0 obj
-<< /Title (Beyond Chatbots - Rehearsal and Very Short Q and A) /Author (Kira Labs) >>
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2397
+>>
+stream
+Gatm<?'j<S&UjDWR&=%X7>7O.I;GM+:>KgR2Kc-c]_DXS+UM9aTE.lpEq87;#Gbn4O!AdgGkQC6+sCoEn'&I$9IRnV&q1WSdAn"1s!FEbV:C<`Cm*32/cBhbU;+G#bKJ#oo@9Yo@#A=$>LVf.apNGFerG3WT*fMfdaDSuBq3If,pBUgN(R60UFaMZkCrShp<ot#P3'0[qNY+=IBe,_M^NeASfX#!XSV_O*5[ZsMreKS`(=on'$hBI1ndL(VooKudr9m)p2]>`VS)$bDm4L.%_^f<NF'`%d3ZK_$,8BS005^OM7^Z1`:+7$:ZIg<cZ)'m=NV.I&q0uD\`>.;EM,/b=^%_^AjUsEpQ[5)UEiGeHqO"/<k@se]Vln906I3k/qc.ZVYbFa2:-a@Cr"I4?m5C70V]0uDFa=FEZ[d@>oZB)?'^!8p1c/-r7S>#4aY;7@/ab38Rg_Ve]-eZ4hRl<mj)aDX%Q9F'Kg$mKN=ra7s^h\d%7ln[ke9KIg8Q!d,^=aFP'1O?jWIo+-<q=XH<pO$=g1hI!$FXUQga"*H2-@Zr^Rb0IIfJKpQ:sRo@$USFHga7&'1QW2_*07+4[YbK3b;dWe<k;R#iJ+A1H>Ige_VH'Eo_lU9!`o7;^DW5VeOfs0K]YS+=G>2\6q'7-^L+>"`G">$C'?8.;gR(C%8K=FM\X%BBelbdRePr@4C@FHs5EOfu'TJlengR4lB*#]h7^uL^:P4D['Qn?`0.@>^=Ii51nT,M#9NfkNBW8eC5js$8N,r[;dQ9SaM^.ua4<C1V.Z'A:0=CYlkNI2K78-LAWJUETPI$_uNlk(ck24!i==@o@CCqp`ddLL5j]RH"$OJt&.W4ApQ)qWfWg'>?=$fDK?ZlF7DbX&k1Ch24\Ch-ouUuF&I<[I6JkbIK^HE/1:A/P6>G`nlE!_.:qNO4U3\WGMSaPldDR@;+=!c<_X/V*"]@t@\b?0I<s=Kkf0#BGeP,\u42*eUE%*OFkO`ZO]BY"Z'PZ?.Q&g0sS<m-3_R#Rg4U<h-3JEqQMNf4g+T6dh3OVMFT,7mLQ6iRoG?N0pRm^M,P#nkWoCdqX.=*Xq+fAI'n2OjQ^0'9&Z<nYPRESdrp3=JA4RYuR*T`cE;nQYht052(!Za\TFHUb8gFRa7U5oiFt\"ZH^)"uP#B)9HQ@dgksHq<\*3*GjALOjo(nd6FW+5rdS%.J:3cA:qZ'm1*7Kk9JJJDgRBOX3O3qXk3rW#<C[F+A;a>C+kHSp]?[To$XiEfsYAMp8Y..Y(ugXV]pK%!*l4,cL%Jtklr&nJS9&P"Rrd,ZMImk=Z^?lTrc7^!fq'M9'86c9.NFOoU]?RiH>9coVc^>c'@(j$8KWrj=SUMJ.6\Bc7.\Y7gE,[qBc,]rVrifSd[+B$\8/!M7haKD1no3XGHH[Lbm]2nttbdbCO2RoNple&Hjh-#)IbF\`ne65J^F*9PEO2(Q0[55/?Eo/uNcDD2Ui\D.GZ(*=`E'>HMmdh!`*=/mYpiAX5E>JAYA>ZMC/N^'#8PAH?Yb^qe;eamFp.RggY(&0?BWauu>XEPW46lp-m&c<`b*AK9uC>p7HC<d\hHbQRfWff#*F\8+ITEpe3l_a)DW%3Bs,W@%IE=0*q*\OLYRaiUhSFZtW_p57>"Z,W9M<'WQr*@81As(qQ0hZ'X<rs76JoP7ZKANs.rO2PY1l38i6@kX+>7,:h(Ok6IJ=D^m32XghiEo%^bmh@D]IAo)h43^lhs&+#_h.""^!2kJCoEe=0D\.EZA9c(u=7X/[_Au;5;Zb73ibtPS>n5E;s4"n7CCE6hWid570K6g4cU.rp1qarF7,4R+6L/YQL+'-C/44bZhF8^LiO;jE.Wh#o^Z:tm$Z"/TUR92s2c-d*,8]LO%D0Ooo<&fJO@D[K:aB+fRP"e%J;!+CT9[:oI``>d-4AV%pUS8fCaes`U!rG!^7$"1cA_1Cm[mVHL9086fUs`gWYh=STgHZ8e+%A)@W'VF4k-mE&\*eHl8MrjoigS[173C:f*01+WqpN3rEBTZ/pH%QVV.UhOA(97FT!'e/2/>A#)"QO&/$;\S#/<=%cdqI'mT!5>VTY2VUbdV8pOdc;a\HtQpR1A9\h+n4PJ'*^"6q&_`K0h,;;Ren;K#nIA0GoP'_DgrQ?,CSoYqJA6;LG0&CM!W,9]Fog=6k8euXH%FESCo3^=Mg"0(##<+B/Tg)'S0Tce"BQS]7r,6k*`?fJPER5!SE#i*a4jlG/p't;KP!\n.3JkfJ2"##1@rDqV&/7;)%GKVkgEG.c=iTgGHSB&H4:./>4A_\p@_'BQ6D?"G56iZYMMU.,\pcsU1O&krKO=%Q6slDr&Z@9^TKCL:0+i]L-1"Q?r8GTo*(o_-Wp:Nt]%JGQqdQU%*Sm&r6SJED`m/\W~>endstream
+endobj
+10 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2435
+>>
+stream
+Gatm=gQ(#X&q0LUeC/$8OL-3#l8!fjGb!UBLn2KXA;pc`dNVn)B1Or:h3:r*5(69bWEZH#)1`>Ac>\$-5'?/?WLeX[p]URX.>T#dko]p8-j]'W76rbfkj]\llg[DjIa4i-UZq;bcotih0Dr5N]-!7LoM-qhrD#R':+rH;q1->%35q;9oSOhbAM/-],pTN*``_"dUK1!ahpUP'o_A/F4?]9r7r]O:?P/l7p#X.9KIP1.MpZp'Q/M;Vm:2USI=1cNX96e*Gp/sQC`Z:P)?k,jLi<e$#r6;-q^=6LN"n?![Bq4%P]S@0<gHLHM51YGKY+uVLK>i(IDG#.W7g5Ce=XMH4Pl1[A],BK&HN,cpE++NdNrPhGP[Q)'S-GX0FWuVL>ahF8Jk%1EjunTMlMqOWY0#-K8f!&"rX!9klY@EL\+=hGlL[nAL`X*FMHZ9oD<bp%*/,&pt'FGj,'Z3JCXjs.qo+g!rB#!,8D+6-+\1fk6"o=N`%HGq2M.l/W;r\-!?Yc7_.?25%Rh]\]0=IH)`AVn:Zo'X#+m!jAo2.6"^E`gJR.F-:+gp:P&+]E[,X2(#UF)MPs?Er!NVpTa!sR_snJWK1/"TJ!RGFIcRkkK6#I=$1LKNKOS:]HV[\E1C"UGEs'HL+s4E$<?q`W@"#IQoMOaC/9?)[R`*?7<Eeq.Yn3p'*b_ZEh@9KEl4s:9i-utF]&f(Wg5PVW%'S*+3e'=&K#o=KhsV\bL]$1FqrDifRBSLSl2(_:gQ/PpHY<TS"fK*7q3M],pD"f#OauGUah4o,h!m?_KolWn$`ilY4=5-[gFr"j3@j]$-g]=Hc..1Rp,QN106Y49lBPp9!;t2B4hQiYJKI$^OT,H2N^5Dkg)Me'M(U8T1/4mOe(r2*5^uq%MmA"4#\t0r>IkD0Aobp/PKfI_>VilT'p[/cfp)#-\P+4][ZM`5N7nOb%iNIX/BnOVSV44SM-hA3c-fY#Wt@BGc8LN8OGM#,GV'Ln:Eg;XII/i3D$:=r(R73?8#d!Rqg^a(2ab`0cP>Y>@""_"2ci)8#GX`1#t#A.[p?m4Q0/^I0=?Dsp`q!ph/JF%<VgYC\3FUfH:s*WJiR:aV9>Z5$0'Q:mKJD4+,80Cki:@fa`+cphDTE3L9SoZjU+U'E^j;d*)^f`FREX.=3(ODN52F@J:+>:efUiTnGQISom%/>';=p$=E<<m7?Y)G`D5d@H*BOnAjEVrNNum*9's.R\<KU-);$'T,dNXbjZ9^a:N&..(UFo#H`qL-H#6)NjO4h#O0<Ze3#_OU-@f#Yd8&:irZ,#3'$R6Y\^P+NHk##")F@pZEh]3Q4.co<<B4"/]1WY^+267KIhYOS>c7q8Kd7mI(PR'Z?Ib-b[8sN)LBRQ([grZRoloqrn6)6N4$F58;_4j(=KY-ZXXe/:agSnO7B\dg@=6c.qp[Gn*"pb4s'`<Zi#:r&M)nY_[JY$k;saf7e9o/K5?E-Grn6u0B[N$)HZe&k2TiO5jMS)q(kgbJZmc8fE6/h'Z]bK`2s;dHOJ=X`3%/NcXZ8iASr?fs6u5Z.DS0Ri5BqT+7"4F8_;Dq1qLcUa-E5C7fGssX@A?]#)L%gB>hi\b1@7O_T(R`iA41?sJ3b>!pN6_cTFY7P"i2VT#JhJ_6mL58^$>A6@*gs-6C=uX_YD7(BhVaJ(qo=VB(C?6]SK;31()fdP#mMo\Ck>^6h+#kPhZ<LP[MU]':$!q;RdKfrZUU\#)!>\PS<bI6t4M>BuSo[)25&s)kV+G*A27"=UC@#_.U'`=Vnh2I-C+n^<"r[qU]3eh_H`U1`kPK>5O;f!b*#OXf4ar'qQrqpYdLpjoM$?9kHQ50iMFtIXG74dp6=El-7ZOFa`YQH\l1Wm(I4]6)<0.)Ncii+Ob,*dp9;hi<ukB=/o4X]*;;XF!j!RCGqp=&0d09JLn+-KRG;A\m_)`XGuDI]`D:PSi-1i">((k#4UkLZ2rqk)-!XGlZG:oEUtUuYYg[BXP>\3_OI%A3E5S^IAbLV`GKHMhM^j38ict\Df?2Q^#jfiO,"HtV2TQ`m8pkWLJ?YnRlTj7<g_*UkUf`TS!=CjZQYjGq[aKh9IpD=a!D^a#;ZcVc.pL=S7n*E]<m928VZO@VN\3U7OQF`DaRX^@Z6O'XW*>SRA6u>LU&nj55MrePcekI@f!AY:ed1X-RYV(Uu'[C%T#lc5m(V_^I_Bg895cU\majHJcoS&=3D6n;Hr!s6;-A;X2!dc_Z%1RpB0Gmfs&8BOuL!dkm#&.=A-EF[Zm./;q+ub*F%Ii+qOQ+,T&/$6%1N:/*HXJRt7^]S%d+gcWlFr(*Q:4QVC[t6?mbmqi5aV@B<Gq^JZZpHN#(;@EJuTE\7BIKf=>DGMh-Q$f2-U6o!oM_DHU1""7!/Q%!5[Gh4l6!gg<!b6)X-XC*nnJrD],*Y`G`Q,B@5rs-8M7m6~>endstream
 endobj
 xref
-0 10
+0 11
 0000000000 65535 f 
-0000000009 00000 n 
-0000000058 00000 n 
-0000000121 00000 n 
-0000000191 00000 n 
-0000000266 00000 n 
-0000000402 00000 n 
-0000004890 00000 n 
-0000005026 00000 n 
-0000009575 00000 n 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000520 00000 n 
+0000000720 00000 n 
+0000000788 00000 n 
+0000001068 00000 n 
+0000001133 00000 n 
+0000003621 00000 n 
 trailer
-<< /Size 10 /Root 1 0 R /Info 9 0 R >>
+<<
+/ID 
+[<582dbc8f21fcd46a36d8b483a067d9d2><582dbc8f21fcd46a36d8b483a067d9d2>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 7 0 R
+/Root 6 0 R
+/Size 11
+>>
 startxref
-9676
+6148
 %%EOF

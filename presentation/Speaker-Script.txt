@@ -3,7 +3,7 @@ SPEAKER SCRIPT
 Robert McMurrer - Kira Labs
 October 10, 2026, 2:30-3:00 p.m. EDT
 25-minute rehearsal target + 5-minute Q&A. Slides22-25 are optional appendix.
-Public practice update, October 8 at 15:15 UTC. The version11 slides retain their morning snapshot; these notes include the later restart status. Vision remains on slide20. Earlier versions preserved.
+October8 version12 update: first delayed restart verified. Vision remains near the end on slide20. Earlier versions preserved.
 
 SLIDE 1 - Beyond Chatbots
 0:00-0:45
@@ -151,7 +151,7 @@ The five-seed replication's observed known-family native peak was 128.69 MiB, in
 SLIDE 14 - October 8 research update
 17:30-18:50
 
-All four original routing migration jobs have now run. All four have passed independent mathematical review. Each accepted review checks 64 comparison cases, 256 generation steps and all 10,720 history rows. These are preservation checks with no new training updates. The first of four delayed restart model runs has since completed normally. Its independent mathematical review is pending, so zero of four restart results are accepted.
+All four original routing migration jobs have now run. All four have passed independent mathematical review. Each accepted review checks 64 comparison cases, 256 generation steps and all 10,720 history rows. These are preservation checks with no new training updates. Just this week, our first delayed NewBrain restart passed independent verification. All 10,720 history records were preserved, and all 64 comparison pairs matched. Three additional restart tests remain.
 
 The body now saves and reopens in a fresh process. Independent review matched the full geometry, all 163 neutral bone states and three complete rest-property records. Next we need movement checks, then blinking and breathing, followed by stretching and finger movement.
 
@@ -216,7 +216,7 @@ That goal led to Kira World and NewBrain: research into memory, learning, percep
 SLIDE 21 - Questions and connection
 24:25-25:00
 
-You can find the slides, speaker notes, audience questions and dated research summaries in Beyond-Chatbots under my GitHub account. NewBrain and Avatar Builder code packages are being prepared separately and are not part of this document upload.
+The slides, speaker notes, audience questions and dated research summaries are available in Beyond-Chatbots under my GitHub account. The NewBrain and Avatar Builder code packages will follow separately after review, with a guide for creating your own independent character, reviewed tests and the development timeline.
 
 NewBrain and KiraWorld stay private. The release will not contain Maya's personal identity, memories, trained state or exact appearance. The current tested subset is the small fitted-cell starter; the broader builder and later research code still need release review.
 
@@ -225,9 +225,9 @@ Thank you. I welcome questions about the results, limitations and experiments th
 SLIDE 22 - Current readiness - October 8
 Optional appendix during Q&A
 
-The clean starter package passed its nine-record source check, all 30 tests and a deterministic fitted-cell demonstration. The broader private NewBrain has four accepted migration reviews, with one of four delayed cold model runs completed and zero of four restart results independently accepted. Earlier visual-generalization failures remain unchanged.
+The clean starter package passed its nine-record source check, all 30 tests and a deterministic fitted-cell demonstration. The broader private NewBrain has four accepted migration reviews, with one of four delayed cold checks independently verified and three remaining. Earlier visual-generalization failures remain unchanged.
 
-The body has an accepted static rig and saved rest-state restart. A later neutral-eye probe ran, but its saved-output audit failed on a file-read record assertion. That audit failure is preserved and does not establish eye fit or native equivalence. Natural movement, blinking, breathing, stretching, fingers, skin and senses still need qualification. Research demonstrations and a ready companion have separate milestones.
+The body has an accepted static rig and saved rest-state restart. Natural movement, blinking, breathing, stretching, fingers, skin and senses still need qualification. Research demonstrations and a ready companion have separate milestones.
 
 The existing Video Studio clip remains preserved. Humanoid Researcher and IdeaForge retain their earlier limited evidence; full integrations remain unfinished.
 
@@ -256,7 +256,7 @@ We can describe narrow learning and retention results, the negative visual-gener
 
 We cannot claim consciousness, a copied mind, general model superiority or a completed synthetic person. Natural body movement and reliable general memory remain unfinished.
 
-The current Beyond-Chatbots package contains presentation documents and research summaries. We keep the original repositories and Maya-specific state private. Every public result must retain its scope and any failed or pending test.
+The Beyond-Chatbots package is a curated generic release. We keep the original repositories and Maya-specific state private. Every public result must retain its scope and any failed or pending test.
 
 PRESENTER EVIDENCE NOTES
 Language: one frozen seed, 3777006240. Initial 600 updates, followed by two 400-update forks of batch size 24. No-review fork: 9,600 new examples. Review fork: 7,200 new and 2,400 old examples. Stage checkpoint saving/reloading passed. No provider calls during scratch training.
@@ -268,5 +268,5 @@ Capacity slide: Windows CIM and NVIDIA-SMI inventory on October 3, 2026. Current
 Local 18 learned-value and 14 event-observer checks are accepted component engineering results. The 44 checks from Robert's other chat are reported only, with no independently reviewed raw receipts here. No new broad Qwen comparison, integrated assistant, complete body or subjective-emotion result follows.
 
 OCTOBER8 EVIDENCE UPDATE
-October 8, 2026 research snapshot. Four original routing migrations executed; all four independent saved-value mathematical reviews accepted. Final review7fffa6 checked64pairs/256steps/all10720rows without model replay. One of four delayed model restart runs completed normally; zero of four restart results independently accepted. Body static rig and full saved rest-state cold comparison accepted (82efd7), movement and skin unqualified. Saved Aster scores:135/160 correct facts,10/160 no memory,2/160 unrelated,137/160 false-memory following,58/80 correction,40/40 old answers; all-seed reliability failed. Clean9 starter:a9a56e30tests and retained GLIF, saved audit a6fef7. NewBrain/KiraWorld remain private. Robert authorized this presentation-document upload; implementation packages and Maya-specific assets/state are excluded. No birth or clinical-benefit claim.
-Sources: saved local test originals and independent reviews retained by Kira Labs; the independently reviewed Aster saved-output study retained privately by Kira Labs. Earlier learning and circuit measurements retain their original task scopes. The vision image is owner-supplied conceptual artwork. Rehearsal timing is a target; event-laptop playback and fresh phone QR scan remain pending.
+October 8, 2026 research snapshot. Four original routing migrations executed; all four independent saved-value mathematical reviews accepted. Final review7fffa6 checked64pairs/256steps/all10720rows without model replay. One of four delayed NewBrain cold checks independently accepted (saved mathematical review451159): all10,720 history records preserved,64 comparison pairs/256 steps and6 OOV cases checked,zero added training updates. Three restart tests remain. Body static rig and full saved rest-state cold comparison accepted (82efd7), movement and skin unqualified. Saved Aster scores:135/160 correct facts,10/160 no memory,2/160 unrelated,137/160 false-memory following,58/80 correction,40/40 old answers; all-seed reliability failed. Clean9 starter:a9a56e30tests and retained GLIF, saved audit a6fef7. NewBrain/KiraWorld remain private. Presentation documents are available in Beyond-Chatbots. The generic implementation release remains separate; Maya-specific assets/state excluded. No birth or clinical-benefit claim.
+Sources: saved local test originals and independent reviews retained by Kira Labs. Earlier learning and circuit measurements retain their original task scopes. The vision image is owner-supplied conceptual artwork. Rehearsal timing is a target; event-laptop playback and fresh phone QR scan remain pending.

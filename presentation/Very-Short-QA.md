@@ -25,7 +25,7 @@ Not yet; her required learning, memory, interaction, and body tests are unfinish
 Her saved static rig reopens, but natural movement is not yet accepted.
 
 **8. Did memory survive a restart?**  
-Four migration checks passed; one delayed restart ran, but zero restart results were independently accepted.
+Yes: the first of four delayed NewBrain restarts passed independent verification, preserving all 10,720 history records and matching all 64 comparison pairs; three tests remain.
 
 **9. Is Maya conscious?**  
 There is no evidence establishing subjective experience.

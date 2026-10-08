@@ -1,0 +1,4 @@
+# Preserve the exact reviewed/download bytes, including PDF cross-reference offsets.
+* -text
+*.pdf binary
+*.pptx binary

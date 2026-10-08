@@ -1,6 +1,6 @@
 REVIEWED RESULTS AND OPEN WORK
 Beyond Chatbots — October 10 presentation
-Prepared October 8, 2026. Latest operational cutoff: 15:15 UTC.
+Prepared October 8, 2026. Verified update: 17:26 UTC; presentation version 12.
 This is a public summary of saved research evidence retained by Kira Labs.
 
 LANGUAGE REVIEW RETENTION — PASSED WITH NARROW SCOPE
@@ -12,8 +12,8 @@ One seed learned 96/96 training images. It scored 27/72 (37.5%) with changed pos
 NEWBRAIN MIGRATIONS — FOUR OF FOUR INDEPENDENTLY REVIEWED
 Each saved mathematical review covered 64 comparison pairs,256 generation steps,six out-of-vocabulary pairs and all 10,720 history rows, retaining owners, parents and zero added training updates. Experimental 12,256-history work remains unadopted. This establishes tested migration equivalence and preservation, not useful new learning, reliable general memory or conversation.
 
-DELAYED NEWBRAIN RESTARTS — ONE RUN COMPLETED, REVIEW PENDING
-The first of four delayed model restart runs exited normally in 7.27 seconds and its outputs were collected and archived. Independent mathematical review is pending:0/4 restart results accepted. Three model restart runs remain unrun. Earlier preparation failures are retained, including path-spelling and read-accounting problems. A normal process exit or a metadata check is not a mathematical acceptance.
+DELAYED NEWBRAIN RESTARTS — ONE OF FOUR INDEPENDENTLY VERIFIED
+The first delayed NewBrain restart passed independent saved-output mathematical review. All 10,720 original history records were preserved; all 64 comparison pairs, 256 generation steps and six out-of-vocabulary pairs were checked with zero added training updates. Both genuine delay clocks exceeded 44 minutes. One of four delayed restart results is accepted; three restart tests remain. The review used saved outputs and did not rerun the model. Earlier path-spelling, read-accounting and auditor failures remain retained. This establishes preservation for this restart, not useful new learning, reliable general memory or conversation.
 
 BODY REST PERSISTENCE — INDEPENDENTLY ACCEPTED
 The saved body contains 13,380 vertices and 163 bones. A fresh process reopened the saved body. Independent review matched the entire stored geometry, all 163 neutral bone states and three complete native rest-property records. This is saved rest-state persistence; it does not prove moved-pose deformation or a finished body.
@@ -22,7 +22,7 @@ BODY PREREQUISITES — MIXED RESULTS
 The original strict frame comparison passed 162/163 bones. Tongue 04 residual 0.000010874356932366602 exceeds the unchanged 0.00001 tolerance. All 978 endpoint components match 32-bit rounding, which supports a precision explanation but does not turn the original failure into a pass.
 The old greedy right-eyelid pairing failed. A replacement was checked with twelve controls and saved-result review, then matched 85 upper support points to distinct lower points on each eye under unchanged criteria. Each eye had 85 upper candidates,127 lower candidates and 1,794 admissible edges. These are support matches; anatomical rims and unique pairing remain unqualified.
 An independently reviewed finite eye-surface diagnostic checked 289 rays per eye. Each eye had 201 eye-hit samples,157 body-front cases,44 eye-front cases and two depth-envelope flags. These finite reference samples do not prove continuous coverage, eye fit or native tessellation.
-A later neutral-eye native probe completed once. Its independent saved-output auditor failed on an end-of-file record equality assertion. The failure is retained and a source-level correction is being investigated. Native eye equivalence, cleanup and fit are not accepted from that failed audit.
+A later neutral-eye native probe and its corrected independent saved-output audit passed within their stated scope: full neutral body and bone records, official eye geometry, native polygon/triangle records and three actual temporary-mesh cleanup acknowledgements. The original auditor failures remain preserved. Original versus evaluated coordinates were not all identical: 12,925 body vertices differed, with a maximum component difference of 2.384185791015625e-7 metres; all 48 vertices of each eye differed, with a maximum of 1.1920928955078125e-7 metres. Topology and world matrices matched. These observations do not establish the cause of the differences, native mathematical equivalence, anatomical fit or movement.
 Actual blinking, breathing, stretching, finger movement, realistic skin, touch and complete body integration remain unfinished. Synthetic calculation and cleanup controls are separate from actual body movement.
 
 ASTER SAVED MEMORY STUDY — OVERALL RELIABILITY FAILED

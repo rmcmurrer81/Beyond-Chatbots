@@ -2,12 +2,12 @@ Area,Status,Result,Scope and limitations
 Language review retention,PASS: narrow exposed task,5 seeds;216/216 old and162/162 new per review arm,No open conversation; grammar control100%
 Visual generalization,FAIL,96/96 train;27/72 nuisance;0/48 combinations;0/36 combined,One seed;67 confident wrong withheld answers
 Routing migrations,PASS: independently reviewed,"4/4;64 pairs,256 steps,6 OOV,10720 history per review",Zero added training; no general learning claim
-Delayed model restarts,RUN COMPLETE / REVIEW PENDING,1/4 runs;0/4 mathematical acceptances,Three runs unrun
+Delayed model restarts,PASS: first restart independently verified,1/4;10720 history;64 pairs;256 steps;6 OOV;zero added training,Three restart tests remain; no general memory claim
 Body static rig and rest reopen,PASS: independently reviewed,13380 vertices;163 neutral bones;3 rest-property records,No moved-pose or finished-body proof
 Original strict bone frames,FAIL: one bone,162/163 pass; tongue04 residual1.0874356932366602e-5,Fixed tolerance1e-5 unchanged
 Eyelid support matching,PASS: support scope,85 pairs per eye from1794 admissible edges,Anatomical rims/uniqueness unqualified; old greedy failure retained
 Finite eye-surface diagnostic,PASS: saved reference scope,289 rays/eye;201 eye hits;157 body-front;44 eye-front;2 flags,No continuous/native coverage proof
-Neutral-eye native probe,RUN COMPLETE / AUDIT FAILED,Saved auditor stopped on EOF record equality,No native eye equivalence or fit acceptance
+Neutral-eye native probe,PASS: saved observation and cleanup audit,Full neutral records/native geometry;3 cleanup acknowledgements,Coordinate differences and earlier audit failures retained; no fit/motion equivalence
 Aster saved memory study,FAIL: overall reliability,135/160 correct facts;137/160 false following;58/80 correction,No new Maya or Windows cold acceptance
 Generic fitted-cell starter,PASS: own checks,30 tests;10000 samples;22 pulse spikes;0 controls;identical repeat,One fitted cell; source release deferred
 Blink/breathe/stretch/fingers/skin,UNFINISHED,No actual movement acceptance,Synthetic controls are not movement

@@ -21,7 +21,7 @@ If GitHub cannot preview the large PowerPoint or slide PDF, use its download but
 
 ## Which version to use
 
-The deck and matching slide PDF are the reviewed October 8 morning version 11. The public PowerPoint removes private evidence URLs from its notes; all visible slide content and media remain unchanged. The speaker and Q&A text/PDFs have a public update through 15:15 UTC, including the later restart run and current release wording. Private evidence links were replaced with honest source-custody descriptions. Read **Latest-Speaking-Update.txt** before rehearsing. The latest results sheet distinguishes a completed run from an independently accepted result. Dates inside the frozen deck describe its earlier snapshot.
+Version 12 is the current October 8 package. Slide 14, the speaker notes, Q&A, quick rehearsal sheet and research summaries now agree: **1 of 4 delayed NewBrain restarts has passed independent verification; three remain.** All 10,720 history records were preserved and all 64 comparison pairs matched. The four original migration reviews remain accepted separately. Private evidence links are replaced with source-custody descriptions; the original records remain with Kira Labs.
 
 The slides were rendered and reviewed during preparation. PowerPoint playback and a fresh phone QR-code scan on the event equipment remain to be checked by the presenter.
 
@@ -35,4 +35,4 @@ The work is experimental. The reported results do not establish reliable general
 
 Presentation: Robert McMurrer / Kira Labs. Contact: rmcmurrer@kiralabs.org. Downloading and viewing these presentation materials is intended. No new general software or artwork license is granted by this document. Retain the source and scope notices within the slides. Conceptual artwork is illustrative; it is not anatomical or experimental evidence.
 
-SHA256SUMS.txt lists checksums for the original presentation materials and the new short practice files for download verification. The public summary is derived from saved originals and independent reviews retained privately by Kira Labs; it does not make every underlying private experiment independently reproducible from this repository.
+SHA256SUMS.txt lists checksums for the complete current presentation package for download verification. The public summary is derived from saved originals and independent reviews retained privately by Kira Labs; it does not make every underlying private experiment independently reproducible from this repository.
