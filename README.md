@@ -16,6 +16,7 @@ For the complete folder, choose **Code → Download ZIP** above and extract it o
 | 34 audience questions and suggested answers | [Q&A PDF](presentation/Audience-Questions.pdf) · [Editable text](presentation/Audience-Questions.txt) |
 | Latest speaking update and short copy/paste answers | [Presentation update](presentation/Latest-Speaking-Update.txt) |
 | Results, failures and pending checks | [Results summary](presentation/Reviewed-Results.txt) · [CSV table](presentation/Results-Table.csv) |
+| Attendee guide and visual background | [Start here](attendee/START_HERE.md) · [AI history and NewBrain PDF](attendee/AI-History-and-NewBrain.pdf) |
 
 If GitHub cannot preview the large PowerPoint or slide PDF, use its download button or Download ZIP. Speaker notes target 25 minutes plus five minutes for questions; slides 22–25 are optional appendix material. “Why I created synthetic people” remains slide 20.
 
@@ -36,3 +37,5 @@ The work is experimental. The reported results do not establish reliable general
 Presentation: Robert McMurrer / Kira Labs. Contact: rmcmurrer@kiralabs.org. Downloading and viewing these presentation materials is intended. No new general software or artwork license is granted by this document. Retain the source and scope notices within the slides. Conceptual artwork is illustrative; it is not anatomical or experimental evidence.
 
 SHA256SUMS.txt lists checksums for the complete current presentation package for download verification. The public summary is derived from saved originals and independent reviews retained privately by Kira Labs; it does not make every underlying private experiment independently reproducible from this repository.
+
+The attendee guides have a separate [checksum list](attendee/SHA256SUMS.txt); the visual history PDF has its own [checksum](attendee/AI-History-and-NewBrain.pdf.sha256).
