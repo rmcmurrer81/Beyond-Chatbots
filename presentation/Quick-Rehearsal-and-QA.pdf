@@ -1,0 +1,148 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4437 >>
+stream
+BT /F2 15 Tf 49 754.0 Td (BEYOND CHATBOTS - OCTOBER 10, 2026) Tj ET
+BT /F1 9.5 Tf 49 730.0 Td (Slides 1-14 - presentation cues) Tj ET
+BT /F2 10.2 Tf 49 712.0 Td (PART 1 - SET UP THE QUESTION) Tj ET
+BT /F2 9.15 Tf 49 696.0 Td (Slide 1 - Beyond Chatbots \(0:00-0:45\)) Tj ET
+BT /F1 9 Tf 49 684.0 Td ("Good afternoon. I'm the founder of Kira Labs. Today I want to show how we can test whether an AI) Tj ET
+BT /F1 9 Tf 49 672.3 Td (remembers correctly, keeps identities separate, and reports what actually happened.") Tj ET
+BT /F2 9.15 Tf 49 656.6 Td (Slide 2 - Continuity \(0:45-2:00\)) Tj ET
+BT /F1 9 Tf 49 644.6 Td ("Imagine Kira sees a blue cup. Lisa never entered the room. Lisa may learn about the cup from Kira, but) Tj ET
+BT /F1 9 Tf 49 632.9 Td (must not remember personally seeing it.") Tj ET
+BT /F2 9.15 Tf 49 617.2 Td (Slide 3 - Model and retained state \(2:00-3:15\)) Tj ET
+BT /F1 9 Tf 49 605.2 Td ("A language model, temporary chat context, and saved memories are different things. We need to know what) Tj ET
+BT /F1 9 Tf 49 593.5 Td (survives a restart and who owns it.") Tj ET
+BT /F2 9.15 Tf 49 577.8 Td (Slide 4 - Kira World \(3:15-4:30\)) Tj ET
+BT /F1 9 Tf 49 565.8 Td ("Kira World is the planned home for distinct synthetic identities in digital spaces. They can share) Tj ET
+BT /F1 9 Tf 49 554.1 Td (software, but their personal histories should remain separate.") Tj ET
+BT /F2 9.15 Tf 49 538.4 Td (Slide 5 - Identity isolation \(4:30-5:45\)) Tj ET
+BT /F1 9 Tf 49 526.4 Td ("Someone may receive another person's report without acquiring that person's first-hand experience.") Tj ET
+BT /F2 9.15 Tf 49 510.7 Td (Slide 6 - Corrections \(5:45-7:00\)) Tj ET
+BT /F1 9 Tf 49 498.7 Td ("If we discover the cup was green, the current answer should change, and the correction should have a) Tj ET
+BT /F1 9 Tf 49 487.0 Td (source. Privacy and deletion rules still matter.") Tj ET
+BT /F2 9.15 Tf 49 471.3 Td (Slide 7 - Origins \(7:00-8:15\)) Tj ET
+BT /F1 9 Tf 49 459.3 Td ("An observation, report, guess, and dream are not the same kind of evidence. A trustworthy memory system) Tj ET
+BT /F1 9 Tf 49 447.6 Td (keeps them separate.") Tj ET
+BT /F2 10.2 Tf 49 431.9 Td (PART 2 - SHOW THE RESULTS) Tj ET
+BT /F2 9.15 Tf 49 415.9 Td (Slide 8 - Held and failed work \(8:15-9:30\)) Tj ET
+BT /F1 9 Tf 49 403.9 Td ("Saving a video request is not the same as finishing a video. Systems must distinguish requested, held,) Tj ET
+BT /F1 9 Tf 49 392.2 Td (running, finished, and uncertain work.") Tj ET
+BT /F2 9.15 Tf 49 376.5 Td (Slide 9 - Receipts \(9:30-10:45\)) Tj ET
+BT /F1 9 Tf 49 364.5 Td ("If a task finishes but confirmation is lost, blindly retrying can duplicate it. We need an operation ID) Tj ET
+BT /F1 9 Tf 49 352.8 Td (and a verifiable receipt.") Tj ET
+BT /F2 9.15 Tf 49 337.1 Td (Slide 10 - Test protocol \(10:45-12:00\)) Tj ET
+BT /F1 9 Tf 49 325.1 Td ("Don't judge an AI by one impressive example. Compare fair tasks, strong simple controls, and recorded) Tj ET
+BT /F1 9 Tf 49 313.4 Td (failures.") Tj ET
+BT /F2 9.15 Tf 49 297.7 Td (Slide 11 - Five-seed review retention \(12:00-14:00\)) Tj ET
+BT /F1 9 Tf 49 285.7 Td ("Our small command learner retained all old and new examples with review across five repeated trials.) Tj ET
+BT /F1 9 Tf 49 274.0 Td (That's a narrow finding, not proof of general conversation.") Tj ET
+BT /F2 9.15 Tf 49 258.3 Td (Slide 12 - Visual failure \(14:00-15:40\)) Tj ET
+BT /F1 9 Tf 49 246.3 Td ("This experiment failed: the learner memorized training images but scored zero on new color-and-shape) Tj ET
+BT /F1 9 Tf 49 234.6 Td (combinations. Failures tell us what needs work.") Tj ET
+BT /F2 9.15 Tf 49 218.9 Td (Slide 13 - Resource measurements \(15:40-17:30\)) Tj ET
+BT /F1 9 Tf 49 206.9 Td ("This tiny command model uses little memory for its task, but it has not been shown to outperform a full) Tj ET
+BT /F1 9 Tf 49 195.2 Td (Qwen conversation model.") Tj ET
+BT /F2 9.15 Tf 49 179.5 Td (Slide 14 - October 8 update \(17:30-18:50\)) Tj ET
+BT /F1 9 Tf 49 167.5 Td ("All four migration-preservation reviews passed. One delayed restart ran, but zero restart results are) Tj ET
+BT /F1 9 Tf 49 155.8 Td (independently accepted. The saved static body rig reopens correctly; real movement and reliable general) Tj ET
+BT /F1 9 Tf 49 144.1 Td (memory are unfinished.") Tj ET
+BT /F1 7.9 Tf 49 128.4 Td (Kira Labs | Check latest status for changes after October 8, 2026.) Tj ET
+BT /F1 8 Tf 552 29 Td (1) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 4498 >>
+stream
+BT /F2 15 Tf 49 754.0 Td (BEYOND CHATBOTS - OCTOBER 10, 2026) Tj ET
+BT /F1 9.5 Tf 49 730.0 Td (Slides 15-21 - presentation cues and one-sentence Q&A) Tj ET
+BT /F2 10.2 Tf 49 712.0 Td (PART 3 - WHERE THE WORK IS GOING) Tj ET
+BT /F2 9.15 Tf 49 696.0 Td (Slide 15 - Local boundaries \(18:50-20:05\)) Tj ET
+BT /F1 9 Tf 49 684.0 Td ("Local operation offers more control, but doesn't guarantee security. Sharing, backups, and exports also) Tj ET
+BT /F1 9 Tf 49 672.3 Td (need tests.") Tj ET
+BT /F2 9.15 Tf 49 656.6 Td (Slide 16 - Developmental experiments \(20:05-21:20\)) Tj ET
+BT /F1 9 Tf 49 644.6 Td ("We want to test learning in stages: sights, sounds, memory, and conversation. Reliable conversation) Tj ET
+BT /F1 9 Tf 49 632.9 Td (after restart remains a goal.") Tj ET
+BT /F2 9.15 Tf 49 617.2 Td (Slide 17 - Hardware \(21:20-22:05\)) Tj ET
+BT /F1 9 Tf 49 605.2 Td ("My development desktop has 32 GB of RAM and a 16 GB GPU. More capacity helps experimentation, but can't) Tj ET
+BT /F1 9 Tf 49 593.5 Td (solve learning by itself.") Tj ET
+BT /F2 9.15 Tf 49 577.8 Td (Slide 18 - Maya and Aster \(22:05-22:45\)) Tj ET
+BT /F1 9 Tf 49 565.8 Td ("Maya is a developing companion study; Aster is a planned assistant. They can share tested improvements) Tj ET
+BT /F1 9 Tf 49 554.1 Td (without sharing private histories.") Tj ET
+BT /F2 9.15 Tf 49 538.4 Td (Slide 19 - Aster future plans \(22:45-23:25\)) Tj ET
+BT /F1 9 Tf 49 526.4 Td ("The goal is desktop, laptop, and phone assistance with explicit permissions. Broader integration still) Tj ET
+BT /F1 9 Tf 49 514.7 Td (requires testing.") Tj ET
+BT /F2 9.15 Tf 49 499.0 Td (Slide 20 - Why I created synthetic people \(23:25-24:25\)) Tj ET
+BT /F1 9 Tf 49 487.0 Td ("I want people who live alone or feel isolated to have the possibility of a continuing companion who) Tj ET
+BT /F1 9 Tf 49 475.3 Td (remembers shared experiences. That is my vision, not a proven medical benefit.") Tj ET
+BT /F2 9.15 Tf 49 459.6 Td (Slide 21 - Closing \(24:25-25:00\)) Tj ET
+BT /F1 9 Tf 49 447.6 Td ("Thank you. My public Beyond-Chatbots repository contains the slides, notes, questions, and research) Tj ET
+BT /F1 9 Tf 49 435.9 Td (summaries. The original NewBrain and KiraWorld code and Maya's personal state remain private.") Tj ET
+BT /F2 12 Tf 49 416.2 Td (VERY SHORT AUDIENCE Q&A) Tj ET
+BT /F2 8.9 Tf 49 397.2 Td (1. What is Kira World?) Tj ET
+BT /F1 8.9 Tf 49 386.2 Td (A developing virtual-world platform for separate, persistent synthetic identities.) Tj ET
+BT /F2 8.9 Tf 49 372.2 Td (2. What is NewBrain?) Tj ET
+BT /F1 8.9 Tf 49 361.2 Td (Small experimental learning, memory, and circuit studies-not a full conversational mind.) Tj ET
+BT /F2 8.9 Tf 49 347.2 Td (3. Is NewBrain better than Qwen?) Tj ET
+BT /F1 8.9 Tf 49 336.2 Td (Not proven; the comparisons so far are too narrow.) Tj ET
+BT /F2 8.9 Tf 49 322.2 Td (4. What worked?) Tj ET
+BT /F1 8.9 Tf 49 311.2 Td (Review prevented forgetting on a small command task across five trials.) Tj ET
+BT /F2 8.9 Tf 49 297.2 Td (5. What failed?) Tj ET
+BT /F1 8.9 Tf 49 286.2 Td (The visual learner failed new combinations; Aster's overall memory reliability also failed.) Tj ET
+BT /F2 8.9 Tf 49 272.2 Td (6. Is Maya born?) Tj ET
+BT /F1 8.9 Tf 49 261.2 Td (Not yet; her required learning, memory, interaction, and body tests are unfinished.) Tj ET
+BT /F2 8.9 Tf 49 247.2 Td (7. Can Maya move or blink?) Tj ET
+BT /F1 8.9 Tf 49 236.2 Td (Her saved static rig reopens, but natural movement is not yet accepted.) Tj ET
+BT /F2 8.9 Tf 49 222.2 Td (8. Did memory survive a restart?) Tj ET
+BT /F1 8.9 Tf 49 211.2 Td (Four migration checks passed; one delayed restart ran, but zero restart results were independently accepted.) Tj ET
+BT /F2 8.9 Tf 49 197.2 Td (9. Is Maya conscious?) Tj ET
+BT /F1 8.9 Tf 49 186.2 Td (There is no evidence establishing subjective experience.) Tj ET
+BT /F2 8.9 Tf 49 172.2 Td (10. Does NewBrain use less RAM than Qwen?) Tj ET
+BT /F1 8.9 Tf 49 161.2 Td (No fair full-model RAM advantage has been demonstrated.) Tj ET
+BT /F2 8.9 Tf 49 147.2 Td (11. Is the software public?) Tj ET
+BT /F1 8.9 Tf 49 136.2 Td (Presentation files are public; original research repositories and Maya's personal state are private.) Tj ET
+BT /F2 8.9 Tf 49 122.2 Td (12. How can people help?) Tj ET
+BT /F1 8.9 Tf 49 111.2 Td (Testing, technical review, research hardware, or compute partnerships.) Tj ET
+BT /F1 7.9 Tf 49 97.2 Td (Kira Labs | Check latest status for changes after October 8, 2026.) Tj ET
+BT /F1 8 Tf 552 29 Td (2) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Title (Beyond Chatbots - Rehearsal and Very Short Q and A) /Author (Kira Labs) >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000266 00000 n 
+0000000402 00000 n 
+0000004890 00000 n 
+0000005026 00000 n 
+0000009575 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R /Info 9 0 R >>
+startxref
+9676
+%%EOF
