@@ -1,0 +1,29 @@
+LATEST SPEAKING UPDATE — OCTOBER 8, 2026
+For the October 10 talk. Evidence cutoff: October 8, 15:15 UTC.
+Use with the reviewed version 11 slides. The included public script/Q&A text and PDFs already incorporate the updates below.
+
+SLIDE 14 — replace the sentence saying all delayed restart runs are still ahead:
+"All four migration variants passed independent mathematical review. Since the slides were prepared, the first of four delayed restart model runs completed normally and its outputs were collected. Its independent mathematical review is still pending. We have completed one restart run, but we have not yet accepted any of the four restart results."
+
+SLIDE 22 AND QUESTION 30 — the same count applies:
+Four of four migration reviews accepted. One of four delayed restart model runs completed; zero of four delayed restart results independently accepted.
+
+SLIDE 21 AND QUESTION 34 — public access wording:
+"The slides, speaker notes, audience questions and dated research summaries are available in Beyond-Chatbots. The NewBrain and Avatar Builder code packages will follow separately after review. The original repositories and Maya's personal state stay private."
+
+BODY FOLLOW-UP — if asked about progress since the morning slides:
+"The body has a verified saved rig and rest-state restart. A later neutral-eye probe ran, but its saved-output audit stopped on a file-read record assertion. We have preserved that failure and are checking the audit's expectation. We have not accepted eye fit, blinking, breathing or other body motion."
+
+SHORT INTRODUCTION — ready to copy and paste:
+"I am Robert McMurrer of Kira Labs. Beyond Chatbots explores how to test memory, identity boundaries and continuity in local AI. I will share narrow results we can support, the failures we found, and what still needs to work before an integrated synthetic companion is ready."
+
+RESULTS IN ABOUT 30 SECONDS:
+"Review retained earlier lessons across five fresh seeds on a small, already exposed command task. A separate visual learner failed to generalize. Four NewBrain migration variants passed preservation checks, and the avatar's saved geometry and neutral rig survived a fresh-process reopen. General memory reliability, useful open conversation and the complete body remain unfinished."
+
+IF ASKED WHETHER MAYA IS BORN:
+"Not yet. We have component results, but her required learning, reliable recall after restart, interaction and body integration have not all passed. I do not have a verified birth date to announce."
+
+DOWNLOAD ADDRESS:
+https://github.com/rmcmurrer81/Beyond-Chatbots
+
+This update changes the current speaking status; it does not alter the evidence from earlier experiments. Use Reviewed-Results.txt for details and limitations.

@@ -1,0 +1,195 @@
+AUDIENCE QUESTIONS AND ANSWERS
+Beyond Chatbots: Testing Memory and Identity in Local-First AI
+October 10, 2026, 2:30-3:00 p.m. EDT
+Public practice update, October 8 at 15:15 UTC. 25 slides. Original questions retained with updated status and slide references.
+
+1. What is Kira World?
+Slides 4-5
+Kira World is our developing platform for persistent synthetic identities and digital environments. Its architecture goal separates shared machinery from individual histories, experiences and choices. A portable review/runtime lane and World Shell exist. World Builder authoring is paused, and complete live world and embodiment integration remains unfinished.
+Follow-up: Describe one boundary, such as whose observation a record represents, rather than promising every planned capability.
+
+2. What is NewBrain today?
+Slides 11-13,24
+NewBrain is an early research family with separate fitted-cell, synthetic-circuit and learning experiments. Its tiny standalone language extension learns from scratch without Qwen inference. Review retained old and new lessons at 100% across five fresh seeds on the same exposed task. It is not connected to the original spiking circuit or Kira conversation. A separate one-seed pixel learner failed to generalize.
+Follow-up: Keep learned language, visual learning, fixed circuit dynamics and ordinary stored records distinct.
+
+3. Is NewBrain better than Qwen?
+Slides 11,13
+The scratch review model and Qwen each answered 16/16 on the same narrow command subset, which only used red cubes. This does not establish general equality. The scratch learner has a 25-entry vocabulary and no open conversation. A handwritten grammar also scored 100% on the full toy task. The earlier association experiment tied indexed memory.
+Follow-up: Specify the task and preserve different training histories and timing boundaries.
+
+4. Does NewBrain use less RAM?
+Slides 13,24
+The language training Python process peaked at 40.30 MiB, including runtime, data and multiple models. Its arrays occupied 37,144 bytes, a different metric. The fixed-circuit run had a 345.43 MiB cumulative known-family peak. Neither is a same-task whole-application RAM comparison with Qwen.
+Follow-up: Parameter bytes, process lifetime peak, family peak and GPU memory measure different things.
+
+5. What does the review experiment show?
+Slides 11
+In the five-seed replication, every review run answered 216/216 old examples and 162/162 new examples correctly. Without review, old accuracy ranged from 78/216 to 105/216, or 36.11% to 48.61%. One no-review run also missed five of 54 new wording examples. Equal update counts still gave different old and new training exposure. The task was already exposed.
+Follow-up: Review prevented forgetting in this controlled task. It does not prove human learning or general conversation.
+
+6. What do the 24 body checks prove?
+Slides 16,22
+They cover earlier narrow software mechanics under their own synthetic conditions. They do not show that the current anatomical body can blink, breathe or move naturally. Its static rig and saved rest-state reopen now pass; movement qualification remains ahead.
+Follow-up: Keep synthetic component controls separate from actual current-body observations.
+
+
+7. Has NewBrain vision or hearing passed?
+Slides 12,16
+The synthetic visual learner passed ten code checks and memorized 96 training images. Accuracy fell to 27/72 with changed position, size and brightness, and to zero on unseen color/shape combinations. Colors stayed correct but shapes failed to generalize. Own learned hearing is not demonstrated. The local media baseline used external Whisper and Qwen.
+Follow-up: The capable pixel rule scored 252/252. At confidence 0.70, the learner accepted 67 wrong withheld answers: 22 nuisance, 23 combination and 22 combined. Keep these adverse findings.
+
+8. Would a realistic body make the brain better?
+Slides 16,22
+Functional feedback can change what a controller can sense and learn. A detailed body can also add cost without helping the task. We plan a matched simple-versus-detailed comparison when anatomy, rig and mechanics are ready.
+Follow-up: Compare common inputs first, then additional feedback separately. Track body and neural cost.
+
+9. Can Kira remember something Lisa experienced?
+Slides 4-5
+The intended design distinguishes shared information from personal experience. Lisa could receive Kira's report with its source attached. That should not become Lisa's own observation. Full application isolation needs testing across every access and recovery route.
+Follow-up: Use invented identities on slide 5, not real private records.
+
+10. Is this just a database with an LLM?
+Slides 3,11-13
+Ordinary files and databases serve some persistence roles. The new command learner has trainable embeddings, recurrent weights and output heads, trained by gradient updates from random weights. Its learned checkpoints survived saving and reloading. That is different from an episodic memory record, which remains a separate capability to test.
+Follow-up: The command hidden state resets for each instruction. It does not remember a conversation.
+
+11. How do you correct a wrong memory?
+Slides 6,23
+The teaching pattern adds a sourced correction linked to the earlier assertion and selects the corrected current view. The earlier assertion stays marked as superseded where retention is appropriate. Deletion is a separate operation with its own policy.
+Follow-up: Check the saved result and reopening behavior, not just the reply.
+
+12. How do you stop dreams or generated ideas becoming facts?
+Slides 7
+Store the origin explicitly and preserve it through retrieval and summarization. A dream, hypothesis or generated illustration should remain distinguishable from an observation. Dream and replay subsystems are future experiments here, not established subjective experiences.
+Follow-up: A summary must preserve the source distinction. The slide artwork is conceptual, not anatomy data.
+
+13. Is Kira conscious or does she have emotions?
+Slides 15,25
+We have no evidence of subjective experience in this software. Functional properties such as persistent state, source monitoring or emotion-like variables could be tested. Passing those tests would not settle consciousness.
+Follow-up: Separate measurable mechanisms from a claim about inner experience.
+
+14. Can you copy a person's mind or memories from a brain scan?
+Slides 25
+These sources and synthetic circuits do not establish that capability. A fitted cell or regional model is not someone's full wiring or autobiographical history. Unknown donor, region and wiring information stays unknown.
+Follow-up: Do not use percentages of copied minds or guarantees of exact identity.
+
+15. Why local processing?
+Slides 3,15
+It gives us control over where records live and makes some inspection and offline use possible. It also requires hardware, updates and operational care. Network services, logs, exports and backups are assessed separately.
+Follow-up: Local operation alone is not a security certification.
+
+16. Do you use cloud services or blockchain?
+Slides 3,15
+The research in this talk focuses on local computation and retained state. Any external service needs a declared role and data boundary. We do not claim that distributed deployment or blockchain integration is already built.
+Follow-up: Decentralization of control and a particular ledger technology are different design questions.
+
+17. How do you prevent repeated actions after a crash?
+Slides 8-9
+The proposed pattern retains an operation identifier before dispatch, then reconciles that identifier and its receipt on recovery. An uncertain attempt stays uncertain. Each implementation needs qualification; the pattern does not prove every operation safe.
+Follow-up: Distinguish a missing response from an actual failed operation.
+
+18. Can I run it on my own computer?
+Slides 16,22
+The clean generic starter passed a nine-record source check, 30 tests and a deterministic fitted-cell demonstration. It is a small research example. Full conversation and reliable personal memory remain unfinished. Broader Avatar Builder portability and the public release still need review.
+Follow-up: Use the released requirements and named checks, rather than assuming the whole private project is included.
+
+
+19. What is finished in Video Studio?
+Slides 22
+Studio077 is the last confirmed installation discussed here. The sounded 10.0625-second flat Garden012 MP4 remains an accepted artifact. Recovery backups have their own exact publication receipts. No new film was produced in this update; long ordinary-chat films and genuine 360 performance remain unfinished.
+Follow-up: A lower-RAM source route is being reviewed separately. Actual admission is rechecked before any new generation; do not quote a transient free-RAM reading.
+
+20. What is finished in Avatar Builder?
+Slides 16,22
+The current adult prototype has 13,380 vertices and 163 bones. Independent review accepted its saved static rig and a fresh-process reopen with matching geometry and neutral bone states. Actual blinking, breathing, stretching and finger movement are next. Realistic skin, touch and full physiology remain unfinished.
+Follow-up: This is rest-state persistence, not a completed Maya or movement result.
+
+
+21. Does Healthspan Lab give medical advice?
+Slides 15
+This session treats Healthspan only as an example of source attribution and separate profiles in research or educational software. It offers no diagnosis, treatment or trial-eligibility decision and claims no clinical validation.
+Follow-up: Return to evidence quality rather than individualized treatment.
+
+22. Are the results reproducible and open source?
+Slides 10,22,25
+We preserve exact source versions, saved evidence and failure records in reviewed recovery backups. Some repositories are private. A public or judge package needs a separately curated permitted set of code and data, with reproducible instructions.
+Follow-up: Do not make a private research repository public merely to answer this question.
+
+23. How do you measure generalization?
+Slides 10-12,16
+The language learner handled withheld feature combinations and negation wording in the first run, then repeated review retention across five fresh seeds on that exposed toy task. The pixel learner failed new combinations and nuisance changes. These are narrow synthetic tests. New tasks need fresh evaluation cases, strong controls and stated training exposures.
+Follow-up: An exposed task can be retained for replication, but it is no longer a fresh new benchmark.
+
+24. How can the community help?
+Slides 21
+Suggest controlled tasks where state could matter, review a defined result package, or help qualify a reproducible application workflow. I can share a curated public or private review package suited to the contribution.
+Follow-up: Use rmcmurrer@kiralabs.org. Do not promise sponsorship, private-memory access or a delivery date.
+
+25. How do results relate to backup records?
+Slides 11-13,22,24
+The learning findings highlighted in this talk are the language review-retention replication and the negative synthetic visual lesson. Each publication needs its own exact source and result receipt. A published backup, source review or pending proposal does not establish test success by itself.
+Follow-up: Match the stated task and source to the saved measurement. Preserve earlier results and failed attempts.
+
+26. What will the planned computer upgrades change?
+Slides 17
+The first planned targets are 128 GB RAM and an 8 TB SSD, followed by a GPU upgrade and later custom servers. They provide capacity for larger local experiments and media. They do not by themselves make NewBrain understand conversation or fix visual learning. No purchase date or guaranteed speed gain is claimed.
+Follow-up: We will verify compatibility before purchasing and compare useful abilities, retention, accuracy, RAM, CPU/GPU use and latency before and after each change.
+
+27. What are Maya and Aster for?
+Slides 18-19
+Maya is the planned companion and developmental study. Aster is a personable task assistant inspired by JARVIS. Builders need precise task history and source attribution. They can share tested improvements while keeping their identities, memories and permissions separate.
+Follow-up: These are role goals. A completed Maya, full Aster integration and general NewBrain reliability remain unachieved.
+
+
+28. Will Aster work from a phone or laptop away from home?
+Slides 19
+Robert plans a phone app and laptop program connecting to his home desktop while it is powered on and online. This presentation does not claim a tested remote connection. Aster's application connections require verified permissions and reliable NewBrain behavior.
+Follow-up: Keep the intended connection separate from demonstrated local tests.
+
+
+29. Which Aster and NewBrain capabilities are verified here?
+Slides 18-19,22,25
+The independently rescored saved Aster study answered 135/160 correctly with correct retrieved facts, versus 10 without memory and two with unrelated memory. It followed false memories in 137/160 cases and corrected 58/80, so the overall reliability target failed. Those saved outputs do not establish a fresh Windows cold restart or complete assistant integration.
+Follow-up: Earlier component checks have their own narrow scope. Camera, screen and tool abilities described by the owner are not all independently verified in this talk.
+
+
+MEASUREMENT DETAIL
+Language loaded single-command mean: 0.105 ms over 16 calls. Language Python native peak: 40.30 MiB. Circuit at 1,280 units: step p95 1.3540 ms and eight-tick batch p95 32.5361 ms. At 5,120 units: step 5.6182 ms and batch 91.1756 ms, above the provisional 50 ms batch limit. Only 16 circuit batches were sampled, so p95/p99 equal the observed maximum. Whole-app no-lag capacity remains unknown.
+
+Language: one frozen seed, 3777006240. Initial 600 updates, followed by two 400-update forks of batch size 24. No-review fork: 9,600 new examples. Review fork: 7,200 new and 2,400 old examples. Stage checkpoint saving/reloading passed. No provider calls during scratch training.
+Five-seed replication: seeds 1120122362, 1251826658, 2944460678, 3044630128 and 2720675080. Every replay arm scored 216/216 old and 162/162 new. No replay old totals were 96, 95, 105, 84 and 78 out of 216. One no-replay new wording result was 49/54. Fifteen reloads stayed in memory and no new weights were saved. Independent review rescored 5,670 learned predictions. This repeats the exposed task, not a new general holdout.
+The 16-command Qwen comparison used only red cubes. It has different timing boundaries and pretraining. No fair whole-model speed or RAM ratio, general parity or replacement follows.
+Visual: one frozen seed, 2784213440. 320 updates and 5,120 exposures. Learned color correct throughout, shape generalization failed. Visual weights were process-local and not persisted.
+Circuit scaling: 128 measured ticks and 16 batches per arm. The 20-unit parity batch covered two circuits, larger connected batches one. Cumulative family RAM includes all retained circuits and runtime. No learning updates or Qwen comparison occurred in that circuit run.
+Capacity slide: Windows CIM and NVIDIA-SMI inventory on October 3, 2026. Current 32 GB RAM, 2 TB NVMe SSD, Core Ultra 9 285K / 24 cores and RTX 5060 Ti / 16 GB VRAM are distinct from Robert's planned 128 GB RAM and 8 TB SSD. Later GPU/custom-server plans have no fixed model, capacity, purchase or delivery date.
+Local 18 learned-value and 14 event-observer checks are accepted component engineering results. The 44 checks from Robert's other chat are reported only, with no independently reviewed raw receipts here. No new broad Qwen comparison, integrated assistant, complete body or subjective-emotion result follows.
+
+OCTOBER8 QUESTIONS
+
+30. What does the new migration result prove?
+Slide 14
+4 of four original migration jobs have passed independent mathematical review. All four original jobs ran. The first of four delayed restart model runs also completed normally, but zero of four restart results are independently accepted. The reviews check saved comparison values, full original history and zero added training updates. They do not establish new semantic learning or general conversation.
+
+
+31. Has Dot's memory result been verified here?
+Slide 14
+The saved scores were independently audited: 135/160 correct with correct retrieved facts, 10/160 without memory, 2/160 with unrelated memory, 137/160 following false memories, 58/80 corrections and 40/40 older answers retained. Every seed missed the full reliability criterion. Fresh Windows restart and Maya memory acceptance remain pending.
+
+
+32. Are the blinking, breathing, stretching and finger tests complete?
+Slides 14,16,22
+No. The static rig and full saved rest-state restart are accepted. Joint frames, eye/lid correspondence and chest selection are prerequisites to actual blinking and breathing, followed by stretching and finger motion. Earlier synthetic nerve and transport checks do not establish those movements.
+
+
+33. Does the companion vision establish clinical benefits?
+Slide 20
+It expresses Robert's motivation and intended research direction. No clinical benefit for anxiety, PTSD or autism, subjective experience or Maya birth is established.
+
+34. Will the repository be public?
+Slides 14,21
+Beyond-Chatbots is the public presentation destination. Slides, notes, questions and research summaries are being published now at Robert's request. Implementation packages will follow separately after review. NewBrain and KiraWorld stay private. Maya's personal identity, memories, trained state and exact appearance are excluded.
+
+CURRENT EVIDENCE
+October 8, 2026 research snapshot. Four original routing migrations executed; all four independent saved-value mathematical reviews accepted. Final review7fffa6 checked64pairs/256steps/all10720rows without model replay. One of four delayed model restart runs completed normally; zero of four restart results independently accepted. Body static rig and full saved rest-state cold comparison accepted (82efd7), movement and skin unqualified. Saved Aster scores:135/160 correct facts,10/160 no memory,2/160 unrelated,137/160 false-memory following,58/80 correction,40/40 old answers; all-seed reliability failed. Clean9 starter:a9a56e30tests and retained GLIF, saved audit a6fef7. NewBrain/KiraWorld remain private. Robert authorized this presentation-document upload; implementation packages and Maya-specific assets/state are excluded. No birth or clinical-benefit claim.
+Sources: saved local test originals and independent reviews retained by Kira Labs; the independently reviewed Aster saved-output study retained privately by Kira Labs. Earlier learning and circuit measurements retain their original task scopes. The vision image is owner-supplied conceptual artwork. Rehearsal timing is a target; event-laptop playback and fresh phone QR scan remain pending.
