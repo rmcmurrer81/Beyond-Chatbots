@@ -22,13 +22,13 @@ If GitHub cannot preview the large PowerPoint or slide PDF, use its download but
 
 ## Which version to use
 
-Version 12 is the current October 8 package. Slide 14, the speaker notes, Q&A, quick rehearsal sheet and research summaries now agree: **1 of 4 delayed NewBrain restarts has passed independent verification; three remain.** All 10,720 history records were preserved and all 64 comparison pairs matched. The four original migration reviews remain accepted separately. Private evidence links are replaced with source-custody descriptions; the original records remain with Kira Labs.
+Version 13 is the current October 8 package. Slide 14, the speaker notes, Q&A, quick rehearsal sheet and research summaries now agree: **2 of 4 delayed NewBrain restarts have passed independent verification; two remain.** All 10,720 history records were preserved and all 64 comparison pairs matched. The four original migration reviews remain accepted separately. Private evidence links are replaced with source-custody descriptions; the original records remain with Kira Labs.
 
 The slides were rendered and reviewed during preparation. PowerPoint playback and a fresh phone QR-code scan on the event equipment remain to be checked by the presenter.
 
 ## What is available here
 
-This upload contains presentation and research-summary documents. NewBrain and Avatar Builder implementation packages are still being prepared and are not included in this snapshot. The original NewBrain and KiraWorld repositories remain private. Maya's personal records, learned state, exact appearance assets and private body-inspection images are excluded.
+This presentation package contains slides and research-summary documents. The repository also includes a separately contributed [IdeaForge source snapshot](IdeaForge/README.md). NewBrain and Avatar Builder implementation packages are still being prepared and are not included in this snapshot. The original NewBrain and KiraWorld repositories remain private. Maya's personal records, learned state, exact appearance assets and private body-inspection images are excluded.
 
 The work is experimental. The reported results do not establish reliable general conversation, a completed Maya, subjective experience or clinical benefit. Successful checks, adverse results and unrun work are described separately.
 

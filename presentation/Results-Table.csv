@@ -2,7 +2,7 @@ Area,Status,Result,Scope and limitations
 Language review retention,PASS: narrow exposed task,5 seeds;216/216 old and162/162 new per review arm,No open conversation; grammar control100%
 Visual generalization,FAIL,96/96 train;27/72 nuisance;0/48 combinations;0/36 combined,One seed;67 confident wrong withheld answers
 Routing migrations,PASS: independently reviewed,"4/4;64 pairs,256 steps,6 OOV,10720 history per review",Zero added training; no general learning claim
-Delayed model restarts,PASS: first restart independently verified,1/4;10720 history;64 pairs;256 steps;6 OOV;zero added training,Three restart tests remain; no general memory claim
+Delayed model restarts,PASS: two restarts independently verified,2/4;10720 history;64 pairs;256 steps;6 OOV per restart;zero added training,Two restart tests remain; no general memory claim
 Body static rig and rest reopen,PASS: independently reviewed,13380 vertices;163 neutral bones;3 rest-property records,No moved-pose or finished-body proof
 Original strict bone frames,FAIL: one bone,162/163 pass; tongue04 residual1.0874356932366602e-5,Fixed tolerance1e-5 unchanged
 Eyelid support matching,PASS: support scope,85 pairs per eye from1794 admissible edges,Anatomical rims/uniqueness unqualified; old greedy failure retained
