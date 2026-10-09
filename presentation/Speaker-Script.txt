@@ -3,7 +3,7 @@ SPEAKER SCRIPT
 Robert McMurrer - Kira Labs
 October 10, 2026, 2:30-3:00 p.m. EDT
 25-minute rehearsal target + 5-minute Q&A. Slides22-25 are optional appendix.
-October8 version13 update: two delayed restarts verified. Vision remains near the end on slide20. Earlier versions preserved.
+October9 version14 update: three delayed restarts verified. Vision remains near the end on slide20. Earlier versions preserved.
 
 SLIDE 1 - Beyond Chatbots
 0:00-0:45
@@ -151,7 +151,7 @@ The five-seed replication's observed known-family native peak was 128.69 MiB, in
 SLIDE 14 - October 8 research update
 17:30-18:50
 
-All four original routing migration jobs have now run. All four have passed independent mathematical review. Each accepted review checks 64 comparison cases, 256 generation steps and all 10,720 history rows. These are preservation checks with no new training updates. Just this week, our first two delayed NewBrain restarts passed independent verification. All 10,720 history records were preserved, and all 64 comparison pairs matched in each test. Two additional restart tests remain.
+All four original routing migration jobs have now run. All four have passed independent mathematical review. Each accepted review checks 64 comparison cases, 256 generation steps and all 10,720 history rows. These are preservation checks with no new training updates. Just this week, three delayed NewBrain restarts passed independent verification. All 10,720 history records were preserved, and all 64 comparison pairs matched in each test. One additional restart test remains.
 
 The body now saves and reopens in a fresh process. Independent review matched the full geometry, all 163 neutral bone states and three complete rest-property records. Next we need movement checks, then blinking and breathing, followed by stretching and finger movement.
 
@@ -225,7 +225,7 @@ Thank you. I welcome questions about the results, limitations and experiments th
 SLIDE 22 - Current readiness - October 8
 Optional appendix during Q&A
 
-The clean starter package passed its nine-record source check, all 30 tests and a deterministic fitted-cell demonstration. The broader private NewBrain has four accepted migration reviews, with two of four delayed cold checks independently verified and two remaining. Earlier visual-generalization failures remain unchanged.
+The clean starter package passed its nine-record source check, all 30 tests and a deterministic fitted-cell demonstration. The broader private NewBrain has four accepted migration reviews, with three of four delayed cold checks independently verified and one remaining. Earlier visual-generalization failures remain unchanged.
 
 The body has an accepted static rig and saved rest-state restart. Natural movement, blinking, breathing, stretching, fingers, skin and senses still need qualification. Research demonstrations and a ready companion have separate milestones.
 
@@ -267,6 +267,6 @@ Circuit scaling: 128 measured ticks and 16 batches per arm. The 20-unit parity b
 Capacity slide: Windows CIM and NVIDIA-SMI inventory on October 3, 2026. Current 32 GB RAM, 2 TB NVMe SSD, Core Ultra 9 285K / 24 cores and RTX 5060 Ti / 16 GB VRAM are distinct from Robert's planned 128 GB RAM and 8 TB SSD. Later GPU/custom-server plans have no fixed model, capacity, purchase or delivery date.
 Local 18 learned-value and 14 event-observer checks are accepted component engineering results. The 44 checks from Robert's other chat are reported only, with no independently reviewed raw receipts here. No new broad Qwen comparison, integrated assistant, complete body or subjective-emotion result follows.
 
-OCTOBER8 EVIDENCE UPDATE
-October 8, 2026 research snapshot. Four original routing migrations executed; all four independent saved-value mathematical reviews accepted. Final review7fffa6 checked64pairs/256steps/all10720rows without model replay. Two of four delayed NewBrain cold checks independently accepted (saved mathematical reviews451159 and96ff2d): each preserved all10,720 history records, with64 comparison pairs/256 steps and6 OOV cases checked and zero added training updates. Two restart tests remain. Body static rig and full saved rest-state cold comparison accepted (82efd7), movement and skin unqualified. Saved Aster scores:135/160 correct facts,10/160 no memory,2/160 unrelated,137/160 false-memory following,58/80 correction,40/40 old answers; all-seed reliability failed. Clean9 starter:a9a56e30tests and retained GLIF, saved audit a6fef7. NewBrain/KiraWorld remain private. Presentation documents are available in Beyond-Chatbots. The generic implementation release remains separate; Maya-specific assets/state excluded. No birth or clinical-benefit claim.
+OCTOBER9 EVIDENCE UPDATE
+October 9, 2026 research snapshot. Four original routing migrations executed; all four independent saved-value mathematical reviews accepted. Final review7fffa6 checked64pairs/256steps/all10720rows without model replay. Three of four delayed NewBrain cold checks independently accepted (saved mathematical reviews451159,96ff2d andf3dcdd): each preserved all10,720 history records, with64 comparison pairs/256 steps and6 OOV cases checked and zero added training updates. One restart test remains. Body static rig and full saved rest-state cold comparison accepted (82efd7), movement and skin unqualified. Saved Aster scores:135/160 correct facts,10/160 no memory,2/160 unrelated,137/160 false-memory following,58/80 correction,40/40 old answers; all-seed reliability failed. Clean9 starter:a9a56e30tests and retained GLIF, saved audit a6fef7. NewBrain/KiraWorld remain private. Presentation documents are available in Beyond-Chatbots. The generic implementation release remains separate; Maya-specific assets/state excluded. No birth or clinical-benefit claim.
 Sources: saved local test originals and independent reviews retained by Kira Labs. Earlier learning and circuit measurements retain their original task scopes. The vision image is owner-supplied conceptual artwork. Rehearsal timing is a target; event-laptop playback and fresh phone QR scan remain pending.

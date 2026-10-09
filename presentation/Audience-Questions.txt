@@ -1,7 +1,7 @@
 AUDIENCE QUESTIONS AND ANSWERS
 Beyond Chatbots: Testing Memory and Identity in Local-First AI
 October 10, 2026, 2:30-3:00 p.m. EDT
-October 8 version 13 update. 25 slides. Two delayed restarts independently verified; two remain.
+October 9 version 14 update. 25 slides. Three delayed restarts independently verified; one remains.
 
 1. What is Kira World?
 Slides 4-5
@@ -165,11 +165,11 @@ Circuit scaling: 128 measured ticks and 16 batches per arm. The 20-unit parity b
 Capacity slide: Windows CIM and NVIDIA-SMI inventory on October 3, 2026. Current 32 GB RAM, 2 TB NVMe SSD, Core Ultra 9 285K / 24 cores and RTX 5060 Ti / 16 GB VRAM are distinct from Robert's planned 128 GB RAM and 8 TB SSD. Later GPU/custom-server plans have no fixed model, capacity, purchase or delivery date.
 Local 18 learned-value and 14 event-observer checks are accepted component engineering results. The 44 checks from Robert's other chat are reported only, with no independently reviewed raw receipts here. No new broad Qwen comparison, integrated assistant, complete body or subjective-emotion result follows.
 
-OCTOBER8 QUESTIONS
+OCTOBER9 QUESTIONS
 
 30. What does the new migration result prove?
 Slide 14
-4 of four original migration jobs have passed independent mathematical review. All four original jobs ran. The first two delayed restarts also passed independent verification, each preserving all 10,720 history records and matching all 64 comparison pairs. Two restart tests remain. The reviews check saved comparison values, full original history and zero added training updates. They do not establish new semantic learning or general conversation.
+4 of four original migration jobs have passed independent mathematical review. All four original jobs ran. The first three delayed restarts also passed independent verification, each preserving all 10,720 history records and matching all 64 comparison pairs. One restart test remains. The reviews check saved comparison values, full original history and zero added training updates. They do not establish new semantic learning or general conversation.
 
 
 31. Has Dot's memory result been verified here?
@@ -191,5 +191,5 @@ Slides 14,21
 Beyond-Chatbots is the public presentation destination. A reviewed generic kit will be uploaded only when Robert directly requests it. NewBrain and KiraWorld stay private. Maya's personal identity, memories, trained state and exact appearance are excluded.
 
 CURRENT EVIDENCE
-October 8, 2026 research snapshot. Four original routing migrations executed; all four independent saved-value mathematical reviews accepted. Final review7fffa6 checked64pairs/256steps/all10720rows without model replay. Two of four delayed NewBrain cold checks independently accepted (saved mathematical reviews451159 and96ff2d): each preserved all10,720 history records, with64 comparison pairs/256 steps and6 OOV cases checked and zero added training updates. Two restart tests remain. Body static rig and full saved rest-state cold comparison accepted (82efd7), movement and skin unqualified. Saved Aster scores:135/160 correct facts,10/160 no memory,2/160 unrelated,137/160 false-memory following,58/80 correction,40/40 old answers; all-seed reliability failed. Clean9 starter:a9a56e30tests and retained GLIF, saved audit a6fef7. NewBrain/KiraWorld remain private. Presentation documents are available in Beyond-Chatbots. The generic implementation release remains separate; Maya-specific assets/state excluded. No birth or clinical-benefit claim.
+October 9, 2026 research snapshot. Four original routing migrations executed; all four independent saved-value mathematical reviews accepted. Final review7fffa6 checked64pairs/256steps/all10720rows without model replay. Three of four delayed NewBrain cold checks independently accepted (saved mathematical reviews451159,96ff2d andf3dcdd): each preserved all10,720 history records, with64 comparison pairs/256 steps and6 OOV cases checked and zero added training updates. One restart test remains. Body static rig and full saved rest-state cold comparison accepted (82efd7), movement and skin unqualified. Saved Aster scores:135/160 correct facts,10/160 no memory,2/160 unrelated,137/160 false-memory following,58/80 correction,40/40 old answers; all-seed reliability failed. Clean9 starter:a9a56e30tests and retained GLIF, saved audit a6fef7. NewBrain/KiraWorld remain private. Presentation documents are available in Beyond-Chatbots. The generic implementation release remains separate; Maya-specific assets/state excluded. No birth or clinical-benefit claim.
 Sources: saved local test originals and independent reviews retained by Kira Labs. Earlier learning and circuit measurements retain their original task scopes. The vision image is owner-supplied conceptual artwork. Rehearsal timing is a target; event-laptop playback and fresh phone QR scan remain pending.

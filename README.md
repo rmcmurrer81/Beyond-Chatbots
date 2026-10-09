@@ -22,7 +22,7 @@ If GitHub cannot preview the large PowerPoint or slide PDF, use its download but
 
 ## Which version to use
 
-Version 13 is the current October 8 package. Slide 14, the speaker notes, Q&A, quick rehearsal sheet and research summaries now agree: **2 of 4 delayed NewBrain restarts have passed independent verification; two remain.** All 10,720 history records were preserved and all 64 comparison pairs matched. The four original migration reviews remain accepted separately. Private evidence links are replaced with source-custody descriptions; the original records remain with Kira Labs.
+Version 14 is the current October 9 package. Slide 14, the speaker notes, Q&A, quick rehearsal sheet and research summaries now agree: **3 of 4 delayed NewBrain restarts have passed independent verification; one remains.** All 10,720 history records were preserved and all 64 comparison pairs matched. The four original migration reviews remain accepted separately. Private evidence links are replaced with source-custody descriptions; the original records remain with Kira Labs.
 
 The slides were rendered and reviewed during preparation. PowerPoint playback and a fresh phone QR-code scan on the event equipment remain to be checked by the presenter.
 

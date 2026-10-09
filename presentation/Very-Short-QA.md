@@ -25,7 +25,7 @@ Not yet; her required learning, memory, interaction, and body tests are unfinish
 Her saved static rig reopens, but natural movement is not yet accepted.
 
 **8. Did memory survive a restart?**  
-Yes: two of four delayed NewBrain restarts passed independent verification, each preserving all 10,720 history records and matching all 64 comparison pairs; two tests remain.
+Yes: three of four delayed NewBrain restarts passed independent verification, each preserving all 10,720 history records and matching all 64 comparison pairs; one test remains.
 
 **9. Is Maya conscious?**  
 There is no evidence establishing subjective experience.
@@ -41,4 +41,4 @@ Testing, technical review, research hardware, or compute partnerships.
 
 ---
 
-*Evidence cutoff: October 8, 2026. See [latest status](Latest-Speaking-Update.txt) and [reviewed results](Reviewed-Results.txt).*
+*Evidence cutoff: October 9, 2026. See [latest status](Latest-Speaking-Update.txt) and [reviewed results](Reviewed-Results.txt).*
