@@ -1,7 +1,7 @@
 # Start here — attendee guide
 
 **Beyond Chatbots · October 10, 2026 · Robert McMurrer / Kira Labs**  
-Prepared October 8. This guide uses the public presentation's version 12 evidence cutoff: **17:26 UTC**.
+Prepared October 8; updated October 9. This guide uses the public presentation's version 13 evidence cutoff: **October 8, 23:54 UTC**.
 
 ## Ten minutes after the talk
 
@@ -17,7 +17,7 @@ For a visual overview, use the [slide PDF](../presentation/Beyond-Chatbots-Slide
 
 ## What the evidence currently supports
 
-The public summary reports four accepted migration reviews and **one of four** independently verified delayed NewBrain restart results. The other three restarts remain pending. This is preservation evidence within those tests; it does not establish reliable general memory or conversation.
+The public summary reports four accepted migration reviews and **two of four** independently verified delayed NewBrain restart results. According to that summary, each accepted restart preserved all **10,720 history records**, checked **64 comparison pairs and 256 generation steps** plus six out-of-vocabulary pairs, and added no training updates. The other two restarts remain pending. These are reported saved-output review results; this guide does not independently verify private raw evidence. This is preservation evidence within those tests; it does not establish reliable general memory or conversation.
 
 The small command learner retained its exposed task with review across five seeds. The visual learner failed to generalize, and Aster's saved-memory study failed its overall reliability criterion. The results page retains these failures. A completed integrated companion, subjective experience, general superiority to Qwen and clinical benefit are not established.
 
