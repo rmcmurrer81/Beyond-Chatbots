@@ -1,7 +1,7 @@
 # Generic demo — awaiting executable release
 
 **Status: pending. No attendee command sequence has been validated, and no new demo was run to prepare this page.**  
-Prepared October 8, 2026, against the public version 12 presentation. Rechecked October 9 against version 13; the historical demo results and pending executable/capture status are unchanged.
+Prepared October 8, 2026, against the public version 12 presentation. Rechecked October 9 against version 14; the historical demo results and pending executable/capture status are unchanged.
 
 The intended five-minute demo is a **generic fitted-cell GLIF simulation with synthetic input**, if that exact package is approved for release. GLIF means generalized leaky integrate-and-fire: a bounded model of an individual cell's electrical response. It is not a complete NewBrain, an identity, a conversation system or a whole brain.
 
