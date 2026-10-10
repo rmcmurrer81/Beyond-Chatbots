@@ -1,0 +1,116 @@
+name: Publish October 10 Reorganized Slides
+on:
+  push:
+    paths:
+      - '.github/workflows/publish-oct10-presentation.yml'
+      - 'presentation/build_oct10_deck.py'
+      - 'presentation/build_oct10_speaker.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout presentation
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install deck and PDF tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libreoffice-impress fonts-dejavu-core
+          python -m pip install --disable-pip-version-check python-pptx Pillow qrcode reportlab pypdf
+      - name: Rebuild and validate PowerPoint
+        run: |
+          python presentation/build_oct10_deck.py
+          python presentation/build_oct10_speaker.py
+          python - <<'PY'
+          from pathlib import Path
+          from pptx import Presentation
+          import shutil
+          root=Path("presentation")
+          build=root/"_oct10_build"
+          ppt=build/"Beyond-Chatbots-Reorganized-October10.pptx"
+          p=Presentation(str(ppt))
+          assert len(p.slides)==22, len(p.slides)
+          assert "BEYOND-CHATBOTS" in " ".join(s.text for s in p.slides[1].shapes if s.has_text_frame)
+          assert "Questions" in " ".join(s.text for s in p.slides[-1].shapes if s.has_text_frame)
+          shutil.copyfile(ppt,root/"Beyond-Chatbots-October10.pptx")
+          shutil.copyfile(build/"Beyond-Chatbots-October10-Speaker-Script.pdf",root/"Speaker-Script.pdf")
+          shutil.copyfile(build/"Beyond-Chatbots-October10-Speaker-Script.txt",root/"Speaker-Script.txt")
+          shutil.copyfile(build/"Beyond-Chatbots-October10-Quick-Cue-Sheet.pdf",root/"Quick-Rehearsal-and-QA.pdf")
+          print("PowerPoint passes slide-order test: 22 slides, QR opening and closing")
+          PY
+      - name: Render PDF slide backup
+        run: |
+          mkdir -p presentation/_oct10_build
+          libreoffice -env:UserInstallation=file:///tmp/lo_oct10 --headless --convert-to pdf --outdir presentation/_oct10_build presentation/Beyond-Chatbots-October10.pptx
+          cp presentation/_oct10_build/Beyond-Chatbots-October10.pdf presentation/Beyond-Chatbots-Slides.pdf
+          python - <<'PY'
+          from pypdf import PdfReader
+          assert len(PdfReader("presentation/Beyond-Chatbots-Slides.pdf").pages)==22
+          print("PDF has 22 slides")
+          PY
+      - name: Update published README and checksums
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,re
+          root=Path("presentation")
+          data=(root/"_oct10_build"/"Beyond-Chatbots-Reorganized-October10-speaker-data.json").read_text()
+          import json
+          slides=json.loads(data)
+          quick="# October 10 revised slide order - 22 slides\n\n25-minute talk + 5-minute Q&A. The cover is unchanged, Beyond-Chatbots QR is second, QR is last.\n\n"
+          for i,sl in enumerate(slides,1):
+              quick+=f"**Slide {i}: {sl.get('start')}–{sl.get('end')}** — {sl.get('title','') or 'See speaker notes'}\n\n"
+          (root/"Quick-Rehearsal.md").write_text(quick,encoding="utf-8")
+          latest=(root/"Latest-Speaking-Update.txt")
+          latest.write_text("LATEST SPEAKING UPDATE — OCTOBER 10, 2026\n\nUse the 22-slide reordered presentation. Cover unchanged; Beyond-Chatbots repo QR on slide 2 and slide 22. Speak for 25 minutes then 5-minute Q&A. First 10 minutes: Turing, ELIZA effect, Caprica and AI history; then NewBrain.\n\nNewBrain delayed restart preservation: 4/4 independent mathematical reviews accepted; all 10,720 saved history rows preserved and 64/64 comparison pairs matched in each case. Useful learning, reliable general memory and complete Maya integration remain unproven.\n\nhttps://github.com/rmcmurrer81/Beyond-Chatbots\n",encoding="utf-8")
+          readme=Path("README.md")
+          s=readme.read_text(encoding="utf-8")
+          s=s.replace("Editable 25-slide deck","Editable 22-slide deck")
+          s=s.replace("Speaker notes target 25 minutes plus five minutes for questions; slides 22–25 are optional appendix material. “Why I created synthetic people” remains slide 20.","Speaker notes target 25 minutes plus five minutes of Q&A. The original cover remains first. Slide 2 and the final slide display QR codes for Beyond-Chatbots; the first 10 minutes now cover AI history, Turing, ELIZA and Caprica.")
+          if "## October 10 reordered presentation" not in s:
+              s+="\n## October 10 reordered presentation\n\nThe **22-slide deck** begins with the unchanged cover and [Beyond-Chatbots QR slide](presentation/Beyond-Chatbots-October10.pptx) second, then approximately 10 minutes of AI history including Turing, ELIZA, the ELIZA effect and the Caprica discussion. The second part covers NewBrain, 4/4 independently reviewed delayed state restarts, Maya, Avatar Builder, Aster, IdeaForge and the pre-NewBrain character package. The three QR codes return at the end for questions. [Mobile speaking order](presentation/OCT10-SPEAKING-ORDER.md) and [speaker script](presentation/Speaker-Script.pdf).\n"
+          readme.write_text(s,encoding="utf-8")
+          checks=Path("SHA256SUMS.txt")
+          lines=checks.read_text(encoding="utf-8").splitlines()
+          updated={
+              ".gitattributes",
+              "README.md",
+              "presentation/Beyond-Chatbots-October10.pptx",
+              "presentation/Beyond-Chatbots-Slides.pdf",
+              "presentation/Speaker-Script.pdf",
+              "presentation/Speaker-Script.txt",
+              "presentation/Quick-Rehearsal-and-QA.pdf",
+              "presentation/Quick-Rehearsal.md",
+              "presentation/Latest-Speaking-Update.txt",
+          }
+          rows=[]
+          for line in lines:
+              bits=line.split("  ",1)
+              if len(bits)==2 and bits[1] in updated:
+                  f=Path(bits[1])
+                  if f.exists():
+                      rows.append(hashlib.sha256(f.read_bytes()).hexdigest()+"  "+bits[1])
+                      updated.discard(bits[1])
+                  else: rows.append(line)
+              else: rows.append(line)
+          for f in sorted(updated):
+              p=Path(f)
+              if p.exists(): rows.append(hashlib.sha256(p.read_bytes()).hexdigest()+"  "+f)
+          checks.write_text("\n".join(rows)+"\n",encoding="utf-8")
+          PY
+      - name: Commit verified presentation
+        run: |
+          git config user.name "Kira Labs presentation builder"
+          git config user.email "actions@users.noreply.github.com"
+          git add README.md SHA256SUMS.txt presentation/Beyond-Chatbots-October10.pptx presentation/Beyond-Chatbots-Slides.pdf presentation/Speaker-Script.pdf presentation/Speaker-Script.txt presentation/Quick-Rehearsal-and-QA.pdf presentation/Quick-Rehearsal.md presentation/Latest-Speaking-Update.txt
+          git diff --cached --quiet || git commit -m "Publish 22-slide history-first presentation with QR codes [skip ci]"
+          git push
