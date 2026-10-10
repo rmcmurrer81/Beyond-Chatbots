@@ -1,0 +1,13 @@
+{
+  "schema": "prenewbrain.fictional-source-context.v1",
+  "version_anchor": "Peter Parker / Spider-Man (No Way Home Final Suit)",
+  "source_profile_sha256": "c6e10ec39b9cd6ac2ad871c875cc6df382de5e07e95cd092515cb3ac690de135",
+  "source_pack_sha256": "7eaa1c64d5c11d8ec176e614bb98bddcee69f1ab992caea59a32ab60c0c82c50",
+  "context": [
+    "Source-bounded fictional variant; other Peter versions are distinct.",
+    "The existing launcher describes science, repairs, web-slinging practice and photography interests.",
+    "The existing source pack references a No Way Home screenplay. Full screenplay, mixed source video and avatar assets are not redistributed."
+  ],
+  "saved_history_scope": "No standalone interaction-memory file or person-specific turn/live-chat files were found in the exact inspected loader locations. This is not proof that no other private project history exists.",
+  "new_local_history": "Conversations in this copy are stored separately under runtime/history."
+}

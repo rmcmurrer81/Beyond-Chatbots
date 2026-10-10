@@ -101,3 +101,7 @@ Optional dependencies and a graphical session affect coverage. Report skips, fai
 Included: generic application source, tests, documentation and appropriate synthetic examples. Omitted: workflows, personal project/state/media, credentials and unapproved NewBrain source. A few receipt fields containing private coordination or a private workspace path were redacted; original source IDs and runtime outcomes are preserved in the manifest and receipts.
 
 No blanket new license is granted by this presentation copy. Check dependency, model, dataset and asset terms before redistribution or commercial reuse. See the dependency files and upstream notices.
+
+## NewBrain connection
+
+See [NEWBRAIN-CONNECTION.md](NEWBRAIN-CONNECTION.md) for copying the shared NewBrain folder and preparing an experimental adapter. The current incomplete kit is not a verified replacement for IdeaForge's existing model provider.

@@ -1,0 +1,48 @@
+{
+  "schema": "beyond_chatbots.clean_character_design_example.v1",
+  "status": "SOURCE_ONLY_DESIGN_TEMPLATE_UNINITIALIZED",
+  "name": "Your Character",
+  "character_id": "your_independent_character",
+  "runtime_authority": false,
+  "borrowed_Maya_identity": false,
+  "borrowed_Maya_state": false,
+  "borrowed_Maya_appearance": false,
+  "state_namespace": "examples/YourCharacter/local-state/",
+  "memories": {
+    "episodes": [],
+    "facts": [],
+    "preferences": [],
+    "learned_weights": null
+  },
+  "appearance": {
+    "configuration": null,
+    "asset_selection": null,
+    "instruction": "Choose your own independently licensed appearance and assets; record source/license/hash/transformations."
+  },
+  "development": {
+    "stage": "uninitialized",
+    "stage_promotion": "Only after separately reviewed actual evidence; never a calendar-only promotion",
+    "growth_stages": "Future reviewed integration, not an implemented promise",
+    "early_adult_cap": null,
+    "learning_continues_after_future_cap": true
+  },
+  "interfaces": {
+    "NewBrain": null,
+    "AvatarBuilder": null,
+    "language": null,
+    "voice": null,
+    "vision": null,
+    "contact": null
+  },
+  "body_test_order": [
+    "source_provenance_and_inactive_rest",
+    "separate_cold_reopen",
+    "full_scalar_basis_equivalence",
+    "blinking_and_breathing",
+    "stretching_and_fingers",
+    "calibrated_contact_and_senses",
+    "complete_integration"
+  ],
+  "scope": "Clean independent example for creating your own character; contains no donor data, pretrained checkpoint, exact body configuration or Maya profile. Not a runnable integrated person."
+}
+

@@ -1,0 +1,17 @@
+{
+  "anatomy_fullbody_physiology_birth_accepted": false,
+  "complete19_source_closure_included": false,
+  "direct_run_supported": false,
+  "generic_derivative": true,
+  "historical_connected_compact_only_persistence": true,
+  "loader_roles": 19,
+  "new_native_build_save_reopen": "UNRUN",
+  "new_scalar_execution": "UNRUN",
+  "private_values_assets_receipts_process_grants_excluded": true,
+  "runtime_authority": false,
+  "schema": "kiraworld231.connected-rest-source-only-findings.v1",
+  "source_only": true,
+  "standalone_overwrite_claim": false,
+  "strictNativeBoundIO": false,
+  "whole_selected_function_ASTs_unchanged": true
+}

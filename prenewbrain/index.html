@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PreNewBrain - local chat</title>
+<style>
+:root{color-scheme:dark;font:16px system-ui,sans-serif;background:#11131a;color:#ececf2}
+body{margin:0;display:flex;min-height:100vh}.side{padding:28px;width:230px;background:#191c26;box-sizing:border-box}
+h1{font-size:23px;margin:0 0 8px}.muted{color:#a8adbd;font-size:13px;line-height:1.6}
+label{display:block;margin-top:28px}select,textarea,button{font:inherit;color:inherit;background:#242837;border:1px solid #3b4155;border-radius:10px}
+select{width:100%;padding:12px;margin:12px 0}main{flex:1;min-width:0;display:flex;flex-direction:column;max-width:950px;margin:auto;height:100vh}
+header{padding:25px 30px;border-bottom:1px solid #303546}header h2{margin:0;font-size:20px}
+#messages{flex:1;overflow:auto;padding:25px 30px}.bubble{max-width:85%;padding:16px 19px;margin:0 0 18px;border-radius:16px;white-space:pre-wrap;line-height:1.6}
+.user{margin-left:auto;background:#34314e}.assistant{background:#202633}.name{color:#a8adbd;font-size:12px;display:block;margin-bottom:7px}
+footer{padding:20px 30px;border-top:1px solid #303546}textarea{width:100%;box-sizing:border-box;resize:vertical;padding:14px;min-height:90px}
+.actions{display:flex;align-items:center;gap:15px;margin-top:12px}.actions label{margin:0}button{padding:11px 22px;cursor:pointer}button.primary{background:#5e56bd;border-color:#756adb;margin-left:auto}
+button:disabled{opacity:.5;cursor:wait}#status{font-size:13px;color:#b3b8c9;min-height:20px;margin-top:10px}
+audio{max-width:100%;display:block;margin-top:12px}@media(max-width:650px){body{display:block}.side{width:auto;padding:18px}main{height:80vh}label{margin-top:10px}}
+</style></head>
+<body><aside class="side"><h1>Beyond Chatbots</h1><div class="muted">PreNewBrain<br>Two local person variants</div>
+<label for="person">Talk with</label><select id="person"></select><p class="muted">Text and the reviewed Chatterbox references. No microphone or body is connected.</p>
+<div id="model" class="muted"></div><button id="clear">Clear local conversation</button></aside>
+<main><header><h2 id="title"></h2><div class="muted">Your conversations stay in this package's local runtime folder.</div></header>
+<div id="messages"></div><footer><textarea id="message" placeholder="Type a message..."></textarea>
+<div class="actions"><label><input type="checkbox" id="speak" checked> Speak with Chatterbox</label><button class="primary" id="send">Send</button></div><div id="status"></div></footer></main>
+<script>
+const token="__TOKEN__";let data=null,selected="robert",audioURL=null;
+const $=id=>document.getElementById(id);
+async function api(path,body){const r=await fetch(path,{method:body?"POST":"GET",headers:{"X-Session-Token":token,...(body?{"Content-Type":"application/json"}:{})},...(body?{body:JSON.stringify(body)}:{})});const v=await r.json();if(!r.ok)throw Error(v.error||r.status);return v;}
+function bubble(role,text){const b=document.createElement("div");b.className="bubble "+role;const n=document.createElement("span");n.className="name";n.textContent=role==="user"?"You":data.people.find(p=>p.key===selected).name;b.append(n,document.createTextNode(text));$("messages").append(b);$("messages").scrollTop=$("messages").scrollHeight;return b;}
+function render(){selected=$("person").value;$("title").textContent=data.people.find(p=>p.key===selected).name;$("messages").replaceChildren();for(const x of data.history[selected]||[])bubble(x.role,x.content);}
+async function refresh(){data=await api("/state");$("person").replaceChildren(...data.people.map(p=>{const o=document.createElement("option");o.value=p.key;o.textContent=p.name;return o;}));$("person").value=selected;$("model").textContent="Local model: "+data.model+" ("+data.backend+")";render();}
+$("person").onchange=render;
+$("send").onclick=async()=>{const text=$("message").value.trim();if(!text)return;const key=selected;$("send").disabled=true;$("person").disabled=true;$("clear").disabled=true;bubble("user",text);$("message").value="";$("status").textContent="Getting a reply"+($("speak").checked?" and preparing Chatterbox audio...":"...");
+try{const v=await api("/chat",{person:key,message:text,speak:$("speak").checked});const b=bubble("assistant",v.reply);data.history[key]=(data.history[key]||[]).concat([{role:"user",content:text},{role:"assistant",content:v.reply}]);if(v.audio){const r=await fetch(v.audio,{headers:{"X-Session-Token":token}});if(!r.ok)throw Error("Audio delivery failed");if(audioURL)URL.revokeObjectURL(audioURL);audioURL=URL.createObjectURL(await r.blob());const a=document.createElement("audio");a.controls=true;a.src=audioURL;b.append(a);a.play().catch(()=>{});}$("status").textContent=v.voice_error?("Text reply saved. Voice: "+v.voice_error):"Ready.";}
+catch(e){$("status").textContent=e.message;}finally{$("send").disabled=false;$("person").disabled=false;$("clear").disabled=false;}};
+$("message").onkeydown=e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();if(!$("send").disabled)$("send").click();}};
+$("clear").onclick=async()=>{if(!confirm("Clear this person's local conversation history?"))return;try{await api("/reset",{person:selected});data.history[selected]=[];render();}catch(e){$("status").textContent=e.message;}};
+refresh().catch(e=>$("status").textContent=e.message);
+</script></body></html>

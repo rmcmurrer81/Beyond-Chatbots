@@ -24,13 +24,26 @@ The **42-page illustrated reader companion** includes an actual screenshot from 
 
 ## Which version to use
 
-Version 14 is the current October 9 package. Slide 14, the speaker notes, Q&A, quick rehearsal sheet and research summaries now agree: **3 of 4 delayed NewBrain restarts have passed independent verification; one remains.** All 10,720 history records were preserved and all 64 comparison pairs matched. The four original migration reviews remain accepted separately. Private evidence links are replaced with source-custody descriptions; the original records remain with Kira Labs.
+The NewBrain campaign has now reached **4 of 4 independently verified delayed restarts**. All 10,720 history records were preserved and all 64 comparison pairs matched in each accepted case. Read the [fourth-result summary](Documentation/results/DELAYED-RESTART-FOURTH-PASS.md). The four original migration reviews remain accepted separately. The currently downloadable version 14 presentation shows the earlier 3-of-4 checkpoint; its matching version 15 update is being prepared locally. Private raw evidence remains with Kira Labs.
 
 The slides were rendered and reviewed during preparation. PowerPoint playback and a fresh phone QR-code scan on the event equipment remain to be checked by the presenter.
 
 ## What is available here
 
-This presentation package contains slides and research-summary documents. The repository also includes a separately contributed [IdeaForge source snapshot](IdeaForge/README.md). NewBrain and Avatar Builder implementation packages are still being prepared and are not included in this snapshot. The original NewBrain and KiraWorld repositories remain private. Maya's personal records, learned state, exact appearance assets and private body-inspection images are excluded.
+The repository contains the presentation and separately reviewed public development copies:
+
+| Folder | Contents |
+| --- | --- |
+| [NewBrain](NewBrain/README.md) | Generic cell-model experiment and routing reference source; [4/4 restart status](NewBrain/RESULTS.md). |
+| [Avatar Builder](Avatar-Builder/README.md) | Body-building and feedback reference code with requirements and current results. |
+| [Body Prototype](Body-Prototype/README.md) | Current observer source and the owner-requested [wireframe image](Body-Prototype/Avatar-Current-Verified-Wireframe-Preview.png). |
+| [Maya](Maya/README.md) | Development, sensory and speech plans; Maya's private identity, episodes and state are excluded. |
+| [IdeaForge](IdeaForge/README.md) | Dot's current source; [NewBrain connection guide](IdeaForge/NEWBRAIN-CONNECTION.md). |
+| [Aster](aster/README.md) | Dot's current source; [NewBrain connection guide](aster/NEWBRAIN-CONNECTION.md). |
+| [prenewbrain](prenewbrain/README.md) | Robert and Peter Parker copies, supplied memories, Chatterbox reference voices and a local chat/talk launcher. Read the setup and model-change instructions; live chat/TTS/playback acceptance is pending. |
+| [Documentation](Documentation/README.md) | Requirements, results, exclusions and component license status. |
+
+The original NewBrain and KiraWorld repositories remain private. Maya's personal records, learned state and exact appearance assets are excluded. The public NewBrain kit is an incomplete generic engineering/reference package; it does not contain Maya's private research history or a qualified conversational replacement.
 
 The work is experimental. The reported results do not establish reliable general conversation, a completed Maya, subjective experience or clinical benefit. Successful checks, adverse results and unrun work are described separately.
 

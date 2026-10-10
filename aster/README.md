@@ -106,3 +106,7 @@ See [validation history](docs/VALIDATION.md) and [reliability scope](docs/RELIAB
 Qualify reliable app mechanics first; then connect an independently tested NewBrain instance; then validate conversation, memory use, speech, perception and app coordination in controlled steps. Identity/state belongs to Aster, while the reusable brain architecture remains separate.
 
 Source access is provided for the presentation. Project licensing remains pending the owner's choice; public availability does not grant a new blanket open-source license. Preserve dependency and third-party terms. No paid compute or GitHub Actions is needed to inspect this package.
+
+## Shared NewBrain package
+
+See [NEWBRAIN-CONNECTION.md](NEWBRAIN-CONNECTION.md) for the shared folder layout and experimental connection plan. The current incomplete NewBrain kit is not a verified replacement for Aster's conversational provider.

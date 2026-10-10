@@ -1,0 +1,6 @@
+{
+  "backend": "ollama",
+  "endpoint": "http://127.0.0.1:11434/api/chat",
+  "model": "qwen3.5:9b",
+  "voice_device": "auto"
+}

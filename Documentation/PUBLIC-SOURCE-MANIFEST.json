@@ -1,0 +1,526 @@
+{
+  "schema": "beyond-chatbots.public-programs-source-manifest.v1",
+  "date": "2026-10-10",
+  "scope": "Reviewed public generic programs and owner-authorized Robert/Peter copies; private Maya records excluded",
+  "source_review_scope": "Source and static metadata checks. Runtime chat/TTS/integration/body movement remain separately unqualified.",
+  "files": [
+    {
+      "path": "aster/NEWBRAIN-CONNECTION.md",
+      "bytes": 2487,
+      "sha256": "59b14132d5c9847bb6d9502536c552b3aefcbbd12a70a7b13b0b599db0e4edd4"
+    },
+    {
+      "path": "aster/README.md",
+      "bytes": 8690,
+      "sha256": "d50c1c0ba4208c659b25322b6f7fb51172cb5ba91571b707d5f93c1250826073"
+    },
+    {
+      "path": "Avatar-Builder/README.md",
+      "bytes": 881,
+      "sha256": "f79bc3018c1912a3a902b7e60e4f5955889bab86479ecd234e18ab7b717ec43e"
+    },
+    {
+      "path": "Avatar-Builder/REQUIREMENTS.md",
+      "bytes": 575,
+      "sha256": "46382db62b9facfa34a70490648f31e58e54c9d21875b69b1904fb7923a0831c"
+    },
+    {
+      "path": "Avatar-Builder/research/body_nerve_feedback_source_232/body_nerve_feedback.py",
+      "bytes": 14094,
+      "sha256": "6b6f9f37ea593259420862d6f32bdf0cf842efcf96c8109d59e56b20a1837748"
+    },
+    {
+      "path": "Avatar-Builder/research/body_nerve_feedback_source_232/check_body_nerve_feedback.py",
+      "bytes": 9118,
+      "sha256": "342a6b52138654c81b82320d11ae2c9cba2b770dee6325c5541586eccbe27886"
+    },
+    {
+      "path": "Avatar-Builder/research/body_nerve_feedback_source_232/GENERIC-FEEDBACK-README.txt",
+      "bytes": 1980,
+      "sha256": "b66c27ebd9c40fe77778108252c6648c577dfa7bce0187823aedf8e80d9ac74a"
+    },
+    {
+      "path": "Avatar-Builder/research/connected_rest_observer_source_231/AGPL-3.0-or-later.txt",
+      "bytes": 34020,
+      "sha256": "d8a6cc31abc16b6748c7a21f21611f5a1ec33f67d22ca23d7da1c19b95496bee"
+    },
+    {
+      "path": "Avatar-Builder/research/connected_rest_observer_source_231/ATTRIBUTION.md",
+      "bytes": 1418,
+      "sha256": "532e10fbbd4bdac7e44b6491ef8d974c5a6cf54d4b9fef85367b2a1f21fb4d6d"
+    },
+    {
+      "path": "Avatar-Builder/research/connected_rest_observer_source_231/BINDINGS.md",
+      "bytes": 1846,
+      "sha256": "c9d8d5345a6adc559c006d2873e57550e13abc93232c4ee0af00f487746c7bea"
+    },
+    {
+      "path": "Avatar-Builder/research/connected_rest_observer_source_231/connected_rest_lane.py",
+      "bytes": 19788,
+      "sha256": "76a0487cca21bab88dac6b43e73ea78f0859a72d5df5179a565ee103aacca58a"
+    },
+    {
+      "path": "Avatar-Builder/research/connected_rest_observer_source_231/FAILURE-HISTORY.md",
+      "bytes": 1257,
+      "sha256": "cf526976ccd3495b1e7f952fd21eca32961a0b5b96568d71fad535a3c3ca04dd"
+    },
+    {
+      "path": "Avatar-Builder/research/connected_rest_observer_source_231/FINDINGS.json",
+      "bytes": 632,
+      "sha256": "c4f4c10c4b726e149931e78eb7d5a92e3bc1d05ce3f7910df579a859c24a9fde"
+    },
+    {
+      "path": "Avatar-Builder/research/connected_rest_observer_source_231/observer_rest_excerpt.py",
+      "bytes": 26297,
+      "sha256": "06d46f453a4109db5ede66befee95be630b5b6df4b75eded6e58e2f6fff653d9"
+    },
+    {
+      "path": "Avatar-Builder/research/connected_rest_observer_source_231/python_custody_graph.py",
+      "bytes": 6001,
+      "sha256": "008b4187a1e2b634d75e6a9f0a676603d6f9857b941f0fb6e2c0171a12c72894"
+    },
+    {
+      "path": "Avatar-Builder/research/connected_rest_observer_source_231/README.md",
+      "bytes": 1318,
+      "sha256": "ca7514f8d72f1933deca152141ac5cd6731a58494c28490408f92a8373261a56"
+    },
+    {
+      "path": "Avatar-Builder/research/connected_rest_observer_source_231/rest_persistence.py",
+      "bytes": 4451,
+      "sha256": "dc11804d70ea8f37fb90027dfa3cf345d9b755b1a2aee9676d12e5a8e63ad37f"
+    },
+    {
+      "path": "Avatar-Builder/research/connected_rest_observer_source_231/SOURCE-LAYOUT.md",
+      "bytes": 1616,
+      "sha256": "e747f260fa79cba949467f3f45e148cae58d6293f98b3573aa9f6bdf9a3e5896"
+    },
+    {
+      "path": "Avatar-Builder/research/connected_rest_observer_source_231/transformations-license.txt",
+      "bytes": 1701,
+      "sha256": "c89ac6518dad63ca324264dc16182288e19d7cd5c03fbc34d1fc1d8050c18dc7"
+    },
+    {
+      "path": "Avatar-Builder/research/connected_rest_observer_source_231/upstream-code-notice.txt",
+      "bytes": 1314,
+      "sha256": "ab5cdc82838471cf32a722a1258132944ecd9cdc67e18794b9fb1ce0ef0764a8"
+    },
+    {
+      "path": "Avatar-Builder/RESULTS.md",
+      "bytes": 425,
+      "sha256": "d0d5e5185d7ed0c8732acf143675aae87a9738594ce5c33d72ff54b8da0c59cd"
+    },
+    {
+      "path": "Body-Prototype/Avatar-Current-Verified-Wireframe-Preview.png",
+      "bytes": 30266,
+      "sha256": "7e5461de5c33bc15f3d35bbad0ef34457a5968cc01a48bb0416a5f6fbee8f09c"
+    },
+    {
+      "path": "Body-Prototype/README.md",
+      "bytes": 917,
+      "sha256": "dc443ac88b367c20c8f6b353612d319f3e06e7661c2d33801f5efac37c625872"
+    },
+    {
+      "path": "Body-Prototype/reference/native_basis_observer.py",
+      "bytes": 25085,
+      "sha256": "e8d2b5fe28d936b89f6fc451c998fe60c63c77a069b69679eeb7030f11ef52b5"
+    },
+    {
+      "path": "Body-Prototype/reference/observational_io.py",
+      "bytes": 14823,
+      "sha256": "f137dccbc11c7ec81a90d482cb2aea5230bcb39fdb0ee7f11db78c004c4f5a5e"
+    },
+    {
+      "path": "Body-Prototype/REQUIREMENTS.md",
+      "bytes": 490,
+      "sha256": "416d7634493bd51d664e15dffb36b721657e2bb595d9f4396b399655695db432"
+    },
+    {
+      "path": "Body-Prototype/RESULTS.md",
+      "bytes": 476,
+      "sha256": "b9dcca7e737906165b058bb5c6f16c47c122d0b9c69f0ecd27d349e9d76b48a9"
+    },
+    {
+      "path": "Documentation/EXCLUSIONS.md",
+      "bytes": 1101,
+      "sha256": "e88716a466a12dedc7442b2651ca1fdc7adaa5f5b4e0ccf06a435f73274cf2bf"
+    },
+    {
+      "path": "Documentation/LICENSE-STATUS.md",
+      "bytes": 1691,
+      "sha256": "fbd1613b7ee73f82c665dd585f25b72337c283bb990ba31e3aab9612a1ba5f7c"
+    },
+    {
+      "path": "Documentation/README.md",
+      "bytes": 2190,
+      "sha256": "b4102445ffc024e52c61e5c1b8baadae3b52a94693e0227fee48141c2d5b52f8"
+    },
+    {
+      "path": "Documentation/REQUIREMENTS.md",
+      "bytes": 913,
+      "sha256": "2c5a89ec778118c20de10f31abd616b72f2b858f85f921a376c8fa87f0b56003"
+    },
+    {
+      "path": "Documentation/results/CURRENT-RESULTS.md",
+      "bytes": 2157,
+      "sha256": "fcb27acbd816d7224812355e4ccf23218af40cee6981cbcde0ecc9dfc14b2832"
+    },
+    {
+      "path": "Documentation/results/DELAYED-RESTART-FOURTH-PASS.md",
+      "bytes": 1019,
+      "sha256": "76933b46e2b2c65f9a8c23a662d5148fd28ded5cc8ab60a95f935244dd03a6ae"
+    },
+    {
+      "path": "examples/YourCharacter/INITIALIZATION.json",
+      "bytes": 1637,
+      "sha256": "6c750d6bf31832b6c8c74afd21e92a603bda2c33c3f3d79e3d2d78758afed0ff"
+    },
+    {
+      "path": "IdeaForge/NEWBRAIN-CONNECTION.md",
+      "bytes": 2353,
+      "sha256": "5f701883c5f6f98f6a1feabd76b3d780ffd68ece7141f6206719ac9c6a52bb1c"
+    },
+    {
+      "path": "IdeaForge/README.md",
+      "bytes": 8516,
+      "sha256": "03f039bbf3013624050e5ee8684250645b1de3c9234af511a37757e1ec4fee92"
+    },
+    {
+      "path": "Maya/README.md",
+      "bytes": 1022,
+      "sha256": "e68571fbf6093a3902d45b08c1bdfaeec978f330a401c3bc3f42dd633444c6fd"
+    },
+    {
+      "path": "Maya/REQUIREMENTS.md",
+      "bytes": 502,
+      "sha256": "f99dc62f70e88f1df3c587cf97f317b13a1267e21894ce700709d477fbd8acd7"
+    },
+    {
+      "path": "Maya/RESULTS.md",
+      "bytes": 380,
+      "sha256": "78d82ce29040b8443b4cd4122faa81c560957ba9b3b54938831f2b10522a5988"
+    },
+    {
+      "path": "Maya/SENSORY-AND-SPEECH-PLAN.md",
+      "bytes": 1211,
+      "sha256": "9d28a4cea4f47e2d595a9ed89bfbf925bfc0facdf298075096d52df4647d01c2"
+    },
+    {
+      "path": "NewBrain/data/reference/allen_488386504_glif1.json",
+      "bytes": 1151,
+      "sha256": "f0cb43bb308c01542f01f4ee8f631a3e6b28db9381bf38b04bea75641c6da108"
+    },
+    {
+      "path": "NewBrain/evidence_vocabulary.py",
+      "bytes": 6465,
+      "sha256": "b952707d6e5587384e871c106753e0ad84a00dc9f3d640a4cf96bc292301538e"
+    },
+    {
+      "path": "NewBrain/LEARNING-PLAN.md",
+      "bytes": 1080,
+      "sha256": "89da60490de9bb7f6ae7c82654a45233042b9a31e81b0c7ce8d94ee8f7acc602"
+    },
+    {
+      "path": "NewBrain/newbrain.py",
+      "bytes": 18961,
+      "sha256": "a2f27d9bfed2e6e01a782bfe3db1d6ed125553b923c525da9d4f451843c9f5bb"
+    },
+    {
+      "path": "NewBrain/README.md",
+      "bytes": 1292,
+      "sha256": "7cb42ab212214fa75612bd1e74f91509a746c6cfaa2a95d7f6b2af88381ab795"
+    },
+    {
+      "path": "NewBrain/reference/routing/available_state.py",
+      "bytes": 12433,
+      "sha256": "3697e59e3a4719bf7afeeb2a38e57368bf2a6713824ec19c2f2566096ce95ea5"
+    },
+    {
+      "path": "NewBrain/reference/routing/branch_history.py",
+      "bytes": 4255,
+      "sha256": "92f579076cd3491f36de8d76f8574c7d8e21afd316f50ac8c002371e38abdf1e"
+    },
+    {
+      "path": "NewBrain/reference/routing/branch_language.py",
+      "bytes": 54946,
+      "sha256": "b14be571dd8cd0cad8b1f496e0044b66c1e948bfa9a6f87cf135ad126df943a9"
+    },
+    {
+      "path": "NewBrain/reference/routing/branch_state.py",
+      "bytes": 24458,
+      "sha256": "90ed05a5639b2e099fb22c81c5ae97313f6e232225fcffe00f0f0a5c2b02e0c1"
+    },
+    {
+      "path": "NewBrain/reference/routing/continuation_state.py",
+      "bytes": 15729,
+      "sha256": "d98ff7f881b0925094f43124e40db25cc2e8f32656116e69128acfa9687bb369"
+    },
+    {
+      "path": "NewBrain/reference/routing/dialogue_decoder.py",
+      "bytes": 18123,
+      "sha256": "52cd4b6e79fcd09198380e12320ff85468fb8bd6bedd5d424ede2b58dbdf5cc0"
+    },
+    {
+      "path": "NewBrain/reference/routing/engineering_entry.py",
+      "bytes": 8025,
+      "sha256": "634afc75a732600d9a561ae442fecf714fdad8f172f972f2bf3109a38554afc9"
+    },
+    {
+      "path": "NewBrain/reference/routing/extended_update_journal.py",
+      "bytes": 6873,
+      "sha256": "45c4b63abc5937db0fe4ff8b7ea6931d8fdbd9ecd4f5ddd031a1e8b28d27e26d"
+    },
+    {
+      "path": "NewBrain/reference/routing/history_archive.py",
+      "bytes": 3684,
+      "sha256": "2cc68c78b12b0f14980ae1d13f320436921168853c84f53c3d5c8ce356e489b7"
+    },
+    {
+      "path": "NewBrain/reference/routing/method_entry.py",
+      "bytes": 7715,
+      "sha256": "9c0b1d0938a699b0d1a7032d3295264ebb9ae33a1693eaa9d2d9a61bc6b705e1"
+    },
+    {
+      "path": "NewBrain/reference/routing/method_order.py",
+      "bytes": 4583,
+      "sha256": "f55a79bba0a103aa838f7905ab6db670f4a60eaf0b5246f4a2b4c2a6cccfbead"
+    },
+    {
+      "path": "NewBrain/reference/routing/original_continuation_state.py",
+      "bytes": 20531,
+      "sha256": "8725cbf6af940340b9908138636f124e8a97fa9a5acf59488c4867a8a629cbf5"
+    },
+    {
+      "path": "NewBrain/reference/routing/original_history_archive.py",
+      "bytes": 4573,
+      "sha256": "cb6cec6418d387afd58db6d423e60194be53b2c00153d1f4aa423bfdf22c6350"
+    },
+    {
+      "path": "NewBrain/reference/routing/original_update_journal.py",
+      "bytes": 6872,
+      "sha256": "50683291c7ebf94243e7b61393c811e1e9b4985966df4bb9ddf6b1d45e4da6b6"
+    },
+    {
+      "path": "NewBrain/reference/routing/probe_ledger.py",
+      "bytes": 8313,
+      "sha256": "e584bb552c8acd13867018487098caef3b7a1fbc4978990e3a37471b7dc96fe9"
+    },
+    {
+      "path": "NewBrain/reference/routing/README.md",
+      "bytes": 532,
+      "sha256": "89b96c8d2378408e1fd00a2e8a88af3c2a11bb500ec52fd21e3e588e95386b0f"
+    },
+    {
+      "path": "NewBrain/reference/routing/routed_decoder.py",
+      "bytes": 19776,
+      "sha256": "d3868c97af441f5648b111d4f44c74794073af49bf6bb85cf427c26d8a3777fd"
+    },
+    {
+      "path": "NewBrain/reference/routing/routing_engineering.py",
+      "bytes": 10724,
+      "sha256": "507bf506bd9513aa47d07e74481ed255cd2c26c6dd177e1fb17f6a80b2e62594"
+    },
+    {
+      "path": "NewBrain/reference/routing/run_io.py",
+      "bytes": 11014,
+      "sha256": "42d9b9f3109c14be407389dad1eb83b7d4ac4d218e2940a1fecec45d0972706a"
+    },
+    {
+      "path": "NewBrain/reference/routing/synthetic_fixture.py",
+      "bytes": 17182,
+      "sha256": "904f0f9e7220f45864168160ae058eb3a80d7b73ccb76085227fb488f3dc9712"
+    },
+    {
+      "path": "NewBrain/REQUIREMENTS.md",
+      "bytes": 615,
+      "sha256": "6332a88f7be0908ccb765410c257c9f5c9a7c74881e5f88f08e55bf5ef6f44f9"
+    },
+    {
+      "path": "NewBrain/research/provenance.json",
+      "bytes": 11079,
+      "sha256": "4224e3c43239369b1d9bc58948e2d991bb1401a28f6256acb80cc4f2c60303be"
+    },
+    {
+      "path": "NewBrain/RESULTS.md",
+      "bytes": 632,
+      "sha256": "78565a90a12401257f1e1760a0affff8aa8a1c2b332370a3e8f751c301beff0c"
+    },
+    {
+      "path": "NewBrain/tests/test_evidence_vocabulary.py",
+      "bytes": 4648,
+      "sha256": "773396e3c66c74aa5ce5178c667887694641ec57e126bfb4f9b83b5e8f2906cf"
+    },
+    {
+      "path": "NewBrain/tests/test_newbrain.py",
+      "bytes": 7624,
+      "sha256": "0c191ea9eb87be3f5c7fa0fa23729b0b8f3ade85c79e7679d3aa8420a5acde35"
+    },
+    {
+      "path": "NewBrain/THIRD_PARTY_NOTICES.md",
+      "bytes": 4253,
+      "sha256": "a1d8572ef289312da73fefcf47accc712d1fed6556bfb10e2620c42392a828a8"
+    },
+    {
+      "path": "prenewbrain/.gitignore",
+      "bytes": 53,
+      "sha256": "f164ce82ac7ab6f8437a8998133a29003bc87527e4af5c3fc3968fdfe1a17367"
+    },
+    {
+      "path": "prenewbrain/app.py",
+      "bytes": 12539,
+      "sha256": "d0093ae8bdf6cd783ed4d4cc6b1874023f052dc3115b0ff2dbaa6ebd259fc160"
+    },
+    {
+      "path": "prenewbrain/config.json",
+      "bytes": 323,
+      "sha256": "9726a3c7b0b8434dfe19b333f79251f9319f1a89fc55e6051e20dd27edb0b4e7"
+    },
+    {
+      "path": "prenewbrain/config.local.example.json",
+      "bytes": 126,
+      "sha256": "63296854962a4e030f246c8cccee67d5f9983c82cf0f0409dca227eb6de2b7d9"
+    },
+    {
+      "path": "prenewbrain/index.html",
+      "bytes": 5424,
+      "sha256": "1d06e51b70b0d1c574cf739e7bffc6fa4d8cc9674df577488589c9493aa7784b"
+    },
+    {
+      "path": "prenewbrain/memory_retrieval.py",
+      "bytes": 1556,
+      "sha256": "11f5f64c04757cd1b53b2733b7c695d6f20c51e5970952e2b1432371e2911965"
+    },
+    {
+      "path": "prenewbrain/people/peter/memory.json",
+      "bytes": 986,
+      "sha256": "4ac2a28e2a191537ecd81f74d1dc80ddc2d2ecdf2fde6dfe1af2c79529c75e0f"
+    },
+    {
+      "path": "prenewbrain/people/peter/profile.json",
+      "bytes": 631,
+      "sha256": "babba61db051cad188009ff6bd9ebf8d5ed431ffc68ca1ba43186c4df8dafb5b"
+    },
+    {
+      "path": "prenewbrain/people/robert/biography.txt",
+      "bytes": 128432,
+      "sha256": "8abe4a34bd5c77219e9ccd5fb625157186bb1903f519ccb2e341d6fad6441801"
+    },
+    {
+      "path": "prenewbrain/people/robert/memory.json",
+      "bytes": 3884,
+      "sha256": "3a7fdf22c49143a9807f28b23fc9a077011a9104acfc6bd66a052beb00cce9d8"
+    },
+    {
+      "path": "prenewbrain/people/robert/profile.json",
+      "bytes": 1695,
+      "sha256": "e9cc010ecbb2c158d04543ce12deecf3787299f22a7c53e5d6d3d81630dd7f91"
+    },
+    {
+      "path": "prenewbrain/people/robert/source_memory.json",
+      "bytes": 51862,
+      "sha256": "7e96fdbbc152f9fff8817f1c86060967a6b6d22fa010706164907d75b17e6333"
+    },
+    {
+      "path": "prenewbrain/people/robert/sources.json",
+      "bytes": 200889,
+      "sha256": "a677ac2927c5b416e11266ef94f9af334470eb1a00964e5e155316766cbe6a0b"
+    },
+    {
+      "path": "prenewbrain/README.md",
+      "bytes": 6571,
+      "sha256": "34fb104f473ae1b2ff45899f643d8c4845b7c7a048bfa6d5f04ab6694147e0ee"
+    },
+    {
+      "path": "prenewbrain/requirements-voice.txt",
+      "bytes": 44,
+      "sha256": "d5951a50078e742ae111825e9a305d7ea079118d65316f89bda7d51f671b10f4"
+    },
+    {
+      "path": "prenewbrain/requirements.txt",
+      "bytes": 10,
+      "sha256": "7045d667b9edef0c106bf58d92eaede133ee8fe9ba90953ab3e5ed53904e9b73"
+    },
+    {
+      "path": "prenewbrain/runtime-recipes/cpu_voice_lock.txt",
+      "bytes": 2179,
+      "sha256": "9328c4ae58b6848a5a2dcd8c6a718d48d29c701552e74f4d518779df12545f94"
+    },
+    {
+      "path": "prenewbrain/runtime-recipes/gpu_voice_lock.txt",
+      "bytes": 2260,
+      "sha256": "8bde4387aa7279d5a4697516f376eec34bf59fe6bfff61a0022e13df73424284"
+    },
+    {
+      "path": "prenewbrain/source_provenance.json",
+      "bytes": 1926,
+      "sha256": "a1c4d3a251dfc43d559fe02fdd1ac1a93f4115ba198c06d34ee202efe06f597d"
+    },
+    {
+      "path": "prenewbrain/Start_Chat_Talk.bat",
+      "bytes": 158,
+      "sha256": "3b704001c291def1dac37f929d0f97c434fb74be77b35d4bb7e8fc97115d2339"
+    },
+    {
+      "path": "prenewbrain/VOICE_RIGHTS.md",
+      "bytes": 1718,
+      "sha256": "3355429925b8ddd9d47a26302abdb5c59b0436085f2d4074941fe685803385a9"
+    },
+    {
+      "path": "prenewbrain/voice_support/__init__.py",
+      "bytes": 58,
+      "sha256": "a7ab99524ce5dc6c83253b0996c27fa6b71e2e90de6964b234c093b7fe11ed23"
+    },
+    {
+      "path": "prenewbrain/voice_support/calibration.py",
+      "bytes": 2522,
+      "sha256": "acbac6ef4811f2703a7d56d5d80a1a27d9b8f4b026f24a5ea5fa50c7b8a68c57"
+    },
+    {
+      "path": "prenewbrain/voice_support/dialogue_audio_signal.py",
+      "bytes": 3624,
+      "sha256": "893970380087558d7992888d00aaade97e34416ef71e395bab1f20d6635c9aa3"
+    },
+    {
+      "path": "prenewbrain/voice_support/dialogue_tts.py",
+      "bytes": 12612,
+      "sha256": "3de4d2e1d30bde6fc96061a7990544ca9712ee7d39a90bfaa66fcd1494c4b22c"
+    },
+    {
+      "path": "prenewbrain/voice_worker.py",
+      "bytes": 3663,
+      "sha256": "c8951eac72bd2adfa96f068763152d26e6ab57cbf569d848c81ce56f1311d512"
+    },
+    {
+      "path": "prenewbrain/voices/peter/approved_reference.wav",
+      "bytes": 1383884,
+      "sha256": "0cbeff9bc1811fc626ef649cc1649d209f767bcd64200a0b93d3e8833bbe2af4"
+    },
+    {
+      "path": "prenewbrain/voices/peter/voice.json",
+      "bytes": 494,
+      "sha256": "8e5393e70109de750a34cb189e7aade98a8996405204f90f51574734a3c73cde"
+    },
+    {
+      "path": "prenewbrain/voices/robert/approved_reference.wav",
+      "bytes": 1755404,
+      "sha256": "761458a0fe9c5da1c2671faa738c1e329336630cd47138a4e738f7de2030542b"
+    },
+    {
+      "path": "prenewbrain/voices/robert/voice.json",
+      "bytes": 486,
+      "sha256": "5f0092e258aa1f8c56241ea2967acb0f6c1e765d26c0a5ee0b64da97ee2ce4f6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6525,
+      "sha256": "80768c563cc1002e1cb8f8c39139d12a88001f1e827b58ca44c4888263480fab"
+    }
+  ],
+  "NewBrain_delayed_restart_cases": {
+    "accepted": 4,
+    "total": 4,
+    "history_records": 10720,
+    "comparison_pairs": 64,
+    "learning_acceptance": false
+  },
+  "external_dependency_weights_bundled": false
+}

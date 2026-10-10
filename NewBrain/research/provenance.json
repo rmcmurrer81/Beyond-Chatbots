@@ -1,0 +1,274 @@
+{
+  "schema_version": "1.0",
+  "records": [
+    {
+      "brain_region": null,
+      "coordinate_frame": null,
+      "donor_id": null,
+      "evidence": "reference-only",
+      "id": "bigbrain",
+      "limitations": [
+        "Candidate only; no scan downloaded or registered."
+      ],
+      "local_path": null,
+      "origin": "BigBrain project",
+      "parents": [],
+      "resolution": null,
+      "retrieved_on": null,
+      "rights": {
+        "note": "No files imported.",
+        "status": "not-reviewed"
+      },
+      "sha256": null,
+      "source_version": null,
+      "species": "Homo sapiens",
+      "specimen_id": null,
+      "status": "candidate-not-imported",
+      "title": "BigBrain anatomical atlas",
+      "transformations": [],
+      "units": {},
+      "url": "https://bigbrainproject.org/about.html"
+    },
+    {
+      "brain_region": null,
+      "coordinate_frame": null,
+      "donor_id": null,
+      "evidence": "reference-only",
+      "id": "h01",
+      "limitations": [
+        "Candidate only; no cells or synapses imported."
+      ],
+      "local_path": null,
+      "origin": "Harvard / Google",
+      "parents": [],
+      "resolution": null,
+      "retrieved_on": null,
+      "rights": {
+        "note": "No files imported.",
+        "status": "not-reviewed"
+      },
+      "sha256": null,
+      "source_version": null,
+      "species": "Homo sapiens",
+      "specimen_id": null,
+      "status": "candidate-not-imported",
+      "title": "H01 human cortical connectomics",
+      "transformations": [],
+      "units": {},
+      "url": "https://h01-release.storage.googleapis.com/landing.html"
+    },
+    {
+      "brain_region": null,
+      "coordinate_frame": null,
+      "donor_id": null,
+      "evidence": "reference-only",
+      "id": "allen_cell_types",
+      "limitations": [
+        "Resource contains human and mouse records. Selection must preserve species. No paired biological sweep imported."
+      ],
+      "local_path": null,
+      "origin": "Allen Institute",
+      "parents": [],
+      "resolution": null,
+      "retrieved_on": "2026-09-29",
+      "rights": {
+        "note": "Allen Terms of Use reviewed for this noncommercial research prototype. Commercial distribution/use is not cleared. See THIRD_PARTY_NOTICES.md.",
+        "status": "restricted-research-use-reviewed"
+      },
+      "sha256": null,
+      "source_version": null,
+      "species": null,
+      "specimen_id": null,
+      "status": "resource-reviewed; one archived model selected",
+      "title": "Allen Cell Types resource",
+      "transformations": [],
+      "units": {},
+      "url": "https://celltypes.brain-map.org/"
+    },
+    {
+      "brain_region": null,
+      "coordinate_frame": null,
+      "donor_id": null,
+      "evidence": "source-derived",
+      "id": "allen-human-488386504-glif1",
+      "limitations": [
+        "Fitted single-cell model, not a scan or measured waveform.",
+        "Brain region, donor ID, live model ID and paired sweep are not verified; left null.",
+        "Unused fields remain preserved; GLIF1 none-methods disable afterspike currents.",
+        "No experimental trace comparison, independent SDK parity, learning or network integration has been demonstrated."
+      ],
+      "local_path": "data/reference/allen_488386504_glif1.json",
+      "origin": "Allen Institute — GLIF_Teeter_et_al_2018",
+      "parents": [
+        "allen_cell_types"
+      ],
+      "resolution": null,
+      "retrieved_on": "2026-09-29",
+      "rights": {
+        "note": "Archive LICENSE (Git blob cfe4e0756a964d460353d0b9393aaec1018db8e5) and Allen Terms of Use. Retain notices; no commercial clearance. See THIRD_PARTY_NOTICES.md.",
+        "status": "restricted-research-use-reviewed"
+      },
+      "sha256": "f0cb43bb308c01542f01f4ee8f631a3e6b28db9381bf38b04bea75641c6da108",
+      "source_version": "Git blob 1648ea1f6d51a6151578bca557d2e21a16e51393",
+      "species": "Homo sapiens",
+      "species_basis": "Official human_struc_data_dir/488386504_human directory plus repository README.txt; not an independently refreshed live specimen record.",
+      "specimen_id": "488386504",
+      "status": "parameter-file-imported-and-exercised",
+      "title": "Archived human specimen 488386504 / GLIF1",
+      "transformations": [
+        "None to source bytes; 1151-byte original verified against upstream Git blob SHA-1."
+      ],
+      "units": {
+        "capacitance": "F",
+        "current": "A",
+        "resistance": "ohm",
+        "spike_cut_length": "time steps",
+        "time": "s",
+        "voltage": "V"
+      },
+      "url": "https://github.com/AllenInstitute/GLIF_Teeter_et_al_2018/blob/master/human_struc_data_dir/488386504_human/488386504_human_GLIF1_neuron_config.json"
+    },
+    {
+      "brain_region": null,
+      "coordinate_frame": null,
+      "donor_id": null,
+      "evidence": "synthetic",
+      "id": "newbrain-pulse-v1",
+      "limitations": [
+        "Protocol is designed here, not an Allen recorded stimulus."
+      ],
+      "local_path": null,
+      "origin": "NewBrain experiment design",
+      "parents": [],
+      "resolution": null,
+      "retrieved_on": "2026-09-29",
+      "rights": {
+        "note": "Synthetic protocol, not donor data.",
+        "status": "project-authored"
+      },
+      "sha256": null,
+      "source_version": "protocol-v1",
+      "species": null,
+      "specimen_id": null,
+      "status": "implemented",
+      "title": "500 ms current-pulse protocol and controls",
+      "transformations": [
+        "Generate 0 A, then 300 pA over [0.1,0.4) s, then 0 A through 0.5 s.",
+        "No-input control: 0 A throughout. Negative control: -100 pA during same window."
+      ],
+      "units": {
+        "current": "A",
+        "time": "s"
+      },
+      "url": null
+    },
+    {
+      "id": "generic-starter099-runner",
+      "title": "Exact generic starter099 source: newbrain.py",
+      "origin": "Project-authored NewBrain starter099",
+      "url": null,
+      "evidence": "project-authored-source",
+      "status": "LOCAL_GENERIC_SUBSET_SOURCE_ONLY_NOT_TESTED",
+      "species": null,
+      "specimen_id": null,
+      "brain_region": null,
+      "source_version": "Exact copied file SHA-256 a2f27d9bfed2e6e01a782bfe3db1d6ed125553b923c525da9d4f451843c9f5bb",
+      "retrieved_on": "2026-10-08",
+      "units": {},
+      "rights": {
+        "status": "project-license-choice-pending",
+        "note": "Owner authorized local generic staging. Public distribution license awaits owner decision; no permissive or commercial grant inferred."
+      },
+      "transformations": [
+        "None to source bytes. New independent subset provenance record; original development registry remains private."
+      ],
+      "parents": [],
+      "local_path": "newbrain.py",
+      "sha256": "a2f27d9bfed2e6e01a782bfe3db1d6ed125553b923c525da9d4f451843c9f5bb",
+      "limitations": [
+        "Current private starter099 passed30tests and793-record validation; this new9-record subset has not been run or independently checked. No model/person/biological acceptance follows."
+      ]
+    },
+    {
+      "id": "generic-starter099-vocabulary",
+      "title": "Exact generic starter099 source: evidence_vocabulary.py",
+      "origin": "Project-authored NewBrain starter099",
+      "url": null,
+      "evidence": "project-authored-source",
+      "status": "LOCAL_GENERIC_SUBSET_SOURCE_ONLY_NOT_TESTED",
+      "species": null,
+      "specimen_id": null,
+      "brain_region": null,
+      "source_version": "Exact copied file SHA-256 b952707d6e5587384e871c106753e0ad84a00dc9f3d640a4cf96bc292301538e",
+      "retrieved_on": "2026-10-08",
+      "units": {},
+      "rights": {
+        "status": "project-license-choice-pending",
+        "note": "Owner authorized local generic staging. Public distribution license awaits owner decision; no permissive or commercial grant inferred."
+      },
+      "transformations": [
+        "None to source bytes. New independent subset provenance record; original development registry remains private."
+      ],
+      "parents": [],
+      "local_path": "evidence_vocabulary.py",
+      "sha256": "b952707d6e5587384e871c106753e0ad84a00dc9f3d640a4cf96bc292301538e",
+      "limitations": [
+        "Current private starter099 passed30tests and793-record validation; this new9-record subset has not been run or independently checked. No model/person/biological acceptance follows."
+      ]
+    },
+    {
+      "id": "generic-starter099-original-tests",
+      "title": "Exact generic starter099 source: tests/test_newbrain.py",
+      "origin": "Project-authored NewBrain starter099",
+      "url": null,
+      "evidence": "project-authored-source",
+      "status": "LOCAL_GENERIC_SUBSET_SOURCE_ONLY_NOT_TESTED",
+      "species": null,
+      "specimen_id": null,
+      "brain_region": null,
+      "source_version": "Exact copied file SHA-256 0c191ea9eb87be3f5c7fa0fa23729b0b8f3ade85c79e7679d3aa8420a5acde35",
+      "retrieved_on": "2026-10-08",
+      "units": {},
+      "rights": {
+        "status": "project-license-choice-pending",
+        "note": "Owner authorized local generic staging. Public distribution license awaits owner decision; no permissive or commercial grant inferred."
+      },
+      "transformations": [
+        "None to source bytes. New independent subset provenance record; original development registry remains private."
+      ],
+      "parents": [],
+      "local_path": "tests/test_newbrain.py",
+      "sha256": "0c191ea9eb87be3f5c7fa0fa23729b0b8f3ade85c79e7679d3aa8420a5acde35",
+      "limitations": [
+        "Current private starter099 passed30tests and793-record validation; this new9-record subset has not been run or independently checked. No model/person/biological acceptance follows."
+      ]
+    },
+    {
+      "id": "generic-starter099-vocabulary-tests",
+      "title": "Exact generic starter099 source: tests/test_evidence_vocabulary.py",
+      "origin": "Project-authored NewBrain starter099",
+      "url": null,
+      "evidence": "project-authored-source",
+      "status": "LOCAL_GENERIC_SUBSET_SOURCE_ONLY_NOT_TESTED",
+      "species": null,
+      "specimen_id": null,
+      "brain_region": null,
+      "source_version": "Exact copied file SHA-256 773396e3c66c74aa5ce5178c667887694641ec57e126bfb4f9b83b5e8f2906cf",
+      "retrieved_on": "2026-10-08",
+      "units": {},
+      "rights": {
+        "status": "project-license-choice-pending",
+        "note": "Owner authorized local generic staging. Public distribution license awaits owner decision; no permissive or commercial grant inferred."
+      },
+      "transformations": [
+        "None to source bytes. New independent subset provenance record; original development registry remains private."
+      ],
+      "parents": [],
+      "local_path": "tests/test_evidence_vocabulary.py",
+      "sha256": "773396e3c66c74aa5ce5178c667887694641ec57e126bfb4f9b83b5e8f2906cf",
+      "limitations": [
+        "Current private starter099 passed30tests and793-record validation; this new9-record subset has not been run or independently checked. No model/person/biological acceptance follows."
+      ]
+    }
+  ]
+}

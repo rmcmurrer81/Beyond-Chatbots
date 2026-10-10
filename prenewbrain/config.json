@@ -1,0 +1,11 @@
+{
+  "backend": "ollama",
+  "endpoint": "http://127.0.0.1:11434/api/chat",
+  "model": "qwen3.5:9b",
+  "original_model_digest": "6488c96fa5faab64bb65cbd30d4289e20e6130ef535a93ef9a49f42eda893ea7",
+  "voice_device": "auto",
+  "voice_python": "",
+  "port": 8778,
+  "model_timeout_seconds": 120,
+  "voice_timeout_seconds": 180
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "prenewbrain.portable-source-provenance.v1",
+  "originals_preserved": true,
+  "portable_derivative": true,
+  "original_launcher_sha256": "debd10a48ece40389a78db62b710508fed0fdeeb4e9d3c4b7ad00f8bb7ea2a1c",
+  "original_person_loader_sha256": "ffa2ea0e00577e5337388eb6c29a1144bfcb7e4a075413ed4a57114bd0d8d9a5",
+  "original_voice_output_sha256": "ec98bcb2a7a364b143293605ebf4a9d58ea7aecd851c62d3497cfe37245aad81",
+  "full_biography_source_sha256": "8abe4a34bd5c77219e9ccd5fb625157186bb1903f519ccb2e341d6fad6441801",
+  "full_source_memory_sha256": "7e96fdbbc152f9fff8817f1c86060967a6b6d22fa010706164907d75b17e6333",
+  "source_audio_references": {
+    "robert": {
+      "reference_bytes": 1755404,
+      "reference_sha256": "761458a0fe9c5da1c2671faa738c1e329336630cd47138a4e738f7de2030542b",
+      "reviewed_seconds": 36.57,
+      "calibration": {
+        "gain_db": -9.5,
+        "proximity_cut_hz": 95.0,
+        "proximity_cut_mix": 0.3
+      },
+      "description": "Owner-approved reviewed Robert self-voice reference, generated as a synthetic AI variant.",
+      "engine": "chatterbox_tts",
+      "reference": "voices/robert/approved_reference.wav",
+      "generic_voice_fallback": false
+    },
+    "peter": {
+      "reference_bytes": 1383884,
+      "reference_sha256": "0cbeff9bc1811fc626ef649cc1649d209f767bcd64200a0b93d3e8833bbe2af4",
+      "reviewed_seconds": 28.83,
+      "calibration": {
+        "gain_db": 0,
+        "proximity_cut_hz": 0,
+        "proximity_cut_mix": 0
+      },
+      "description": "Existing reviewed Peter character reconstruction reference; not an authenticated/official performer voice.",
+      "engine": "chatterbox_tts",
+      "reference": "voices/peter/approved_reference.wav",
+      "generic_voice_fallback": false
+    }
+  },
+  "actual_model_voice_tests": null,
+  "public_push": null,
+  "NewBrain_integration": "future experimental proposal, no timeline or capability promise"
+}

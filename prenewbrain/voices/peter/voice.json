@@ -1,0 +1,14 @@
+{
+  "reference_bytes": 1383884,
+  "reference_sha256": "0cbeff9bc1811fc626ef649cc1649d209f767bcd64200a0b93d3e8833bbe2af4",
+  "reviewed_seconds": 28.83,
+  "calibration": {
+    "gain_db": 0,
+    "proximity_cut_hz": 0,
+    "proximity_cut_mix": 0
+  },
+  "description": "Existing reviewed Peter character reconstruction reference; not an authenticated/official performer voice.",
+  "engine": "chatterbox_tts",
+  "reference": "voices/peter/approved_reference.wav",
+  "generic_voice_fallback": false
+}

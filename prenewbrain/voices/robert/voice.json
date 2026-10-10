@@ -1,0 +1,14 @@
+{
+  "reference_bytes": 1755404,
+  "reference_sha256": "761458a0fe9c5da1c2671faa738c1e329336630cd47138a4e738f7de2030542b",
+  "reviewed_seconds": 36.57,
+  "calibration": {
+    "gain_db": -9.5,
+    "proximity_cut_hz": 95.0,
+    "proximity_cut_mix": 0.3
+  },
+  "description": "Owner-approved reviewed Robert self-voice reference, generated as a synthetic AI variant.",
+  "engine": "chatterbox_tts",
+  "reference": "voices/robert/approved_reference.wav",
+  "generic_voice_fallback": false
+}
