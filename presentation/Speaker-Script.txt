@@ -1,272 +1,115 @@
-Beyond Chatbots: Testing Memory and Identity in Local-First AI
-SPEAKER SCRIPT
-Robert McMurrer - Kira Labs
-October 10, 2026, 2:30-3:00 p.m. EDT
-25-minute rehearsal target + 5-minute Q&A. Slides22-25 are optional appendix.
-October10 version15 update: four delayed restarts verified. Vision remains near the end on slide20. Earlier versions preserved.
+BEYOND CHATBOTS — OCTOBER 10, 2026
+TIMED SPEAKER SCRIPT — 25-MINUTE TALK + 5 MINUTES Q&A
+Repository: https://github.com/rmcmurrer81/Beyond-Chatbots
+
+SLIDE 01: NEWBRAIN — cover (unchanged)
+ELAPSED TIME: 0:00–0:35
+Good afternoon. I'm the founder of Kira Labs in Newark, New Jersey. Today I want to do something a little different. Before I describe NewBrain, I want to show how we got from the earliest ideas about thinking machines to the questions I'm testing today. Then I'll show the actual code and results I've made available. I'm not here to tell you Maya is finished. I want to show where the work really stands.
 
-SLIDE 1 - Beyond Chatbots
-0:00-0:45
+SLIDE 02: BEYOND-CHATBOTS — scan the repository
+ELAPSED TIME: 0:35–1:15
+Before we begin, this is the public GitHub repository: Beyond-Chatbots. Please scan the large code now so you have the link. It includes a 42-page illustrated AI history, my slides and speaking materials, NewBrain source references, Avatar Builder research, and copies of Aster, IdeaForge, and the earlier character chat software. You can browse while I speak, or use Code, Download ZIP at home. These are research copies: read their status notes before trying to run anything. The other codes go to Kira Labs and LinkedIn.
+PRESENTER CUE: Pause for a few seconds while people scan the large QR. It points to the repository, not the GitHub profile.
 
-Good afternoon. I am Robert McMurrer, the founder of Kira Labs in Newark, New Jersey. I am building Kira World and researching NewBrain, alongside local creative and authoring tools.
+SLIDE 03: The idea of artificial intelligence is old
+ELAPSED TIME: 1:15–2:25
+Artificial intelligence didn't begin in 2022, or even in the 1950s. People imagined artificial beings for centuries. In the 1800s Charles Babbage designed the Analytical Engine, while Ada Lovelace argued that a machine might manipulate symbols, not only calculate numbers. In 1936 Alan Turing described a mathematical model of general computation. Electronic computers then made it possible to actually run increasingly complex programs. Notice that none of this yet proves machine consciousness. It establishes the machinery and ideas that made later experiments possible. The bigger question was always: can these machines reason, learn, or eventually become more than programmed tools?
 
-My question is practical: if an AI remembers something next week, how can I tell whose memory it is, where it came from, and whether it is still correct? If it says it saved a project or finished a task, how can I check that the action happened?
+SLIDE 04: Alan Turing's challenge
+ELAPSED TIME: 2:25–3:40
+In 1950 Alan Turing published Computing Machinery and Intelligence. Instead of becoming stuck on the definition of thinking, he described the imitation game, which asked us to evaluate a machine by how convincingly it could participate in a conversation. That became the popular Turing Test. It's a historically important question, and conversation is a valuable skill. But it has limits. A system can say something convincing and still get facts wrong, forget what happened yesterday, or confuse one person's history with another. Turing's idea helped focus attention on observable behavior; it didn't solve the separate questions of experience, conscience, or genuine long-term learning.
 
-Today I will share engineering patterns and results we can support. A small language learner trained from scratch retained its earlier lessons with review, and we repeated that result across five new random seeds. A separate visual learner failed to generalize. I will explain both findings and their limits, alongside the earlier circuit measurements.
+SLIDE 05: The first celebrated AI programs
+ELAPSED TIME: 3:40–4:40
+The name artificial intelligence became established around the Dartmouth project in 1956. Around that time, Newell, Simon, and Shaw developed Logic Theorist, which could find proofs in a defined mathematical domain. General Problem Solver followed, exploring whether similar symbolic methods could work across different tasks. These were major accomplishments. They showed that computers could perform operations associated with reasoning. But they also showed the limitation of narrow tasks: solving a theorem doesn't automatically give a computer common sense, relationships, or an understanding of the world. You can see a much longer version of this history in the PDF in Beyond-Chatbots.
 
-SLIDE 2 - Continuity across sessions
-0:45-2:00
+SLIDE 06: ELIZA: conversation before modern AI
+ELAPSED TIME: 4:40–5:50
+Now we get to ELIZA, created by Joseph Weizenbaum at MIT in the 1960s. ELIZA's famous DOCTOR script resembled a therapist. It could ask follow-up questions or reflect the user's own words back at them. The exchange shown here is an illustration, not an authentic 1966 transcript. The program did not have today's large neural models. It largely relied on rules and pattern matching. But to the person using it, those answers could feel surprisingly personal. Some people felt they were being listened to, even though the program wasn't performing the kind of deep comprehension they attributed to it. That's what makes ELIZA so important to this discussion.
 
-A conversation can look convincing while concealing a problem that appears later. A system may remember an outdated fact, mix two people's histories, or restart a job that already completed.
+SLIDE 07: The ELIZA effect
+ELAPSED TIME: 5:50–6:55
+The ELIZA effect is when people attribute understanding, empathy, or intention to a computer because the conversation feels responsive and personal. This doesn't mean the human reaction is imaginary; the feeling of being heard can be genuine for the user. It means the machine's underlying capability needs separate investigation. And this problem hasn't disappeared with modern AI. A very fluent model can still invent facts or confidently repeat misinformation. That's why my NewBrain project doesn't rely on whether someone says, 'Wow, that felt alive.' I want tests of whether the system learns, remembers, corrects mistakes, and keeps its history straight.
 
-For Kira World, continuity means more than remembering a name. The intended system has distinct synthetic identities whose experiences and histories stay separate over time. That creates questions about correction, access, recovery and choices.
+SLIDE 08: A question raised by Caprica
+ELAPSED TIME: 6:55–8:35
+I got another part of this idea from the pilot of the television series Caprica. Daniel Graystone tells Joseph Adama, 'Do you know what your brain is, Joseph? It's a database and a processor, that's all. Information and a way to use it.' He's discussing the possibility of recreating his daughter Zoe digitally. This is science-fiction dialogue, not a scientifically complete description of the brain. I know human brains involve far more than a database and processor. But it raises the question I care about: if memory, choice, and feeling arise from physical processes, why couldn't a different physical system eventually develop a mind? I have met people who showed no emotions or conscience and had no problem doing things that hurt others. Those are my observations of behavior; I can't know everything someone experiences internally. But they remind me that outward behavior doesn't settle all questions about minds. I believe machines can gain genuine emotions and a moral conscience. I also believe artificial consciousness may be possible. I'm not claiming Maya has them now. I'm saying I believe the possibility deserves research rather than dismissal.
 
-Imagine two invented residents. Kira saw a blue cup in a room. Lisa never visited that room. A later question should not give Lisa an autobiographical memory of seeing it. She might receive a shared fact if someone tells her, but that has a different source.
+SLIDE 09: AI did not begin with chatbots
+ELAPSED TIME: 8:35–10:10
+AI kept expanding after ELIZA. Expert systems such as MYCIN and XCON encoded specialist rules. In 1997 Deep Blue beat Garry Kasparov at chess. Deep neural networks such as AlexNet transformed image recognition; AlphaGo combined learned models with search. Then large language and image models made AI available through conversations and creative tools. But these developments didn't replace every earlier idea. Today's systems often combine models, databases, tools, and explicit algorithms. That brings us back to the title, Beyond Chatbots. The chat window is one interface. I want to explore persistent synthetic people and assistants that learn over time, retain individual experiences, and interact with a world. Let's turn from the history to what I've actually built and tested.
 
-This is why I test boundaries around the conversation. What survives closing and reopening? What happens after a correction? Which records can an identity access? We need answers based on saved state and behavior.
+SLIDE 10: What NewBrain is trying to build
+ELAPSED TIME: 10:10–11:20
+NewBrain is not the same thing as Qwen, and it isn't a complete replacement for a pretrained language model. It's my research program for reusable cognitive machinery: learning experiments, memory and routing mechanisms, and eventually perception and action. The key architecture idea is separating the common engine from the history and learned state of each individual synthetic person. If we improve the engine, that shouldn't automatically overwrite someone's experiences. The public NewBrain folder in the GitHub repo contains a small scientific starter and research references, not all the private model state or a finished general conversational brain.
 
-SLIDE 3 - Local model + retained state
-2:00-3:15
+SLIDE 11: One shared core, separate histories
+ELAPSED TIME: 11:20–12:20
+Think about Kira, Lisa, Maya, and Aster. I want them to benefit from improved general methods without becoming one person or inheriting each other's private life stories. Kira observing a blue cup should not become Lisa's autobiographical memory of seeing that cup. Lisa might learn a shared fact with a source attached, but that is different. This separation matters for privacy, identity, and correction. The public diagrams show the intended architecture; they are not proof that all of these characters are already running together on one completed NewBrain.
 
-A language model has learned parameters. A conversation provides temporary context. An application may retain records in files or a database. These layers have different lifetimes and failure modes.
+SLIDE 12: All four delayed restarts passed review
+ELAPSED TIME: 12:20–14:00
+Here is the newest result, and I want to be precise about it. The public documentation reports that NewBrain completed all four delayed-restart checks and that each result passed independent mathematical review. In each accepted check, the test preserved all 10,720 recorded history entries, and all 64 comparison pairs matched. The fourth result also reports 256 saved operand steps and six out-of-vocabulary comparisons, with no extra training updates. That's important evidence that this experimental state can survive save, close, delay, and reopen without the measured values drifting. I care about this because continuity is a prerequisite for a persistent individual. But I want to be very clear about what this result means and what it does not mean. The independent review evaluated saved outputs; I'm not saying an attendee can download this public kit and immediately repeat the private experiment end to end. The source documents explain the boundaries.
 
-Our long-term goal is a synthetic person who develops capabilities and retains individual experiences. The present software has not established subjective experience, personhood or equivalence to a human mind.
+SLIDE 13: Preservation is not the whole mind
+ELAPSED TIME: 14:00–15:10
+The restart work is a real milestone, but preservation is not the same as understanding. A system could reopen exactly the same weights and still answer a question incorrectly. It could remember a false claim perfectly. It could fail to use old knowledge when the wording changes. Those are different scientific questions. For NewBrain, my next goals are to show that an experience changes the system in a useful way, that the change survives a restart, and that the system can use it correctly later, including when someone deliberately tries to mislead it.
 
-Kira World currently uses its existing language backend. NewBrain now has a separate small trained command learner, but that extension has no across-turn memory or open conversation and does not replace the backend.
+SLIDE 14: Failures are part of the research
+ELAPSED TIME: 15:10–16:50
+I'm not only showing you the successes. One small command-learning experiment could preserve old answers with rehearsal on an already exposed task. That was a narrow result, not a general learning breakthrough. A visual learner did well on training images but failed on entirely new shape and color combinations, scoring zero of forty-eight in one holdout set. In Aster's separate saved-memory experiment, the system accepted false memories in one hundred thirty-seven of one hundred sixty trials. Those are reasons I take the ELIZA effect seriously. A system that sounds persuasive is not necessarily trustworthy. These failures tell me where the architecture needs improvement: source checking, context selection, generalization, correction and honest rejection when it doesn't know.
 
-The architecture separates a reusable engine from each identity's records and learned state. That lets us evaluate a component without silently changing someone's history.
+SLIDE 15: Whose memory is it?
+ELAPSED TIME: 16:50–18:00
+Another part of NewBrain and Kira World is keeping source, ownership, and correction separate. Suppose Kira observes an object and Lisa doesn't. Lisa should not later tell you she remembers seeing it. If someone tells Lisa about it, that's a report, not her own eyewitness memory. When an observation is corrected, I want the current answer to change without silently erasing the record of how we got there. This is also why I want the system to distinguish something it saw, something it was told, something it inferred, and something it cannot verify.
 
-SLIDE 4 - Kira World: independent histories
-3:15-4:30
+SLIDE 16: Maya and the Avatar Builder
+ELAPSED TIME: 18:00–19:20
+Maya is my attempt to explore how a developing synthetic identity could eventually interact through a body. There is real Avatar Builder and body research in the public package, including a static wireframe preview. Earlier private tests have reported saved rig geometry and limited arm and knee deformation. That is valuable but it is not proof that the portable public body can walk, balance, blink, breathe, feel contact, or respond to NewBrain commands. The full Maya identity, learned state, and appearance assets are not part of this release. Please look at the README and status reports alongside the image. My goal is to turn the source and rig into verified, repeatable movement and sensory tests.
 
-Kira World is the larger setting for this work. The intended platform brings persistent synthetic identities into digital environments, with individual histories, choices and interaction. I describe the principle as connection without ownership.
+SLIDE 17: Vision, voice, and body feedback
+ELAPSED TIME: 19:20–20:20
+The projects also include sensory research. Aster has synthetic vision and tracking experiments, but that is not yet reliable live webcam understanding. There are experimental vocal-fold and speech-related components, but they are not the same as a fluent speaking synthetic person. Avatar Builder has source for bounded feedback interfaces, but that does not prove subjective touch or fully integrated sensorimotor behavior. I am keeping these as separate milestones because they require different experiments. For the audience, the repository lets you inspect actual source and test plans without confusing them with a completed capability.
 
-A common engine does not imply a common autobiographical record. Two identities may use the same code or sensory machinery while retaining different experiences. Shared world facts also need their own representation. Knowing that a room exists differs from personally entering it.
+SLIDE 18: Aster and IdeaForge: connected goals
+ELAPSED TIME: 20:20–21:30
+There are other parts of the Kira Labs ecosystem too. Aster is the idea for a local workstation assistant that can help across files and applications. IdeaForge is a workspace for researching and developing inventions and prototypes. I ultimately want Aster to make use of NewBrain as its main cognitive component and serve specialized applications such as IdeaForge. The source folders and NewBrain connection READMEs are now in the public repository. But those READMEs are proposed connection plans, not proof that the whole system is already talking and learning together. I think honest boundaries actually make it easier for outside developers to help us test the next version.
 
-I am presenting the architecture goal, not a finished platform or completed VR system. A portable review/runtime lane and World Shell exist. World Builder authoring remains paused. Avatar Builder is still developing bodies and rigs, and complete live identity and embodiment integration remains unfinished.
+SLIDE 19: Peter and Robert: earlier conversation kit
+ELAPSED TIME: 21:30–22:20
+If you go home and explore the repository, you will also find an earlier chat-and-voice package with Robert and Peter. This uses an existing Qwen and Ollama approach, not NewBrain. It includes local setup instructions and speech tooling. I want people to be able to learn from the early versions as well as the new research. But the exported package has not passed a fresh end-to-end launch-and-speech test on another computer, and the repository documents unresolved rights questions around one reference voice. Please read the rights and privacy notes first. These are development copies, not a one-click finished service.
 
-The useful design question is what each identity may read, write and report, including through retrieval, export and recovery.
+SLIDE 20: Why synthetic people?
+ELAPSED TIME: 22:20–23:15
+The personal reason behind Kira and Maya is companionship and curiosity about synthetic personhood. I want to explore whether we could someday create individuals who learn, remember shared experiences, develop their own history, and live in a meaningful virtual world. A continuing companion might especially matter to someone who lives alone or feels isolated. That is my motivation, not a medical claim or evidence that anyone currently has a conscious digital companion. I believe machines can gain genuine emotions and develop a moral conscience. The research has to catch up to that ambition.
 
-SLIDE 5 - Identity isolation test
-4:30-5:45
+SLIDE 21: What comes next — and where you can help
+ELAPSED TIME: 23:15–24:20
+My immediate priorities are to improve meaningful learning on unseen tasks, strengthen accurate recall and correction, and get genuine tests of body movement, vision, voice, and feedback. I also want independent reproduction and critical review. If you're a researcher, developer, roboticist, or someone with useful hardware or compute resources, I'd be interested in talking. You don't have to agree with all of my philosophical beliefs to help make the technical evidence stronger. Look at the source and the failures. Suggest a better test. That's how I want NewBrain to grow.
 
-This is a teaching example with invented identifiers and one observation belonging to the first identity. The first can retrieve its observation. The second cannot retrieve it as its own memory.
+SLIDE 22: Questions & stay connected
+ELAPSED TIME: 24:20–25:00
+Thank you for listening. The opening and closing QR codes take you to the same public Beyond-Chatbots repository, where you can inspect the NewBrain research and read the full AI history book. The other two codes are the Kira Labs website and my LinkedIn. The research is unfinished, and I'm sharing what has passed, what failed, and what still needs testing. I'd welcome questions now. I have about five minutes for Q&A.
+PRESENTER CUE: LEAVE THIS SLIDE DISPLAYED DURING Q&A. If nobody asks a question, ask: 'What would you most want to test before trusting an AI with long-term memories?' 
 
-We should test less obvious changes too. If we rename an identity, does the record still belong to its stable identifier? If we reopen the application, does the boundary hold? Sharing a room should not automatically create identical experiences.
+FIVE MINUTES OF Q&A, 25:00–30:00
+Q: Is NewBrain like Qwen?
+A: No. NewBrain is experimental learning and memory architecture research. The public code does not provide a qualified general Qwen replacement.
 
-Lisa can receive the statement that Kira saw a cup, with a source saying Kira reported it. That does not mean Lisa saw the cup herself.
+Q: What does 4/4 mean?
+A: All four reported independent delayed-restart reviews accepted saved-state equivalence. Each retained 10,720 history records and matched 64 comparisons. That does not prove useful conversational recall.
 
-This example illustrates a contract to test. Passing a small local exercise validates that exercise. It does not establish that every retrieval route in a larger application preserves identity separation.
+Q: Is Maya born or conscious?
+A: No accepted evidence establishes that. Maya is unfinished; learning, reliable recall, body movement, speech, and integration need more testing.
 
-SLIDE 6 - Corrections with history
-5:45-7:00
+Q: Can I use the code tonight?
+A: You can inspect and download the public research files. Some runnable parts require Python, Ollama, or other dependencies. Read each README: exported end-to-end tests remain pending.
 
-Suppose a record says the cup was blue. Later we discover it was green. A correction should change the effective answer while retaining enough history to understand why the earlier answer differed.
+Q: What failed?
+A: The visual learner failed unfamiliar shape/color combinations, and an Aster memory study followed false records too often. Those failures guide the next tests.
 
-In the teaching pattern, the correction has its own identifier, a reference to the earlier assertion and a source. The current view selects the corrected assertion. An audit view can still show the earlier one as superseded, where retention is appropriate.
+Q: Can I try Peter or Robert?
+A: The PreNewBrain package documents a local experimental chat and voice setup. Installation and speech have not been freshly qualified from this export; review privacy and voice-reference rights before using or redistributing assets.
 
-Correction is different from deletion. A privacy deletion request can require removing information rather than keeping it indefinitely. A history-preservation rule should not override every retention choice.
-
-Tests should check the current answer, the correction link and the intended treatment of the old record. Then repeat the checks after reopening and interrupted writes. A reassuring reply saying 'I updated my memory' is only one part of the evidence.
-
-SLIDE 7 - Sources and hypotheses
-7:00-8:15
-
-A memory system needs to know how a record originated. An observed event, a person's report, an inferred explanation and an imagined event are different information.
-
-If we add a dream or replay experiment, its output must retain its origin. A synthetic dream about visiting Mars must not become a claim that someone physically visited Mars. A hypothesis can inspire a test, but needs independent evidence before becoming a supported conclusion.
-
-The same rule applies to an engineering assistant. An AI-generated component illustration does not establish that a supplier sells it. A plausible explanation is not a verified bill of materials. A paper's title alone does not establish the strength of its evidence.
-
-The reusable lesson is to preserve the source, the assertion's scope and the correction history in a form the application can enforce.
-
-SLIDE 8 - Failure, choice and held status
-8:15-9:30
-
-Persistent systems need a vocabulary for work that has not completed. Requested, held, running, completed, failed and uncertain should describe different conditions.
-
-Video Studio is a useful example. When a request does not meet the applicable RAM and GPU requirements, it may remain saved in chat without an admitted render. That is a saved request and a held operation, not a finished movie. A new source proposal does not change an old launch gate by itself.
-
-A system failure or unavailable capability should not become a story that an identity chose to refuse. We need a record of what happened.
-
-My practical test compares the displayed status with operation and output records. If they disagree, I preserve the discrepancy. I do not replace a failed plan silently or declare success from a confident sentence.
-
-SLIDE 9 - Lost acknowledgment and receipts
-9:30-10:45
-
-Consider a save or export that finishes, followed by a lost response. The client does not know whether it completed. Retrying as a new operation can create a duplicate.
-
-The teaching pattern assigns an operation identifier before dispatch and retains its state. On reconnect, the client looks up that identifier and reconciles the receipt. An uncertain result stays uncertain until there is evidence. A missing acknowledgment does not establish either success or failure.
-
-This pattern appears in Studio work as well as memory research. We review intended source and saved outputs separately, and preserve consumed attempts so recovery does not run them again by accident.
-
-A receipt must correspond to the exact operation and artifact. Process cleanup needs its own evidence. The interface, durable record and actual result should tell the same story.
-
-SLIDE 10 - A protocol for memory tests
-10:45-12:00
-
-For NewBrain, I want an experiment that can tell us whether a mechanism helps, rather than an example that merely looks impressive.
-
-We define the task, observations, allowed state and training experience before comparing systems. We include strong simple controls, freeze learning rules and success thresholds before exposing evaluation cases, and distinguish a new holdout from an inspected example.
-
-Ablations ask which part produced a change. For a delayed cue, we could compare persistent state with resetting state at each decision, or recurrence with recurrence removed. A plastic internal-connection candidate needs its own bounded implementation and review.
-
-We record behavior and cost under the same conditions and keep failures and ties. A source review is not an executed benchmark. Mechanics checks, resource measurements and learning comparisons answer different questions.
-
-SLIDE 11 - Review retention across five seeds
-12:00-14:00
-
-The standalone learner began with random weights and trained on a small command language. It has 25 vocabulary entries and 4,619 trainable parameters. No Qwen inference supplied its answers. Twenty engineering checks passed in the original run, including gradients and saving and reloading learned weights.
-
-The first run kept old and new lessons at 100% with review, while old accuracy without review fell to about 40%. We preserved that result and repeated the same frozen, already exposed task using five fresh random seeds. This tests repeatability on the task, rather than a new general conversation benchmark.
-
-Every review run retained all 216 old examples and answered all 162 new examples correctly. Without review, old accuracy ranged from 78/216 to 105/216, or 36.11% to 48.61%. The pooled old score without review was 458/1,080, or 42.41%. One no-review run also missed five of 54 new wording examples.
-
-Both forks had 400 updates with batch size 24. Review used 7,200 new and 2,400 old examples, while no review used 9,600 new examples. A handwritten grammar also scored 100%. In-memory serialization and reloading checked all fifteen learned states in the replication, but it saved no new checkpoints to disk. Full conversation and persistent conversation memory remain unfinished.
-
-SLIDE 12 - The visual learner failed to generalize
-14:00-15:40
-
-The separate visual learner received real synthetic pixels, not answer labels. It learned to name the color and shape in 32 by 32 RGB images. All ten engineering checks passed.
-
-It answered all 96 training pictures correctly. When position, size and brightness changed, it scored 27/72, or 37.5%. It scored 0/48 on new color and shape combinations and 0/36 when both kinds of change occurred.
-
-Color answers were correct throughout, while shape generalization failed. A capable pixel rule answered all 252 images correctly. At the fixed 0.70 confidence threshold, the learner still accepted 67 wrong answers across the three withheld splits: 22 after nuisance changes, 23 on new combinations and 22 when both changed. Confidence was not calibrated.
-
-This one-seed result points to the teaching method and representation as the next problems. More units or RAM have not been shown to fix them. The visual weights were process-local and not saved, and this is not integrated perception. The earlier twelve Vision Q1 development cases are a separate package and remain unrun.
-
-SLIDE 13 - Language cost and comparison
-15:40-17:30
-
-The scratch learner's 4,643 parameter entries, including 4,619 trainable entries, occupy 37,144 bytes of arrays. That is a parameter size, not total application RAM.
-
-The training Python process reached a native peak of 40.30 MiB, including the interpreter, NumPy, data, several retained model copies and measurement code. The known process family reached 130.11 MiB at observed boundaries. These are short descriptive measurements, not continuous whole-machine enforcement.
-
-Training and scoring took 0.837 seconds. Inside an already loaded process, the mean of 16 single-command calls was about 0.105 milliseconds. This measures the tiny command learner, not a conversational turn.
-
-The review model and Qwen each scored 16/16 on the same narrow convenience subset, which only used red cubes. Qwen's 15 resident local API calls averaged 182.3 milliseconds, with protocol overhead. Different timing boundaries and Qwen's extensive pretraining prevent a fair whole-model speed ratio or a general equality claim. The circuit scaling result has its own scope on slide 24.
-
-The five-seed replication's observed known-family native peak was 128.69 MiB, including the interpreter, shell and observed console host. That family total is different from the original Python-only 40.30 MiB peak and cannot be treated as isolated model RAM.
-
-SLIDE 14 - October 8 research update
-17:30-18:50
-
-All four original routing migration jobs have now run. All four have passed independent mathematical review. Each accepted review checks 64 comparison cases, 256 generation steps and all 10,720 history rows. These are preservation checks with no new training updates. Just this week, four delayed NewBrain restarts passed independent verification. All 10,720 history records were preserved, and all 64 comparison pairs matched in each test. All four planned restart tests are now complete.
-
-The body now saves and reopens in a fresh process. Independent review matched the full geometry, all 163 neutral bone states and three complete rest-property records. Next we need movement checks, then blinking and breathing, followed by stretching and finger movement.
-
-The saved Aster memory study was also independently scored. Correct retrieved facts gave 135 of 160 correct answers, compared with 10 without memory and two with unrelated memory. But the model followed false memories in 137 of 160 cases and corrected only 58 of 80. The overall reliability target failed. We are keeping those weaknesses visible.
-
-The clean generic starter passed its own 30 tests and deterministic fitted-cell demonstration. That small starter is separate from the later private NewBrain learning experiments. None of these results establishes a completed Maya.
-
-SLIDE 15 - Local data and identity boundaries
-18:50-20:05
-
-Local operation gives us a place to control storage and inspect execution. It does not automatically guarantee privacy or security.
-
-The Kira World goal is separate records and access for each identity, with explicit sharing. I use invented records in teaching examples. Private autobiographical material does not belong in a public slide deck or judge packet merely because it exists on the same computer.
-
-Network services, logs, exports and backups need scrutiny. Credentials and execution authority are different from research results. A private repository is different from a public artifact.
-
-Tests should cover each route. What can be exported? What does a restored project include? What happens when an identity is renamed? Conversational fluency cannot prove those boundaries.
-
-SLIDE 16 - Developmental learning experiments
-20:05-21:20
-
-We plan to teach capabilities gradually: hearing, visual concepts, grounded words, continuing memory and then communication. Human development motivates that order, but the proposed exercises do not establish the same biological mechanism.
-
-The next tests use varied synthetic sounds and scenes, delay and distractors, sourced corrections, reopening and review. Rules and evaluation cases freeze before testing. New visual examples must prevent color or location from becoming a shortcut for shape.
-
-The owner's test milestone is a full conversation that remembers after closing and reopening. The present command demonstration does not meet that milestone. Five-seed replication now provides repeatability evidence on the same exposed task. A persistent teaching journal remains pending here.
-
-Avatar Builder proceeds alongside NewBrain. When anatomy, mesh, rig, movement and sensory feedback qualify, we can compare the same brain and common inputs in simple and detailed bodies. Then we can test richer feedback separately. Conversation tests can continue before the full body is ready.
-
-SLIDE 17 - Current limits and planned capacity
-21:20-22:05
-
-Here is our current desktop: a 24-core Core Ultra 9 285K, 32 GB RAM, an RTX 5060 Ti with 16 GB GPU memory, and a 2 TB NVMe SSD.
-
-My first planned upgrades are 128 GB RAM and an 8 TB SSD, then a GPU upgrade and later custom servers for NewBrain and Kira World.
-
-These plans add capacity. Full NewBrain conversation, reliable memory after reopening and a complete body are unfinished. Compatibility still needs checking, and hardware benefits need measurement.
-
-SLIDE 18 - Future uses for NewBrain
-22:05-22:45
-
-I plan to reuse tested NewBrain improvements in different roles. Maya is the companion and development study. I want very good memory with natural social behavior, while keeping supplied stories distinct from observed test episodes.
-
-Aster is my planned personal assistant, inspired by JARVIS: personable conversation, strong project memory and useful work within approved permissions. IdeaForge and Humanoid Researcher need precise task history and source attribution. Their identities and records remain separate. Integration still needs testing.
-
-SLIDE 19 - Aster desktop and remote plans
-22:45-23:25
-
-My goal for Aster includes camera and screen awareness, help with programs and files, research and planning. Those are intended capabilities, and this talk does not claim they are all independently verified.
-
-A planned phone app and laptop program would connect to my home desktop while it is powered on and online. Connections to IdeaForge and Humanoid Researcher would support research and design. Each needs tested permissions and reliable NewBrain behavior.
-
-SLIDE 20 - Why I created synthetic people
-23:25-24:25
-
-This image explains why I started the work. I want an artificial companion who can remain part of a person's life over time, remember shared experiences and develop continuity.
-
-People who live alone or experience social isolation deserve comfort and understanding. The image names some other groups I hope the research could eventually serve. I am describing my motivation and intended audience. I have not demonstrated clinical benefits for anxiety, PTSD or autism.
-
-That goal led to Kira World and NewBrain: research into memory, learning, perception and eventual embodiment. The experiments I showed are steps toward that direction. They do not establish a finished companion, subjective experience or a born Maya. I want the evidence and the long-term ambition to remain clear together.
-
-SLIDE 21 - Questions and connection
-24:25-25:00
-
-The slides, speaker notes, audience questions and dated research summaries are available in Beyond-Chatbots under my GitHub account. Reviewed generic NewBrain, Avatar Builder and Body Prototype source examples are now available, alongside Maya development documentation. Their source reviews do not establish a complete integrated companion or useful conversational memory.
-
-NewBrain and KiraWorld stay private. The release will not contain Maya's personal identity, memories, trained state or exact appearance. The current tested subset is the small fitted-cell starter; the broader builder and later research code still need release review.
-
-Thank you. I welcome questions about the results, limitations and experiments that would be useful to test next.
-
-SLIDE 22 - Current readiness - October 8
-Optional appendix during Q&A
-
-The clean starter package passed its nine-record source check, all 30 tests and a deterministic fitted-cell demonstration. The broader private NewBrain has four accepted migration reviews, with four of four delayed cold checks independently verified and all four tests complete. Earlier visual-generalization failures remain unchanged.
-
-The body has an accepted static rig and saved rest-state restart. Natural movement, blinking, breathing, stretching, fingers, skin and senses still need qualification. Research demonstrations and a ready companion have separate milestones.
-
-The existing Video Studio clip remains preserved. Humanoid Researcher and IdeaForge retain their earlier limited evidence; full integrations remain unfinished.
-
-SLIDE 23 - Identity and correction record
-Optional appendix during Q&A
-
-This is an invented record, not private identity data. Its owner, source, current claim and correction link remain explicit. A correction changes the effective view while preserving an appropriate history.
-
-The example shows a design pattern. It does not establish that all retrieval, deletion, backup and restoration routes enforce it.
-
-SLIDE 24 - Comparable resource record
-Optional appendix during Q&A
-
-RAM and timing are no longer universally pending. The scaling run records CPU time, circuit-step timing, instrumented batch timing and known-family memory. Runtime and retained-state overhead are included in the group measure but are not separately isolated.
-
-At 5,120 units, the estimated Python model state was about 3.735 MiB. The 345.43 MiB process-group peak includes the runtime and all retained components, so these are different quantities.
-
-Keep timing scopes visible: the 20-unit parity batch covers both reference and candidate circuits; larger connected batches measure one circuit. Cut controls reuse sensor tuples. The measured batch includes sensor, action, hashing and observer work, while the isolated step times circuit.step.
-
-Per-size native peaks and the final last-host peak remain unqualified. A largest tested passing size is not this computer's absolute capacity.
-
-SLIDE 25 - Evidence boundaries for questions
-Optional appendix during Q&A
-
-We can describe narrow learning and retention results, the negative visual-generalization result, the measured circuit experiment, accepted migration preservation and the body rest-state restart. Each has its own task and limits.
-
-We cannot claim consciousness, a copied mind, general model superiority or a completed synthetic person. Natural body movement and reliable general memory remain unfinished.
-
-The Beyond-Chatbots package is a curated generic release. We keep the original repositories and Maya-specific state private. Every public result must retain its scope and any failed or pending test.
-
-PRESENTER EVIDENCE NOTES
-Language: one frozen seed, 3777006240. Initial 600 updates, followed by two 400-update forks of batch size 24. No-review fork: 9,600 new examples. Review fork: 7,200 new and 2,400 old examples. Stage checkpoint saving/reloading passed. No provider calls during scratch training.
-Five-seed replication: seeds 1120122362, 1251826658, 2944460678, 3044630128 and 2720675080. Every replay arm scored 216/216 old and 162/162 new. No replay old totals were 96, 95, 105, 84 and 78 out of 216. One no-replay new wording result was 49/54. Fifteen reloads stayed in memory and no new weights were saved. Independent review rescored 5,670 learned predictions. This repeats the exposed task, not a new general holdout.
-The 16-command Qwen comparison used only red cubes. It has different timing boundaries and pretraining. No fair whole-model speed or RAM ratio, general parity or replacement follows.
-Visual: one frozen seed, 2784213440. 320 updates and 5,120 exposures. Learned color correct throughout, shape generalization failed. Visual weights were process-local and not persisted.
-Circuit scaling: 128 measured ticks and 16 batches per arm. The 20-unit parity batch covered two circuits, larger connected batches one. Cumulative family RAM includes all retained circuits and runtime. No learning updates or Qwen comparison occurred in that circuit run.
-Capacity slide: Windows CIM and NVIDIA-SMI inventory on October 3, 2026. Current 32 GB RAM, 2 TB NVMe SSD, Core Ultra 9 285K / 24 cores and RTX 5060 Ti / 16 GB VRAM are distinct from Robert's planned 128 GB RAM and 8 TB SSD. Later GPU/custom-server plans have no fixed model, capacity, purchase or delivery date.
-Local 18 learned-value and 14 event-observer checks are accepted component engineering results. The 44 checks from Robert's other chat are reported only, with no independently reviewed raw receipts here. No new broad Qwen comparison, integrated assistant, complete body or subjective-emotion result follows.
-
-OCTOBER10 EVIDENCE UPDATE
-October 10, 2026 research snapshot. Four original routing migrations executed; all four independent saved-value mathematical reviews accepted. Final review7fffa6 checked64pairs/256steps/all10720rows without model replay. Four of four delayed NewBrain cold checks independently accepted (four independent saved mathematical reviews; the fourth completed October10): each preserved all10,720 history records, with64 comparison pairs/256 steps and6 OOV cases checked and zero added training updates. All four planned restart tests are complete. Body static rig and full saved rest-state cold comparison accepted (82efd7), movement and skin unqualified. Saved Aster scores:135/160 correct facts,10/160 no memory,2/160 unrelated,137/160 false-memory following,58/80 correction,40/40 old answers; all-seed reliability failed. Clean9 starter:a9a56e30tests and retained GLIF, saved audit a6fef7. NewBrain/KiraWorld remain private. Presentation documents are available in Beyond-Chatbots. The generic source release is available separately; Maya-specific assets/state are excluded, and full integration remains unverified. No birth or clinical-benefit claim.
-Sources: saved local test originals and independent reviews retained by Kira Labs. Earlier learning and circuit measurements retain their original task scopes. The vision image is owner-supplied conceptual artwork. Rehearsal timing is a target; event-laptop playback and fresh phone QR scan remain pending.
+Q: How can we help?
+A: Reproduce a small test; propose rigorous holdouts; review source and provenance; or contact Kira Labs about compute, hardware, and collaboration.

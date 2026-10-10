@@ -10,7 +10,7 @@ For the complete folder, choose **Code → Download ZIP** above and extract it o
 | Material | Download or read |
 | --- | --- |
 | **Quick practice / very short Q&A (start here)** | [2-page printable PDF](presentation/Quick-Rehearsal-and-QA.pdf) · [Slide-by-slide cues](presentation/Quick-Rehearsal.md) · [12 one-sentence answers](presentation/Very-Short-QA.md) |
-| Editable 25-slide deck | [PowerPoint](presentation/Beyond-Chatbots-October10.pptx) |
+| Editable 22-slide deck | [PowerPoint](presentation/Beyond-Chatbots-October10.pptx) |
 | Slides for viewing | [Slide PDF](presentation/Beyond-Chatbots-Slides.pdf) |
 | What I will say | [Speaker PDF](presentation/Speaker-Script.pdf) · [Editable text](presentation/Speaker-Script.txt) |
 | 34 audience questions and suggested answers | [Q&A PDF](presentation/Audience-Questions.pdf) · [Editable text](presentation/Audience-Questions.txt) |
@@ -18,7 +18,7 @@ For the complete folder, choose **Code → Download ZIP** above and extract it o
 | Results, failures and pending checks | [Results summary](presentation/Reviewed-Results.txt) · [CSV table](presentation/Results-Table.csv) |
 | Attendee guide and visual background | [Start here](attendee/START_HERE.md) · [AI history and NewBrain PDF](attendee/AI-History-and-NewBrain.pdf) |
 
-If GitHub cannot preview the large PowerPoint or slide PDF, use its download button or Download ZIP. Speaker notes target 25 minutes plus five minutes for questions; slides 22–25 are optional appendix material. “Why I created synthetic people” remains slide 20.
+If GitHub cannot preview the large PowerPoint or slide PDF, use its download button or Download ZIP. Speaker notes target 25 minutes plus five minutes of Q&A. The original cover remains first. Slide 2 and the final slide display QR codes for Beyond-Chatbots; the first 10 minutes now cover AI history, Turing, ELIZA and Caprica.
 
 The **42-page illustrated reader companion** includes an actual screenshot from a **2023 ELIZA/DOCTOR reimplementation**, clearly labeled as non-archival, the ELIZA effect, and a richer timeline from Babbage and Lovelace through modern AI. See [image credits and sources](attendee/AI_HISTORY_VISUAL_SOURCES.md). It connects Turing's earlier question about machine intelligence to today's distinction between convincing conversation and measured learning or memory.
 
@@ -60,3 +60,7 @@ The attendee guides have a separate [checksum list](attendee/SHA256SUMS.txt); th
 The [**42-page illustrated AI History and NewBrain book**](attendee/AI-History-and-NewBrain.pdf) is the only current PDF edition in this repository. It includes the ELIZA effect, a credited screenshot of a modern ELIZA recreation, 25 expanded illustrated history chapters, and page 34's personal reflection inspired by *Caprica*, with the actual dialogue and its context.
 
 Read the [table of contents](attendee/AI_HISTORY_EXPANDED_CONTENTS.md), [historical and image sources](attendee/AI_HISTORY_VISUAL_SOURCES.md), or [editable author's reflection](attendee/AUTHORS_REFLECTION.md). The PDF has a [matching SHA-256 checksum](attendee/AI-History-and-NewBrain.pdf.sha256). Use this stable link for future updates; superseded, version-numbered copies were removed to avoid confusion.
+
+## October 10 reordered presentation
+
+The **22-slide deck** begins with the unchanged cover and [Beyond-Chatbots QR slide](presentation/Beyond-Chatbots-October10.pptx) second, then approximately 10 minutes of AI history including Turing, ELIZA, the ELIZA effect and the Caprica discussion. The second part covers NewBrain, 4/4 independently reviewed delayed state restarts, Maya, Avatar Builder, Aster, IdeaForge and the pre-NewBrain character package. The three QR codes return at the end for questions. [Mobile speaking order](presentation/OCT10-SPEAKING-ORDER.md) and [speaker script](presentation/Speaker-Script.pdf).
