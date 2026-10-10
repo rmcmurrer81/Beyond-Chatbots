@@ -20,7 +20,7 @@ For the complete folder, choose **Code → Download ZIP** above and extract it o
 
 If GitHub cannot preview the large PowerPoint or slide PDF, use its download button or Download ZIP. Speaker notes target 25 minutes plus five minutes for questions; slides 22–25 are optional appendix material. “Why I created synthetic people” remains slide 20.
 
-The **41-page illustrated reader companion** includes an actual screenshot from a **2023 ELIZA/DOCTOR reimplementation**, clearly labeled as non-archival, the ELIZA effect, and a richer timeline from Babbage and Lovelace through modern AI. See [image credits and sources](attendee/AI_HISTORY_VISUAL_SOURCES.md). It connects Turing's earlier question about machine intelligence to today's distinction between convincing conversation and measured learning or memory.
+The **42-page illustrated reader companion** includes an actual screenshot from a **2023 ELIZA/DOCTOR reimplementation**, clearly labeled as non-archival, the ELIZA effect, and a richer timeline from Babbage and Lovelace through modern AI. See [image credits and sources](attendee/AI_HISTORY_VISUAL_SOURCES.md). It connects Turing's earlier question about machine intelligence to today's distinction between convincing conversation and measured learning or memory.
 
 ## Which version to use
 
@@ -42,6 +42,10 @@ SHA256SUMS.txt lists checksums for the complete current presentation package for
 
 The attendee guides have a separate [checksum list](attendee/SHA256SUMS.txt); the visual history PDF has its own [checksum](attendee/AI-History-and-NewBrain.pdf.sha256).
 
-## New 41-page illustrated AI history
+## New 42-page illustrated AI history
 
-An updated **41-page** companion includes all 16 prior pages and 25 new illustrated history chapters. It has a **fresh PDF cross-reference structure** to avoid stale ten-page renderings. Use the [41-page edition with its own filename](attendee/AI-History-and-NewBrain-Illustrated-41p.pdf), rather than relying on GitHub's older preview. The old [AI-History-and-NewBrain.pdf](attendee/AI-History-and-NewBrain.pdf) path now holds the same PDF. Read its [expanded contents](attendee/AI_HISTORY_EXPANDED_CONTENTS.md) and [historical/image sources](attendee/AI_HISTORY_VISUAL_SOURCES.md).
+An updated **42-page** companion includes the original 16 pages, 25 additional illustrated history chapters and an author's personal reflection on machine emotions and consciousness. It has a **fresh PDF cross-reference structure** to avoid stale ten-page renderings. Use the [41-page edition with its own filename](attendee/AI-History-and-NewBrain-Illustrated-42p.pdf), rather than relying on GitHub's older preview. The old [AI-History-and-NewBrain.pdf](attendee/AI-History-and-NewBrain.pdf) path now holds the same PDF. Read its [expanded contents](attendee/AI_HISTORY_EXPANDED_CONTENTS.md) and [historical/image sources](attendee/AI_HISTORY_VISUAL_SOURCES.md).
+
+## Author's reflection: Can a machine become someone?
+
+Page **34** of the new [42-page illustrated AI history](attendee/AI-History-and-NewBrain-Illustrated-42p.pdf) adds a first-person reflection by Robert McMurrer, inspired by a theme in *Caprica*. It explores whether artificial systems might one day have emotions, a moral conscience or subjective consciousness, while making clear that Maya has not demonstrated those states. [Read the editable reflection](attendee/AUTHORS_REFLECTION.md). The earlier [41-page edition](attendee/AI-History-and-NewBrain-Illustrated-41p.pdf) remains available as an archive.

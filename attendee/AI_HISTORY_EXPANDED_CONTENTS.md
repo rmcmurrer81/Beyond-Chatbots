@@ -1,12 +1,13 @@
-# Illustrated AI History - 41-page edition
+# Illustrated AI History - 42-page edition
 
-The PDF has been rebuilt into a **single clean 41-page file**, avoiding incremental PDF revisions that could leave GitHub showing only the ten original pages.
+The PDF has been rebuilt into a **single clean 42-page file**, avoiding incremental PDF revisions that could leave GitHub showing only the ten original pages.
 
 ## Sections
 
 - **Pages 1-8:** Preserved visual introduction, Turing, ELIZA and the ELIZA effect, sourced 2023 ELIZA/DOCTOR screenshot, and early milestone summaries.
 - **Pages 9-33:** 25 new illustrated chapters.
-- **Pages 34-41:** Preserved technical overview of machine learning, NewBrain architecture, experimental evidence and its limitations, and references.
+- **Page 34:** [Author's reflection - Can a machine become someone?](AUTHORS_REFLECTION.md), inspired by *Caprica*.
+- **Pages 35-42:** Preserved technical overview of machine learning, NewBrain architecture, experimental evidence and its limitations, and references.
 
 ## New illustrated chapters
 
@@ -37,3 +38,7 @@ The PDF has been rebuilt into a **single clean 41-page file**, avoiding incremen
 25. **Page 33: From Kira toward NewBrain (2025-2026).** KIRA LABS.
 
 **Images:** ELIZA's screenshot comes from a modern reimplementation, not an archival 1966 photograph. Other images are schematic vector diagrams, not historical photographs. See AI_HISTORY_VISUAL_SOURCES.md.
+
+## Latest PDF edition
+
+[Open the 42-page illustrated book](AI-History-and-NewBrain-Illustrated-42p.pdf). This edition adds a first-person reflection on emotions, moral conscience, and consciousness after the final Kira/NewBrain history chapter. The historical chapters and existing technical evidence are otherwise retained. The older [41-page edition](AI-History-and-NewBrain-Illustrated-41p.pdf) is archived separately.

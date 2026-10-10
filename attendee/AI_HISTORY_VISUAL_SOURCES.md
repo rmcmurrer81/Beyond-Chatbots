@@ -31,3 +31,7 @@ Historical categories overlap; later technologies did not replace all prior appr
 ## 2026-10-10 larger edition
 
 The 41-page edition preserves the original 2023 ELIZA/DOCTOR screenshot and adds 25 schematic illustrations showing concepts from automata, punched cards, computing, ELIZA, early symbolic AI, robots, expert systems, deep learning, Go, transformers, and synthetic-agent architectures. Illustrations are explicitly labeled **schematic, not archival photographs**. The Go illustration is not a reconstruction of Move 37. Historical citations and image attributions above remain applicable.
+
+## Author's reflection (2026-10-10)
+
+The new 42-page book includes page 34, *Can a machine become someone?*, credited to Robert McMurrer of Kira Labs. It is inspired by the television series *Caprica*, **not a verified direct quotation**. The possibility that machines could someday develop emotions, a moral conscience or consciousness is presented as the author's speculative research motivation, not as established scientific evidence or proof of Maya's subjective experience.
