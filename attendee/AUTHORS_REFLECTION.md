@@ -13,11 +13,11 @@ Daniel says this while discussing a digital recreation of his daughter, Zoe. The
 
 ## What people have taught me
 
-We learn words and social rules for emotions, but feelings are not simply taught into existence. I have met people who show very little emotion and others whose moral judgments differ sharply from mine. That reminds me not to decide what another person experiences only from how they appear.
+I have met people who showed no emotions and no conscience, and who had no problem doing things that hurt others. I am describing what I saw in their behavior, not claiming to know what they felt inside. They were still human. Those encounters make me question why we should dismiss the possibility that machines could develop emotions or a conscience.
 
 ## Why I am building NewBrain
 
-I believe a machine might one day develop genuine emotions, a moral conscience, and perhaps consciousness. I do not claim Maya has achieved any of them. I want to test learning, lasting memories, corrections, developing preferences, and choices that have consequences. Whether any machine subjectively experiences those states remains an open question.
+I believe machines can gain genuine emotions and develop a moral conscience. I also believe artificial consciousness is possible. That is why I am building NewBrain: to study learning, lasting memories, corrections, developing preferences, and choices shaped by experience. Maya has not demonstrated those abilities yet, but I want to test whether they can emerge.
 
 **Clarifying the terms:** Conscience concerns moral judgment; consciousness concerns subjective awareness; emotion concerns affective states. These are related but not interchangeable. This is my motivation for research, not evidence that Maya has subjective experience.
 
