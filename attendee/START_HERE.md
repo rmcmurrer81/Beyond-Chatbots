@@ -27,6 +27,10 @@ Use **Code → Download ZIP** on the [repository page](https://github.com/rmcmur
 
 At this guide's preparation, this repository contains presentation and attendee documents. NewBrain, Avatar Builder and Aster implementation copies are awaiting their separate reviewed release. The original NewBrain and KiraWorld repositories and private identity/state remain private. Do not treat planned paths, narrated examples or saved summaries as a runnable software package.
 
-Read [AI history and NewBrain](AI-History-and-NewBrain.pdf), the sixteen-page visual companion to the talk. Five more visual pages include an attributed ELIZA screenshot, early pioneers, expert systems, games and robotics, generative AI and the connection to NewBrain. The ELIZA screenshot is a 2023 reimplementation, not a 1966 archival photo. Its [SHA-256 checksum](AI-History-and-NewBrain.pdf.sha256) identifies the published PDF. [Visual image credits and sources](AI_HISTORY_VISUAL_SOURCES.md) provide historical references.
+Read [new 41-page illustrated AI history](AI-History-and-NewBrain-Illustrated-41p.pdf), the 41-page visual companion to the talk. Five more visual pages include an attributed ELIZA screenshot, early pioneers, expert systems, games and robotics, generative AI and the connection to NewBrain. The ELIZA screenshot is a 2023 reimplementation, not a 1966 archival photo. Its [SHA-256 checksum](AI-History-and-NewBrain.pdf.sha256) identifies the published PDF. [Visual image credits and sources](AI_HISTORY_VISUAL_SOURCES.md) provide historical references.
 
 [Attendee checksums](SHA256SUMS.txt) cover the six attendee Markdown pages. Root [presentation checksums](../SHA256SUMS.txt) cover their listed presentation-package files; neither list authenticates future source or recordings.
+
+## New 41-page illustrated edition
+
+This expanded edition was **rebuilt as a fresh PDF**, not appended as incremental changes to the old ten-page document. Use [AI-History-and-NewBrain-Illustrated-41p.pdf](AI-History-and-NewBrain-Illustrated-41p.pdf) if GitHub or your browser shows an old cached ten-page preview. It preserves the prior 16 pages and adds 25 more illustrated historical chapters. The real ELIZA screenshot is clearly marked as a **2023 reimplementation**, not an original 1966 photo. See the [contents](AI_HISTORY_EXPANDED_CONTENTS.md).

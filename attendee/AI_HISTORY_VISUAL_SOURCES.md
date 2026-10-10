@@ -1,6 +1,6 @@
 # Expanded visual AI history - image and fact sources
 
-This source index accompanies the **16-page** [AI History and NewBrain PDF](AI-History-and-NewBrain.pdf), updated 2026-10-10.
+This source index accompanies the **41-page** [AI History and NewBrain PDF](AI-History-and-NewBrain.pdf), updated 2026-10-10.
 
 ## ELIZA screenshot and rights
 
@@ -27,3 +27,7 @@ The original source is Joseph Weizenbaum, [ELIZA - A Computer Program for the St
 - **Kira and NewBrain (2025-26):** [Beyond-Chatbots project materials](https://github.com/rmcmurrer81/Beyond-Chatbots). These materials report bounded experimental results, not completed general conversation, embodied personhood or consciousness.
 
 Historical categories overlap; later technologies did not replace all prior approaches. Screenshot credits and differences between tested capabilities and demonstrations are made explicit.
+
+## 2026-10-10 larger edition
+
+The 41-page edition preserves the original 2023 ELIZA/DOCTOR screenshot and adds 25 schematic illustrations showing concepts from automata, punched cards, computing, ELIZA, early symbolic AI, robots, expert systems, deep learning, Go, transformers, and synthetic-agent architectures. Illustrations are explicitly labeled **schematic, not archival photographs**. The Go illustration is not a reconstruction of Move 37. Historical citations and image attributions above remain applicable.
