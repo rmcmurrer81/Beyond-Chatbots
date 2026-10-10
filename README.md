@@ -20,7 +20,7 @@ For the complete folder, choose **Code → Download ZIP** above and extract it o
 
 If GitHub cannot preview the large PowerPoint or slide PDF, use its download button or Download ZIP. Speaker notes target 25 minutes plus five minutes for questions; slides 22–25 are optional appendix material. “Why I created synthetic people” remains slide 20.
 
-The reader companion now includes an additional **1966 ELIZA and the ELIZA effect** historical spotlight after page 2. It connects Turing's earlier question about machine intelligence to today's distinction between convincing conversation and measured learning or memory.
+The **16-page reader companion** includes an actual screenshot from a **2023 ELIZA/DOCTOR reimplementation**, clearly labeled as non-archival, the ELIZA effect, and a richer timeline from Babbage and Lovelace through modern AI. See [image credits and sources](attendee/AI_HISTORY_VISUAL_SOURCES.md). It connects Turing's earlier question about machine intelligence to today's distinction between convincing conversation and measured learning or memory.
 
 ## Which version to use
 
