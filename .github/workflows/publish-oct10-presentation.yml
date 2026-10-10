@@ -1,4 +1,5 @@
 name: Publish October 10 Reorganized Slides
+# Rebuild requested October 10 slides; publish the same filenames for phone access.
 on:
   push:
     paths:
