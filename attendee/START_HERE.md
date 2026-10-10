@@ -38,3 +38,5 @@ This expanded edition was **rebuilt as a fresh PDF**, not appended as incrementa
 ## Author's reflection on machines and people
 
 Page **34** of the latest [42-page illustrated book](AI-History-and-NewBrain-Illustrated-42p.pdf) contains **Can a machine become someone?** by Robert McMurrer, inspired by *Caprica*. The reflection distinguishes emotion, moral conscience and subjective consciousness and is clearly presented as a question for future research rather than a claim about Maya. You can also [read the editable reflection](AUTHORS_REFLECTION.md). The [41-page edition](AI-History-and-NewBrain-Illustrated-41p.pdf) remains available as an archive.
+
+**Caprica quotation note:** Page 34 now identifies the exact line, the speaker (Daniel Graystone), who he is speaking to (Joseph Adama), and the digital-Zoe scene. The quotation is attributed; it is not offered as a literal scientific description of the brain.

@@ -34,4 +34,8 @@ The 41-page edition preserves the original 2023 ELIZA/DOCTOR screenshot and adds
 
 ## Author's reflection (2026-10-10)
 
-The new 42-page book includes page 34, *Can a machine become someone?*, credited to Robert McMurrer of Kira Labs. It is inspired by the television series *Caprica*, **not a verified direct quotation**. The possibility that machines could someday develop emotions, a moral conscience or consciousness is presented as the author's speculative research motivation, not as established scientific evidence or proof of Maya's subjective experience.
+The new 42-page book includes page 34, *Can a machine become someone?*, credited to Robert McMurrer of Kira Labs. It includes a short, explicitly attributed quotation from Daniel Graystone to Joseph Adama in the *Caprica* pilot, verified against a publicly available transcript. The possibility that machines could someday develop emotions, a moral conscience or consciousness is presented as the author's speculative research motivation, not as established scientific evidence or proof of Maya's subjective experience.
+
+### Pilot-episode dialogue used in the author's reflection
+
+The updated page 34 quotes Daniel Graystone speaking to Joseph Adama while discussing the digital reconstruction of his daughter, Zoe. The quoted dialogue is included with context so readers who have not seen *Caprica* can understand the author's question. Source: [*Caprica* pilot episode transcript](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e01&tv-show=caprica). This fictional characterization of the brain is not presented as neuroscientific fact.

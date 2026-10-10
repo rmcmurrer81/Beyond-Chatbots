@@ -49,3 +49,5 @@ An updated **42-page** companion includes the original 16 pages, 25 additional i
 ## Author's reflection: Can a machine become someone?
 
 Page **34** of the new [42-page illustrated AI history](attendee/AI-History-and-NewBrain-Illustrated-42p.pdf) adds a first-person reflection by Robert McMurrer, inspired by a theme in *Caprica*. It explores whether artificial systems might one day have emotions, a moral conscience or subjective consciousness, while making clear that Maya has not demonstrated those states. [Read the editable reflection](attendee/AUTHORS_REFLECTION.md). The earlier [41-page edition](attendee/AI-History-and-NewBrain-Illustrated-41p.pdf) remains available as an archive.
+
+**For readers unfamiliar with Caprica:** page 34 now quotes Daniel Graystone's remark directly and explains his discussion with Joseph Adama about Zoe's digital recreation. [Read the context and transcript attribution](attendee/AUTHORS_REFLECTION.md).
