@@ -24,7 +24,7 @@ The **42-page illustrated reader companion** includes an actual screenshot from 
 
 ## Which version to use
 
-The NewBrain campaign has now reached **4 of 4 independently verified delayed restarts**. All 10,720 history records were preserved and all 64 comparison pairs matched in each accepted case. Read the [fourth-result summary](Documentation/results/DELAYED-RESTART-FOURTH-PASS.md). The four original migration reviews remain accepted separately. The currently downloadable version 14 presentation shows the earlier 3-of-4 checkpoint; its matching version 15 update is being prepared locally. Private raw evidence remains with Kira Labs.
+Use **version 15 (October 10)**. The slide deck and matching practice materials report **4 of 4 independently verified delayed restarts**. All 10,720 history records were preserved and all 64 comparison pairs matched in each accepted case. Read the [fourth-result summary](Documentation/results/DELAYED-RESTART-FOURTH-PASS.md). The four original migration reviews remain accepted separately. Private raw evidence remains with Kira Labs.
 
 The slides were rendered and reviewed during preparation. PowerPoint playback and a fresh phone QR-code scan on the event equipment remain to be checked by the presenter.
 
