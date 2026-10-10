@@ -45,6 +45,12 @@ def gather(root):
                                        'url':str(item.get('url') or item.get('href') or '')[:1000]}
                                       for item in records if isinstance(item,dict)]
             sources.append(source)
+    if (root/'project.json').exists():
+        from fabrication.printer_fit import PrinterFitStore
+        context = PrinterFitStore(root).screen(
+            {'units':'mm','size_xyz':None,'placement':None}, model_revision='printer_context')
+        sources.append({'document':'project-selected printer context',
+                        'sha256':digest(context),'verification':'Reviewed geometry profile only; no printability claim.'})
     # Stable local report content identifies fresh Humanoid scans without scraping or new network calls.
     report = root/'research_library'/'LATEST.md'
     if report.exists() and report.stat().st_size <= 2_000_000:

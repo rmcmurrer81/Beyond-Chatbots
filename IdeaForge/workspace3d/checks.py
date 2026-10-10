@@ -2,10 +2,11 @@
 from __future__ import annotations
 from itertools import combinations
 import time
-from .model import bounds, digest, validate, vector, world_vertices
+from .model import bounds, digest, validate, world_vertices
+from fabrication.printer_fit import scene_receipts
 
 
-def run_checks(scene):
+def run_checks(scene, *, project_root=None, inventory=None):
     deadline = time.monotonic()+3.0
     scene = validate(scene)
     geometry = world_vertices(scene)
@@ -15,13 +16,10 @@ def run_checks(scene):
         amin,amax = boxes[a]; bmin,bmax = boxes[b]
         if all(min(amax[i],bmax[i])-max(amin[i],bmin[i]) > 1e-6 for i in range(3)):
             overlap.append([a,b])
-    fit = []
-    volume = scene.get('printer_volume_mm')
-    if volume is not None and not vector(volume, True):
-        raise ValueError('printer_volume_mm must contain three positive dimensions.')
-    for part in scene['parts']:
-        fit.append({'part':part['id'], 'axis_aligned_fit':
-                    all(part['size_mm'][i] <= volume[i] for i in range(3)) if volume else None})
+    fit = scene_receipts(scene, project_root, inventory=inventory)
+    for result in fit:
+        # Legacy field is never a nominal-volume success; see the bound receipt.
+        result["axis_aligned_fit"] = None
     sweeps = []
     for part in scene['parts']:
         if not part.get('joint'): continue
@@ -37,7 +35,7 @@ def run_checks(scene):
             'part_count':len(geometry), 'possible_aabb_overlaps':overlap,
             'printer_fit':fit, 'joint_sweeps':sweeps,
             'limitations':['Bounding-box overlap is approximate, not a collision/clearance verdict.',
-                          'Printer fit assumes the declared part axes and excludes supports and tolerances.',
+                          'Printer fit uses only the project-selected reviewed profile and explicit orthogonal bounding-box placement; legacy printer_volume_mm is not reviewed evidence.',
                           'Joint sweeps are kinematic previews, not physics or actuator validation.',
                           'Dynamics unavailable in this workspace: verified mass, inertia, collision geometry and solver integration are required.',
                           'No structural, thermal, control, human-safety or manufacturability certification.']}

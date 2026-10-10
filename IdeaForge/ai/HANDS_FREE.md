@@ -41,8 +41,8 @@ execution-policy change or engine fallback is attempted after a failure.
 The app reports a missing helper, recognizer, female voice, microphone or busy
 speech engine and leaves typed chat available. See [backend details](../VOICE-BACKEND.md).
 
-Public snapshot note: an earlier private machine observation is omitted here.
-It is not runtime qualification of this copy. Historical IdeaForge integration
-checks used injected chat and speech for routing and lifecycle; native Windows
-recognition, listening quality and live model conversation are not established
-for this source-only snapshot.
+In an earlier developer test, the matching shared helper was built and its
+microphone-init / female speech / resumed-listening / normal-exit cycle was
+observed separately. That does not establish recognition accuracy, listening
+quality or an IdeaForge model conversation. IdeaForge-specific integration
+checks use injected chat and speech to validate routing and lifecycle.

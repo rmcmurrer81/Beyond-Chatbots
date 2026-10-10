@@ -5,8 +5,8 @@ def printers():
     return [x for x in load_all().get("items",[]) if x.get("category")=="3d_printer"]
 
 def default_printer():
-    ps=printers()
-    return ps[0] if ps else None
+    """Legacy callers receive no implicit inventory-order selection."""
+    return None
 
 def build_volume(printer):
     if not printer: return None

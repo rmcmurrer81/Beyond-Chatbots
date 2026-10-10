@@ -1,0 +1,788 @@
+{
+  "format": "ideaforge.increment-test-receipt.v1",
+  "app_id": "ideaforge",
+  "selected_parent": "2834b24ac9ace82f8d8087b8058473c58f057985",
+  "selected_parent_tree": "93c53e0b87bf62e5c4bba3523edb38ea757499bd",
+  "scope": "Reviewed PDF parameter links, explicit metadata-only Aster result bundles, and local grouped photo inventory.",
+  "authorization": "Private coordination details omitted from presentation copy.",
+  "environment": {
+    "selected_execution_environment": "Windows desktop Powershell; executor setup unavailable",
+    "local_workspaces_created": false,
+    "local_processes": 0,
+    "local_sessions": 0,
+    "vm_runner_observed": false,
+    "local_checkout_instructions": "Unavailable because runner initialization failed; complete selected public repository trees contain no AGENTS/.agents/SKILL instructions.",
+    "coordination": "Private coordination details omitted from presentation copy."
+  },
+  "setup_probe": {
+    "status": "failed_before_process_creation",
+    "timestamp": "2026-10-08 22:31:53 UTC",
+    "error": "exec-server rejected request (-32603): helper_unknown_error: setup refresh had errors",
+    "process_created": false,
+    "session_created": false,
+    "retry_count": 0,
+    "attempts": 1,
+    "reported_by": "independent reviewer"
+  },
+  "runtime": {
+    "status": "unrun",
+    "passed": 0,
+    "failed": 0,
+    "skipped": 0,
+    "new_authored_test_methods": 121,
+    "unrun_new_authored_methods": 121,
+    "parameter_links": 40,
+    "ideaforge_bundle_adapter": 12,
+    "common_bundle_regressions": 24,
+    "photo_inventory": 45,
+    "outstanding_prior_pdf_methods": 25,
+    "compilation": "unrun",
+    "focused_python_tests": "unrun",
+    "full_regression_suite": "unrun",
+    "native_pdf_backend_tests": "unrun",
+    "real_cli_restart_tests": "unrun",
+    "aster_consumer_integration": "unrun",
+    "dependency_installation": "unrun",
+    "performance": "No wall-clock/RSS/native extraction/recognition metrics measured.",
+    "note": "Source review and GitHub exact-byte readback are separate from runtime tests. A setup failure is not a failed application test."
+  },
+  "integration_limits": [
+    "Parameter links are additive local API/CLI annotations over existing Store revisions; no scene GUI flow or CAD mutation.",
+    "Review identity remains a locally recorded operator assertion. Source value equality and exact units do not certify dimensions.",
+    "Full native passages, original PDFs/images, private filenamesindependent reviewer binding/reviewer text are excluded by default parameter exports. Only explicit local metadata outputs are created; no transmission or automatic Aster adoption.",
+    "Aster can hash-check included UTF-8 JSON/text metadata bytes; original PDF/image SHA declarations and human review remain independently unverified.",
+    "Photo intake checks signatures and saved bytes/hashes only; no decoder, OCR, trained perception, automatic hardware authenticity or compatibility recognition.",
+    "Photo optional existing inventory projection is opt-in; existing default GUI/provider calls remain unchanged.",
+    "No source/model/package builds, installations, workflow dispatches, PRs, settings or excluded-project modifications.",
+    "Documented projects/ storage and explicit private patterns are ignored. Arbitrary custom project/store/export roots are not automatically private; keep them outside tracked roots or explicitly ignored before manual Git publication. This task stages exact reviewed source/tests/docs only."
+  ],
+  "dependency_licenses": {
+    "new_runtime_dependencies": "Python standard library only; no added model/OCR/image decoder.",
+    "existing_optional_pdf_extraction": "pypdfium2 5.14.0 Apache-2.0 OR BSD-3-Clause bindings, bundled PDFium and third-party notices; existing dependency file unchanged, installed distributions/native notices unverified.",
+    "fixtures": "Self-authored synthetic storage reports, scenes, JSON/text and drawn-label PNG bytes only; no private PDFs/photos or third-party graphs/documents copied.",
+    "manufacturer_document_bytes": "Public manufacturer identifier facts conservatively attributed; full document-byte hashes unavailable/null, not independently authenticated.",
+    "project_license": "Existing repository license unchanged."
+  },
+  "planned_commands": [
+    {
+      "command": "python -m unittest discover -s tests -p test_parameter_links.py",
+      "status": "unrun"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_ideaforge_bundles.py",
+      "status": "unrun"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_research_bundle.py",
+      "status": "unrun"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_photo_inventory.py",
+      "status": "unrun"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_pdf_evidence.py",
+      "status": "unrun"
+    },
+    {
+      "command": "python -m compileall -q .",
+      "status": "unrun"
+    },
+    {
+      "command": "python -m unittest discover -s tests",
+      "status": "unrun"
+    }
+  ],
+  "source_review": {
+    "status": "passed_source_test_design_only",
+    "own_reviewer": "independent reviewer",
+    "root_review": "Independent full common producer/test review and exact tiny test_only/import-only delta review by independent reviewer",
+    "photo_reviewer": "independent reviewer",
+    "runtime_claim": false,
+    "remaining_findings": [],
+    "all_source_paths_sha_and_utf8bytes_exact_readback": true,
+    "file_count": 13
+  },
+  "created_at": "2026-10-08 22:52:32 UTC",
+  "source_manifest": [
+    {
+      "path": "workspace3d/parameter_links.py",
+      "sha": "7a1d18e0c975efa2b8ee2782b51cdeffa6b8c49d",
+      "bytes": 28670
+    },
+    {
+      "path": "core/ideaforge_bundles.py",
+      "sha": "f64aa4b28a31941c56c2f6680a9ee968ebcdfb7b",
+      "bytes": 8265
+    },
+    {
+      "path": "tests/test_parameter_links.py",
+      "sha": "c85727a59926addd59f21af2e5844089cc75f2c3",
+      "bytes": 26550
+    },
+    {
+      "path": "tests/test_ideaforge_bundles.py",
+      "sha": "0ad7e9fbe52c8062461d3b09d22eb71f7508c06a",
+      "bytes": 10762
+    },
+    {
+      "path": "docs/PARAMETER_LINKS.md",
+      "sha": "a6c77444a9a57642a3f059a0fe8c2e30a1a52db7",
+      "bytes": 12503
+    },
+    {
+      "path": ".gitignore",
+      "sha": "a72c59a81a4cb681734ad90c1cc4a63e19256638",
+      "bytes": 554
+    },
+    {
+      "path": "tests/test_research_bundle.py",
+      "sha": "5e2b8c4bfe277f9f2665315cf09f1922ff0e5db6",
+      "bytes": 15673
+    },
+    {
+      "path": "core/research_bundle.py",
+      "sha": "17d5878038713a73953b6f9e49ee3cae12c55c16",
+      "bytes": 21184
+    },
+    {
+      "path": "core/photo_inventory.py",
+      "sha": "32df974a567a6155011ae2f410a12248c2b7a789",
+      "bytes": 32568
+    },
+    {
+      "path": "tests/test_photo_inventory.py",
+      "sha": "2e45db4f5e12f82279e399740893c595146aab53",
+      "bytes": 25539
+    },
+    {
+      "path": "docs/PHOTO_INVENTORY.md",
+      "sha": "e433eac2c961c3bfdeddca2a92ddc8e948ce8b05",
+      "bytes": 11150
+    },
+    {
+      "path": "inventory/equipment.py",
+      "sha": "12d57df0fc24c699ebcb7a4d33651ed75306e8d8",
+      "bytes": 3700
+    },
+    {
+      "path": "docs/test-receipts/2026-10-08-reviewed-photo-inventory.json",
+      "sha": "68f00a16fe544161884500ff6c733e48ebaa0df4",
+      "bytes": 19897
+    }
+  ],
+  "publication": {
+    "planned_branch": "dot/2026-10-08-parameter-photo-inventory",
+    "preserved_previous_pin": "2834b24ac9ace82f8d8087b8058473c58f057985",
+    "commit_ref_and_actions_evidence": "Parent independently verifies actual commit/ref/tree hashes and all-event Actions after creating a fresh skip-ci branch. This source-era receipt does not claim publication before those checks.",
+    "pr_or_workflow_dispatch": false,
+    "settings_changes": false
+  },
+  "tests": [
+    {
+      "id": "tests/test_parameter_links.py::test_known_link_exact_quote_box_revision_and_no_scene_mutation",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_review_must_be_explicit_and_dated",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_unit_mismatch_requires_manual_conversion_outside_link",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_numeric_mismatch_and_wrong_occurrence_rejected",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_numeric_substring_boundary_even_if_parameter_matches",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_angular_parameter_and_exact_unit_supported",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_exact_source_metadata_and_types_rejected",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_unknown_parameter_and_vector_index_rejected",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_other_project_cannot_resolve_or_create_link",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_copied_ledger_refuses_new_project_or_same_id_other_root",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_source_replacement_stales_link_and_receipt_keeps_original_quote",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_reimport_same_bytes_new_version_still_stale",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_changed_scene_revision_stales_link_and_receipt",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_restore_creates_new_revision_does_not_reactivate_old_link",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_old_revision_cannot_be_reviewed_as_current",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_missing_pdf_snapshot_or_extraction_record_is_unknown",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_missing_design_revision_is_unknown",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_restart_and_real_child_process_resolve_same_annotation",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_undo_create_and_withdraw_reversible_without_cad_write",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_restart_undo_does_not_revive_stale_source",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_stale_undo_event_rejected",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_idempotent_duplicate_confirmation",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_receipt_status_and_hash_binding_and_immutable_id",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_record_hash_tampering_refused",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_unknown_fields_duplicates_nonfinite_and_utf8_rejected",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_current_project_identity_change_is_refused",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_ledger_limits_fail_before_write",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_new_annotations_not_in_provider_context",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_compound_or_powered_source_units_cannot_link_length",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_recomputed_hash_cannot_hide_malformed_record",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_recomputed_receipt_hash_still_requires_evidence_scope",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_repeat_active_confirmation_is_idempotent_at_link_cap",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_invalid_design_overflow_is_unknown",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_history_path_revalidated_for_persistent_ledger",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_pdf_import_lock_is_held_during_scene_and_source_snapshot",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_busy_pdf_snapshot_is_unknown_not_current",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_nonblob_persisted_payload_refused_without_numeric_allocation",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_nontext_scene_payload_is_unknown",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_hardlinked_database_refused_before_initializer_writes",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_parameter_links.py::test_hardlinked_database_sidecar_refused_before_sqlite_access",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_ideaforge_bundles.py::test_exact_local_bundle_hashes_and_unrun_receipt",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_ideaforge_bundles.py::test_export_redacts_full_passage_filename_root_and_reviewer",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_ideaforge_bundles.py::test_included_input_metadata_hash_is_distinct_from_pdf_hash",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_ideaforge_bundles.py::test_stale_source_export_preserves_declared_receipt_and_staleness",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_ideaforge_bundles.py::test_no_design_or_input_mutation_and_no_second_overwrite",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_ideaforge_bundles.py::test_photo_metadata_only_export_and_image_verification_unavailable",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_ideaforge_bundles.py::test_photo_original_bytes_or_validation_claim_refused",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_ideaforge_bundles.py::test_other_project_result_refused",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_ideaforge_bundles.py::test_network_absolute_traversal_device_and_duplicate_tests_refused",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_ideaforge_bundles.py::test_unknown_test_fields_and_empty_or_false_status_refused",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_ideaforge_bundles.py::test_owned_staging_summaries_are_cleaned_on_success_and_late_failure",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_ideaforge_bundles.py::test_case_sensitive_ids_have_distinct_portable_payload_paths",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_manifest_receipts_and_all_actual_hashes_are_bound",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_source_replacement_hash_mismatch_is_refused",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_project_or_revision_mismatch_cannot_be_exported",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_input_with_other_project_is_refused",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_restart_keeps_exported_snapshots_and_prevents_overwrite",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_traversal_absolute_ads_backslash_device_and_deep_paths_refused",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_duplicate_fields_unknown_fields_and_nonfinite_json_refused",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_distinct_case_ids_keep_unique_payload_names",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_duplicate_receipt_references_are_refused",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_full_length_ids_use_short_deterministic_payload_names",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_json_node_budget_counts_object_keys_and_values",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_unsupported_status_or_unresolved_receipt_reference_refused",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_malformed_membership_types_raise_bundle_errors",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_c0_and_c1_controls_are_rejected_in_json_and_plain_text",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_multiline_text_and_details_keep_tab_cr_lf",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_changed_output_parent_is_rejected_before_write",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_output_hardlink_is_rejected_during_readback",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_photo_metadata_keeps_original_image_verification_unavailable",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_binary_images_are_never_valid_bundle_inputs",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_all_three_registered_apps_use_one_exact_envelope",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_regular_file_hard_links_are_refused",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_symbolic_link_files_are_refused",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_file_size_and_boolean_byte_counts_are_refused",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_research_bundle.py::test_verified_reader_returns_exact_utf8_source_bytes",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_multiple_views_are_one_group_and_unknown_quantity",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_duplicate_view_bytes_do_not_add_images_or_items",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_duplicate_image_in_another_group_is_refused",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_same_item_grouping_requires_explicit_confirmation",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_quantity_requires_positive_integer_and_explicit_ownership",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_quantity_alone_cannot_identify_a_part",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_catalog_code_requires_manual_identity_and_quantity_confirmation",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_known_plus_unknown_clear_model_code_remains_provisional",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_unassigned_unknown_clear_code_prevents_confirmation",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_projection_ids_distinguish_hyphenated_scope_ids_and_stores",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_generic_family_code_does_not_infer_ram_or_exact_model",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_generic_visual_similarity_and_ports_do_not_resolve_identity",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_blurred_and_missing_markings_remain_provisional",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_clear_conflicting_labels_are_not_voted_by_photo_count",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_carrier_code_claimed_as_module_is_conflicting",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_known_module_carrier_are_separate_and_do_not_establish_kit",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_carrier_alone_does_not_identify_module",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_developer_kit_requires_its_own_full_box_code",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_restart_preserves_original_bytes_and_review",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_user_correction_preserves_previous_review_history",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_added_view_invalidates_identity_confirmation",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_project_isolation_and_explicit_shared_equipment_scope",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_rebinding_project_or_copying_store_is_refused",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_tampered_original_image_is_refused_and_no_inventory_returned",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_tampered_metadata_snapshot_is_refused",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_source_image_replacement_cannot_change_saved_original",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_observation_for_another_image_is_refused",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_serial_field_and_unknown_review_fields_are_refused",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_export_metadata_excludes_private_text_and_original_images",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_file_and_view_limits_refuse_before_inventory_mutation",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_malformed_enum_containers_refuse_as_evidence_error",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_unsupported_bytes_and_invalid_json_are_refused",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_signature_intake_does_not_claim_a_decoded_or_understood_image",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_provider_is_never_imported_or_called",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_locked_intake_writes_no_orphan_images_or_head",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_second_intake_during_locked_quota_check_is_refused_without_writes",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_crash_orphan_image_count_limit_refuses_before_writes",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_existing_orphan_next_revision_refuses_before_image_copy",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_existing_writer_lock_does_not_overwrite",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_corrected_quantity_and_sharing_history_are_retained",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_catalog_has_exact_public_source_revision_and_locator",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_original_image_hardlink_is_refused",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_image_symlink_is_refused_when_supported",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_opt_in_existing_inventory_loader_projects_without_writing_legacy_file",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    },
+    {
+      "id": "tests/test_photo_inventory.py::test_opt_in_existing_inventory_loader_requires_project_scope",
+      "status": "unrun",
+      "reason": "Single coordinated desktop initialization probe failed before process creation; no compilation or test execution."
+    }
+  ]
+}

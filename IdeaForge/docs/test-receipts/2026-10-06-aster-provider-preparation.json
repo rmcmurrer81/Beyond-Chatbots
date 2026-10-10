@@ -5,8 +5,8 @@
   "scope": "Opt-in Aster provider preparation only; Standalone remains default",
   "shared_protocol": "aster.app-provider.v1",
   "shared_package_sha256": "e04c6e0eba7c9ade3570185d4115cef92571d5448b3d3f455eeacaaaca1052a5",
-  "runtime": "Historical Python executable path redacted in public copy.",
-  "pythonpath": "Historical PYTHONPATH workspace path redacted in public copy.",
+  "runtime": "/workspace/shared/invention-live-trials/desktop-venv/bin/python",
+  "pythonpath": "/workspace/shared/engineering-pilot-venv/lib/python3.12/site-packages",
   "tests": {
     "command": "python -m unittest discover -s tests -v",
     "run": 181,
@@ -74,6 +74,5 @@
     "Synchronous HTTP is bounded by request timeout and publication guards, not forcibly interrupted during socket reads"
   ],
   "publication": "local-only; no push, merge, deployment or model activation",
-  "log": "Raw execution log omitted from this public copy because it contains private execution paths.",
-  "public_copy_note": "The numerical historical test results are retained. Only local absolute executable/workspace values and the unavailable raw-log pointer were redacted; this is not a new run receipt."
+  "log": "2026-10-06-aster-provider-preparation.log"
 }

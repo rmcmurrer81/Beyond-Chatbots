@@ -14,3 +14,14 @@ chat_evidence.sqlite3*
 
 # Private native PDF snapshots, extracted quotations and manifests
 **/research/pdf_evidence/
+
+# Private reviewed parameter annotations and result bundles
+**/workspace3d/parameter_links.sqlite3*
+**/research/result_bundles/
+
+# Fresh local selected metadata summaries and default bundle exports
+**/research/result_inputs/
+**/result-bundle-*/
+
+# Private optional local OCR selection and runtime qualification
+/photo_ocr_config.json

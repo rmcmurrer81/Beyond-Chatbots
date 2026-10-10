@@ -19,7 +19,7 @@
     "scipy": "1.16.2"
   },
   "aggregate": {
-    "command": "python -m unittest discover -s tests -v",
+    "command": "PYTHONPATH=/workspace/shared/engineering-pilot-venv/lib/python3.12/site-packages /workspace/shared/invention-live-trials/desktop-venv/bin/python -m unittest discover -s tests -v",
     "tests": 151,
     "passed": 150,
     "skipped": 1,
@@ -64,6 +64,5 @@
     "research_engine/research_project.py": "32aa8610e08d2ae354f6042b380a2d597a0276433b18146171e872cf0a1d98b8",
     "tests/test_discovery_selection.py": "5cd4a243fd5f0cc56f0b45b8b3713227bd3d54c037b843317cbe15a13a827ea0",
     "tests/test_export_verification.py": "13dc8973dba317629224b1644c1ba4558a5ab128ddbc1026584ddbdedafda0a9"
-  },
-  "public_copy_note": "The historical command's local PYTHONPATH value and executable path were redacted. Test results are retained unchanged; this is not a new run receipt."
+  }
 }

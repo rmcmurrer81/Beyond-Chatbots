@@ -1,0 +1,867 @@
+{
+  "format": "dot.source-publication.v1",
+  "stage": "optional-local-photo-ocr",
+  "created_utc": "2026-10-09 00:44:02 UTC",
+  "scope": "source-only private branch publication",
+  "runtime": {
+    "compilation": "unrun",
+    "unit_fixtures": "unrun",
+    "native_windows_guard": "unrun",
+    "image_decoding": "unrun",
+    "pixel_ocr": "unrun",
+    "installation": "unrun",
+    "producer_consumer_interoperability": "unrun",
+    "owned_processes": 0,
+    "owned_sessions": 0,
+    "qualified_ocr_selection_shipped": false,
+    "runner_failure": {
+      "kind": "initialization-before-process-creation",
+      "attempts": 1,
+      "args": {
+        "cmd": "Get-Location",
+        "workdir": "[calling task workspace; exact original path retained in this conversation]",
+        "login": false,
+        "max_output_tokens": 100,
+        "yield_time_ms": 10000
+      },
+      "error": "exec_command failed: CreateProcess { message: \"Rejected(\\\"Failed to create unified exec process: exec-server rejected request (-32603): helper_unknown_error: setup refresh had errors\\\")\" }",
+      "retry": "none; coordinator prohibits retry from source-only authority",
+      "observed_utc": "2026-10-08 22:31:53 UTC"
+    }
+  },
+  "publication": {
+    "branch": "dot/2026-10-09-local-photo-ocr",
+    "message_skip_ci": true,
+    "pull_request": false,
+    "main_merge": false,
+    "workflow_dispatch": false,
+    "settings_changes": false,
+    "visibility_changes": false
+  },
+  "qualification_pending": [
+    "Actual supported Windows environment and creation-time Job/pipe/handle ABI and lifecycle verification",
+    "Exact installed Python/Tesseract/Pillow/model/DLL/codec closure hashes, versions and license inventory",
+    "Native timeout/cancellation/output flood/descendant cleanup/unrelated sentinel and aggregate committed-memory measurements",
+    "Native positive, negative, ambiguous, conflicting and malformed/oversized/multiframe image outcomes",
+    "Measured whole operation time, runtime scan time, job memory and bounded scratch writes",
+    "Source fixtures and preserved legacy regression suites in isolated pinned checkouts",
+    "Real app GUI integration and live Aster handshake are outside this CLI/API source stage"
+  ],
+  "limits": [
+    "Job memory limit concerns committed virtual memory, not observed RSS",
+    "Job guard is a resource guard for trusted pinned code, not a security sandbox, disk quota or hard CPU/thread quota",
+    "Filesystem/native setup calls cannot promise hard preemption",
+    "Only 10 reviewed exact public NVIDIA codes; partial/699/unmapped codes remain unresolved",
+    "Original images and raw OCR remain local; bundle verification covers included metadata only",
+    "No model training, reasoning fallback, automatic inventory/CAD/BOM adoption or hardware validation"
+  ],
+  "checkout": {
+    "execution_environment": "Windows desktop runner unavailable; no VM observed",
+    "physical_task_checkouts": "not created; initialization failed",
+    "isolation": "explicit selected Git trees and fresh private source branches",
+    "local_checkout_instructions": "unread due runner failure",
+    "repository_instructions": "selected recursive source trees contain no AGENTS.md, .agents/skills or SKILL.md",
+    "shared_folder_acknowledgment": "not written; inaccessible local runner",
+    "coordination": "Private coordination details omitted from presentation copy."
+  },
+  "dependencies": [
+    {
+      "name": "Tesseract",
+      "candidate_version": "5.5.3",
+      "license": "Apache-2.0",
+      "source_commit": "db0ec62f81b0737fbbe184d8fea40af5738f8eef",
+      "official_release": "https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.3",
+      "installer_metadata": {
+        "filename": "tesseract-ocr-w64-setup-5.5.3.20260724.exe",
+        "bytes": 26573224,
+        "sha256": "bee9e3434bd94fd65387d9be28cd467a41f61b1275383b55b0f59a1331270ae4",
+        "qualification": "official release metadata only; not downloaded or installed"
+      },
+      "installed_executable_sha256": null
+    },
+    {
+      "name": "tessdata_fast English model",
+      "candidate_version": "4.1.0",
+      "license": "Apache-2.0",
+      "source_commit": "65727574dfcd264acbb0c3e07860e4e9e9b22185",
+      "eng_git_blob_sha1": "bbef4675053b5b468cdb477053e28b1c698ba08e",
+      "eng_bytes": 4113088,
+      "eng_sha256": null,
+      "qualification": "GitHub metadata only; binary text connector refused; no model downloaded"
+    },
+    {
+      "name": "Pillow",
+      "declared_existing_constraint": ">=10,<13",
+      "license": "MIT-CMU",
+      "installed_version": null,
+      "installed_native_decoder_closure": null,
+      "qualification": "not installed or decoded in this task"
+    },
+    {
+      "name": "Leptonica",
+      "license": "BSD-2-Clause",
+      "installed_version": null,
+      "qualification": "actual engine DLL and codec dependency versions/licenses still need inventory"
+    },
+    {
+      "name": "Python",
+      "license": "PSF and component-specific terms",
+      "installed_version": null,
+      "qualification": "actual portable runtime and standard-library/native closure not observed"
+    }
+  ],
+  "workflow": {
+    "path": ".github/workflows/ci.yml",
+    "trigger_review": "push and pull_request triggers; workflow source preserved",
+    "actions_total_before": 108,
+    "post_publication_evidence": "Exact new ref/commit/tree/blob readback, preserved previous refs and all-event Actions results are reported in the task outcome; this source receipt does not declare future checks completed."
+  },
+  "app_id": "ideaforge",
+  "repository": "rmcmurrer81/IdeaForge",
+  "base_commit": "cce175bd07abc34d5a2e46fdd4581f6ec0d8e019",
+  "base_tree": "5773a59a890751cec5fe5d50793c59c31e3aa96f",
+  "source_review": {
+    "status": "accepted-for-source-only-publication",
+    "meaning": "Independent reviewers read exact source, tests and documentation; this is not compilation or runtime execution.",
+    "review_record": "independent-source-review.json"
+  },
+  "tests": {
+    "passed": 0,
+    "failed": 0,
+    "unrun": 139,
+    "source_mock_filesystem_methods": 128,
+    "native_opt_in_methods": 11,
+    "suites": [
+      {
+        "path": "tests/test_photo_ocr.py",
+        "blob_sha1": "b18862e66e893f7a0eedf466b322701b129bc47c",
+        "source_sha256": "cdebd2acd1ea8697f7434c22f2e4cb34cc5a225457c1cc8496c174fc2cf73d84",
+        "passed": 0,
+        "failed": 0,
+        "unrun": 48,
+        "methods": [
+          {
+            "id": "StrictParserTests.test_exact_tsv_word_and_confidence",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "StrictParserTests.test_empty_valid_tsv_is_no_identification",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "StrictParserTests.test_wrong_header_or_utf8_refused",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "StrictParserTests.test_tsv_extra_column_refused",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "StrictParserTests.test_nonfinite_and_out_of_range_confidence_refused",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "StrictParserTests.test_cross_page_and_outside_box_refused",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "StrictParserTests.test_duplicate_word_and_row_overflow_refused",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "StrictParserTests.test_control_token_and_layout_text_refused",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "StrictParserTests.test_geometry_limit_refused",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "ConservativeCatalogTests.test_exact_full_sku_binds_memory",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "ConservativeCatalogTests.test_module_carrier_pair_does_not_infer_kit",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "ConservativeCatalogTests.test_kit_requires_exact_kit_code",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "ConservativeCatalogTests.test_nano_module_does_not_guess_memory",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "ConservativeCatalogTests.test_partial_or_character_confused_codes_unresolved",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "ConservativeCatalogTests.test_conflicting_same_role_views_unresolved_as_conflicting",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "ConservativeCatalogTests.test_known_plus_unknown_cannot_cherry_pick_confirmation",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "ConservativeCatalogTests.test_low_confidence_code_keeps_candidate_evidence_but_blocks_confirmation",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "ConservativeCatalogTests.test_unknown_serial_words_stay_private",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "ReceiptBindingTests.test_capture_duplicate_photos_and_bool_revision_refused",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "ReceiptBindingTests.test_all_views_required",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "ReceiptBindingTests.test_cross_project_store_and_state_refused",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "ReceiptBindingTests.test_changed_revision_and_selection_refused",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "ReceiptBindingTests.test_tampered_catalog_candidate_or_confidence_refused",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "ReceiptBindingTests.test_bool_integer_summary_and_metric_refused",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "ReceiptBindingTests.test_receipt_bool_byte_count_refused_even_when_equal_one",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "ReceiptBindingTests.test_unknown_nested_word_field_refused",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "ReceiptBindingTests.test_engine_must_match_selected_config",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "ReceiptBindingTests.test_receipt_hash_stable_and_test_only_explicit",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "ReceiptBindingTests.test_word_geometry_and_group_word_bound_refused",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "ReceiptBindingTests.test_duplicate_unknown_nonfinite_json_refused",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "AdmissionTests.test_disabled_selection_never_scans_or_imports_guard",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "AdmissionTests.test_enabled_but_unqualified_refuses_before_files",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "AdmissionTests.test_raw_selection_formatting_change_is_stale",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "AdmissionTests.test_cancelled_before_admission",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "AdmissionTests.test_invalid_cancellation_object_refused",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "AdmissionTests.test_config_rejects_paths_and_unknown_fields",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "AdmissionTests.test_config_case_collision_and_pin_overflow_refused",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "AdmissionTests.test_streamed_hash_refuses_cancelled_and_oversized_file",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "AdmissionTests.test_actual_qualification_receipt_bytes_bind_claims",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "AdmissionTests.test_nonpassed_qualification_refuses_before_runtime_scan",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "AdmissionTests.test_streamed_hash_refuses_actual_hardlink",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "AdmissionTests.test_exact_production_environment_is_admitted_without_native_init",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "AdmissionTests.test_no_native_import_on_worker_source_import",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "NativePixelQualificationTests.test_native_pixels_two_codes_without_answer_injection",
+            "status": "unrun",
+            "scope": "native-opt-in"
+          },
+          {
+            "id": "NativePixelQualificationTests.test_native_blank_pixels_have_no_code",
+            "status": "unrun",
+            "scope": "native-opt-in"
+          },
+          {
+            "id": "NativePixelQualificationTests.test_native_partial_marking_does_not_establish_sku",
+            "status": "unrun",
+            "scope": "native-opt-in"
+          },
+          {
+            "id": "NativePixelQualificationTests.test_native_conflicting_views_remain_conflicting",
+            "status": "unrun",
+            "scope": "native-opt-in"
+          },
+          {
+            "id": "NativePixelQualificationTests.test_native_corrupt_png_refused_before_ocr_result",
+            "status": "unrun",
+            "scope": "native-opt-in"
+          }
+        ]
+      },
+      {
+        "path": "tests/test_ocr_guard.py",
+        "blob_sha1": "44e28d319484c1d35c45dc57225499aea5e621ef",
+        "source_sha256": "d8e4ec7e6111b8d3a2ac566bcd918a81d14ac5664161ddb579870d4422124b7c",
+        "passed": 0,
+        "failed": 0,
+        "unrun": 42,
+        "methods": [
+          {
+            "id": "GuardArgumentsTests.test_fixed_isolated_command_and_explicit_environment",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardArgumentsTests.test_absolute_local_paths_only",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardArgumentsTests.test_raw_traversal_and_ambiguous_windows_components_rejected",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardArgumentsTests.test_shell_code_or_module_arguments_are_refused",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardArgumentsTests.test_request_must_be_direct_child_of_cwd",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardArgumentsTests.test_launch_hashes_are_mandatory_and_lowercase",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardArgumentsTests.test_closure_pins_are_retained_without_case_mangling",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardArgumentsTests.test_case_colliding_pins_and_file_count_overflow_refused",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardArgumentsTests.test_environment_cannot_smuggle_python_hooks_or_duplicate_names",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardArgumentsTests.test_one_thread_and_systemroot_are_required",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardArgumentsTests.test_invalid_deadlines_output_limits_and_cancellation",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardArgumentsTests.test_unsupported_platform_never_initializes_native_api",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardArgumentsTests.test_unconfirmed_prior_io_refuses_another_launch",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardLifecycleTests.test_job_is_verified_before_resume_and_handles_closed_on_success",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardLifecycleTests.test_setup_failure_never_resumes_and_reaps_owned_resources",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardLifecycleTests.test_unexpected_suspend_count_aborts",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardLifecycleTests.test_both_pipes_are_drained_while_descendant_remains_active",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardLifecycleTests.test_stdout_limit_stops_before_unbounded_accumulation",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardLifecycleTests.test_stderr_limit_independent_of_stdout",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardLifecycleTests.test_timeout_waits_for_descendant_and_terminates_only_owned_job",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardLifecycleTests.test_preexisting_cancellation_prevents_any_setup",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardLifecycleTests.test_memory_accounting_over_cap_and_malformed_chunks_fail_closed",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardLifecycleTests.test_empty_job_requires_signaled_owned_process_and_valid_exit_code",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardLifecycleTests.test_cleanup_failure_is_reported_and_handles_still_close",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "GuardLifecycleTests.test_uint32_exit_status_is_preserved_for_caller_validation",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "NativeLifecycleSourceTests.test_cleanup_targets_returned_handles_and_waits_for_job_zero",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "NativeLifecycleSourceTests.test_job_not_empty_after_termination_is_explicit_failure",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "NativeLifecycleSourceTests.test_creation_uses_explicit_application_suspend_job_attributes_no_shell",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "NativeLifecycleSourceTests.test_native_file_pins_deny_write_delete_and_refuse_aliases",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "NativeLifecycleSourceTests.test_fixed_width_x64_structure_layouts",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PipeCompletionTests.test_immediate_completion_uses_getoverlapped_count_and_null_read_count",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PipeCompletionTests.test_immediate_zero_read_does_not_hide_later_data",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PipeCompletionTests.test_pending_zero_completion_keeps_pipe_open_for_later_flood",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PipeCompletionTests.test_broken_pipe_is_terminal_and_incomplete_read_is_not",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "FixtureCleanupTests.test_unconfirmed_cleanup_preserves_generated_scratch",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "FixtureCleanupTests.test_confirmed_cleanup_only_removes_exact_generated_directory",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "NativeOptInTests.test_native_bounded_worker_exits_and_returns_peak_commit",
+            "status": "unrun",
+            "scope": "native-opt-in"
+          },
+          {
+            "id": "NativeOptInTests.test_native_output_overflow_is_controlled",
+            "status": "unrun",
+            "scope": "native-opt-in"
+          },
+          {
+            "id": "NativeOptInTests.test_native_timeout_includes_owned_child",
+            "status": "unrun",
+            "scope": "native-opt-in"
+          },
+          {
+            "id": "NativeOptInTests.test_native_third_active_process_is_rejected",
+            "status": "unrun",
+            "scope": "native-opt-in"
+          },
+          {
+            "id": "NativeOptInTests.test_native_cancel_after_resume_reaps_owned_worker",
+            "status": "unrun",
+            "scope": "native-opt-in"
+          },
+          {
+            "id": "NativeOptInTests.test_native_aggregate_committed_memory_limit",
+            "status": "unrun",
+            "scope": "native-opt-in"
+          }
+        ]
+      },
+      {
+        "path": "tests/test_photo_ocr_flow.py",
+        "blob_sha1": "a2b9ecfdb5e2d81163e75d542a06ad2eeaeedf0e",
+        "source_sha256": "8135772aa05b8b6d4deec60e56daf4df88f50e57e2fd22875fa3cdd423542eba",
+        "passed": 0,
+        "failed": 0,
+        "unrun": 49,
+        "methods": [
+          {
+            "id": "PhotoOcrFlowTests.test_legacy_manual_read_needs_no_ocr_configuration",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_disabled_adapter_is_unavailable_before_native_work",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_absent_explicit_configuration_is_unavailable",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_missing_provider_does_not_default_to_standalone",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_aster_selection_refuses_local_ocr_without_fallback",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_production_api_cannot_inject_policy_root",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_legacy_provider_identity_is_exact_without_alias_merge",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_duplicate_or_nonfinite_provider_json_is_refused",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_capture_binds_all_originals_and_current_human_review",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_exact_match_preview_preserves_public_quote_box_and_hashes",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_approval_keeps_human_observations_and_ocr_provenance_separate",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_raw_unknown_words_and_reviewer_never_enter_result_or_preview",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_partial_code_refuses_any_inventory_approval",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_character_confusion_is_unknown_without_repair",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_low_confidence_exact_code_remains_unresolved",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_conflicting_views_are_not_voted_or_cherry_picked",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_same_code_two_views_stays_one_group_one_quantity",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_carrier_code_cannot_confirm_module_identity",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_module_carrier_pair_is_assembly_and_never_kit",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_kit_requires_own_exact_code_revision_stays_unknown",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_wrong_catalog_or_engine_output_refuses_before_receipt_write",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_malformed_output_unknown_field_and_bool_integer_refused",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_completion_rejects_intervening_ledger_revision",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_completion_rejects_provider_and_ai_and_ocr_rawbyte_changes",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_completion_rejects_new_photo_view",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_review_requires_expected_revision_and_checked_words",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_review_requires_every_candidate_and_no_unknown_request_fields",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_review_policy_change_is_rejected_without_head_mutation",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_final_policy_recheck_precedes_publication",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_one_writer_lock_prevents_nested_approval_and_writes",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_receipt_and_original_tampering_refuse_inventory_read",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_receipt_cross_project_rebinding_is_refused",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_restart_preserves_ocr_receipt_and_manual_history",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_new_view_and_manual_review_clear_ocr_choice_with_history",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_quantity_and_sharing_changes_invalidate_ocr_confirmation",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_stale_projection_is_provisional_even_if_review_was_confirmed",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_clear_preserves_human_review_and_ocr_history",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_undo_restores_prior_quantity_sharing_without_restoring_ocr",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_undo_refuses_after_intervening_edits",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_receipt_quota_and_orphan_budget_refuse_without_review_mutation",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_malformed_private_receipt_is_refused_as_controlled_error",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_private_receipt_hardlink_is_refused_when_supported",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_injected_enabled_selection_never_calls_runner",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_empty_language_model_selection_refuses_without_runner",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_malformed_item_and_history_types_are_controlled",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_summary_boolean_integer_tamper_is_rejected",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_injected_nonempty_qualification_never_calls_runner",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_receipt_budget_is_reserved_before_runner",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          },
+          {
+            "id": "PhotoOcrFlowTests.test_ocr_history_missing_quantity_reviewer_is_controlled",
+            "status": "unrun",
+            "scope": "source-mock-filesystem"
+          }
+        ]
+      }
+    ]
+  },
+  "qualification_not_yet_established": [
+    "Unrelated sentinel-process survival qualification fixture is still absent; no global process termination exists in source.",
+    "Native project isolation/restart end-to-end demonstration has not been authored or run as a full engine/application harness.",
+    "Complete observed installed runtime/DLL/codec/model/license closure has no records; nine actual qualification records are required before recognition can be admitted."
+  ]
+}

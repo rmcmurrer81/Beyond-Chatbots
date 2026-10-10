@@ -1,0 +1,99 @@
+{
+  "format": "dot.source-file-manifest.v1",
+  "repository": "rmcmurrer81/IdeaForge",
+  "app_id": "ideaforge",
+  "base_commit": "cce175bd07abc34d5a2e46fdd4581f6ec0d8e019",
+  "base_tree": "5773a59a890751cec5fe5d50793c59c31e3aa96f",
+  "created_utc": "2026-10-09 00:44:02 UTC",
+  "files": [
+    {
+      "path": "core/photo_ocr.py",
+      "sha": "875d3c18e1defdb4980f008a356921320a749152",
+      "sha256": "37d9b3f880eff2bada6990e9a50532303b18f21d5e3f242fb2487ea91800a999",
+      "bytes": 41569,
+      "upstream_reviewed_sha": "875d3c18e1defdb4980f008a356921320a749152",
+      "copy_delta": "exact"
+    },
+    {
+      "path": "core/ocr_worker.py",
+      "sha": "b64e8d81cf139a571fd130268daeb2e915518ab6",
+      "sha256": "6879bdfa885ee07b54c01e97936e0f8864083477a0a7417f171a8719b3b3c92d",
+      "bytes": 8507,
+      "upstream_reviewed_sha": "b64e8d81cf139a571fd130268daeb2e915518ab6",
+      "copy_delta": "exact"
+    },
+    {
+      "path": "core/ocr_guard.py",
+      "sha": "516477ae94559df76db8ef5ed8071340db62833e",
+      "sha256": "2c4603765b87ae0a853e661d10e2355ec6b7e37fc2f9ef4c2f6e01e05c3db61a",
+      "bytes": 35491,
+      "upstream_reviewed_sha": "516477ae94559df76db8ef5ed8071340db62833e",
+      "copy_delta": "exact"
+    },
+    {
+      "path": "tests/test_photo_ocr.py",
+      "sha": "b18862e66e893f7a0eedf466b322701b129bc47c",
+      "sha256": "cdebd2acd1ea8697f7434c22f2e4cb34cc5a225457c1cc8496c174fc2cf73d84",
+      "bytes": 27159,
+      "upstream_reviewed_sha": "3ead3973260828772c4c3759f7f819c81f633604",
+      "copy_delta": "package-import-only"
+    },
+    {
+      "path": "tests/test_ocr_guard.py",
+      "sha": "44e28d319484c1d35c45dc57225499aea5e621ef",
+      "sha256": "d8e4ec7e6111b8d3a2ac566bcd918a81d14ac5664161ddb579870d4422124b7c",
+      "bytes": 29188,
+      "upstream_reviewed_sha": "3fe1dfeaf9f0e09436441950a312a959489d5ae1",
+      "copy_delta": "package-import-only"
+    },
+    {
+      "path": "docs/LOCAL_PHOTO_OCR.md",
+      "sha": "d9aa5b0957498161b56a1715f42e4e38fff747d3",
+      "sha256": "e9c0c92f42208425f0fc42fd9cf1c5a77b04119d55730ae534f4cd130ceb7039",
+      "bytes": 15814,
+      "upstream_reviewed_sha": "d9aa5b0957498161b56a1715f42e4e38fff747d3",
+      "copy_delta": "exact"
+    },
+    {
+      "path": "core/photo_inventory.py",
+      "sha": "5f5bd7ded5ed127967d940024ce99b4951f442ae",
+      "sha256": "2c65e4112b380d416dfc523b4a7f69afac90c9942507d7d153141c2c278749bf",
+      "bytes": 40135,
+      "upstream_reviewed_sha": "5f5bd7ded5ed127967d940024ce99b4951f442ae",
+      "copy_delta": "exact"
+    },
+    {
+      "path": "core/photo_ocr_flow.py",
+      "sha": "0a48fa3c71bb221cb2f4bdc5733ebaf979fe3746",
+      "sha256": "60fa74efe776240a6fd6c334a3de71e964110913b067985c56ab7a7982aeb5d9",
+      "bytes": 26277,
+      "upstream_reviewed_sha": "0a48fa3c71bb221cb2f4bdc5733ebaf979fe3746",
+      "copy_delta": "exact"
+    },
+    {
+      "path": "tests/test_photo_ocr_flow.py",
+      "sha": "a2b9ecfdb5e2d81163e75d542a06ad2eeaeedf0e",
+      "sha256": "8135772aa05b8b6d4deec60e56daf4df88f50e57e2fd22875fa3cdd423542eba",
+      "bytes": 30798,
+      "upstream_reviewed_sha": "a2b9ecfdb5e2d81163e75d542a06ad2eeaeedf0e",
+      "copy_delta": "exact"
+    },
+    {
+      "path": "docs/PHOTO_OCR_FLOW.md",
+      "sha": "1d013eb8ff73a0c43986fecb4fd36d0c54a68b26",
+      "sha256": "fb3a85a86b6be09f2752153682597c01205037a0dce7cf79b99e7cd853f5242b",
+      "bytes": 12492,
+      "upstream_reviewed_sha": "1d013eb8ff73a0c43986fecb4fd36d0c54a68b26",
+      "copy_delta": "exact"
+    },
+    {
+      "path": ".gitignore",
+      "sha": "b3b2ed07b462144141dc5ae072b05dfee381d624",
+      "sha256": "c0a42d8902b353abc87430bedba5102b30e746efaa8617536284c11c56d7ec86",
+      "bytes": 643,
+      "upstream_reviewed_sha": "b3b2ed07b462144141dc5ae072b05dfee381d624",
+      "copy_delta": "exact"
+    }
+  ],
+  "scope": "11 reviewed implementation/test/documentation/ignore files; this manifest excludes itself and the three companion review/status files to avoid self-reference."
+}

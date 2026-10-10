@@ -7,6 +7,7 @@ import uuid
 from contextlib import contextmanager
 from pathlib import Path
 from .model import digest, validate
+from fabrication.printer_fit import history_path, _local_path, same_json
 
 
 class StaleProposal(ValueError): pass
@@ -15,9 +16,9 @@ class StaleProposal(ValueError): pass
 class Store:
     def __init__(self, root):
         self.root = Path(root)
-        folder = self.root/'workspace3d'
+        folder = _local_path(self.root,'workspace3d',directory=True)
         folder.mkdir(parents=True, exist_ok=True)
-        self.path = folder/'history.sqlite3'
+        self.path = history_path(self.root)
         with self.connection() as db:
             db.executescript('''
                 CREATE TABLE IF NOT EXISTS revisions (
@@ -33,10 +34,12 @@ class Store:
 
     @contextmanager
     def connection(self):
+        history_path(self.root)
         db = sqlite3.connect(self.path, timeout=10)
         db.row_factory = sqlite3.Row
         try:
             yield db
+            history_path(self.root)
             db.commit()
         except Exception:
             db.rollback()
@@ -58,6 +61,12 @@ class Store:
         if not row: return None
         result = dict(row)
         for key in ('scene','sources','tests'): result[key] = json.loads(result[key])
+        from fabrication.printer_fit import scene_receipts, stale_receipts
+        expected_fit=scene_receipts(result['scene'],self.root if (self.root/'project.json').exists() else None)
+        for item in expected_fit: item['axis_aligned_fit']=None
+        if not same_json(result['tests'].get('printer_fit'),expected_fit):
+            result['tests']['printer_fit']=stale_receipts(result['scene'])
+            result['tests']['printer_fit_stale']=True
         return result
 
     def history(self):
@@ -68,11 +77,31 @@ class Store:
         scene = validate(scene)
         if tests.get('scene_hash') != digest(scene):
             raise ValueError('Test results do not belong to this scene.')
-        fingerprint = fingerprint or digest({'scene':scene,'reason':reason,'sources':sources,'parent':expected_parent})
+        fingerprint = fingerprint or digest({'scene':scene,'reason':reason,'sources':sources,'parent':expected_parent,'printer_fit':tests.get('printer_fit')})
         with self.connection() as db:
             db.execute('BEGIN IMMEDIATE')
+            # Selection/profile writes use this same database. Validate under its write lock.
+            from fabrication.printer_fit import scene_receipts, PrinterFitStore
+            printer_sources=[s for s in sources if isinstance(s,dict) and
+                             s.get('document')=='project-selected printer context']
+            if printer_sources:
+                if len(printer_sources)!=1 or not (self.root/'project.json').exists():
+                    raise ValueError('Queued printer/project context is missing or changed; refresh before acceptance.')
+                context=PrinterFitStore(self.root).screen(
+                    {'units':'mm','size_xyz':None,'placement':None},model_revision='printer_context')
+                if printer_sources[0].get('sha256')!=digest(context):
+                    raise ValueError('Queued printer/project context changed during screening; refresh before acceptance.')
+            expected_fit = scene_receipts(scene, self.root if (self.root/'project.json').exists() else None)
+            for row in expected_fit: row['axis_aligned_fit'] = None
+            if not same_json(tests.get('printer_fit'),expected_fit):
+                raise ValueError('Printer-fit receipts are stale, altered or lack current project scope; rerun checks.')
             existing = db.execute('SELECT id FROM revisions WHERE fingerprint=?',(fingerprint,)).fetchone()
-            if existing: return existing[0]
+            if existing:
+                old=db.execute('SELECT tests,scene FROM revisions WHERE id=?',(existing[0],)).fetchone()
+                if (not same_json(json.loads(old[0]).get('printer_fit'),tests.get('printer_fit')) or
+                        not same_json(json.loads(old[1]),scene)):
+                    raise ValueError('Existing fingerprint has obsolete printer-fit receipts.')
+                return existing[0]
             if self._pointer(db,'latest') != expected_parent:
                 raise StaleProposal('Workspace changed while the proposal was being tested; refresh and retry.')
             rid = uuid.uuid4().hex

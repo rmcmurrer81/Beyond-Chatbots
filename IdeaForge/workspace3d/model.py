@@ -11,7 +11,7 @@ MAX_BYTES = 512_000
 
 
 def number(value, limit=1_000_000):
-    return type(value) in (float, int) and math.isfinite(value) and abs(value) <= limit
+    return type(value) in (float, int) and abs(value) <= limit and math.isfinite(value)
 
 
 def vector(value, positive=False):
@@ -52,6 +52,13 @@ def validate(scene):
             raise ValueError(f'{pid}: cylinder X/Y diameters must match.')
         if not vector(part.get('position_mm')) or not vector(part.get('rotation_deg')):
             raise ValueError(f'{pid}: explicit position_mm and rotation_deg are required.')
+        placement = part.get('printer_placement')
+        if placement is not None:
+            if (not isinstance(placement, dict) or set(placement) != {'units','min_xyz','orientation'} or
+                    placement.get('units') != 'mm' or
+                    placement.get('orientation') not in ('xyz','xzy','yxz','yzx','zxy','zyx') or
+                    not vector(placement.get('min_xyz')) or any(x < 0 for x in placement['min_xyz'])):
+                raise ValueError(f'{pid}: printer_placement requires explicit mm, nonnegative minimum XYZ and a six-axis orientation.')
         provenance = part.get('provenance')
         if not isinstance(provenance, dict) or provenance.get('status') not in ('user_supplied', 'source_reported', 'example', 'derived') or not isinstance(provenance.get('source'), str) or not provenance['source'].strip():
             raise ValueError(f'{pid}: explicit provenance status and source are required.')

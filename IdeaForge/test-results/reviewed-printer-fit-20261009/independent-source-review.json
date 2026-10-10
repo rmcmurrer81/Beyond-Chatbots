@@ -1,0 +1,117 @@
+{
+  "format": "ideaforge.source-review.v1",
+  "status": "accepted_source_only",
+  "review_recorded_at_utc": "2026-10-09 15:33:46 UTC",
+  "reviewer": "independent reviewer",
+  "additional_review": "Independent persistence review of exact final source pins accepted.",
+  "reviewed_commit": "75bc59df5805cdf4387d5ad58fbf7df5c8354fe9",
+  "reviewed_tree": "9e63a837dc36df76b6f6ebeacab5e273b96bf39c",
+  "base_commit": "46faf6fdb833de50fedf040a429e2a9b510606a8",
+  "known_task_scoped_source_blockers": [],
+  "findings": [
+    "Explicit project printer ID and reviewed units/bounds/margins/keep-outs replace implicit inventory order and nominal success.",
+    "Six orthogonal dimension configurations are screened at explicitly declared placement; geometry claims only.",
+    "Revision-bound receipts preserve root/project/model/selection/profile/printer identity, strict types and authoritative recomputation.",
+    "Stale queued selection context and missing project are rejected under the shared SQLite lock before deduplication or saving.",
+    "Wrappers, workspace flow and editor preserve explicit units, selected printer and stale approval checks; captured mesh bytes bind hash and decoding."
+  ],
+  "reviewed_files": [
+    {
+      "path": "docs/PRINTER_FIT.md",
+      "git_blob_sha": "ad7438f16cd34be6df44d07fd68220255c159148",
+      "status": "added"
+    },
+    {
+      "path": "docs/test-receipts/2026-10-09-printer-fit.json",
+      "git_blob_sha": "fbba5c9af605124ed46f9981763661d5dca0903a",
+      "status": "added"
+    },
+    {
+      "path": "fabrication/printer.py",
+      "git_blob_sha": "7ebe2c01d2d85d4d3a372e709498fb5c13e86e7a",
+      "status": "modified"
+    },
+    {
+      "path": "fabrication/printer_fit.py",
+      "git_blob_sha": "084de3e7bf14bd9620a234eafb1b9a397cd10ba7",
+      "status": "added"
+    },
+    {
+      "path": "fabrication/validate_stl.py",
+      "git_blob_sha": "243bb777cfdf07ebabc17db629b6f4a74bf5937d",
+      "status": "modified"
+    },
+    {
+      "path": "inventory/equipment.py",
+      "git_blob_sha": "39be9beb1c4780bf58bd54d305042ea5b4b4562b",
+      "status": "modified"
+    },
+    {
+      "path": "simulation/mesh_fit.py",
+      "git_blob_sha": "6ff4fab227eebea5f17ea2e8837119af9eac29fc",
+      "status": "modified"
+    },
+    {
+      "path": "tests/test_printer_fit.py",
+      "git_blob_sha": "314ebf6ba9eafded6d67ec1c61c4ea53b833f2d0",
+      "status": "added"
+    },
+    {
+      "path": "tests/test_workspace3d.py",
+      "git_blob_sha": "89fbe3075db2cd27fbae4326ba0c72c8c868a373",
+      "status": "modified"
+    },
+    {
+      "path": "workspace3d/adapters.py",
+      "git_blob_sha": "2ff330f7a7e37cb83623f65db4fe5a37796963a3",
+      "status": "modified"
+    },
+    {
+      "path": "workspace3d/checks.py",
+      "git_blob_sha": "d34eff720922ae9919a0f308d87409f8129c13f7",
+      "status": "modified"
+    },
+    {
+      "path": "workspace3d/jobs.py",
+      "git_blob_sha": "943ad7bd14a5736c6ea1b31f032c288f1b30ef9e",
+      "status": "modified"
+    },
+    {
+      "path": "workspace3d/model.py",
+      "git_blob_sha": "57bd14d94cb3fba59e41f1c92688d17ddba95f3f",
+      "status": "modified"
+    },
+    {
+      "path": "workspace3d/store.py",
+      "git_blob_sha": "64bd743a78eb57320537d0bed07dd4bd7c96d5b0",
+      "status": "modified"
+    },
+    {
+      "path": "workspace3d/viewer.py",
+      "git_blob_sha": "a9d1e8fd0375539b3f6acccc71d7a363fb530fc7",
+      "status": "modified"
+    }
+  ],
+  "preservation": {
+    "unchanged_base_blobs": 142,
+    "additions": 4,
+    "modifications": 11,
+    "removals": 0,
+    "workflow_git_blob_sha": "a705cae2eee5d8b19aed77fee28bd694ba54af3f"
+  },
+  "execution": {
+    "status": "unrun",
+    "executed_methods": 0,
+    "new_scenario_methods": 12,
+    "modified_existing_methods": 1,
+    "passed": 0,
+    "failed": 0,
+    "reason": "Runtime HOLD and previously recorded runner initialization failure; no retry, bypass, local process or session."
+  },
+  "limits": [
+    "Source acceptance is not runtime qualification.",
+    "Compilation, SQLite concurrency, native mesh decoding, Tk interaction and Windows behavior remain UNRUN.",
+    "Bounding-box geometry only: no printability, process, material, CAD validation or automatic adoption claim.",
+    "No new dependency or copied slicer catalog."
+  ]
+}

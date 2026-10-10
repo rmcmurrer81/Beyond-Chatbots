@@ -1,0 +1,163 @@
+{
+  "format": "ideaforge.source-manifest.v1",
+  "recorded_at_utc": "2026-10-09 15:33:46 UTC",
+  "scope": "Private source-only handoff; implementation and test fixtures were not executed.",
+  "source_commit": "75bc59df5805cdf4387d5ad58fbf7df5c8354fe9",
+  "source_tree": "9e63a837dc36df76b6f6ebeacab5e273b96bf39c",
+  "base_commit": "46faf6fdb833de50fedf040a429e2a9b510606a8",
+  "files": [
+    {
+      "path": "docs/PRINTER_FIT.md",
+      "git_blob_sha": "ad7438f16cd34be6df44d07fd68220255c159148",
+      "sha256": "09bd04d3bdf24590ba45cdd5ae2a7535dc7e40174ed405e95004ca4434133a02",
+      "bytes": 5797,
+      "status": "added"
+    },
+    {
+      "path": "docs/test-receipts/2026-10-09-printer-fit.json",
+      "git_blob_sha": "fbba5c9af605124ed46f9981763661d5dca0903a",
+      "sha256": "1bfcebbd3c22a3ffeceee351eab05f08063067d1444bd42ba7817236193c9d2c",
+      "bytes": 1315,
+      "status": "added"
+    },
+    {
+      "path": "fabrication/printer.py",
+      "git_blob_sha": "7ebe2c01d2d85d4d3a372e709498fb5c13e86e7a",
+      "sha256": "1f477cb241e792728e3c421d9688672e5ee0c681596a845d389eacb2122a1f90",
+      "bytes": 531,
+      "status": "modified"
+    },
+    {
+      "path": "fabrication/printer_fit.py",
+      "git_blob_sha": "084de3e7bf14bd9620a234eafb1b9a397cd10ba7",
+      "sha256": "2adaded477111d8960e3ff3856f0791a4d8f39a16e0470d01d342b5874bf7e95",
+      "bytes": 21415,
+      "status": "added"
+    },
+    {
+      "path": "fabrication/validate_stl.py",
+      "git_blob_sha": "243bb777cfdf07ebabc17db629b6f4a74bf5937d",
+      "sha256": "3a0a34ecf60d5fc9bd829fadbf4120cfc993f6e34d3efb56de4f1bb622e84c20",
+      "bytes": 2525,
+      "status": "modified"
+    },
+    {
+      "path": "inventory/equipment.py",
+      "git_blob_sha": "39be9beb1c4780bf58bd54d305042ea5b4b4562b",
+      "sha256": "393a018799a84a927247a2c599076f5dffa360d007d444ff51856e934bdd3d50",
+      "bytes": 4590,
+      "status": "modified"
+    },
+    {
+      "path": "simulation/mesh_fit.py",
+      "git_blob_sha": "6ff4fab227eebea5f17ea2e8837119af9eac29fc",
+      "sha256": "b0911ba67d8d711b24dadc87b48e12584217a01599621688c1db371ef9bc9288",
+      "bytes": 3351,
+      "status": "modified"
+    },
+    {
+      "path": "tests/test_printer_fit.py",
+      "git_blob_sha": "314ebf6ba9eafded6d67ec1c61c4ea53b833f2d0",
+      "sha256": "1eb39f9fb68f3ec374e3d1b71068ff4a62c49ce74760c6b92264baf072975f06",
+      "bytes": 18690,
+      "status": "added"
+    },
+    {
+      "path": "tests/test_workspace3d.py",
+      "git_blob_sha": "89fbe3075db2cd27fbae4326ba0c72c8c868a373",
+      "sha256": "06512dec1be62f6e98b02b2afc65747afdbc4f5b3e78c04b13b0595fe3f565b5",
+      "bytes": 11521,
+      "status": "modified"
+    },
+    {
+      "path": "workspace3d/adapters.py",
+      "git_blob_sha": "2ff330f7a7e37cb83623f65db4fe5a37796963a3",
+      "sha256": "e6fa2b18ce3d8be560172a3f208feef2e1679562ad8b12575fe414e896a3ce23",
+      "bytes": 3736,
+      "status": "modified"
+    },
+    {
+      "path": "workspace3d/checks.py",
+      "git_blob_sha": "d34eff720922ae9919a0f308d87409f8129c13f7",
+      "sha256": "bc3270105589327f2465138550507186f2802267e9c7d3f0f4d4e50430c356a2",
+      "bytes": 2511,
+      "status": "modified"
+    },
+    {
+      "path": "workspace3d/jobs.py",
+      "git_blob_sha": "943ad7bd14a5736c6ea1b31f032c288f1b30ef9e",
+      "sha256": "6aecb38c127a8b7c1164adc164fd19c298925044554942ef3432639cc7b679a6",
+      "bytes": 3433,
+      "status": "modified"
+    },
+    {
+      "path": "workspace3d/model.py",
+      "git_blob_sha": "57bd14d94cb3fba59e41f1c92688d17ddba95f3f",
+      "sha256": "41eb1ed6ee7f2dd823d19b3fa8dcfce885c0aa12b72e4c98d38617cb2f2406a4",
+      "bytes": 8159,
+      "status": "modified"
+    },
+    {
+      "path": "workspace3d/store.py",
+      "git_blob_sha": "64bd743a78eb57320537d0bed07dd4bd7c96d5b0",
+      "sha256": "76fc4fa0badfa9fde3e55a3df8d8838c36cf6acadbcce9699ae82948d8b63350",
+      "bytes": 8507,
+      "status": "modified"
+    },
+    {
+      "path": "workspace3d/viewer.py",
+      "git_blob_sha": "a9d1e8fd0375539b3f6acccc71d7a363fb530fc7",
+      "sha256": "b9a0aa1fd0c99d8df461d77caa03406eca375435b51f54355e5e26f0ab96fd91",
+      "bytes": 21657,
+      "status": "modified"
+    }
+  ],
+  "preservation": {
+    "unchanged_base_blobs": 142,
+    "old_refs": [
+      {
+        "ref": "refs/heads/dot/2026-10-04-research-3d-workspace",
+        "sha": "ca8ff1811030a304aaa190da9c820c2583df3daa"
+      },
+      {
+        "ref": "refs/heads/dot/2026-10-06-aster-provider-preparation",
+        "sha": "6ade05db3ec72417f2e84d04347e4277514ee5ac"
+      },
+      {
+        "ref": "refs/heads/dot/2026-10-08-local-pdf-citations",
+        "sha": "2834b24ac9ace82f8d8087b8058473c58f057985"
+      },
+      {
+        "ref": "refs/heads/dot/2026-10-08-parameter-photo-inventory",
+        "sha": "cce175bd07abc34d5a2e46fdd4581f6ec0d8e019"
+      },
+      {
+        "ref": "refs/heads/dot/2026-10-09-local-photo-ocr",
+        "sha": "46faf6fdb833de50fedf040a429e2a9b510606a8"
+      },
+      {
+        "ref": "refs/heads/main",
+        "sha": "ab021755cf49575fa1765b8c94e4b3898f0c1372"
+      }
+    ],
+    "workflow": {
+      "path": ".github/workflows/ci.yml",
+      "git_blob_sha": "a705cae2eee5d8b19aed77fee28bd694ba54af3f",
+      "unchanged": true,
+      "triggers": [
+        "push",
+        "pull_request"
+      ],
+      "publication_commit_messages_include": "[skip ci]",
+      "no_pr_or_dispatch": true
+    },
+    "dependencies_changed": false
+  },
+  "qualification": {
+    "source_review": "accepted_source_only",
+    "runtime": "unrun",
+    "new_scenario_methods": 12,
+    "modified_existing_methods": 1,
+    "executed_methods": 0
+  }
+}

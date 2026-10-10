@@ -19,10 +19,10 @@
         "length_2_m": 0.16684453651120876,
         "width_m": 0.02251080384542953,
         "thickness_m": 0.01,
-        "density_kg_m3": 1200.0,
+        "density_kg_m3": 1200,
         "payload_kg": 0.1,
         "payload_radius_m": 0.01,
-        "torque_limit_nm": 3.0,
+        "torque_limit_nm": 3,
         "reach_min_m": 0.34,
         "mass_max_kg": 0.5,
         "uncertainty_fraction": 0.1
@@ -43,20 +43,20 @@
           "positive_volume": true,
           "bounds_coordinates": [
             [
-              0.0,
+              0,
               -11.255401611328125,
-              -5.0
+              -5
             ],
             [
               185.620361328125,
               11.255401611328125,
-              5.0
+              5
             ]
           ],
           "extents": [
             185.620361328125,
             22.51080322265625,
-            10.0
+            10
           ],
           "volume": 41784.63427975774,
           "area": 12519.550146967173,
@@ -68,7 +68,7 @@
           },
           "failures": [],
           "tolerance_mm": 0.0001,
-          "relative_tolerance": 1e-05,
+          "relative_tolerance": 0.00001,
           "manifest_sha256": "e1ad7a0c604e55ad2b0977983bae8bc9afe01899a0117507560a1350981304ca",
           "exported_sha256": "5eaf750c74bfdb8e56f60bfd98fdd4c3b72412ef52f04a16b6f285adedf2f979"
         },
@@ -88,18 +88,18 @@
             [
               185.620361328125,
               -11.255401611328125,
-              -5.0
+              -5
             ],
             [
               352.46490478515625,
               11.255401611328125,
-              5.0
+              5
             ]
           ],
           "extents": [
             166.84454345703125,
             22.51080322265625,
-            10.0
+            10
           ],
           "volume": 37558.0468653515,
           "area": 11298.71630666405,
@@ -111,7 +111,7 @@
           },
           "failures": [],
           "tolerance_mm": 0.0001,
-          "relative_tolerance": 1e-05,
+          "relative_tolerance": 0.00001,
           "manifest_sha256": "04ca25b1f059bf6dfaa28e866620f674c646d54445fd15baae1a421ebaf1823f",
           "exported_sha256": "f7bec65f050d2ffca30633ebe18b5841bbfc8f58e998f137f478ef8a9d13e1dd"
         }
@@ -125,10 +125,10 @@
         "length_2_m": 0.16584584663119953,
         "width_m": 0.022833738863142432,
         "thickness_m": 0.01,
-        "density_kg_m3": 1200.0,
+        "density_kg_m3": 1200,
         "payload_kg": 0.1,
         "payload_radius_m": 0.01,
-        "torque_limit_nm": 3.0,
+        "torque_limit_nm": 3,
         "reach_min_m": 0.34,
         "mass_max_kg": 0.5,
         "uncertainty_fraction": 0.1
@@ -149,20 +149,20 @@
           "positive_volume": true,
           "bounds_coordinates": [
             [
-              0.0,
+              0,
               -11.416869163513184,
-              -5.0
+              -5
             ],
             [
               186.22523498535156,
               11.416869163513184,
-              5.0
+              5
             ]
           ],
           "extents": [
             186.22523498535156,
             22.833738327026367,
-            10.0
+            10
           ],
           "volume": 42522.182855445135,
           "area": 12685.616037336586,
@@ -174,7 +174,7 @@
           },
           "failures": [],
           "tolerance_mm": 0.0001,
-          "relative_tolerance": 1e-05,
+          "relative_tolerance": 0.00001,
           "manifest_sha256": "fe34e498c052cc35ca923e333ea1397f449e19f94c93510e87b7877d25e03dfd",
           "exported_sha256": "cc92669f12b4650c5416133821f92fb3c2d55c4376bf271970bdc3d43a97db2b"
         },
@@ -194,18 +194,18 @@
             [
               186.22523498535156,
               -11.416869163513184,
-              -5.0
+              -5
             ],
             [
               352.0710754394531,
               11.416869163513184,
-              5.0
+              5
             ]
           ],
           "extents": [
             165.84584045410156,
             22.833738327026367,
-            10.0
+            10
           ],
           "volume": 37868.80523554719,
           "area": 11347.352622731996,
@@ -217,7 +217,7 @@
           },
           "failures": [],
           "tolerance_mm": 0.0001,
-          "relative_tolerance": 1e-05,
+          "relative_tolerance": 0.00001,
           "manifest_sha256": "fec2dad14f0494f5673cc4a189bb49b02bd8396db0ce66a41a7df2f16ceecdd8",
           "exported_sha256": "4a67375907b5a692919c6602110624e05fbdfa4d7c62a286a6d79b7cd40e9296"
         }
@@ -231,10 +231,10 @@
         "length_2_m": 0.17150173948560715,
         "width_m": 0.022779112869291233,
         "thickness_m": 0.01,
-        "density_kg_m3": 1200.0,
+        "density_kg_m3": 1200,
         "payload_kg": 0.1,
         "payload_radius_m": 0.01,
-        "torque_limit_nm": 3.0,
+        "torque_limit_nm": 3,
         "reach_min_m": 0.34,
         "mass_max_kg": 0.5,
         "uncertainty_fraction": 0.1
@@ -255,20 +255,20 @@
           "positive_volume": true,
           "bounds_coordinates": [
             [
-              0.0,
+              0,
               -11.389556884765625,
-              -5.0
+              -5
             ],
             [
               187.2213897705078,
               11.389556884765625,
-              5.0
+              5
             ]
           ],
           "extents": [
             187.2213897705078,
             22.77911376953125,
-            10.0
+            10
           ],
           "volume": 42647.373376721516,
           "area": 12729.484746145085,
@@ -280,7 +280,7 @@
           },
           "failures": [],
           "tolerance_mm": 0.0001,
-          "relative_tolerance": 1e-05,
+          "relative_tolerance": 0.00001,
           "manifest_sha256": "dbbd3a0ac00a42b0c2eb4b46ba777e9067252721356e33bfbafc5540c76ccb41",
           "exported_sha256": "6b383723bf7bde6977f01c8462ae03bd87fae15c44e4e6cf0927b6dc6fa8bbcb"
         },
@@ -300,18 +300,18 @@
             [
               187.2213897705078,
               -11.389556884765625,
-              -5.0
+              -5
             ],
             [
               358.7231140136719,
               11.389556884765625,
-              5.0
+              5
             ]
           ],
           "extents": [
             171.50172424316406,
             22.77911376953125,
-            10.0
+            10
           ],
           "volume": 39066.5728820581,
           "area": 11698.931336665526,
@@ -323,7 +323,7 @@
           },
           "failures": [],
           "tolerance_mm": 0.0001,
-          "relative_tolerance": 1e-05,
+          "relative_tolerance": 0.00001,
           "manifest_sha256": "067ad9459a2a7beddd83583843d92467b4554972a680bf8b1c822a0460608590",
           "exported_sha256": "03a7ae2c9ee5b7a92cb9021e7a98590531ca53d3d0ebd6bc5e34d17541e9e853"
         }

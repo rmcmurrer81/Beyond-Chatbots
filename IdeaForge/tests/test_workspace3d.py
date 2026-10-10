@@ -64,7 +64,8 @@ class SceneTests(unittest.TestCase):
         scene['printer_volume_mm']=[100,100,100]
         result=run_checks(scene)
         self.assertIn(['base','bearing'],result['possible_aabb_overlaps'])
-        self.assertFalse(result['printer_fit'][0]['axis_aligned_fit'])
+        self.assertIsNone(result['printer_fit'][0]['axis_aligned_fit'])
+        self.assertEqual(result['printer_fit'][0]['receipt']['result']['status'],'unknown')
         self.assertEqual(len(result['joint_sweeps'][0]['samples']),9)
         self.assertIn('Dynamics unavailable', ' '.join(result['limitations']))
 

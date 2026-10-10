@@ -1,19 +1,5 @@
 # Local native PDF quotation citations
 
-## Public-copy correction: troubleshooting can expose quotations
-
-The application-wide privacy assertion in the original text below is incorrect.
-The PDF import/retrieve/resolve CLI/API itself makes no provider call, and the
-plain chat-context builder excludes the PDF store. Existing troubleshooting,
-however, recursively reads project text/JSON files and may include saved
-research/pdf_evidence/versions quotation records in a text-provider request.
-Chat can invoke that troubleshooting route for a problem or attached image.
-Do not import private PDFs into projects used with those model routes until a
-reviewed exclusion is implemented. Use synthetic fixtures for this snapshot.
-The runtime source is unchanged; no new privacy regression test was executed.
-This correction supersedes the older never-inserted-into-provider-context
-statement below. The historical source/test-design status is preserved.
-
 This candidate adds deterministic local PDF import, token retrieval and citation
 resolution. It does not change ordinary chat, provider routing, UI, design
 selection, CAD generation, workflows or main. PDF bytes and extracted text are

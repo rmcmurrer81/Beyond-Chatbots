@@ -1,0 +1,40 @@
+{
+  "format": "ideaforge.printer-fit-test-receipt.v1",
+  "status": "unrun",
+  "base_commit": "46faf6fdb833de50fedf040a429e2a9b510606a8",
+  "passed": 0,
+  "failed": 0,
+  "unrun_new_methods": 12,
+  "modified_existing_methods": 1,
+  "scenario_groups": [
+    "selected printer and duplicate IDs",
+    "reordered inventory",
+    "six orthogonal configurations",
+    "margins and declared placement",
+    "effective Z",
+    "keep-out hit/contact",
+    "keep-out clear",
+    "missing reviewed profile and legacy nominal inputs",
+    "invalid dimensions/profile bounds",
+    "stale/forged model/project/inventory/profile/selection receipts",
+    "persistence/restart and project isolation",
+    "unknown units"
+  ],
+  "runtime": {
+    "status": "unrun",
+    "reason": "Runtime HOLD. Previously authorized metadata preflight failed before process creation with helper_unknown_error: setup refresh had errors. No new probe, interpreter, imports, installation, scan, test or render job was launched."
+  },
+  "limits": [
+    "Only geometric bounding-box fit; no printability/process/material/CAD validation claim",
+    "Native existing trimesh/STL decoding and Tk interaction remain unqualified",
+    "No new dependency or copied slicer catalog"
+  ],
+  "source_review": {
+    "status": "accepted_source_only",
+    "independent": true,
+    "reviewed_source_commit": "75bc59df5805cdf4387d5ad58fbf7df5c8354fe9",
+    "reviewed_source_tree": "9e63a837dc36df76b6f6ebeacab5e273b96bf39c",
+    "review_record": "test-results/reviewed-printer-fit-20261009/independent-source-review.json",
+    "qualification": "Source inspection complete; no test, compilation, interpreter, mesh, Tk or SQLite concurrency execution occurred."
+  }
+}

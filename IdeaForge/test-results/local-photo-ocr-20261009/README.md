@@ -1,0 +1,11 @@
+# Reviewed local photo OCR source, 2026-10-09
+
+This private source increment adds an optional local Tesseract/Pillow worker and a scoped CLI/API candidate-review flow. It preserves existing manual evidence and requires an explicit current review for public-code identity and quantity. Original photos and raw OCR remain local; Aster bundle summaries contain metadata with original-image verification unavailable; live interoperability is unrun.
+
+Independent source review accepted the exact implementation, test and documentation pins in [source-manifest.json](source-manifest.json) and [independent-source-review.json](independent-source-review.json). **Tests: passed 0, failed 0, unrun 139 for this app** (128 source/mock/filesystem methods and 11 opt-in native methods). Static source review and metadata hash checks are separate from test execution. No passed OCR configuration ships.
+
+[receipt.json](receipt.json) records the runner initialization failure, unrun suites, candidate dependency licenses and remaining qualification. The sole probe failed before creating a process/session; no retry was made. Its workspace path is redacted here; the complete original arguments/result remain in the trusted task conversation. No physical checkout or VM execution is claimed.
+
+Read [LOCAL_PHOTO_OCR.md](../../docs/LOCAL_PHOTO_OCR.md) for engine/guard/qualification limits and [PHOTO_OCR_FLOW.md](../../docs/PHOTO_OCR_FLOW.md) for actual API/CLI, explicit review, correction/history and isolation. There is no new OCR GUI. Real recognition still needs a recovered supported runner, coordinator clearance, a reviewed actual installed runtime/model/DLL/codec closure and measured native/application results. Job memory concerns committed virtual memory, not RSS; known scratch writes are not an OS disk quota; synchronous I/O is not hard preemptible.
+
+Selected base: cce175bd07abc34d5a2e46fdd4581f6ec0d8e019. Publication targets only a fresh dot/2026-10-09-local-photo-ocr branch with [skip ci]. Existing refs, main, workflow source, model/provider settings and unrelated projects remain unchanged. Post-publication remote ref/tree/blob and all-event Actions evidence is reported in the task outcome, because a commit cannot include its own final hash.

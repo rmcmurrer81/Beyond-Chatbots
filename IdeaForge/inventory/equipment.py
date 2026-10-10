@@ -5,28 +5,55 @@ from pathlib import Path
 
 CONFIG=Path("inventory/config.json")
 
-def _cfg():
+def _cfg(*, strict=False):
+    if strict:
+        from fabrication.printer_fit import _read_json
+        return _read_json(CONFIG)
     return json.loads(CONFIG.read_text(encoding="utf-8"))
 
 def _local_path():
     return Path(_cfg().get("local_inventory","inventory/equipment.json"))
 
-def _load_file(path):
+def _load_file(path, *, strict=False):
     p=Path(path)
     if not p.exists(): return []
+    if strict:
+        from fabrication.printer_fit import _read_json
+        value=_read_json(p)
+        if not isinstance(value,dict) or not isinstance(value.get("items"),list) or not all(isinstance(x,dict) for x in value["items"]):
+            raise ValueError("Strict inventory file requires object items")
+        return value["items"]
     try: return json.loads(p.read_text(encoding="utf-8")).get("items",[])
     except Exception: return []
 
-def load_all():
-    cfg=_cfg()
-    local=_load_file(cfg.get("local_inventory","inventory/equipment.json"))
+def load_all(*, photo_ledger=None, project_id=None, include_shared=False, strict_ids=False):
+    cfg=_cfg(strict=strict_ids)
+    local=_load_file(cfg.get("local_inventory","inventory/equipment.json"),strict=strict_ids)
     combined=list(local); seen={x.get("equipment_id") or x.get("name") for x in local}
+    strict_seen=set()
+    def check_id(item):
+        eid=item.get("equipment_id")
+        if strict_ids and eid:
+            if eid in strict_seen:
+                raise ValueError("Duplicate equipment_id across inventory sources: "+str(eid))
+            strict_seen.add(eid)
+    for item in local: check_id(item)
     for source in cfg.get("optional_imports",[]):
-        for item in _load_file(source):
+        for item in _load_file(source,strict=strict_ids):
+            check_id(item)
             key=item.get("equipment_id") or item.get("name")
             if key in seen: continue
             copy=dict(item); copy["imported_from"]=source
             combined.append(copy); seen.add(key)
+    if photo_ledger is not None:
+        from core.photo_inventory import PhotoLedger, PhotoEvidenceError
+        if not isinstance(photo_ledger, PhotoLedger) or project_id is None:
+            raise PhotoEvidenceError("A reviewed PhotoLedger and explicit project scope are required")
+        for item in photo_ledger.inventory_items(project_id=project_id, include_shared=include_shared):
+            if item["equipment_id"] in seen:
+                raise PhotoEvidenceError("Existing inventory ID conflicts with photo projection")
+            combined.append(item)
+            seen.add(item["equipment_id"])
     return {"schema_version":"0.2","items":combined}
 
 def load_local():

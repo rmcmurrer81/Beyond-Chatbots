@@ -1,0 +1,365 @@
+{
+  "format": "ideaforge.photo-inventory-test-receipt.v1",
+  "app_id": "ideaforge",
+  "created_at": "2026-10-08 22:42:13 UTC",
+  "selected_parent": "2834b24ac9ace82f8d8087b8058473c58f057985",
+  "scope": "New local grouped multi-photo manual review and inventory projection; no trained perception backend.",
+  "authorization": "Private coordination details omitted from presentation copy.",
+  "source_review": {
+    "status": "passed_source_test_design_docs_only",
+    "reviewer": "independent reviewer",
+    "method": "Read-only full GitHub blob source/test/docs review; no execution.",
+    "exact_pins": [
+      {
+        "path": "core/photo_inventory.py",
+        "sha": "32df974a567a6155011ae2f410a12248c2b7a789",
+        "bytes": 32568
+      },
+      {
+        "path": "tests/test_photo_inventory.py",
+        "sha": "2e45db4f5e12f82279e399740893c595146aab53",
+        "bytes": 25539
+      },
+      {
+        "path": "docs/PHOTO_INVENTORY.md",
+        "sha": "e433eac2c961c3bfdeddca2a92ddc8e948ce8b05",
+        "bytes": 11150
+      },
+      {
+        "path": "inventory/equipment.py",
+        "sha": "12d57df0fc24c699ebcb7a4d33651ed75306e8d8",
+        "bytes": 3700
+      }
+    ],
+    "remaining_findings": [],
+    "runtime_claim": false,
+    "manufacturer_document_bytes_independently_authenticated": false,
+    "follow_up": "One authorized documentation-only storage clarification; source/test/adapter pins unchanged and45 runtime methods remain UNRUN.",
+    "documentation_follow_up_review": "passed_exact_one_paragraph_delta"
+  },
+  "runtime": {
+    "status": "unrun",
+    "passed": 0,
+    "failed": 0,
+    "skipped": 0,
+    "unrun": 45,
+    "compilation": "unrun",
+    "cli": "unrun",
+    "inventory_adapter_integration": "unrun",
+    "provider_integration": "not_invoked",
+    "recognition_backend": "unavailable",
+    "ocr": "not_selected_or_installed",
+    "blocker": "exec-server rejected request (-32603): helper_unknown_error: setup refresh had errors; root reported no process/session was created. No supported VM runner observed; no workaround attempted.",
+    "performance": "No wall-clock, RSS, decoded-image or recognition metrics measured."
+  },
+  "tests": [
+    {
+      "id": "test_multiple_views_are_one_group_and_unknown_quantity",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_duplicate_view_bytes_do_not_add_images_or_items",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_duplicate_image_in_another_group_is_refused",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_same_item_grouping_requires_explicit_confirmation",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_quantity_requires_positive_integer_and_explicit_ownership",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_quantity_alone_cannot_identify_a_part",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_catalog_code_requires_manual_identity_and_quantity_confirmation",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_known_plus_unknown_clear_model_code_remains_provisional",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_unassigned_unknown_clear_code_prevents_confirmation",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_projection_ids_distinguish_hyphenated_scope_ids_and_stores",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_generic_family_code_does_not_infer_ram_or_exact_model",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_generic_visual_similarity_and_ports_do_not_resolve_identity",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_blurred_and_missing_markings_remain_provisional",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_clear_conflicting_labels_are_not_voted_by_photo_count",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_carrier_code_claimed_as_module_is_conflicting",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_known_module_carrier_are_separate_and_do_not_establish_kit",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_carrier_alone_does_not_identify_module",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_developer_kit_requires_its_own_full_box_code",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_restart_preserves_original_bytes_and_review",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_user_correction_preserves_previous_review_history",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_added_view_invalidates_identity_confirmation",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_project_isolation_and_explicit_shared_equipment_scope",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_rebinding_project_or_copying_store_is_refused",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_tampered_original_image_is_refused_and_no_inventory_returned",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_tampered_metadata_snapshot_is_refused",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_source_image_replacement_cannot_change_saved_original",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_observation_for_another_image_is_refused",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_serial_field_and_unknown_review_fields_are_refused",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_export_metadata_excludes_private_text_and_original_images",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_file_and_view_limits_refuse_before_inventory_mutation",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_malformed_enum_containers_refuse_as_evidence_error",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_unsupported_bytes_and_invalid_json_are_refused",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_signature_intake_does_not_claim_a_decoded_or_understood_image",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_provider_is_never_imported_or_called",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_locked_intake_writes_no_orphan_images_or_head",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_second_intake_during_locked_quota_check_is_refused_without_writes",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_crash_orphan_image_count_limit_refuses_before_writes",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_existing_orphan_next_revision_refuses_before_image_copy",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_existing_writer_lock_does_not_overwrite",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_corrected_quantity_and_sharing_history_are_retained",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_catalog_has_exact_public_source_revision_and_locator",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_original_image_hardlink_is_refused",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_image_symlink_is_refused_when_supported",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_opt_in_existing_inventory_loader_projects_without_writing_legacy_file",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    },
+    {
+      "id": "test_opt_in_existing_inventory_loader_requires_project_scope",
+      "status": "unrun",
+      "reason": "Root's single coordinated harmless desktop probe at2026-10-08 22:31:53 UTC failed before process creation; no subsequent local probes or test jobs authorized."
+    }
+  ],
+  "test_fixture": {
+    "provenance": "Self-authored black/white PNG public-label drawings generated by Python stdlib; manually supplied synthetic observations. No private user photos or actual serial numbers.",
+    "not_hardware_photos": true,
+    "not_recognition_validation": true
+  },
+  "source_manifest": [
+    {
+      "path": "core/photo_inventory.py",
+      "sha": "32df974a567a6155011ae2f410a12248c2b7a789",
+      "bytes": 32568
+    },
+    {
+      "path": "tests/test_photo_inventory.py",
+      "sha": "2e45db4f5e12f82279e399740893c595146aab53",
+      "bytes": 25539
+    },
+    {
+      "path": "docs/PHOTO_INVENTORY.md",
+      "sha": "e433eac2c961c3bfdeddca2a92ddc8e948ce8b05",
+      "bytes": 11150
+    },
+    {
+      "path": "inventory/equipment.py",
+      "sha": "12d57df0fc24c699ebcb7a4d33651ed75306e8d8",
+      "bytes": 3700
+    }
+  ],
+  "limits": {
+    "items": 16,
+    "photos_per_item": 6,
+    "image_bytes": 1048576,
+    "total_stored_image_bytes": 33554432,
+    "image_files": 96,
+    "state_bytes": 262144,
+    "item_history": 32,
+    "revisions": 128,
+    "hard_time_deadline": false
+  },
+  "data_handling": {
+    "local_original_snapshots": "Exact image bytes/SHA256/byte counts preserved and rechecked; PNG/JPEG/WebP container signatures only; no decoder.",
+    "binary_image_export": false,
+    "provider_calls": false,
+    "network_calls": false,
+    "raw_observation_export": false,
+    "aster_image_verification": "unavailable",
+    "aster_verifies": "Included JSON/text metadata byte hashes only; original-image hash declarations remain unverified.",
+    "gui": "Existing default GUI calls do not opt in; available via CLI/API and explicit existing-loader projection.",
+    "storage": "Operator must choose a private untracked store outside checkout or confirm an applicable ignored photo_inventory/ folder. Arbitrary --store paths are not automatically ignored; original images and ledger must not be force-added to Git."
+  },
+  "licensing": {
+    "new_runtime_dependencies": "Python standard library only",
+    "ocr_or_model_downloads": "none",
+    "fixtures": "Self-authored original drawings, no third-party images",
+    "manufacturer_evidence": "Original conservative paraphrases of public NVIDIA identifier facts with official URL/document revision/locator; full document-byte hashes unavailable/null. No graphs/documents copied.",
+    "project_license": "Existing repository license unchanged"
+  },
+  "approval_events": [
+    {
+      "action": "github_create_blob for IdeaForge inventory/equipment.py",
+      "outcome": "auto_review_rejected_no_mutation",
+      "reason": "Although an unreferenced blob is low-risk, this content modifies the existing IdeaForge inventory adapter, which the delegation limited to app-author-owned coordination rather than the photo worker’s new source/tests/docs.",
+      "resolution": "Parent explicitly assigned the two exact additive loader paths under Robert's existing approved inventory workflow; one same-call retry was permitted and succeeded. No reroute."
+    },
+    {
+      "action": "github_create_blob for HR new tests/test_photo_inventory.py",
+      "outcome": "auto_review_rejected_no_mutation",
+      "reason": "The create_blob request omits the blob content and path, so the payload and scope cannot be verified as the authorized new HumanoidResearcher source/tests/docs or as free of sensitive data.",
+      "resolution": "An interrupted assembly loop had not stored HR text, producing undefined content. Nonempty exact UTF8 content, intended path, module import and37 authored test methods were verified; parent permitted one corrected same-tool retry, which succeeded. Later independent review added8 methods, totaling45. No bypass."
+    }
+  ],
+  "independent_findings_fixed": [
+    "Unknown clear model codes now prevent confirmation beside known evidence without exporting arbitrary text.",
+    "Equipment IDs hash app/project/bound-store/group tuple to avoid separator ambiguity and cross-store collisions.",
+    "Whole intake is writer-locked before source reads/quota checks/copy; existing locks write nothing.",
+    "Existing orphan byte and count quotas plus next-snapshot collision/revision/serialization are preflighted before copying.",
+    "Malformed enum containers refuse with PhotoEvidenceError."
+  ],
+  "unverified": [
+    "No pixel inspection, OCR, local part recognition or hardware authenticity/compatibility validation.",
+    "No inferred module/RAM/revision/kit from appearance; exact reviewed public-code mapping only.",
+    "No automatic CAD/BOM or Aster inventory adoption.",
+    "No runtime test or dependency installation occurred."
+  ]
+}

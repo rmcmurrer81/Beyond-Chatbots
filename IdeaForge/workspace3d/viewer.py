@@ -40,7 +40,7 @@ class Workspace(ttk.Frame):
         self.preview = tk.BooleanVar(value=False); self.phase = 0
         self.history_ids = []; self.destroyed = False
         toolbar = ttk.Frame(self); toolbar.pack(fill='x')
-        for label,command in [('Import assembly',self.import_scene),('Add part',self.add_part),('Edit scene',self.edit_scene),('Requirements',self.edit_requirements),
+        for label,command in [('Import assembly',self.import_scene),('Add part',self.add_part),('Edit scene',self.edit_scene),('Requirements',self.edit_requirements),('Printer profile',self.edit_printer),
                               ('Demo',self.show_demo),('Latest',self.show_latest),('Fit',self.fit),('Run checks',self.test_scene)]:
             ttk.Button(toolbar,text=label,command=command).pack(side='left',padx=2)
         toolbar2 = ttk.Frame(self); toolbar2.pack(fill='x')
@@ -143,6 +143,12 @@ class Workspace(ttk.Frame):
             part = next((p for p in self.scene['parts'] if p['id']==self.selected),None)
             lines += ['','Selected part:',json.dumps(part,indent=2)]
         if tests:
+            from fabrication.printer_fit import scene_receipts, stale_receipts, same_json
+            current_fit=scene_receipts(self.scene,self.project if self.project and (self.project/'project.json').exists() else None)
+            for row in current_fit: row['axis_aligned_fit']=None
+            if not same_json(tests.get('printer_fit'),current_fit):
+                tests=copy.deepcopy(tests)
+                tests['printer_fit']=stale_receipts(self.scene)
             lines += ['', 'Geometric screening:',f"Status: {tests['status']}",
                       'Possible bounding-box overlaps: '+json.dumps(tests['possible_aabb_overlaps']),
                       'Printer fit: '+json.dumps(tests['printer_fit']),
@@ -217,7 +223,7 @@ class Workspace(ttk.Frame):
         self.busy=True; self.status.configure(text='Checking candidate geometry…')
         def worker():
             try:
-                tests=run_checks(scene)
+                tests=run_checks(scene, project_root=store.root if (store.root/'project.json').exists() else None)
                 rid=store.add(scene,reason,[{'document':'User-authored local assembly'}],tests,
                               expected_parent=expected_parent,as_input=True)
                 self.results.put(('saved',store.root,store.revision(rid),editor))
@@ -247,6 +253,47 @@ class Workspace(ttk.Frame):
                 self.commit(scene,'User edited explicit part geometry.',base,window)
             except Exception as error: messagebox.showerror('Invalid assembly',str(error),parent=window)
         ttk.Button(window,text='Validate and save candidate',command=save).pack()
+
+
+    def edit_printer(self):
+        if not self.project:
+            messagebox.showinfo('Printer profile','Open a saved project first.',parent=self); return
+        project=self.project
+        from fabrication.printer_fit import PrinterFitStore, PROFILE_FORMAT
+        from inventory.equipment import load_all
+        try:
+            fit_store=PrinterFitStore(project)
+            selection=fit_store.selection()
+            opening_project_revision=fit_store._project()[1]
+            inventory=load_all(strict_ids=True)
+            ids=[item['equipment_id'] for item in inventory['items']
+                 if item.get('category')=='3d_printer' and item.get('equipment_id')]
+        except Exception as error:
+            messagebox.showerror('Printer profile',str(error),parent=self); return
+        window=tk.Toplevel(self); window.title('Project printer geometry profile')
+        window.geometry('720x600')
+        ttk.Label(window,text='Choose an inventory ID and explicitly review usable millimetres, margins and rectangular keep-outs. Geometry only.').pack(fill='x')
+        chosen=tk.StringVar(value=selection['printer_id'] if selection else '')
+        ttk.Combobox(window,textvariable=chosen,values=ids,state='readonly').pack(fill='x')
+        text=tk.Text(window,wrap='word'); text.pack(fill='both',expand=True)
+        profile=selection['profile'] if selection else {
+            'format':PROFILE_FORMAT,'units':'mm','usable_xyz':None,
+            'margins_min_xyz':None,'margins_max_xyz':None,'keep_outs':[],
+            'review':{'reviewer':'','note':''}}
+        text.insert('end',json.dumps(profile,indent=2))
+        ttk.Label(window,text='Each part also needs printer_placement in Edit scene: units mm, min_xyz and orientation xyz/xzy/yxz/yzx/zxy/zyx. No placement is inferred.').pack(fill='x')
+        expected=selection['revision'] if selection else 0
+        def save():
+            try:
+                if self.project != project or fit_store._project()[1]!=opening_project_revision:
+                    raise ValueError('Active project or its revision changed; reopen the printer editor.')
+                profile=json.loads(text.get('1.0','end'))
+                fit_store.select(chosen.get(),profile,expected_revision=expected,
+                                 expected_project_revision=opening_project_revision)
+                queue_refresh(project); window.destroy(); self.describe()
+            except Exception as error:
+                messagebox.showerror('Printer profile',str(error),parent=window)
+        ttk.Button(window,text='Save explicitly reviewed geometry profile',command=save).pack()
 
     def edit_requirements(self):
         if self.demo_mode: self.show_latest()
@@ -294,7 +341,7 @@ class Workspace(ttk.Frame):
         self.busy=True; scene=copy.deepcopy(self.scene); project=self.project
         self.status.configure(text='Running bounded geometric checks…')
         def worker():
-            try: self.results.put(('tested',project,run_checks(scene),None))
+            try: self.results.put(('tested',project,run_checks(scene, project_root=project if project and (project/'project.json').exists() else None),None))
             except Exception as error: self.results.put(('error',project,str(error),None))
         threading.Thread(target=worker,daemon=True).start()
 

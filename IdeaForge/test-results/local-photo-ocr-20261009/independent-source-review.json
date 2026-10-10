@@ -1,0 +1,70 @@
+{
+  "format": "dot.independent-source-review.v1",
+  "repository": "rmcmurrer81/IdeaForge",
+  "app_id": "ideaforge",
+  "status": "accepted-for-source-only-publication",
+  "source_review_completed_utc": "2026-10-09 00:44:02 UTC",
+  "reviewers": [
+    {
+      "id": "ocr_api_review",
+      "scope": "Full exact shared adapter/worker/guard source, all 90 shared fixtures and dependency/native-limit documentation",
+      "outcome": "accepted",
+      "reviewed_source_blobs": [
+        "875d3c18e1defdb4980f008a356921320a749152",
+        "b64e8d81cf139a571fd130268daeb2e915518ab6",
+        "516477ae94559df76db8ef5ed8071340db62833e",
+        "3ead3973260828772c4c3759f7f819c81f633604",
+        "3fe1dfeaf9f0e09436441950a312a959489d5ae1",
+        "d9aa5b0957498161b56a1715f42e4e38fff747d3"
+      ]
+    },
+    {
+      "id": "ocr_flow_review",
+      "scope": "Both app ledger/flow/test/docs/ignore files; 49 mocked flow methods per app; exact counterpart ID/import differences",
+      "outcome": "accepted",
+      "reviewed_source_blobs": [
+        "5f5bd7ded5ed127967d940024ce99b4951f442ae",
+        "0a48fa3c71bb221cb2f4bdc5733ebaf979fe3746",
+        "a2b9ecfdb5e2d81163e75d542a06ad2eeaeedf0e",
+        "1d013eb8ff73a0c43986fecb4fd36d0c54a68b26",
+        "b3b2ed07b462144141dc5ae072b05dfee381d624"
+      ]
+    },
+    {
+      "id": "ocr_release_review",
+      "scope": "Independent privacy/projection, fixture meaning, app parity, licenses and honest UNRUN/native-limit documentation",
+      "outcome": "accepted"
+    }
+  ],
+  "derived_copies": [
+    {
+      "path": "tests/test_photo_ocr.py",
+      "sha": "b18862e66e893f7a0eedf466b322701b129bc47c",
+      "sha256": "cdebd2acd1ea8697f7434c22f2e4cb34cc5a225457c1cc8496c174fc2cf73d84",
+      "bytes": 27159,
+      "upstream_reviewed_sha": "3ead3973260828772c4c3759f7f819c81f633604",
+      "copy_delta": "package-import-only"
+    },
+    {
+      "path": "tests/test_ocr_guard.py",
+      "sha": "44e28d319484c1d35c45dc57225499aea5e621ef",
+      "sha256": "d8e4ec7e6111b8d3a2ac566bcd918a81d14ac5664161ddb579870d4422124b7c",
+      "bytes": 29188,
+      "upstream_reviewed_sha": "3fe1dfeaf9f0e09436441950a312a959489d5ae1",
+      "copy_delta": "package-import-only"
+    }
+  ],
+  "resolved_findings": [
+    "Public cancellation refusal occurs before unavailable/hash/lock admission; tests assert meaningful causes.",
+    "Creation-time owned Job membership, precise overlapped pipe counts, zero-byte continuation and uncertain cleanup handled in source.",
+    "Production environment avoids rejected PYTHON variables; exact owned TMP/TEMP and dictionary-off native argv.",
+    "Strict receipt numeric types, complete view/capture/raw selection/config-derived engine/catalog binding.",
+    "Actual strict hash-checked qualification receipt bytes, with operator claims explicitly unauthenticated.",
+    "Injected test policy roots cannot admit real qualified native runtime; malformed ledger/history/undo fields fail in a controlled way.",
+    "Full match-set review, partial/low-confidence/conflicting refusal, capacity preflight and completion quota check.",
+    "Separate immutable private OCR receipt and manual observations; sanitized public projection and explicit synthetic/stale status."
+  ],
+  "runtime_qualification": "UNRUN; no native ABI, accuracy, timing, memory, sentinel isolation, installation closure or working GUI/application demo claimed",
+  "source_integrity": "Root recalculated UTF-8 byte counts, Git blob SHA1 and SHA256 from exact connector text; application code was not executed.",
+  "publication_checks": "Fresh branch, exact tree/file preservation and zero all-event Actions are checked after publication and reported in the task outcome."
+}

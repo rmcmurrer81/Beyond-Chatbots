@@ -25,7 +25,14 @@ def run_one(root):
         if parent != payload.get('base_revision'):
             if latest and digest(latest['scene']) != digest(payload['scene']):
                 raise StaleProposal('Newer geometry exists; old queued proposal was discarded.')
-        tests = run_checks(payload['scene'])
+        if (Path(root)/'project.json').exists():
+            from fabrication.printer_fit import PrinterFitStore
+            context=PrinterFitStore(root).screen(
+                {'units':'mm','size_xyz':None,'placement':None},model_revision='printer_context')
+            expected=[s for s in payload['sources'] if s.get('document')=='project-selected printer context']
+            if len(expected)!=1 or expected[0].get('sha256')!=digest(context):
+                raise StaleProposal('Queued printer/project context changed; refresh before screening.')
+        tests = run_checks(payload['scene'], project_root=root if (Path(root)/'project.json').exists() else None)
         fingerprint = digest({k:v for k,v in payload.items() if k != 'base_revision'})
         store.add(payload['scene'],payload['reason'],payload['sources'],tests,
                   expected_parent=parent,fingerprint=fingerprint)

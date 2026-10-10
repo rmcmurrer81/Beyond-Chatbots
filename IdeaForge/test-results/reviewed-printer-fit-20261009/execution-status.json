@@ -1,0 +1,42 @@
+{
+  "format": "source-only.execution-status.v1",
+  "app_id": "ideaforge",
+  "source_commit": "75bc59df5805cdf4387d5ad58fbf7df5c8354fe9",
+  "status": "unrun",
+  "executed_methods": 0,
+  "fixture_methods": {
+    "new": 12,
+    "modified_existing": 1
+  },
+  "runtime_hold": true,
+  "local_processes_started": 0,
+  "returned_sessions": [],
+  "initialization_failure": {
+    "date_utc": "2026-10-09 13:57:25 UTC",
+    "arguments": {
+      "cmd": "Get-Command python,py -ErrorAction SilentlyContinue | Select-Object Name,Source | ConvertTo-Json -Compress",
+      "workdir": "[private workspace path omitted]",
+      "login": false,
+      "max_output_tokens": 300,
+      "yield_time_ms": 10000
+    },
+    "error": "exec_command failed: CreateProcess { message: \"Rejected(\\\"Failed to create unified exec process: exec-server rejected request (-32603): helper_unknown_error: setup refresh had errors\\\")\" }",
+    "qualification": "Runner initialization failed before command execution. No command process or session was returned; no retry or bypass."
+  },
+  "passed_runtime": [],
+  "failed_runtime": [],
+  "unrun": [
+    "Twelve new scenario methods",
+    "One edited existing workspace method",
+    "Compilation and imports",
+    "Existing regressions",
+    "SQLite persistence and concurrency integration",
+    "Native mesh/STL decoding",
+    "Tk interaction and Windows path behavior"
+  ],
+  "limits": [
+    "Only geometric bounding-box screening; no printability or manufacturing qualification.",
+    "Selection/receipt database and UI behavior have source inspection only.",
+    "No new dependency or copied slicer catalog."
+  ]
+}
