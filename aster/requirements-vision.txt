@@ -1,0 +1,2 @@
+# Optional isolated synthetic vision lab only; no application dependency or download.
+numpy==2.3.5

@@ -1,0 +1,3 @@
+# Optional isolated text experiment only. Aster's base app has no NumPy dependency.
+# Exact candidate runtimes: CPython 3.12.14 or 3.14.4; no automatic install/fallback.
+numpy==2.3.5

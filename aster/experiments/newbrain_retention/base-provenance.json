@@ -1,0 +1,76 @@
+{
+  "schema": "aster.retention.base-provenance.v1",
+  "repository": "rmcmurrer81/aster-workstation",
+  "commit": "446ba6aa0096360fd17d33c9e0fc244d0690f324",
+  "tree": "80f368cad5b4882d8f7b832f9834f00d2b572204",
+  "verification": "368 pre-edit materialized files compared by Git blob SHA-1 with complete connector-fetched recursive remote tree; all match. 1041 missing files were historical test-results archives only.",
+  "local_git_warning": "The copied .git directory is an older synthetic local snapshot, not the remote base or a complete clone. Publication builds on the real remote tree and preserves unmaterialized archives.",
+  "critical_upstream_and_helper_files": [
+    {
+      "path": "experiments/newbrain_text/__init__.py",
+      "git_blob": "74199f6b6e641ab48b8771819c2f14c4fd241e60",
+      "bytes": 83
+    },
+    {
+      "path": "experiments/newbrain_text/cold_worker.py",
+      "git_blob": "0c76339f2eaa33c1c966f38e10d8c9baeb5e2d54",
+      "bytes": 6365
+    },
+    {
+      "path": "experiments/newbrain_text/curriculum.py",
+      "git_blob": "8195d68dd0821363697a169915c935c1c40ce56e",
+      "bytes": 5312
+    },
+    {
+      "path": "experiments/newbrain_text/demo.py",
+      "git_blob": "8cd16a12f4fe2030279a5c5d6ca6b1eaf4a76425",
+      "bytes": 6959
+    },
+    {
+      "path": "experiments/newbrain_text/persistence.py",
+      "git_blob": "2da0ede36b58a40e422eb3685265cf57a746a37f",
+      "bytes": 26846
+    },
+    {
+      "path": "experiments/newbrain_text/source.py",
+      "git_blob": "8b0e2b7f3e2ccf1c91e472a48848d23a44a9e5c6",
+      "bytes": 5463
+    },
+    {
+      "path": "experiments/newbrain_text/test_numerical.py",
+      "git_blob": "2c72fb59c66b6b87ef12fd4838121efd59fbe11d",
+      "bytes": 37736
+    },
+    {
+      "path": "experiments/newbrain_text/training.py",
+      "git_blob": "98b40dfb78778cabf869cd581058d13a3643bd47",
+      "bytes": 8911
+    },
+    {
+      "path": "vendor/newbrain_text_candidates/4a5c8396f820d8caf81b9ccba850617ae9e60489/THIRD_PARTY_NOTICES.md",
+      "git_blob": "9b2d78a39021eb45f47bc5daa155722aa26f7908",
+      "bytes": 4253
+    },
+    {
+      "path": "vendor/newbrain_text_candidates/4a5c8396f820d8caf81b9ccba850617ae9e60489/manifest.json",
+      "git_blob": "5b837f673704b251b47a2de04ed1b91e3f068659",
+      "bytes": 1606
+    },
+    {
+      "path": "vendor/newbrain_text_candidates/4a5c8396f820d8caf81b9ccba850617ae9e60489/research/teaching-method-comparison086/source/numerical/dialogue_decoder.py",
+      "git_blob": "1ce8d92c1a54af13e24bad6a51ede5d3639d0171",
+      "bytes": 18123
+    },
+    {
+      "path": "vendor/newbrain_text_candidates/4a5c8396f820d8caf81b9ccba850617ae9e60489/research/teaching-method-comparison086/source/numerical/method_order.py",
+      "git_blob": "c7708b05e25ecbdd8dd576efdc1b1df14ca741b1",
+      "bytes": 6022
+    },
+    {
+      "path": "vendor/newbrain_text_candidates/4a5c8396f820d8caf81b9ccba850617ae9e60489/research/teaching-method-comparison086/source/numerical/probe_ledger.py",
+      "git_blob": "25753cc940509fb3dd89ff7d870caccefde2273b",
+      "bytes": 8135
+    }
+  ],
+  "remote_tree_truncated": false
+}

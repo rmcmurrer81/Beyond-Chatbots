@@ -1,0 +1,1491 @@
+{
+  "format": "kira.presentation-source-copy.v1",
+  "prepared_utc": "2026-10-10",
+  "source_repository": "rmcmurrer81/aster-workstation",
+  "source_commit": "bdc57febdbfa17f572eaa1e0a95c56da066d1e25",
+  "source_main_at_preparation": "8108d71d5deccc9ff382390f646b8194a685cb0a",
+  "destination_folder": "aster",
+  "source_repositories_unchanged": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "source_path": ".gitattributes",
+      "source_git_blob": "8fa32d46b1652572586a8f084e10e50c85c68998",
+      "presentation_edited": false
+    },
+    {
+      "path": ".gitignore",
+      "source_path": ".gitignore",
+      "source_git_blob": "15e2227ff956ef04c237efdc42a77777c62ba585",
+      "presentation_edited": false
+    },
+    {
+      "path": "UPSTREAM-README.md",
+      "source_path": "README.md",
+      "source_git_blob": "ccb8c31a337a79a8c4ba0b6cd9b76e0fb82c6553",
+      "presentation_edited": false
+    },
+    {
+      "path": "android-companion/.gitignore",
+      "source_path": "android-companion/.gitignore",
+      "source_git_blob": "87a3b024625b2f12ec0fd63b033b9cb567e11acd",
+      "presentation_edited": false
+    },
+    {
+      "path": "android-companion/README.md",
+      "source_path": "android-companion/README.md",
+      "source_git_blob": "3eae3b0fc08c7cc086a94cdb897c41e1bd587bf6",
+      "presentation_edited": false
+    },
+    {
+      "path": "android-companion/VALIDATION.md",
+      "source_path": "android-companion/VALIDATION.md",
+      "source_git_blob": "12e6b98a8f3c428e6c16c054a2d97a4996c5c2a5",
+      "presentation_edited": false
+    },
+    {
+      "path": "android-companion/app/build.gradle.kts",
+      "source_path": "android-companion/app/build.gradle.kts",
+      "source_git_blob": "4fa735c636e598b57bc804d5d6495189d6e41114",
+      "presentation_edited": false
+    },
+    {
+      "path": "android-companion/app/src/main/AndroidManifest.xml",
+      "source_path": "android-companion/app/src/main/AndroidManifest.xml",
+      "source_git_blob": "840a6237778490a6e6bbde43766c1fba00a58d21",
+      "presentation_edited": false
+    },
+    {
+      "path": "android-companion/app/src/main/java/dev/aster/companion/InvitationGate.java",
+      "source_path": "android-companion/app/src/main/java/dev/aster/companion/InvitationGate.java",
+      "source_git_blob": "647a4a219743a5d68069653eee8136333df9cd2a",
+      "presentation_edited": false
+    },
+    {
+      "path": "android-companion/app/src/main/java/dev/aster/companion/MainActivity.kt",
+      "source_path": "android-companion/app/src/main/java/dev/aster/companion/MainActivity.kt",
+      "source_git_blob": "c4a38d41e0542e39332aa314d0223dc3455d895f",
+      "presentation_edited": false
+    },
+    {
+      "path": "android-companion/app/src/test/java/dev/aster/companion/InvitationGateTest.java",
+      "source_path": "android-companion/app/src/test/java/dev/aster/companion/InvitationGateTest.java",
+      "source_git_blob": "ed85af3690bbb4019db434e6c3aa5cdf81a6d19a",
+      "presentation_edited": false
+    },
+    {
+      "path": "android-companion/build.gradle.kts",
+      "source_path": "android-companion/build.gradle.kts",
+      "source_git_blob": "659c0e485e1b662e871cec34e7b3dae65a56d889",
+      "presentation_edited": false
+    },
+    {
+      "path": "android-companion/scripts/test-contract.sh",
+      "source_path": "android-companion/scripts/test-contract.sh",
+      "source_git_blob": "829b0bcbc5987d1d686c837047fa1859363cea24",
+      "presentation_edited": false
+    },
+    {
+      "path": "android-companion/settings.gradle.kts",
+      "source_path": "android-companion/settings.gradle.kts",
+      "source_git_blob": "1c9634c98bde1cb4bfdf0ee4805fc976d9ad0f7a",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/__init__.py",
+      "source_path": "aster/__init__.py",
+      "source_git_blob": "262deefe365c9d44dbe411064365d129d8d5d353",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/__main__.py",
+      "source_path": "aster/__main__.py",
+      "source_git_blob": "0d1d44ad3a38080317f4e40c779d121f9fa96630",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/abilities.py",
+      "source_path": "aster/abilities.py",
+      "source_git_blob": "62b980adcb791e9afa6c7021fda4c86fdc89aa49",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/ability_workshop.py",
+      "source_path": "aster/ability_workshop.py",
+      "source_git_blob": "3b393935be1c9e07a1c7d1c9e0e04ec57f1d3389",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/app_adapters.py",
+      "source_path": "aster/app_adapters.py",
+      "source_git_blob": "5f61d81928d4269b1ecc11570541dd84562bfe50",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/app_relief.py",
+      "source_path": "aster/app_relief.py",
+      "source_git_blob": "aee4a698e3f34b90d18949d6751fe5d56ce58a78",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/apps.py",
+      "source_path": "aster/apps.py",
+      "source_git_blob": "c892ed54fe6a1abb852693ca6c8464310d52a4a3",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/backend.py",
+      "source_path": "aster/backend.py",
+      "source_git_blob": "f2bab2c5218191a0ad554b48bb5269ca66a4c986",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/browser_actions.py",
+      "source_path": "aster/browser_actions.py",
+      "source_git_blob": "fc122524111e9d593857ec25ea2638c10f12351f",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/browser_fixture.py",
+      "source_path": "aster/browser_fixture.py",
+      "source_git_blob": "469b27361e64e14987598c20d6a7f94d7ad11e71",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/browser_integration.py",
+      "source_path": "aster/browser_integration.py",
+      "source_git_blob": "3b7672d96468bded9bb78e10cdd98ac47122e575",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/browser_public.py",
+      "source_path": "aster/browser_public.py",
+      "source_git_blob": "f4adbcadf88b658e89593f4b464c21f013a736c2",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/communications.py",
+      "source_path": "aster/communications.py",
+      "source_git_blob": "40cf2331548c4fc918de5791e08f2b77c8098f10",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/dashboard.py",
+      "source_path": "aster/dashboard.py",
+      "source_git_blob": "ffdc77e3be68c0d148468ad0a7850edc8f7b8f8b",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/desktop.py",
+      "source_path": "aster/desktop.py",
+      "source_git_blob": "ee4711c0a0c2d03e979fff5014387c8c99c107dd",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/files.py",
+      "source_path": "aster/files.py",
+      "source_git_blob": "84f6d718ae796d10308d3e2c3ade536a6849c5a7",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/inspection.py",
+      "source_path": "aster/inspection.py",
+      "source_git_blob": "294ad4ff4e4eca4e21082b2d9b9ec0f16b1578ea",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/jobs.py",
+      "source_path": "aster/jobs.py",
+      "source_git_blob": "6573d4eedbf952efb34ac15b0014514f8a649458",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/lifecycle.py",
+      "source_path": "aster/lifecycle.py",
+      "source_git_blob": "051b97f2b24c615c1dc959d6e2eac376bfb87ece",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/media_workshop.py",
+      "source_path": "aster/media_workshop.py",
+      "source_git_blob": "584b1eded3edfe2bb01c03f9606a3bd19da4b1b0",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/memory_pressure.py",
+      "source_path": "aster/memory_pressure.py",
+      "source_git_blob": "4d037905b7c3b3eaf2a41318c0e095cc4331b3ec",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/platform.py",
+      "source_path": "aster/platform.py",
+      "source_git_blob": "17cdc542ab6b256fb191068b9bec4ff76ef132b6",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/private_memory.py",
+      "source_path": "aster/private_memory.py",
+      "source_git_blob": "6be8524337f4a56272a593f8a49afc07a0fcfa74",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/provider_gateway.py",
+      "source_path": "aster/provider_gateway.py",
+      "source_git_blob": "aabaa47fcc0162203684a9c093d930c4200faada",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/public_transport.py",
+      "source_path": "aster/public_transport.py",
+      "source_git_blob": "4ece21f24f3de6847be83ee58fc95876b5e3a2fd",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/public_worker.py",
+      "source_path": "aster/public_worker.py",
+      "source_git_blob": "4e08bb6ec53196fd86d179cfec51556d263bdd84",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/reference_library.py",
+      "source_path": "aster/reference_library.py",
+      "source_git_blob": "538dc248eb4b1ce5376d7dc628f5bd8f602e855a",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/resources.py",
+      "source_path": "aster/resources.py",
+      "source_git_blob": "ff8ecde399128f41d9cbfe17b27ae1d666791c15",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/startup.py",
+      "source_path": "aster/startup.py",
+      "source_git_blob": "4cfb3c595bd1e593edcfd9f7f227d0a6e7b17990",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/storage.py",
+      "source_path": "aster/storage.py",
+      "source_git_blob": "9d8e9a008d0f991a7287e5b8bb90eae8d8b40071",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/support.py",
+      "source_path": "aster/support.py",
+      "source_git_blob": "2d5d5c5dc5d71a9b46275f9e6148bfd3a72bf7bb",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/system_control.py",
+      "source_path": "aster/system_control.py",
+      "source_git_blob": "1b9b70dadd618dffd6acbf49f56d8193ed149ff4",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/voice.py",
+      "source_path": "aster/voice.py",
+      "source_git_blob": "6e912a744cfe4dd3e7f1ae61b72cabee3c3dae86",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster/windows_files.py",
+      "source_path": "aster/windows_files.py",
+      "source_git_blob": "995c73f344fe6a2425c157999e6a9c185607fb50",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster_provider/__init__.py",
+      "source_path": "aster_provider/__init__.py",
+      "source_git_blob": "b34da464a95ed06fbcf798139eaae1bc16ce9d24",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster_provider/client.py",
+      "source_path": "aster_provider/client.py",
+      "source_git_blob": "fbd154375fbd4e0b712b0a7514895dadded7f1a8",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster_provider/contract.py",
+      "source_path": "aster_provider/contract.py",
+      "source_git_blob": "66c573bfc357d07db5ef771d224cbab6e29130da",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster_provider/selection.py",
+      "source_path": "aster_provider/selection.py",
+      "source_git_blob": "854545604c2cf128cd66037b8efbeef057b8de7b",
+      "presentation_edited": false
+    },
+    {
+      "path": "aster_provider/transport.py",
+      "source_path": "aster_provider/transport.py",
+      "source_git_blob": "42743ed6e66e4dfd98b5f68b4dd294649ca5f5d8",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/ABILITIES.md",
+      "source_path": "docs/ABILITIES.md",
+      "source_git_blob": "747dccdb7f4a82bff073fa060171ee444902b656",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/ABILITY_WORKSHOP.md",
+      "source_path": "docs/ABILITY_WORKSHOP.md",
+      "source_git_blob": "22778a98f0ed8e7f37e9c517911b7405cb0fee51",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/APPS.md",
+      "source_path": "docs/APPS.md",
+      "source_git_blob": "984f49e2c1e3c5e6e4fee715bd22da5d7d5cf0f4",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/APP_ADAPTERS.md",
+      "source_path": "docs/APP_ADAPTERS.md",
+      "source_git_blob": "5368be1778c785c8d17c062b4dfde5825e40ae41",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/APP_PROVIDER_PREPARATION.md",
+      "source_path": "docs/APP_PROVIDER_PREPARATION.md",
+      "source_git_blob": "cece0b2a1bd9b68d359abb052cfeadecbaab754a",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/BROWSER_ACTIONS.md",
+      "source_path": "docs/BROWSER_ACTIONS.md",
+      "source_git_blob": "084b92b69e6cd60281597f3e61dc02ccd094de7c",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/BROWSER_INTEGRATION.md",
+      "source_path": "docs/BROWSER_INTEGRATION.md",
+      "source_git_blob": "2347b17fa9a508ecc7ecc3fa0c00853ede6e80f5",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/COMMUNICATIONS_MEDIA.md",
+      "source_path": "docs/COMMUNICATIONS_MEDIA.md",
+      "source_git_blob": "fdd99aa5fe85205bdc9db419ada763534aafc037",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/DESKTOP.md",
+      "source_path": "docs/DESKTOP.md",
+      "source_git_blob": "f9a9a17d87b717a3ec97be4e92e14c1be605da43",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/HEARING_COMPATIBILITY.md",
+      "source_path": "docs/HEARING_COMPATIBILITY.md",
+      "source_git_blob": "7abaad31e8b7cecc84477dce365c29f715e8ae29",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/MEMORY_LIBRARY.md",
+      "source_path": "docs/MEMORY_LIBRARY.md",
+      "source_git_blob": "ae81c3004700248cda09b834ac80e7f2662d741a",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/MEMORY_RELIEF.md",
+      "source_path": "docs/MEMORY_RELIEF.md",
+      "source_git_blob": "1591990e3183834a7c305d7b5ec103b5247b4628",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/NEWBRAIN.md",
+      "source_path": "docs/NEWBRAIN.md",
+      "source_git_blob": "0e74532735a0dd1f793b1c1e1385ee18b1ec5870",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/PHYSICAL_PHONATION_EXPERIMENT.md",
+      "source_path": "docs/PHYSICAL_PHONATION_EXPERIMENT.md",
+      "source_git_blob": "5bae2fd54a7c2abcd210be045b2011ae49a8497d",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/PHYSICAL_TRACT_DESIGN.md",
+      "source_path": "docs/PHYSICAL_TRACT_DESIGN.md",
+      "source_git_blob": "de9207857067d267d77a4565a073611d83d9e268",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/PHYSICAL_VOICE_USAGE.md",
+      "source_path": "docs/PHYSICAL_VOICE_USAGE.md",
+      "source_git_blob": "a107b671e30a3f35dc225c09c7fa823eabeabc8d",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/PUBLIC_READER.md",
+      "source_path": "docs/PUBLIC_READER.md",
+      "source_git_blob": "005c0e11c5e43f6e7482581b84230309621c7c40",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/RECOVERY_MEMORY.md",
+      "source_path": "docs/RECOVERY_MEMORY.md",
+      "source_git_blob": "e6b4d88fac5387d899f72b9cfc8eb75a9423a312",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/RELIABILITY.md",
+      "source_path": "docs/RELIABILITY.md",
+      "source_git_blob": "ff4008732524c916fb86f7ca152cf36c0111a2e5",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/RETENTION_EXPERIMENT.md",
+      "source_path": "docs/RETENTION_EXPERIMENT.md",
+      "source_git_blob": "9e5bcb5e7cce5882c5a1fac148e2c861c67be4eb",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/STARTUP.md",
+      "source_path": "docs/STARTUP.md",
+      "source_git_blob": "4a5e6cd630d226b5f8623accc4f0612bb8083e02",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/SUPPORT_MODULES.md",
+      "source_path": "docs/SUPPORT_MODULES.md",
+      "source_git_blob": "4bfc203460d6189ebf8a668e8ea3b2fc3ef83b69",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/TEMPORAL_VISION_EXPERIMENT.md",
+      "source_path": "docs/TEMPORAL_VISION_EXPERIMENT.md",
+      "source_git_blob": "93e4de082959bb3359eab7a1ae5e6374cab973f7",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/TEST_RESULTS.md",
+      "source_path": "docs/TEST_RESULTS.md",
+      "source_git_blob": "4568c1b4d782b33cee4f04daeecb296362ba3783",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/TEXT_LEARNING_EXPERIMENT.md",
+      "source_path": "docs/TEXT_LEARNING_EXPERIMENT.md",
+      "source_git_blob": "b6f2bb7f9a4cc7cb237fa34c3578661ba1a53e02",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/UPGRADE_2026_10_05.md",
+      "source_path": "docs/UPGRADE_2026_10_05.md",
+      "source_git_blob": "78afbdf10dade64eb602cd00a7e2a59f1a94feb4",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "source_path": "docs/VALIDATION.md",
+      "source_git_blob": "5091a12613e3a9d1cc9d618fca4f585c28c7154b",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/VISION_EXPERIMENT.md",
+      "source_path": "docs/VISION_EXPERIMENT.md",
+      "source_git_blob": "6455bccc30ba9591477588c667f2083903178d1b",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/VOICE.md",
+      "source_path": "docs/VOICE.md",
+      "source_git_blob": "73551299c55135b0864a6d748588d27ae7f50ceb",
+      "presentation_edited": false
+    },
+    {
+      "path": "docs/VOICE_BOX_EXPERIMENT.md",
+      "source_path": "docs/VOICE_BOX_EXPERIMENT.md",
+      "source_git_blob": "77be2deb7ddf995aae01b35ec40ecfd0f2afb8f9",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_adapter/README.md",
+      "source_path": "experiments/newbrain_adapter/README.md",
+      "source_git_blob": "8460e56fc236020731ebf96eaa91e8d67114e1ec",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_adapter/__init__.py",
+      "source_path": "experiments/newbrain_adapter/__init__.py",
+      "source_git_blob": "a420c18ddcebc487b56c253319ee053bf7d314da",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_adapter/cold_worker.py",
+      "source_path": "experiments/newbrain_adapter/cold_worker.py",
+      "source_git_blob": "7042b94059ac4cdb02fc520f25ba8871464bf287",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_adapter/component.py",
+      "source_path": "experiments/newbrain_adapter/component.py",
+      "source_git_blob": "77b6993824d9ceedf59a05b428d1ad1c3b6da2b8",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_adapter/fixtures.py",
+      "source_path": "experiments/newbrain_adapter/fixtures.py",
+      "source_git_blob": "4d55b7d592a7c19c0b79c7f0f77e9d42f3e2f1f9",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_adapter/persistence.py",
+      "source_path": "experiments/newbrain_adapter/persistence.py",
+      "source_git_blob": "19a995a4b6cb9f179f789b39bdd05005d4ced24a",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_adapter/run_checks.py",
+      "source_path": "experiments/newbrain_adapter/run_checks.py",
+      "source_git_blob": "f0fe09b919248992e7e2f4cb2a5710b427a0f4e8",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_adapter/test_adapter.py",
+      "source_path": "experiments/newbrain_adapter/test_adapter.py",
+      "source_git_blob": "7f84516a8bdb814b97d9faf9fff60abfa550762d",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_adapter/test_persistence.py",
+      "source_path": "experiments/newbrain_adapter/test_persistence.py",
+      "source_git_blob": "cc3aa3486780f09d88d375f94da9c0d6813c0ee1",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_candidate/README.md",
+      "source_path": "experiments/newbrain_candidate/README.md",
+      "source_git_blob": "6fb9067a7eaced579f3a83a5eabcf145b84d07bd",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_candidate/__init__.py",
+      "source_path": "experiments/newbrain_candidate/__init__.py",
+      "source_git_blob": "ba37d78109d4f8a6aaa60c54e24f8da257ee0e8e",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_candidate/audit.py",
+      "source_path": "experiments/newbrain_candidate/audit.py",
+      "source_git_blob": "57dab142ac812ca199a0c953ee0f6fad91f13645",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_hearing/__init__.py",
+      "source_path": "experiments/newbrain_hearing/__init__.py",
+      "source_git_blob": "a0d06bf69c92b18cd7dff1903b6cdcec228ed4a8",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_hearing/checks.py",
+      "source_path": "experiments/newbrain_hearing/checks.py",
+      "source_git_blob": "d3f147eca51179af9fa5ba64dd1c353499a40d9b",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_hearing/component_cases.py",
+      "source_path": "experiments/newbrain_hearing/component_cases.py",
+      "source_git_blob": "cce3c40277e142bb7fffb8c63dc0373b34124e47",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_hearing/demo.py",
+      "source_path": "experiments/newbrain_hearing/demo.py",
+      "source_git_blob": "aeb4df47ab9885b457aa3106c365ee180da721c7",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_hearing/fixtures.py",
+      "source_path": "experiments/newbrain_hearing/fixtures.py",
+      "source_git_blob": "a36d7bef24eea5d8076850e64432ec8ac4f74ca7",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_hearing/pipeline.py",
+      "source_path": "experiments/newbrain_hearing/pipeline.py",
+      "source_git_blob": "1c8b70683ed3377ae77a548e1715b57a0d218924",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_hearing/runner.py",
+      "source_path": "experiments/newbrain_hearing/runner.py",
+      "source_git_blob": "6b463c329c92e574d128059ec01565ca13b774d3",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_hearing/runtime_cases.py",
+      "source_path": "experiments/newbrain_hearing/runtime_cases.py",
+      "source_git_blob": "802bb46e0af9e7d6f436302f522c901bcea689b7",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_hearing/source.py",
+      "source_path": "experiments/newbrain_hearing/source.py",
+      "source_git_blob": "25df496dc7535061f9ebddd1f5becf4b3375917a",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_retention/.gitattributes",
+      "source_path": "experiments/newbrain_retention/.gitattributes",
+      "source_git_blob": "fa1385d99a319b43c06f5309d1aae9fdd3adea46",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_retention/__init__.py",
+      "source_path": "experiments/newbrain_retention/__init__.py",
+      "source_git_blob": "26e64c01a410513e3f75eb275cd5ba113a678388",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_retention/base-provenance.json",
+      "source_path": "experiments/newbrain_retention/base-provenance.json",
+      "source_git_blob": "afa73f6450911137dd8cb63da1092174cce1f213",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_retention/cold_check.py",
+      "source_path": "experiments/newbrain_retention/cold_check.py",
+      "source_git_blob": "50dbd66a8b95b42352f178964b4570c8880d5aa7",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_retention/protection.py",
+      "source_path": "experiments/newbrain_retention/protection.py",
+      "source_git_blob": "a28136eda108a915dc825d5c9ab5d09a2a9ca93f",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_retention/protocol.py",
+      "source_path": "experiments/newbrain_retention/protocol.py",
+      "source_git_blob": "3abfcc853c0aa725016a8ad418eab0ddedeb5f68",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_retention/study.py",
+      "source_path": "experiments/newbrain_retention/study.py",
+      "source_git_blob": "bb85bb78469b55b6f62e95e0bd74a95b52623e0b",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_retention/test_numerical.py",
+      "source_path": "experiments/newbrain_retention/test_numerical.py",
+      "source_git_blob": "b3574af99f4fa37cd5b8aca2c257bd9e5cd8c7e2",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_text/__init__.py",
+      "source_path": "experiments/newbrain_text/__init__.py",
+      "source_git_blob": "74199f6b6e641ab48b8771819c2f14c4fd241e60",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_text/cold_worker.py",
+      "source_path": "experiments/newbrain_text/cold_worker.py",
+      "source_git_blob": "0c76339f2eaa33c1c966f38e10d8c9baeb5e2d54",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_text/curriculum.py",
+      "source_path": "experiments/newbrain_text/curriculum.py",
+      "source_git_blob": "8195d68dd0821363697a169915c935c1c40ce56e",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_text/demo.py",
+      "source_path": "experiments/newbrain_text/demo.py",
+      "source_git_blob": "8cd16a12f4fe2030279a5c5d6ca6b1eaf4a76425",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_text/persistence.py",
+      "source_path": "experiments/newbrain_text/persistence.py",
+      "source_git_blob": "2da0ede36b58a40e422eb3685265cf57a746a37f",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_text/source.py",
+      "source_path": "experiments/newbrain_text/source.py",
+      "source_git_blob": "8b0e2b7f3e2ccf1c91e472a48848d23a44a9e5c6",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_text/test_numerical.py",
+      "source_path": "experiments/newbrain_text/test_numerical.py",
+      "source_git_blob": "2c72fb59c66b6b87ef12fd4838121efd59fbe11d",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/newbrain_text/training.py",
+      "source_path": "experiments/newbrain_text/training.py",
+      "source_git_blob": "98b40dfb78778cabf869cd581058d13a3643bd47",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/physical_voice/__init__.py",
+      "source_path": "experiments/physical_voice/__init__.py",
+      "source_git_blob": "1725bd32f6b0f6524fa0fabecce4d53197859b8e",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/physical_voice/bridge.py",
+      "source_path": "experiments/physical_voice/bridge.py",
+      "source_git_blob": "604a870dea52e344dd7d8d631b3653a7ba392fdd",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/physical_voice/check_filter.py",
+      "source_path": "experiments/physical_voice/check_filter.py",
+      "source_git_blob": "c5cefd6ae71b6f93902ad633f9bcf9ef54f92f8f",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/physical_voice/check_tract.py",
+      "source_path": "experiments/physical_voice/check_tract.py",
+      "source_git_blob": "6fd6c7c27d82ca161fbce772c5b3eabf5c0365e6",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/physical_voice/demo.py",
+      "source_path": "experiments/physical_voice/demo.py",
+      "source_git_blob": "04bbc87c3ce24c41ac53d8e8b01ac1cc93fb2cf6",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/physical_voice/filters.py",
+      "source_path": "experiments/physical_voice/filters.py",
+      "source_git_blob": "cf64653def1381a502082c4f88d770fe032a02e4",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/physical_voice/folds.py",
+      "source_path": "experiments/physical_voice/folds.py",
+      "source_git_blob": "8c103d3a32a202cedc9f167389fb290fba04a9af",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/physical_voice/pipeline.py",
+      "source_path": "experiments/physical_voice/pipeline.py",
+      "source_git_blob": "d11bd650ad6bb54aeaf92345456ab2ae3849be17",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/physical_voice/protocol.py",
+      "source_path": "experiments/physical_voice/protocol.py",
+      "source_git_blob": "225f90d6acb3aa0a1c010c1aace064d15472a155",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/physical_voice/storage.py",
+      "source_path": "experiments/physical_voice/storage.py",
+      "source_git_blob": "f74a7b6b1573686bb75ada1a1e2f9b963e77abca",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/physical_voice/test_numerical.py",
+      "source_path": "experiments/physical_voice/test_numerical.py",
+      "source_git_blob": "c839f8c86d3122ef2107bcd94b79f6e183fb0aca",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/physical_voice/test_pipeline_numerical.py",
+      "source_path": "experiments/physical_voice/test_pipeline_numerical.py",
+      "source_git_blob": "6004a1f21eff467e7d11576eaee82c6ffa4311df",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/physical_voice/tract.py",
+      "source_path": "experiments/physical_voice/tract.py",
+      "source_git_blob": "be66e4870b5ecc301f02b2f9ff8e1cc49a18be07",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/temporal_vision/PROTOCOL.json",
+      "source_path": "experiments/temporal_vision/PROTOCOL.json",
+      "source_git_blob": "6894b5ac2bc2cd93a4ff8a30719d4f2d5cbe99bc",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/temporal_vision/__init__.py",
+      "source_path": "experiments/temporal_vision/__init__.py",
+      "source_git_blob": "51e3aad13b688a15657a48f95cdc63bfc0783522",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/temporal_vision/cold.py",
+      "source_path": "experiments/temporal_vision/cold.py",
+      "source_git_blob": "07b59a414fead77e86c39284f8ae802f1a09f4a0",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/temporal_vision/run.py",
+      "source_path": "experiments/temporal_vision/run.py",
+      "source_git_blob": "aad3a3a7729c59f68bbfa623706c2b5c770deddd",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/temporal_vision/scenes.py",
+      "source_path": "experiments/temporal_vision/scenes.py",
+      "source_git_blob": "dec6e5f87ca740f88bb577a9712be4e01fb5c3e7",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/temporal_vision/scoring.py",
+      "source_path": "experiments/temporal_vision/scoring.py",
+      "source_git_blob": "6d542c21aea5917ded4047ccc99346f3db392f44",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/temporal_vision/tracker.py",
+      "source_path": "experiments/temporal_vision/tracker.py",
+      "source_git_blob": "5bdfeb216d0c921ff5f1a59c09749003c41c9cc8",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/vision_lab/PROTOCOL.json",
+      "source_path": "experiments/vision_lab/PROTOCOL.json",
+      "source_git_blob": "e12ddcf38f25ca2b4265e7640e4265f6c7b3cd9d",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/vision_lab/__init__.py",
+      "source_path": "experiments/vision_lab/__init__.py",
+      "source_git_blob": "974a3602a513f2883d3a020481b900319e3fba2b",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/vision_lab/cold.py",
+      "source_path": "experiments/vision_lab/cold.py",
+      "source_git_blob": "bc9cf04611967afc110b8918b1cf0c34be146dac",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/vision_lab/learner.py",
+      "source_path": "experiments/vision_lab/learner.py",
+      "source_git_blob": "524865f5c738a229df3a8d3bf2379ded59ed2280",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/vision_lab/pixels.py",
+      "source_path": "experiments/vision_lab/pixels.py",
+      "source_git_blob": "2a87765ba0a86a83fb9b250eabac54ab05b1fc47",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/vision_lab/run.py",
+      "source_path": "experiments/vision_lab/run.py",
+      "source_git_blob": "0270354715eebf624509737bd8b3006b1a871752",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/vision_lab/scenes.py",
+      "source_path": "experiments/vision_lab/scenes.py",
+      "source_git_blob": "369783c63cd2fe698f5f937e49a52424723b728e",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/vision_lab/scoring.py",
+      "source_path": "experiments/vision_lab/scoring.py",
+      "source_git_blob": "2b6e198fba43839226d0c3d4dc05d356e31ab94a",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/vision_lab/source.py",
+      "source_path": "experiments/vision_lab/source.py",
+      "source_git_blob": "9a0f2a18f3c5bff0fbb916331c9a554c116de60d",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/vision_lab/video-challenges.json",
+      "source_path": "experiments/vision_lab/video-challenges.json",
+      "source_git_blob": "d930da34ece17c1677e174fc211789583ff75da7",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/voice_box/__init__.py",
+      "source_path": "experiments/voice_box/__init__.py",
+      "source_git_blob": "fcaac0b0e70a2745c74809ed92968148875ce506",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/voice_box/bridge.py",
+      "source_path": "experiments/voice_box/bridge.py",
+      "source_git_blob": "53c888f647dc214fcafde4742c31fda40453a833",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/voice_box/demo.py",
+      "source_path": "experiments/voice_box/demo.py",
+      "source_git_blob": "54b3aa3a32fa8665f98d82f808dfcf3c575e3a43",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/voice_box/example-intent.json",
+      "source_path": "experiments/voice_box/example-intent.json",
+      "source_git_blob": "185f9e5174197e7d7a3dd20eb880ac786934642c",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/voice_box/protocol.py",
+      "source_path": "experiments/voice_box/protocol.py",
+      "source_git_blob": "4eff23101e5edb6ac38a6ce5fb9dc8d1b825c329",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/voice_box/storage.py",
+      "source_path": "experiments/voice_box/storage.py",
+      "source_git_blob": "dcf27c2f9327eb48abf08efcbae338c8791d6914",
+      "presentation_edited": false
+    },
+    {
+      "path": "experiments/voice_box/synth.py",
+      "source_path": "experiments/voice_box/synth.py",
+      "source_git_blob": "528183f31ed2360a0798d34e76a3318bb3e91d3e",
+      "presentation_edited": false
+    },
+    {
+      "path": "launch_aster.py",
+      "source_path": "launch_aster.py",
+      "source_git_blob": "7701ea6469b240903f1c484b03040f815f8c628d",
+      "presentation_edited": false
+    },
+    {
+      "path": "remote-companion/README.md",
+      "source_path": "remote-companion/README.md",
+      "source_git_blob": "ca2c935aa1a36a08c67adcb15d2a89e6a1f8c4e9",
+      "presentation_edited": false
+    },
+    {
+      "path": "remote-companion/VERIFICATION.md",
+      "source_path": "remote-companion/VERIFICATION.md",
+      "source_git_blob": "9a0289ffe9fe478f3747a77403020e8c6a1b0b62",
+      "presentation_edited": false
+    },
+    {
+      "path": "remote-companion/aster_remote/__init__.py",
+      "source_path": "remote-companion/aster_remote/__init__.py",
+      "source_git_blob": "ac106112524810e70f0b9f4cf6800b65a62afca6",
+      "presentation_edited": false
+    },
+    {
+      "path": "remote-companion/aster_remote/delivery.py",
+      "source_path": "remote-companion/aster_remote/delivery.py",
+      "source_git_blob": "0fa11ed42b1540332c33eff1d8e307a4207ae6c3",
+      "presentation_edited": false
+    },
+    {
+      "path": "remote-companion/aster_remote/poller.py",
+      "source_path": "remote-companion/aster_remote/poller.py",
+      "source_git_blob": "0d444af08ca9e759c6df5d84e1b27b0cbf601896",
+      "presentation_edited": false
+    },
+    {
+      "path": "remote-companion/aster_remote/relay.py",
+      "source_path": "remote-companion/aster_remote/relay.py",
+      "source_git_blob": "d698ceec2ec09dee9eba3a38a03b031020df0965",
+      "presentation_edited": false
+    },
+    {
+      "path": "remote-companion/aster_remote/workstation.py",
+      "source_path": "remote-companion/aster_remote/workstation.py",
+      "source_git_blob": "3dc74234d02d72f921b4f0b09c3aa8ffb0e2c0b8",
+      "presentation_edited": false
+    },
+    {
+      "path": "remote-companion/tests/test_desktop_remote.py",
+      "source_path": "remote-companion/tests/test_desktop_remote.py",
+      "source_git_blob": "a60e7d6555500bfcd6f17469ed78a3fca2bfc2c2",
+      "presentation_edited": false
+    },
+    {
+      "path": "remote-companion/tests/test_remote.py",
+      "source_path": "remote-companion/tests/test_remote.py",
+      "source_git_blob": "51bfe378953a0f041f6dcf61b97a76025519c65c",
+      "presentation_edited": false
+    },
+    {
+      "path": "remote-companion/tests/test_web.cjs",
+      "source_path": "remote-companion/tests/test_web.cjs",
+      "source_git_blob": "5c1a03732279976e949fb325b3ba27b25f02524d",
+      "presentation_edited": false
+    },
+    {
+      "path": "remote-companion/web/app.js",
+      "source_path": "remote-companion/web/app.js",
+      "source_git_blob": "351c1d80df00b7d15b48347fb82056e6c4de207b",
+      "presentation_edited": false
+    },
+    {
+      "path": "remote-companion/web/icon.svg",
+      "source_path": "remote-companion/web/icon.svg",
+      "source_git_blob": "8a508fb93161b7523ea89e07eeaa0c5b361641bd",
+      "presentation_edited": false
+    },
+    {
+      "path": "remote-companion/web/index.html",
+      "source_path": "remote-companion/web/index.html",
+      "source_git_blob": "92b28a2e19c4c9aac214fcd32b449260227812fa",
+      "presentation_edited": false
+    },
+    {
+      "path": "remote-companion/web/manifest.webmanifest",
+      "source_path": "remote-companion/web/manifest.webmanifest",
+      "source_git_blob": "b87fa074d4de3ddd3743416750c5ad356e0077eb",
+      "presentation_edited": false
+    },
+    {
+      "path": "remote-companion/web/style.css",
+      "source_path": "remote-companion/web/style.css",
+      "source_git_blob": "c53506f44c54b446a40ecbf8cf48f5c6a7eceac2",
+      "presentation_edited": false
+    },
+    {
+      "path": "remote-companion/web/sw.js",
+      "source_path": "remote-companion/web/sw.js",
+      "source_git_blob": "b0c0bfb9ed1b94a3b2a8b82719f0e81ad1fd40e2",
+      "presentation_edited": false
+    },
+    {
+      "path": "requirements-browser.txt",
+      "source_path": "requirements-browser.txt",
+      "source_git_blob": "81c204dd99c6cbdc4a87e03bd9129a06d26c54d3",
+      "presentation_edited": false
+    },
+    {
+      "path": "requirements-text-learning.txt",
+      "source_path": "requirements-text-learning.txt",
+      "source_git_blob": "edb59309f6c4c6da71fc4664a85803071e2033e6",
+      "presentation_edited": false
+    },
+    {
+      "path": "requirements-vision.txt",
+      "source_path": "requirements-vision.txt",
+      "source_git_blob": "b1d44f42a652142f2aa6d7c36032205c681f5505",
+      "presentation_edited": false
+    },
+    {
+      "path": "scripts/check_companions.py",
+      "source_path": "scripts/check_companions.py",
+      "source_git_blob": "ac3163c5f91f06c1ada402117221ef206d706aec",
+      "presentation_edited": false
+    },
+    {
+      "path": "scripts/public_reader_smoke.py",
+      "source_path": "scripts/public_reader_smoke.py",
+      "source_git_blob": "e2a63bc542d9f359dd4aad854e6be687fed21e12",
+      "presentation_edited": false
+    },
+    {
+      "path": "scripts/record_browser_checks.py",
+      "source_path": "scripts/record_browser_checks.py",
+      "source_git_blob": "9070e2597233b7fc08ed68e3f6213b5ef4ba68ab",
+      "presentation_edited": false
+    },
+    {
+      "path": "scripts/record_physical_voice_checks.py",
+      "source_path": "scripts/record_physical_voice_checks.py",
+      "source_git_blob": "e72206175ea9a944a82f5f357224c35f250f22ad",
+      "presentation_edited": false
+    },
+    {
+      "path": "scripts/record_public_reader_checks.py",
+      "source_path": "scripts/record_public_reader_checks.py",
+      "source_git_blob": "47e8b9a6758a4453fb5fd3c5851d22a93f80a2e6",
+      "presentation_edited": false
+    },
+    {
+      "path": "scripts/record_reliability_checks.py",
+      "source_path": "scripts/record_reliability_checks.py",
+      "source_git_blob": "3d2835c221bc099121f9368a63985791bc4e921a",
+      "presentation_edited": false
+    },
+    {
+      "path": "scripts/record_retention_checks.py",
+      "source_path": "scripts/record_retention_checks.py",
+      "source_git_blob": "90800b795835fb042888a80f0fea6d3027b8dbc1",
+      "presentation_edited": false
+    },
+    {
+      "path": "scripts/record_support_check.py",
+      "source_path": "scripts/record_support_check.py",
+      "source_git_blob": "9430b460cbf6fada30a5b4983cbccc39485e0124",
+      "presentation_edited": false
+    },
+    {
+      "path": "scripts/record_temporal_vision_checks.py",
+      "source_path": "scripts/record_temporal_vision_checks.py",
+      "source_git_blob": "6bca6ca3bf9f4e0afd31c8011f861f72d6557044",
+      "presentation_edited": false
+    },
+    {
+      "path": "scripts/record_text_learning_checks.py",
+      "source_path": "scripts/record_text_learning_checks.py",
+      "source_git_blob": "6517a9e83a15457ff00f61c75f3e58b95fbe8e20",
+      "presentation_edited": false
+    },
+    {
+      "path": "scripts/record_upgrade_checks.py",
+      "source_path": "scripts/record_upgrade_checks.py",
+      "source_git_blob": "e9e3d658ecd1ee9065076be01616bd6ecf276d73",
+      "presentation_edited": false
+    },
+    {
+      "path": "scripts/record_vision_checks.py",
+      "source_path": "scripts/record_vision_checks.py",
+      "source_git_blob": "244ff2e10029848c966f5c7a2cead45fe2651650",
+      "presentation_edited": false
+    },
+    {
+      "path": "scripts/record_voice_box_checks.py",
+      "source_path": "scripts/record_voice_box_checks.py",
+      "source_git_blob": "2fa1a8daef09280e4bfcfaec4bfa1073372655ff",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/browser_fixture_live.py",
+      "source_path": "tests/browser_fixture_live.py",
+      "source_git_blob": "c2b0976c65a07bd7d31402dd820fce482886d31c",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/fixtures/public_transport/README.txt",
+      "source_path": "tests/fixtures/public_transport/README.txt",
+      "source_git_blob": "57e623a6b8ecf96a7cd6a1dff9aa2036e374bf55",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_abilities.py",
+      "source_path": "tests/test_abilities.py",
+      "source_git_blob": "d871734a11dcf7ce1aacba39ca36bf1f4fc7f83a",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_ability_workshop.py",
+      "source_path": "tests/test_ability_workshop.py",
+      "source_git_blob": "44cac403e52f2b3f4b87493e7d98ac8b237cb4f7",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_app_adapters.py",
+      "source_path": "tests/test_app_adapters.py",
+      "source_git_blob": "1114542d1c7b5bb8950a4c67e0ccefa08ed84f91",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_app_provider.py",
+      "source_path": "tests/test_app_provider.py",
+      "source_git_blob": "48ecf12bbc1cf1a47ee4bac258d5c171415fce3e",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_app_relief.py",
+      "source_path": "tests/test_app_relief.py",
+      "source_git_blob": "12b1517b5798a78050fe400f88340c5e88f9661c",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_apps.py",
+      "source_path": "tests/test_apps.py",
+      "source_git_blob": "48c6e097eba67e1fa108b130d2eb21638663d2c5",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_browser_actions.py",
+      "source_path": "tests/test_browser_actions.py",
+      "source_git_blob": "070f2fc446d99cb71f3f702b852ed6f4f78bb7be",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_browser_check_recorder.py",
+      "source_path": "tests/test_browser_check_recorder.py",
+      "source_git_blob": "bd6e4352bcecd4c615cf405130583acdeb3b643c",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_browser_integration.py",
+      "source_path": "tests/test_browser_integration.py",
+      "source_git_blob": "d2aab17ff9e3fe7d60c0710f82491bdc5d72fc01",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_browser_public.py",
+      "source_path": "tests/test_browser_public.py",
+      "source_git_blob": "1cfa2c61d17673ca40b613c277ea20672063c684",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_cli_extensions.py",
+      "source_path": "tests/test_cli_extensions.py",
+      "source_git_blob": "1ecbbad553e99057da53edf3f25ca68bd6c28bdf",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_communications.py",
+      "source_path": "tests/test_communications.py",
+      "source_git_blob": "e57c0ada523086da71e47bd4a0d15e6e12daae79",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_companion_harness.py",
+      "source_path": "tests/test_companion_harness.py",
+      "source_git_blob": "9402a6bddfa255509b2321a5f53307e410157e7b",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_core.py",
+      "source_path": "tests/test_core.py",
+      "source_git_blob": "9f62a1806cf75bfbf4fe662e8989349e7a668ded",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_dashboard.py",
+      "source_path": "tests/test_dashboard.py",
+      "source_git_blob": "4d72e971daa6d8232a6d3836d9236eb4b3eb7404",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_inspection.py",
+      "source_path": "tests/test_inspection.py",
+      "source_git_blob": "f0f236e7a579c6f3644dadf8a7a609ad40cc89f9",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_job_effects.py",
+      "source_path": "tests/test_job_effects.py",
+      "source_git_blob": "7f647ae2958d6bd7780ef59c84de9d1dc952fcf9",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_lifecycle.py",
+      "source_path": "tests/test_lifecycle.py",
+      "source_git_blob": "aee264f18b8f24b8f83a9c31b6535a00e2adb918",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_media_workshop.py",
+      "source_path": "tests/test_media_workshop.py",
+      "source_git_blob": "2438944eb0f94b2d29a5de2e372b12b2c7f6f457",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_memory_pressure.py",
+      "source_path": "tests/test_memory_pressure.py",
+      "source_git_blob": "6a596b74ca547b4f445d347f9461ce43294552d0",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_newbrain_candidate.py",
+      "source_path": "tests/test_newbrain_candidate.py",
+      "source_git_blob": "af61e1ebeba61dc08551da232fd41155fd8eb130",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_newbrain_hearing.py",
+      "source_path": "tests/test_newbrain_hearing.py",
+      "source_git_blob": "e8e9b189d21abf888050b6247e45de81d563cb7f",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_newbrain_hearing_demo.py",
+      "source_path": "tests/test_newbrain_hearing_demo.py",
+      "source_git_blob": "8e709a7a1e0b86a48ef72afda2aa1d74fb0ae604",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_newbrain_retention.py",
+      "source_path": "tests/test_newbrain_retention.py",
+      "source_git_blob": "0bafa3e90e586a101ec86b09d1a9d902dd4497cd",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_newbrain_text.py",
+      "source_path": "tests/test_newbrain_text.py",
+      "source_git_blob": "ee5c2061f985290539d8afb9235e400f83c77a97",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_offline.py",
+      "source_path": "tests/test_offline.py",
+      "source_git_blob": "5f8f333b237d8c879d0aa7158acdad097f116fbf",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_physical_folds.py",
+      "source_path": "tests/test_physical_folds.py",
+      "source_git_blob": "9008173cf32fc14f3528e44c1f78d931c8d86798",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_physical_recorder.py",
+      "source_path": "tests/test_physical_recorder.py",
+      "source_git_blob": "7b91bce26bc545cc296ed5c90babe90348b0cf7d",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_physical_tract.py",
+      "source_path": "tests/test_physical_tract.py",
+      "source_git_blob": "778ba67c95465f095a1441a7a0a8c01b568c0dc2",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_physical_voice.py",
+      "source_path": "tests/test_physical_voice.py",
+      "source_git_blob": "2e12345e602c14c06f23ca13e06b4eb4ecd56090",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_private_memory.py",
+      "source_path": "tests/test_private_memory.py",
+      "source_git_blob": "756b4d2f506c5428d5dd6740b83e697c27945415",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_public_reader_recorder.py",
+      "source_path": "tests/test_public_reader_recorder.py",
+      "source_git_blob": "ab63e13dbc44ce58d2719075317296f970725b15",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_public_transport.py",
+      "source_path": "tests/test_public_transport.py",
+      "source_git_blob": "dc032ee2667e5db15fa350426217b1e3ea935274",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_recovery_isolation.py",
+      "source_path": "tests/test_recovery_isolation.py",
+      "source_git_blob": "d46e12fb1bc4d1efe22c31c06fc5bc8649c1f912",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_reference_library.py",
+      "source_path": "tests/test_reference_library.py",
+      "source_git_blob": "fa49139375bd7ad03fd96b280414c33d756013de",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_resources.py",
+      "source_path": "tests/test_resources.py",
+      "source_git_blob": "15ed5559378bfd08446eba1c724379f565573274",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_result_archive.py",
+      "source_path": "tests/test_result_archive.py",
+      "source_git_blob": "8822cda37e4820d05c9f22965d5d18e44a0d8946",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_startup.py",
+      "source_path": "tests/test_startup.py",
+      "source_git_blob": "cc474bea38939ecc04cbe9d0d11420583985b1d2",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_support.py",
+      "source_path": "tests/test_support.py",
+      "source_git_blob": "20e70b693a814334c90995c2821948488140c718",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_system_control.py",
+      "source_path": "tests/test_system_control.py",
+      "source_git_blob": "2274a7cb2a0a5c6ea4920230d41a9e20120979a6",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_temporal_vision.py",
+      "source_path": "tests/test_temporal_vision.py",
+      "source_git_blob": "e11ddda18ba575e2bf727a65256d6e89764269f3",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_vision_lab.py",
+      "source_path": "tests/test_vision_lab.py",
+      "source_git_blob": "84939d345f6400dfa9275201e950b0407b3fe7c9",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_voice.py",
+      "source_path": "tests/test_voice.py",
+      "source_git_blob": "fa6fec9b386f127bc056b39a69cc4842ce0b2245",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_voice_box.py",
+      "source_path": "tests/test_voice_box.py",
+      "source_git_blob": "e1faf9c3b5e5634179d3a76cf17438430bec4151",
+      "presentation_edited": false
+    },
+    {
+      "path": "tests/test_windows_files.py",
+      "source_path": "tests/test_windows_files.py",
+      "source_git_blob": "1e561c13a02cc2b156e90c33ad8e0df1bb971a8c",
+      "presentation_edited": false
+    },
+    {
+      "path": "README.md",
+      "source_path": "README.md",
+      "source_git_blob": null,
+      "presentation_edited": true
+    }
+  ],
+  "exclusions": [
+    "GitHub Actions workflows",
+    "All vendor/NewBrain source directories",
+    "Prerecorded voice assets and media",
+    "Historical raw test-result archives and adapter reports",
+    "Historical linux-result.json",
+    "Private upstream dependency/provenance comparison inventories",
+    "Personal identity, memory, checkpoints and runtime state",
+    "Offline TLS fixture private key and certificates"
+  ],
+  "presentation_edits": [
+    "Original README retained as UPSTREAM-README.md; new presentation README added",
+    "Private receipt authorization/coordination references and owner workspace paths redacted where present; runtime outcomes unchanged",
+    "One owner-machine reference in IdeaForge voice documentation generalized",
+    "TLS fixture keys/certificates omitted; README explicitly records dependent tests unavailable."
+  ],
+  "checks": {
+    "source_blob_identity": "All fetched files matched selected immutable Git tree entries",
+    "json_parse": "All included JSON parsed",
+    "shared_app_provider_source": [
+      {
+        "path": "aster_provider/__init__.py",
+        "identical": true
+      },
+      {
+        "path": "aster_provider/client.py",
+        "identical": true
+      },
+      {
+        "path": "aster_provider/contract.py",
+        "identical": true
+      },
+      {
+        "path": "aster_provider/selection.py",
+        "identical": true
+      },
+      {
+        "path": "aster_provider/transport.py",
+        "identical": true
+      }
+    ],
+    "runtime": {
+      "status": "UNRUN",
+      "executed": 0,
+      "passed": 0,
+      "failed": 0
+    },
+    "newbrain_integration": "UNAVAILABLE; no approved presentation NewBrain core included or auto-connected",
+    "private_state_included": false,
+    "workflows_included": false
+  },
+  "license": "No new blanket license granted; project licensing pending owner choice; preserve applicable dependency and third-party terms."
+}

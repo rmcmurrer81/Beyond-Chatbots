@@ -1,0 +1,28 @@
+{
+  "schema": "aster.future-video-challenges.v1",
+  "status": "Public pendulum pixel-only OOD probe completed; all semantic/video comprehension tests remain unsupported/unrun; bicycle unrun.",
+  "runtime_downloads": false,
+  "predictor_metadata_access": false,
+  "sources": [
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Foucault_pendulum_1.webm",
+      "creator": "Jud McCranie",
+      "license": "CC BY-SA 4.0",
+      "bytes_reported_by_source": 24976130,
+      "sha1_reported_by_source": "07a5aee25ea6fe136d4c5a8cb9bfe50b902f22d1",
+      "duration_seconds_reported": 32.24,
+      "ground_truth": "Requires independent visible-frame annotation; source prose is not ground truth or model input.",
+      "probe_receipt": "test-results/vision-lab/public-pendulum-ood/ood_summary.json"
+    },
+    {
+      "page": "https://commons.wikimedia.org/wiki/File:Folding_a_Brompton.webm",
+      "creator": "Bossphotography",
+      "license": "CC BY 4.0",
+      "bytes_reported_by_source": 7573184,
+      "sha1_reported_by_source": "f24e5f14baea437c1f9bcd19b7dc6866391da69a",
+      "duration_seconds_reported": 62.441,
+      "ground_truth": "Requires independently scored visible action order and object continuity."
+    }
+  ],
+  "limits": "Public availability alone is not reuse permission. Preserve attribution and applicable share-alike terms if derivatives are distributed. No media is bundled by this manifest. Neither clip establishes a novel three-minute story test."
+}

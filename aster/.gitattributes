@@ -1,0 +1,32 @@
+# Voice provenance hashes bind exact bytes. Do not rewrite JSON/TXT on checkout.
+assets/voices/** -text
+*.wav binary
+# Historical CI receipts bind exact archived bytes.
+test-results/** -text
+# Vendored NewBrain provenance binds exact bytes, including newline style.
+vendor/newbrain_snapshots/** -text
+# Static candidate admission also binds exact source and review-document bytes.
+vendor/newbrain_candidates/** -text
+experiments/newbrain_candidate/*.json -text
+# Recorded stdout/stderr/receipts also carry exact-byte fingerprints.
+experiments/newbrain_adapter/reports/** -text
+experiments/newbrain_adapter/linux-result.json -text
+# Separate hearing source candidate and its integrity manifest are byte-exact.
+vendor/newbrain_hearing_candidates/** -text
+# Optional text experiment source remains byte-identical on Windows and Linux.
+vendor/newbrain_text_candidates/** -text
+# Voice checkpoint source bindings require exact renderer bytes across checkouts.
+experiments/voice_box/** -text
+# Physical-model checkpoints and numerical receipts also bind exact source bytes.
+experiments/physical_voice/** -text
+# Synthetic vision source and frozen protocol/evidence bind exact cross-platform bytes.
+vendor/newbrain_vision/** -text
+experiments/vision_lab/** -text
+scripts/record_vision_checks.py -text
+tests/test_vision_lab.py -text
+# Temporal experiment source/protocol/checkpoints bind exact cross-platform bytes.
+experiments/temporal_vision/** -text
+scripts/record_temporal_vision_checks.py -text
+tests/test_temporal_vision.py -text
+# The temporal receipt also fingerprints this existing pinned dependency file.
+requirements-vision.txt -text

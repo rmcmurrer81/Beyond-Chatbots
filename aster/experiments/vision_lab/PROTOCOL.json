@@ -1,0 +1,129 @@
+{
+  "schema": "aster.synthetic-vision-protocol.v1",
+  "frozen_before_heldout_execution": true,
+  "upstream_pin": "cbf43167b2a9f3df7b61c1e0d9497d26115a2c94",
+  "purpose": "Attribute synthetic shape/color robustness to pixel extraction versus an unchanged fresh NewBrain learner.",
+  "train_binding": {
+    "data_seed": 20261006,
+    "model_seed": 13,
+    "held_selector": 0
+  },
+  "model_seeds": [
+    13,
+    29,
+    47
+  ],
+  "development_seed": 20261007,
+  "heldout_seed": 20261107,
+  "training": {
+    "examples": 96,
+    "updates": 320,
+    "batch_size": 12,
+    "exposures": 3840,
+    "rate": 0.15,
+    "clip_norm": 5,
+    "colors": 3,
+    "taught_shapes": 3,
+    "shape_logits": 4
+  },
+  "segmentation": {
+    "side": 64,
+    "border_width": 1,
+    "background_statistic": "channel median",
+    "distance": "max absolute channel difference",
+    "threshold_strictly_greater": 40,
+    "connectivity": 8,
+    "minimum_area": 9,
+    "maximum_components": 8,
+    "overflow": "reject entire frame",
+    "sort": "top then left",
+    "mask": "observed foreground RGB; background zero",
+    "resize": "nearest, aspect-preserving, at most30x30 in32x32 black; never upsample"
+  },
+  "prediction": {
+    "confidence_threshold": 0.7,
+    "calibrated": false,
+    "fourth_logit": "unsupported_shape; never learned unknown",
+    "evaluation_updates": 0
+  },
+  "heldout_families": {
+    "clean": 36,
+    "camera_proxy": 36,
+    "screen_proxy": 24,
+    "unknown_shape": 18,
+    "unknown_color": 18,
+    "mixed_unknown": 12,
+    "blank": 12,
+    "stress": 36
+  },
+  "heldout_parameters": {
+    "known_radii": [
+      4,
+      7,
+      9
+    ],
+    "levels": [
+      172,
+      240
+    ],
+    "background_levels": [
+      25,
+      65,
+      205
+    ],
+    "camera_gradient_amplitude": 12,
+    "camera_noise_amplitude": 8,
+    "centers": "odd coordinates; screen quadrant arrangements withheld from training",
+    "source_geometry": "synthetic only; no actual lens or display simulation",
+    "background_assignment": "cycled across repeats within color-shape pairs; screen background varies independently of object count"
+  },
+  "development_parameters": {
+    "radii": [
+      5,
+      6
+    ],
+    "levels": [
+      192,
+      224
+    ],
+    "background_levels": [
+      0,
+      45
+    ],
+    "gradient_amplitude": 5,
+    "noise_amplitude": 3
+  },
+  "controls": [
+    "untrained shared architecture",
+    "same frozen weights with original global preprocessing",
+    "factorized nearest using same training pool and component extractor",
+    "oracle visible mask diagnostic only",
+    "diamond and ellipse unknown shapes",
+    "yellow cyan gray unknown colors",
+    "mixed known and unknown",
+    "background-only including noise",
+    "border contact",
+    "low contrast",
+    "striped background",
+    "same and different-color touching",
+    "partial overlap",
+    "speckles and thin bridge"
+  ],
+  "matching": {
+    "iou_threshold": 0.5,
+    "objective": "maximum valid match count, then total IoU",
+    "uses_labels": false
+  },
+  "metrics": [
+    "detection TP FP FN",
+    "matched color shape joint correctness",
+    "correct accepted object recall over all known objects",
+    "accepted wrong and abstained objects",
+    "exact frame success",
+    "unknown full-frame false acceptance and per-matched-unknown rate",
+    "same checkpoint unchanged after inference",
+    "unknown unsafe accept frame includes unmatched accepted predictions on mixed scenes"
+  ],
+  "interpretation": "No webcam readiness, arbitrary screen understanding, OCR, person recognition, story comprehension, biological fidelity or reliable unknown detection claim. No significance claim from dependent synthetic cases. All seeds and outcomes retained, no best-seed selection.",
+  "timestamp_scope": "Synthetic case index clock only; input provenance is not a continuous video or capture timing benchmark."
+}

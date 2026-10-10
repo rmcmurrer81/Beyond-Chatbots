@@ -1,0 +1,128 @@
+{
+  "schema": "aster.synthetic-temporal-vision.v1",
+  "status": "frozen_for_initial_heldout; independent source review precedes evaluation",
+  "base_aster_commit": "446ba6aa0096360fd17d33c9e0fc244d0690f324",
+  "newbrain_pin": "cbf43167b2a9f3df7b61c1e0d9497d26115a2c94",
+  "purpose": "Measure ordinary deterministic association on synthetic streams with frozen NewBrain color/shape labels reported independently.",
+  "inference": "Only one immutable 64x64 RGB frame and an integer millisecond timestamp; fresh instance per stream. No source labels, annotations, event flags, true count, true velocity, future frames or classifier outputs enter association.",
+  "splits": {
+    "development": {
+      "seed": 74101,
+      "variants": 2,
+      "radii": [
+        3
+      ],
+      "speeds": [
+        1.0,
+        1.25
+      ],
+      "offsets": [
+        0,
+        1
+      ],
+      "levels": [
+        192,
+        224
+      ],
+      "backgrounds": [
+        0,
+        15
+      ],
+      "hidden_ticks": [
+        9,
+        10
+      ],
+      "dropped_ticks": [
+        8,
+        9,
+        16
+      ]
+    },
+    "heldout": {
+      "seed": 98203,
+      "variants": 3,
+      "radii": [
+        4,
+        5
+      ],
+      "speeds": [
+        1.5,
+        1.75
+      ],
+      "offsets": [
+        2,
+        3,
+        4
+      ],
+      "levels": [
+        172,
+        240
+      ],
+      "backgrounds": [
+        45,
+        65
+      ],
+      "hidden_ticks": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "dropped_ticks": [
+        7,
+        8,
+        9,
+        15,
+        16
+      ]
+    }
+  },
+  "families": [
+    "separated",
+    "near_crossing",
+    "occlusion",
+    "distractor",
+    "overlap",
+    "appearance_change",
+    "frame_gap",
+    "ambiguous_stay",
+    "ambiguous_swap"
+  ],
+  "frame_ticks": 24,
+  "tick_ms": 100,
+  "arms": [
+    "motion_appearance",
+    "appearance_last_position",
+    "nearest_position",
+    "reset",
+    "shuffled_motion"
+  ],
+  "shuffled_control": "Deterministic shuffle seed 31337, rebased increasing 100ms presentation clock; truth follows each reordered image. Recovery events are not scored on transformed order. Ambiguous-event identity safety is also not applicable after content reordering.",
+  "tracker": {
+    "max_frames": 64,
+    "max_tracks": 16,
+    "ttl_ms": 800,
+    "maximum_speed_pixels_per_ms": 0.04,
+    "gate": "last observed distance <= 2 + speed*elapsed_ms",
+    "appearance": "L1 normalized observed RGB <= 0.20; area ratio 0.65..1.50",
+    "assignment": "maximize match count then minimize center distance; stable traversal tie-break",
+    "ambiguity": "quarantine connected candidate histories when multiple appearance-compatible tracks exist across a gap >100ms, or a candidate is already quarantined; expire after800ms",
+    "confidence": "No probability or calibrated identity-confidence estimate"
+  },
+  "classifier": {
+    "training_updates_here": 0,
+    "source_archive": "test-results/vision-lab/heldout-01/raw-evidence.zip",
+    "archive_sha256": "40094d27cbaaa1ecfc113c473e969edadc8ecab81e244d8e4f99e66fb6c3f91d",
+    "checkpoints": {
+      "13": "8bf8356e78db6f4f0fb4740da35ae7fb41261253534b2cc83e766c2cdba89ef4",
+      "29": "5f475952ad5fa8b5cab30800639c418f5dd0b9f069e16fa75b0c35e9b3a58ef3",
+      "47": "f44ff39e91a8428b31ab1a6ac331c9d4a697879a960ca9502d103a870f60c282"
+    },
+    "association_dependency": false
+  },
+  "matching": "Label-blind maximum-cardinality then IoU sum, threshold0.50; truth visible mask >=9 pixels; background-equivalent full hiding surface is not a detection target",
+  "identity_metrics": "Fixed first-grounded track ownership never reassigned. First grounding is acquisition, never verified continuation. All previously visible truth instances eligible. New replacement tracks count fragmentation, not recovery. Report correct anchored, wrong known-owner, and unanchored fragment continuations separately. Misses and abstentions remain in denominators; switches compare last non-null matched ID even across gaps. Ambiguous claims require track origin before ambiguity onset, regardless of lucky truth correctness.",
+  "recovery": "Declared pre-hide frame and first reappearance; deadline two ticks after first reappearance. Both unconditional all-event and conditional pre-established denominators; ambiguous events excluded from resolvable recovery and reported separately.",
+  "cold_replay": "Fresh-process suffix replay from prefix checkpoints in all families including during hiding and after ambiguity; compare every decision and final canonical state bytes; zero learning updates.",
+  "interpretation": "Same invented shape grammar and motion family reused; heldout complete trajectories differ in speed, scale, starts, timing combinations. Not natural video, reliable physical identity, learned temporal cognition, live capture or movie comprehension. Correlated frames and label seeds are not independent temporal replications."
+}

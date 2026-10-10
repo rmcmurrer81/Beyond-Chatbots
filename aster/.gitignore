@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.aster-state/
+*.sqlite3*
+.venv/
