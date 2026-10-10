@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "title": "IdeaForge troubleshooting isolation and conservative incident outcomes",
+  "prepared_date_utc": "2026-10-10",
+  "repository": "rmcmurrer81/IdeaForge",
+  "branch": "dot/2026-10-10-troubleshooting-isolation",
+  "base_commit": "1e461c49518b9356780ed4a1a24e17f783eab366",
+  "base_branch": "dot/2026-10-09-reviewed-printer-fit",
+  "refreshed_base_before_edit_and_publish": "1e461c49518b9356780ed4a1a24e17f783eab366",
+  "source_commits": [
+    {
+      "sha": "be676b69cf9cd83586be41d1c35c577387bf320e",
+      "purpose": "Bounded context, shared outcome classification, safe project incident paths and synthetic tests"
+    },
+    {
+      "sha": "aba428031d51f184ce2b0c419297d0a90a0308c8",
+      "purpose": "Independent review corrections: mixed broken/crashing outcomes and diagnostic record byte cap"
+    },
+    {
+      "sha": "c8f541ab462a29a73e909ce918ee3c474dd848ea",
+      "purpose": "Identical indented JSON serialization for read/write byte limits"
+    }
+  ],
+  "final_results_commit_parent": "c8f541ab462a29a73e909ce918ee3c474dd848ea",
+  "final_results_change": "Documentation, default bounded budgets, this source-only receipt and direct UTF-8 byte writes to prevent Windows newline expansion.",
+  "changes": {
+    "context": "No recursive collection. Exact metadata schema projection from project.json and project_memory.json only; explicit current user facts, no raw source_text, arbitrary extra metadata or imported fact sources.",
+    "exclusions": "PDF/photo/OCR stores and versions, research summaries, fabrication/simulation plans, README, logs, incident reports, private staging and incidental filenames.",
+    "containment": "Canonical lexical path equality and project containment; linked path components and hardlinked metadata refused. ACTIVE and incident records bind to project identity and canonical root; contained legacy absolute pointers migrate.",
+    "bounds": {
+      "source_json_bytes": 65536,
+      "project_projection_utf8_bytes": 3500,
+      "local_utf8_bytes": 12000,
+      "problem_characters": 4000,
+      "problem_utf8_bytes": 8000,
+      "visual_utf8_bytes": 6000,
+      "web_context_utf8_bytes": 8000,
+      "incident_record_utf8_bytes": 262144
+    },
+    "outcomes": "Shared conservative classifier; anchored direct confirmation resolves, failures override positives, failures/explicit reopen transition resolved to open, uncertain reports preserve prior state.",
+    "preservation": "Original report never overwritten on follow-up; unique added reports and incident names, retained transition history and legacy resolution migration."
+  },
+  "executed_checks": {
+    "python_tests": "UNRUN",
+    "test_methods_authored": 29,
+    "test_methods_executed": 0,
+    "test_methods_unrun": 29,
+    "passed": null,
+    "failed": null,
+    "skipped": null,
+    "compilation": "UNRUN",
+    "dependency_installation": "NOT_ATTEMPTED",
+    "live_model": "NOT_ATTEMPTED",
+    "vision_pipeline": "UNRUN",
+    "network_or_hardware_experiments": "NOT_ATTEMPTED",
+    "execution_setup_error": "Rejected(\"Failed to create unified exec process: exec-server rejected request (-32603): helper_unknown_error: setup refresh had errors\")",
+    "execution_error_origin": "Execution setup failed before any local command; all runtime checks remain unrun."
+  },
+  "source_verification": {
+    "draft_files_readback_equal": 5,
+    "correction_files_readback_equal": 3,
+    "source_test_method_count": 29,
+    "compile_or_runtime_success_claimed": false,
+    "draft_compare": {
+      "ahead_by": 1,
+      "behind_by": 0,
+      "files": 5
+    },
+    "draft_workflow_runs_observed": 0,
+    "reviewed_code_workflow_runs_observed": 0,
+    "reviewed_code_workflow_runs_commit": "c8f541ab462a29a73e909ce918ee3c474dd848ea",
+    "observation_caveat": "Actions observations are snapshots, not a guarantee against a later external dispatch."
+  },
+  "independent_source_review": {
+    "reviewer": "Independent source review",
+    "reviewed_commit": "c8f541ab462a29a73e909ce918ee3c474dd848ea",
+    "final_blocking_findings": 0,
+    "corrected_adverse_findings": [
+      "Mixed success/current broken or crash could leave a resolved incident unchanged; classifier and chat-routing source tests expanded.",
+      "Diagnostic persistence lacked the same byte cap as follow-up persistence; diagnose now refuses before report write.",
+      "Compact JSON cap could permit larger indented records; all checks now share the exact persisted serialization."
+    ],
+    "final_portability_correction": "JSON persistence writes the exact encoded bytes rather than text with platform newline conversion.",
+    "status": "Source-only review; runtime remains unverified."
+  },
+  "bounded_test_command": "python -m unittest discover -s tests -p \"test_troubleshooting.py\" -v",
+  "regression_sources": [
+    "Actual decorated diagnosis with intercepted provider requests and stubbed search; private marker and filename exclusion over two file orders, retained versions and multiple budgets.",
+    "Project separation, bounded Unicode/context/source handling, external/local-excluded symlink and hardlink aliases.",
+    "Conservative outcome matrix, persistence, fresh-process restart, project identity/root binding and legacy contained pointer migration.",
+    "Chat routing and reopening from resolved state for negated and mixed current failures; original and added report preservation.",
+    "Unique incidents and exact indented record/history budget refusals before replacing prior state."
+  ],
+  "limitations": [
+    "All Python tests and compilation remain unrun; zero excluded-text requests is an intended tested invariant, not an executed result.",
+    "No claim of live provider/model, image processing, OCR, native PDF, hardware, firmware or performance validation.",
+    "Symlink/hardlink fixture tests may explicitly skip when a future filesystem cannot create those links; report future skips separately.",
+    "No guarantee against concurrent hostile filesystem path swaps.",
+    "Atomic JSON replacements do not make incident/ACTIVE a multi-file transaction; interrupted writes can leave unreferenced local outputs."
+  ]
+}

@@ -6,7 +6,7 @@ It keeps separate projects, equipment, references and troubleshooting history so
 
 ## Exact version
 
-- Selected coherent source: `rmcmurrer81/IdeaForge` commit `1e461c49518b9356780ed4a1a24e17f783eab366`, including the reviewed printer-fit, photo/OCR, parameter and evidence work.
+- Selected coherent source: `rmcmurrer81/IdeaForge` commit `db203fbba7544270c45905c11abdf2b00323b13f`, including October 10 troubleshooting isolation and incident-state fixes, plus the reviewed printer-fit, photo/OCR, parameter and evidence work.
 - Source main at preparation: `ab021755cf49575fa1765b8c94e4b3898f0c1372`.
 - Prepared October 10, 2026. This includes newer candidate source whose runtime checks remain UNRUN.
 - [Source manifest](SOURCE-MANIFEST.json) records every source file, its original Git blob and the presentation redactions.
@@ -26,6 +26,14 @@ The original IdeaForge repository remains private and unchanged.
 - New source for local PDF passage evidence, reviewed parameter links, grouped photo inventory, bounded local OCR review, selected-printer fit and explicit metadata-only Aster result bundles.
 
 The latest additions have source/review evidence, but their exact exported runtime is not newly verified. Read the UNRUN notes below before demonstrating them.
+
+## October 10 source update
+
+Troubleshooting now uses explicitly selected, bounded project metadata instead of recursively loading arbitrary project files. PDF, photo/OCR and private staging records stay excluded by default. Conservative incident classification avoids marking negated or mixed failure reports as resolved and preserves reopening history.
+
+The increment contains **29 authored regression methods; zero executed**. The command runner failed during setup before Python started. Source review and publication readback are not runtime qualification. See [troubleshooting guide](troubleshooting/README.md) and [receipt](docs/test-receipts/2026-10-10-troubleshooting-isolation.json).
+
+A shared cross-app simulation workbench is in development and is **not included or qualified in this presentation copy**. Existing engineering pilots retain their narrow scope.
 
 ## What a photo inventory entry means
 

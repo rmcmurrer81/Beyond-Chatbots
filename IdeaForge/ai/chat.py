@@ -306,21 +306,19 @@ class IdeaForgeChat:
             "too hot","too large","doesn't fit","does not fit","same error",
             "that didn't work","that did not work","still not working","still broken"
         )
-        resolution=("that fixed it","it works now","working now","problem is fixed","solved it")
-        if any(x in low for x in resolution):
-            try:
-                from troubleshooting.engine import record_outcome
-                record_outcome(self.current_project,text)
-            except Exception:
-                pass
-            return None
-        if not image_path and not any(x in low for x in triggers):
-            return None
+        from troubleshooting.incidents import classify_outcome
+        outcome=classify_outcome(text)
         try:
             from troubleshooting.engine import record_outcome, diagnose
-            if any(x in low for x in ("that didn't work","that did not work","same error","still not working","still broken")):
-                record_outcome(self.current_project,text)
-            return diagnose(self.current_project,text,image_path,ai_config=self.config_path)
+            saved=None
+            if outcome != "none":
+                saved=record_outcome(self.current_project,text)
+            if outcome in ("resolved","uncertain") and not image_path:
+                return None
+            if not image_path and outcome not in ("failed","reopen") and not any(x in low for x in triggers):
+                return None
+            return diagnose(self.current_project,text,image_path,ai_config=self.config_path,
+                            continue_active=bool(saved and outcome in ("failed","reopen")))
         except ProviderError:
             raise
         except Exception as e:

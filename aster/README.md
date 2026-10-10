@@ -4,6 +4,14 @@ Aster is Kira Labs' experimental, local-first personal workstation assistant. Th
 
 **This copy contains the current selected Aster application source. Its production NewBrain reasoning connection is still unavailable.** Deterministic workstation features are real code; they should not be presented as evidence of general intelligence or ordinary conversation.
 
+## October 10 presentation refresh
+
+The current coherent application source remains `bdc57febdbfa17f572eaa1e0a95c56da066d1e25`, including the recovery-isolation increment already packaged here. The public files were rechecked against their recorded source blobs on October 10.
+
+A newer research-bundle intake branch and the shared simulation workbench are **not included** in this copy. The bundle branch diverges from the recovery branch: copying its CLI wholesale would remove recovery-required handling. That combination needs its own review and execution checks before release. The workbench is still in development.
+
+The sibling IdeaForge copy now includes the October 10 troubleshooting fixes. This does not activate Aster reasoning: the NewBrain folder remains an experimental reference package and no live reasoning connection is qualified. No new Aster runtime test passed during this refresh.
+
 ## Exact version and scope
 
 - Selected coherent source: `rmcmurrer81/aster-workstation` commit `bdc57febdbfa17f572eaa1e0a95c56da066d1e25` (recovery-fault isolation candidate, including the preceding application foundation).

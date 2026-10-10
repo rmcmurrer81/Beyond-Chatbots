@@ -1483,9 +1483,15 @@
       "passed": 0,
       "failed": 0
     },
-    "newbrain_integration": "UNAVAILABLE; no approved presentation NewBrain core included or auto-connected",
+    "newbrain_integration": "UNAVAILABLE; generic NewBrain reference release exists beside this folder, but no live reasoning adapter is qualified",
     "private_state_included": false,
     "workflows_included": false
   },
-  "license": "No new blanket license granted; project licensing pending owner choice; preserve applicable dependency and third-party terms."
+  "license": "No new blanket license granted; project licensing pending owner choice; preserve applicable dependency and third-party terms.",
+  "refreshed_utc": "2026-10-10T15:14:00Z",
+  "refresh_notes": [
+    "Coherent recovery snapshot retained; unedited source files rechecked against public blobs.",
+    "Divergent research-bundle CLI would overwrite recovery handling if copied wholesale; excluded pending qualified integration.",
+    "Shared simulation workbench remains in development and is excluded."
+  ]
 }
