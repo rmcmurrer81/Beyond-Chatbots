@@ -20,6 +20,8 @@ For the complete folder, choose **Code → Download ZIP** above and extract it o
 
 If GitHub cannot preview the large PowerPoint or slide PDF, use its download button or Download ZIP. Speaker notes target 25 minutes plus five minutes for questions; slides 22–25 are optional appendix material. “Why I created synthetic people” remains slide 20.
 
+The reader companion now includes an additional **1966 ELIZA and the ELIZA effect** historical spotlight after page 2. It connects Turing's earlier question about machine intelligence to today's distinction between convincing conversation and measured learning or memory.
+
 ## Which version to use
 
 Version 14 is the current October 9 package. Slide 14, the speaker notes, Q&A, quick rehearsal sheet and research summaries now agree: **3 of 4 delayed NewBrain restarts have passed independent verification; one remains.** All 10,720 history records were preserved and all 64 comparison pairs matched. The four original migration reviews remain accepted separately. Private evidence links are replaced with source-custody descriptions; the original records remain with Kira Labs.

@@ -27,6 +27,6 @@ Use **Code → Download ZIP** on the [repository page](https://github.com/rmcmur
 
 At this guide's preparation, this repository contains presentation and attendee documents. NewBrain, Avatar Builder and Aster implementation copies are awaiting their separate reviewed release. The original NewBrain and KiraWorld repositories and private identity/state remain private. Do not treat planned paths, narrated examples or saved summaries as a runnable software package.
 
-Read [AI history and NewBrain](AI-History-and-NewBrain.pdf), the ten-page visual companion to the talk. Its [SHA-256 checksum](AI-History-and-NewBrain.pdf.sha256) identifies the published PDF.
+Read [AI history and NewBrain](AI-History-and-NewBrain.pdf), the eleven-page visual companion to the talk. A new history spotlight immediately after page 2 covers Joseph Weizenbaum's 1966 ELIZA chatbot and the ELIZA effect, connecting them to the earlier Turing discussion and NewBrain's emphasis on measured capabilities. Its [SHA-256 checksum](AI-History-and-NewBrain.pdf.sha256) identifies the published PDF.
 
 [Attendee checksums](SHA256SUMS.txt) cover the six attendee Markdown pages. Root [presentation checksums](../SHA256SUMS.txt) cover their listed presentation-package files; neither list authenticates future source or recordings.

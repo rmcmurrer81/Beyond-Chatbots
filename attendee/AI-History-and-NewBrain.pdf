@@ -769,3 +769,66 @@ trailer
 startxref
 82693
 %%EOF
+
+48 0 obj
+<< /Type /Pages /Count 11 /Kids [ 3 0 R 4 0 R 59 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 37 0 R ] >>
+endobj
+
+59 0 obj
+<< /Type /Page /Parent 48 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 2 0 R /FB 61 0 R >> >> /Contents 60 0 R >>
+endobj
+
+60 0 obj
+<< /Length 2850 >>
+stream
+0.98 0.985 0.993 rg 0 0 612 792 re f
+0.082 0.137 0.22 rg 0 738 612 54 re f
+1 1 1 rg BT /FB 10 Tf 1 0 0 1 44 763 Tm (KIRA LABS  /  BEYOND CHATBOTS) Tj ET
+0.13 0.38 0.64 rg BT /FB 9 Tf 1 0 0 1 44 704 Tm (HISTORY  /  EARLY CONVERSATIONAL AI) Tj ET
+0.075 0.15 0.24 rg BT /FB 31 Tf 1 0 0 1 44 659 Tm (1966  |  ELIZA) Tj ET
+0.13 0.19 0.26 rg BT /F1 12 Tf 1 0 0 1 44 635 Tm (An early chatbot, and a lasting caution about perceived understanding) Tj ET
+0.72 0.79 0.86 RG 1 w 44 615 m 568 615 l S
+1 1 1 rg 44 461 524 135 re f
+0.15 0.44 0.74 rg 44 461 5 135 re f
+0.13 0.19 0.26 rg BT /FB 12 Tf 1 0 0 1 62 568 Tm (ELIZA: A CONVERSATION BY RULES) Tj ET
+0.13 0.19 0.26 rg BT /F1 11 Tf 1 0 0 1 62 544 Tm (Joseph Weizenbaum created ELIZA at MIT in the 1960s.) Tj ET
+0.13 0.19 0.26 rg BT /F1 11 Tf 1 0 0 1 62 528 Tm (Its DOCTOR script used pattern matching and scripted transformations) Tj ET
+0.13 0.19 0.26 rg BT /F1 11 Tf 1 0 0 1 62 512 Tm (to produce seemingly responsive conversation. It was influential) Tj ET
+0.13 0.19 0.26 rg BT /F1 11 Tf 1 0 0 1 62 496 Tm (without demonstrating general language or emotional understanding.) Tj ET
+0.9 0.96 0.98 rg 44 291 524 151 re f
+0.06 0.51 0.61 rg 44 291 5 151 re f
+0.06 0.33 0.43 rg BT /FB 14 Tf 1 0 0 1 62 415 Tm (THE ELIZA EFFECT) Tj ET
+0.13 0.19 0.26 rg BT /F1 11 Tf 1 0 0 1 62 390 Tm (People may attribute understanding, empathy, or personality to) Tj ET
+0.13 0.19 0.26 rg BT /F1 11 Tf 1 0 0 1 62 374 Tm (a system because its replies seem personal or responsive.) Tj ET
+0.13 0.19 0.26 rg BT /F1 11 Tf 1 0 0 1 62 358 Tm (This tendency is called the "ELIZA effect.") Tj ET
+0.06 0.33 0.43 rg BT /FB 11 Tf 1 0 0 1 62 334 Tm (Convincing dialogue alone is not evidence of genuine understanding.) Tj ET
+1 1 1 rg 44 157 524 116 re f
+0.48 0.36 0.69 rg 44 157 5 116 re f
+0.13 0.19 0.26 rg BT /FB 12 Tf 1 0 0 1 62 249 Tm (FROM TURING TO NEWBRAIN) Tj ET
+0.13 0.19 0.26 rg BT /F1 10.5 Tf 1 0 0 1 62 228 Tm (1950: Turing posed the imitation game as a behavioral question.) Tj ET
+0.13 0.19 0.26 rg BT /F1 10.5 Tf 1 0 0 1 62 212 Tm (1966: ELIZA showed how dialogue can shape human expectations.) Tj ET
+0.13 0.19 0.26 rg BT /F1 10.5 Tf 1 0 0 1 62 196 Tm (2026: NewBrain aims to test learning, memory, corrections and restart) Tj ET
+0.13 0.19 0.26 rg BT /F1 10.5 Tf 1 0 0 1 62 180 Tm (continuity directly, rather than inferring them from conversational style.) Tj ET
+0.13 0.19 0.26 rg BT /F1 8.7 Tf 1 0 0 1 44 125 Tm (Sources: J. Weizenbaum \(1966\), Communications of the ACM 9\(1\), 36-45.) Tj ET
+0.13 0.19 0.26 rg BT /F1 8.7 Tf 1 0 0 1 44 111 Tm (doi:10.1145/365153.365168. A. Turing \(1950\), Mind 59\(236\), 433-460.) Tj ET
+0.72 0.79 0.86 RG 0.6 w 44 62 m 568 62 l S
+0.13 0.19 0.26 rg BT /F1 8 Tf 1 0 0 1 44 42 Tm (KIRA LABS  /  BEYOND CHATBOTS  /  10 OCT 2026) Tj ET
+0.13 0.38 0.64 rg BT /FB 9 Tf 1 0 0 1 546 42 Tm (02A) Tj ET
+endstream
+endobj
+
+61 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+48 1
+0000084089 00000 n 
+59 3
+0000084215 00000 n 
+0000084356 00000 n 
+0000087259 00000 n 
+trailer
+<< /Size 62 /Root 46 0 R /Info 47 0 R /Prev 82693 >>
+startxref
+87336
+%%EOF
