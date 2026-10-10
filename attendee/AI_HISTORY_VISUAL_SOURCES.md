@@ -1,6 +1,6 @@
 # Expanded visual AI history - image and fact sources
 
-This source index accompanies the **41-page** [AI History and NewBrain PDF](AI-History-and-NewBrain.pdf), updated 2026-10-10.
+This source index accompanies the **42-page** [AI History and NewBrain PDF](AI-History-and-NewBrain.pdf), updated 2026-10-10.
 
 ## ELIZA screenshot and rights
 
@@ -30,7 +30,7 @@ Historical categories overlap; later technologies did not replace all prior appr
 
 ## 2026-10-10 larger edition
 
-The 41-page edition preserves the original 2023 ELIZA/DOCTOR screenshot and adds 25 schematic illustrations showing concepts from automata, punched cards, computing, ELIZA, early symbolic AI, robots, expert systems, deep learning, Go, transformers, and synthetic-agent architectures. Illustrations are explicitly labeled **schematic, not archival photographs**. The Go illustration is not a reconstruction of Move 37. Historical citations and image attributions above remain applicable.
+The current 42-page book preserves the original 2023 ELIZA/DOCTOR screenshot and adds 25 schematic illustrations showing concepts from automata, punched cards, computing, ELIZA, early symbolic AI, robots, expert systems, deep learning, Go, transformers, and synthetic-agent architectures. Illustrations are explicitly labeled **schematic, not archival photographs**. The Go illustration is not a reconstruction of Move 37. Historical citations and image attributions above remain applicable.
 
 ## Author's reflection (2026-10-10)
 

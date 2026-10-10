@@ -27,16 +27,12 @@ Use **Code → Download ZIP** on the [repository page](https://github.com/rmcmur
 
 At this guide's preparation, this repository contains presentation and attendee documents. NewBrain, Avatar Builder and Aster implementation copies are awaiting their separate reviewed release. The original NewBrain and KiraWorld repositories and private identity/state remain private. Do not treat planned paths, narrated examples or saved summaries as a runnable software package.
 
-Read [new 42-page illustrated AI history](AI-History-and-NewBrain-Illustrated-42p.pdf), the 42-page visual companion to the talk. Five more visual pages include an attributed ELIZA screenshot, early pioneers, expert systems, games and robotics, generative AI and the connection to NewBrain. The ELIZA screenshot is a 2023 reimplementation, not a 1966 archival photo. Its [SHA-256 checksum](AI-History-and-NewBrain.pdf.sha256) identifies the published PDF. [Visual image credits and sources](AI_HISTORY_VISUAL_SOURCES.md) provide historical references.
+Read the [**AI History and NewBrain book**](AI-History-and-NewBrain.pdf), the current **42-page** illustrated companion to the talk. It covers Turing, early AI pioneers, ELIZA and the ELIZA effect, expert systems, robotics, machine learning, generative AI, and NewBrain. The actual ELIZA screenshot is from a **2023 reimplementation**, not an original 1966 photograph. See its [SHA-256 checksum](AI-History-and-NewBrain.pdf.sha256), [historical and image sources](AI_HISTORY_VISUAL_SOURCES.md), and [full contents](AI_HISTORY_EXPANDED_CONTENTS.md).
 
-[Attendee checksums](SHA256SUMS.txt) cover the six attendee Markdown pages. Root [presentation checksums](../SHA256SUMS.txt) cover their listed presentation-package files; neither list authenticates future source or recordings.
+[Attendee checksums](SHA256SUMS.txt) cover the six attendee Markdown guides; [presentation checksums](../SHA256SUMS.txt) cover their listed files. These lists do not authenticate future software releases.
 
-## New 42-page illustrated edition
+## The author's reflection
 
-This expanded edition was **rebuilt as a fresh PDF**, not appended as incremental changes to the old ten-page document. Use [AI-History-and-NewBrain-Illustrated-42p.pdf](AI-History-and-NewBrain-Illustrated-42p.pdf) if GitHub or your browser shows an old cached ten-page preview. It preserves the prior history and NewBrain research, adds 25 illustrated historical chapters and a first-person author's reflection. The real ELIZA screenshot is clearly marked as a **2023 reimplementation**, not an original 1966 photo. See the [contents](AI_HISTORY_EXPANDED_CONTENTS.md).
+On **page 34**, *Can a machine become someone?* discusses the question behind Maya and NewBrain, beginning with Daniel Graystone's remark to Joseph Adama in the *Caprica* pilot. The scene's context is explained for readers who have never seen the show. The chapter distinguishes emotion, moral conscience and subjective consciousness; it does not claim that Maya has demonstrated them.
 
-## Author's reflection on machines and people
-
-Page **34** of the latest [42-page illustrated book](AI-History-and-NewBrain-Illustrated-42p.pdf) contains **Can a machine become someone?** by Robert McMurrer, inspired by *Caprica*. The reflection distinguishes emotion, moral conscience and subjective consciousness and is clearly presented as a question for future research rather than a claim about Maya. You can also [read the editable reflection](AUTHORS_REFLECTION.md). The [41-page edition](AI-History-and-NewBrain-Illustrated-41p.pdf) remains available as an archive.
-
-**Caprica quotation note:** Page 34 now identifies the exact line, the speaker (Daniel Graystone), who he is speaking to (Joseph Adama), and the digital-Zoe scene. The quotation is attributed; it is not offered as a literal scientific description of the brain.
+[Read the editable reflection](AUTHORS_REFLECTION.md). The book is maintained at **one stable PDF filename** so attendees do not have to guess which copy is current.

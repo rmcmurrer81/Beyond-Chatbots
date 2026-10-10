@@ -42,12 +42,8 @@ SHA256SUMS.txt lists checksums for the complete current presentation package for
 
 The attendee guides have a separate [checksum list](attendee/SHA256SUMS.txt); the visual history PDF has its own [checksum](attendee/AI-History-and-NewBrain.pdf.sha256).
 
-## New 42-page illustrated AI history
+## AI history reader: one current edition
 
-An updated **42-page** companion includes the original 16 pages, 25 additional illustrated history chapters and an author's personal reflection on machine emotions and consciousness. It has a **fresh PDF cross-reference structure** to avoid stale ten-page renderings. Use the [41-page edition with its own filename](attendee/AI-History-and-NewBrain-Illustrated-42p.pdf), rather than relying on GitHub's older preview. The old [AI-History-and-NewBrain.pdf](attendee/AI-History-and-NewBrain.pdf) path now holds the same PDF. Read its [expanded contents](attendee/AI_HISTORY_EXPANDED_CONTENTS.md) and [historical/image sources](attendee/AI_HISTORY_VISUAL_SOURCES.md).
+The [**42-page illustrated AI History and NewBrain book**](attendee/AI-History-and-NewBrain.pdf) is the only current PDF edition in this repository. It includes the ELIZA effect, a credited screenshot of a modern ELIZA recreation, 25 expanded illustrated history chapters, and page 34's personal reflection inspired by *Caprica*, with the actual dialogue and its context.
 
-## Author's reflection: Can a machine become someone?
-
-Page **34** of the new [42-page illustrated AI history](attendee/AI-History-and-NewBrain-Illustrated-42p.pdf) adds a first-person reflection by Robert McMurrer, inspired by a theme in *Caprica*. It explores whether artificial systems might one day have emotions, a moral conscience or subjective consciousness, while making clear that Maya has not demonstrated those states. [Read the editable reflection](attendee/AUTHORS_REFLECTION.md). The earlier [41-page edition](attendee/AI-History-and-NewBrain-Illustrated-41p.pdf) remains available as an archive.
-
-**For readers unfamiliar with Caprica:** page 34 now quotes Daniel Graystone's remark directly and explains his discussion with Joseph Adama about Zoe's digital recreation. [Read the context and transcript attribution](attendee/AUTHORS_REFLECTION.md).
+Read the [table of contents](attendee/AI_HISTORY_EXPANDED_CONTENTS.md), [historical and image sources](attendee/AI_HISTORY_VISUAL_SOURCES.md), or [editable author's reflection](attendee/AUTHORS_REFLECTION.md). The PDF has a [matching SHA-256 checksum](attendee/AI-History-and-NewBrain.pdf.sha256). Use this stable link for future updates; superseded, version-numbered copies were removed to avoid confusion.

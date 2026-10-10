@@ -1,6 +1,6 @@
 # Illustrated AI History - 42-page edition
 
-The PDF has been rebuilt into a **single clean 42-page file**, avoiding incremental PDF revisions that could leave GitHub showing only the ten original pages.
+This is the contents guide for the single current [**42-page AI History and NewBrain PDF**](AI-History-and-NewBrain.pdf).
 
 ## Sections
 
@@ -39,6 +39,6 @@ The PDF has been rebuilt into a **single clean 42-page file**, avoiding incremen
 
 **Images:** ELIZA's screenshot comes from a modern reimplementation, not an archival 1966 photograph. Other images are schematic vector diagrams, not historical photographs. See AI_HISTORY_VISUAL_SOURCES.md.
 
-## Latest PDF edition
+## Current book
 
-[Open the 42-page illustrated book](AI-History-and-NewBrain-Illustrated-42p.pdf). This edition adds a first-person reflection on emotions, moral conscience, and consciousness after the final Kira/NewBrain history chapter. The historical chapters and existing technical evidence are otherwise retained. The older [41-page edition](AI-History-and-NewBrain-Illustrated-41p.pdf) is archived separately.
+[**Open AI History and NewBrain (42 pages)**](AI-History-and-NewBrain.pdf). It includes a first-person reflection on page 34 about emotions, conscience, and consciousness, following the final Kira/NewBrain historical chapter. The other historical chapters and existing technical evidence remain intact. Use this one filename for the latest edition.
